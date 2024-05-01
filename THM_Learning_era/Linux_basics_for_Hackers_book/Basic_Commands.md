@@ -9,6 +9,9 @@ tags:
   - which
   - locate
   - cat
+  - rm
+  - cp
+  - mv
 ---
 
 `pwd` -or print working directory- to find where you are
