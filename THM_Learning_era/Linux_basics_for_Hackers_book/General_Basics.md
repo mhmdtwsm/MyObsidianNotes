@@ -6,5 +6,6 @@
 * **Root**-as a user-, like nearly every operating system, Linux has an administrator or superuser account, designed for use by a trusted person who can do nearly anything on the system.
 * **Shell** This is an environment and interpreter for running commands in Linux. The most widely used shell is bash, which stands for Bourne-again shell.
 ---
-# [[The_File_System_Structure_Basics]].
-# [[Basic_Commands]].
+# [The_File_System_Structure_Basics](The_File_System_Structure_Basics.md)
+# [Basic_Commands](Basic_Commands.md)
+
