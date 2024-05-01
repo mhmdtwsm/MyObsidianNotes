@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "THM/Room 1.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -149,11 +149,11 @@
   },
   "active": "1dd840a87445b834",
   "lastOpenFiles": [
-    "THM/THM-Panel.md",
     "Linux_basics_for_Hackers_book/Basic_Commands.md",
+    "THM/Room 1.md",
+    "THM/THM-Panel.md",
     "Linux_basics_for_Hackers_book/General_Basics.md",
     "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
-    "THM/Room 1.md",
     "Basic_Commands.md",
     "Linux_basics_for_Hackers_book/Book.md",
     "Linux_basics_for_Hackers_book",
