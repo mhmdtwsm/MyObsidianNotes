@@ -1,3 +1,10 @@
+---
+tags:
+  - sed
+  - head
+  - tail
+  - nl
+---
 
 ### In Linux, nearly everything you deal with directly is a file, and most often these will be text files.
 ---
@@ -48,4 +55,35 @@ nl file
 
 ---
 
-#### 
+#### Using sed to Find and Replace
+
+`sed`(*stream editor*) command lets you search for occurrences of a word or a text pattern and then perform some action on it.
+
+```bash
+sed s/mysql/MySQL/g snort.conf > snort2.conf
+```
+**lets break through the code:**
+- `sed`: This is the command itself, standing for "stream editor." It's used for text manipulation.
+- `s`: This is a **sed** command modifier that indicates a substitution
+  **(to rewrite the given word)** operation.
+- `mysql`: This is the pattern or text string that sed will search for in the file.
+- `MySQL`: This is the replacement string that sed will use when it finds the pattern `mysql`.
+- `g`: This flag means "global," which tells `sed` to replace all occurrences of the search pattern in each line. Without `g`, `sed` would only replace the first occurrence in each line.
+	- you can replace `g` with a number like 3 so you can choose the third occurrence for example  
+- `snort.conf`: This is the input file from which sed will read and perform the substitution.
+- `>`: This is a redirection operator that directs the output of the sed command to a new file.
+- `snort2.conf`: This is the name of the new file where the modified output will be stored.
+---
+#### Viewing Files with more and less
+
+`more` is a command to view files
+```bash
+more file
+```
+
+`less` is a command to view file with more options
+```bash
+less file
+# and to search inside the file just click ==> / and write the name
+```
+---
