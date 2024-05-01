@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
+                "file": "Linux_basics_for_Hackers_book/Book.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
+                "file": "Linux_basics_for_Hackers_book/Book.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
+                "file": "Linux_basics_for_Hackers_book/Book.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md"
+                "file": "Linux_basics_for_Hackers_book/Book.md"
               }
             }
           }
@@ -149,12 +149,12 @@
   },
   "active": "1dd840a87445b834",
   "lastOpenFiles": [
-    "Linux_basics_for_Hackers_book/General_Basics.md",
+    "Linux_basics_for_Hackers_book/Basic_Commands.md",
     "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
+    "Linux_basics_for_Hackers_book/General_Basics.md",
     "Linux_basics_for_Hackers_book/Book.md",
     "THM/THM-Panel.md",
     "THM/LinuxRoom-1.md",
-    "Linux_basics_for_Hackers_book/Basic_Commands.md",
     "Linux_basics_for_Hackers_book/TEXT_MANIPULATION.md",
     "drafty.md",
     "TEXT.md",
