@@ -26,15 +26,16 @@ empty
 ```bash   
 find ~/workflows -type f -newermt 2016-09-11 ! -newermt 2016-09-13
 ```
-* to get the flag if the file is a one line:
-	1. open the file with nano
-	```bash
+to get the flag if the file is a one line:
+
+open the file with nano
+```bash
 nano /home/topson/workflows/xft/eBQRhHvx
 ```
-	2. hit `CTRL + w` and enter `Flag` 
+hit `CTRL + w` and enter `Flag` 
 # task 3
-* go to this ==>[[Basic_Commands#Directories and files manipulating commands]]
-* how to transfer a file from your device to an ssh connected device
+go to this ==>[[Basic_Commands#Directories and files manipulating commands]]
+how to transfer a file from your device to an ssh connected device
   ```bash
 # mv {file_location} {username}@{ip}:{location}
 mv /home/james/Desktop/script.py john@192.168.10.5:/home/john/scripts
