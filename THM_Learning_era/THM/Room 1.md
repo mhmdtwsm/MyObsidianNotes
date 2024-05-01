@@ -16,7 +16,7 @@ link: https://tryhackme.com/r/room/linuxstrengthtraining
 empty
 # task 2
 
-* the [find ](Linux_basics_for_Hackers_book/Basic_commands)command
+* the [find ](/Linux_basics_for_Hackers_book/Basic_commands)command
 * to use a file in the name of it ==> `-` by adding `--` before the name of the file and putting the file name between double quotes
   ```bash
   mv -- "-MoveMe.txt" "-march folder"/
@@ -41,6 +41,6 @@ how to transfer a file from your device to an ssh connected device
 mv /home/james/Desktop/script.py john@192.168.10.5:/home/john/scripts
 ```
 * to move all entities in a folder to another directory
-  ```bash
+```bash
 mv folder1/* folder2/
 ```
