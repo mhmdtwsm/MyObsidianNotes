@@ -1,3 +1,3 @@
 
-# [First Chapter](General_Basics.md)
-# [Second Chapter ](TEXT_MANIPULATION.md)
+# [First Chapter : Basics](General_Basics.md)
+# [Second Chapter: Text Manipulation](TEXT_MANIPULATION.md)
