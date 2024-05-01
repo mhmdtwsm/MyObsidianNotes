@@ -21,6 +21,6 @@ path : Pre Security
 ---
 
 # Rooms:
-* [Linux_Strength_Training](Room%201.md)
+* [Linux_Strength_Training](LinuxRoom-1.md)
 * 
 * 

@@ -11,8 +11,12 @@
             "id": "1dd840a87445b834",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md"
+              }
             }
           }
         ]
@@ -141,15 +149,15 @@
   },
   "active": "1dd840a87445b834",
   "lastOpenFiles": [
-    "drafty.md",
-    "Linux_basics_for_Hackers_book/Book.md",
-    "Linux_basics_for_Hackers_book/TEXT_MANIPULATION.md",
     "Linux_basics_for_Hackers_book/General_Basics.md",
-    "Linux_basics_for_Hackers_book/Basic_Commands.md",
     "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
-    "TEXT.md",
+    "Linux_basics_for_Hackers_book/Book.md",
     "THM/THM-Panel.md",
-    "THM/Room 1.md",
+    "THM/LinuxRoom-1.md",
+    "Linux_basics_for_Hackers_book/Basic_Commands.md",
+    "Linux_basics_for_Hackers_book/TEXT_MANIPULATION.md",
+    "drafty.md",
+    "TEXT.md",
     "Basic_Commands.md",
     "Linux_basics_for_Hackers_book",
     "THM",
