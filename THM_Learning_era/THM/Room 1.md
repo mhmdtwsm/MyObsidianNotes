@@ -16,7 +16,7 @@ link: https://tryhackme.com/r/room/linuxstrengthtraining
 empty
 # task 2
 
-* the [find ](../Linux_basics_for_Hackers_book/Basic_Commands)command
+* the [find ](../Linux_basics_for_Hackers_book/Basic_Commands.md)command
 * to use a file in the name of it ==> `-` by adding `--` before the name of the file and putting the file name between double quotes
 ```bash
   mv -- "-MoveMe.txt" "-march folder"/
