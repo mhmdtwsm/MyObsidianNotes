@@ -11,8 +11,12 @@
             "id": "1dd840a87445b834",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "THM/Room 1.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "THM/Room 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "THM/Room 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "THM/Room 1.md"
+              }
             }
           }
         ]
@@ -141,12 +149,12 @@
   },
   "active": "1dd840a87445b834",
   "lastOpenFiles": [
-    "Linux_basics_for_Hackers_book/Basic_Commands.md",
-    "THM/Room 1.md",
     "THM/THM-Panel.md",
-    "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
-    "Basic_Commands.md",
+    "Linux_basics_for_Hackers_book/Basic_Commands.md",
     "Linux_basics_for_Hackers_book/General_Basics.md",
+    "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
+    "THM/Room 1.md",
+    "Basic_Commands.md",
     "Linux_basics_for_Hackers_book/Book.md",
     "Linux_basics_for_Hackers_book",
     "THM",

@@ -11,22 +11,26 @@ tags:
   - cat
 ---
 
-* `pwd` -or print working directory- to find where you are
-  ```bash
+`pwd` -or print working directory- to find where you are
+```bash
   #  -L	print the value of $PWD if it names the current working directory
   #  -P	print the physical directory, without any symbolic links   
   #  By default, `pwd' behaves as if `-L' were specified.
 
   pwd
 ```
-* `whoami` to show you the user name you logged into-there is another command that does some things beyond only printing the the user name and that command called `id`-
-  ```bash
+---
+
+`whoami` to show you the user name you logged into-there is another command that does some things beyond only printing the the user name and that command called `id`-
+```bash
   #  whoami = id -un
   
   whoami
 ```
-* THE HOLY ******CD****** , `cd` is your atomic rocket to move in the system directories, it is a short for *change directory* or *current directory*
-  ```bash
+---
+
+THE HOLY ******CD****** , `cd` is your atomic rocket to move in the system directories, it is a short for *change directory* or *current directory*
+```bash
   # cd {the desired directory}
   # it is good to know that entering only cd without a destination will direct       you to your home
   # the ~ is a shortcut for the /home/usr/ directory
@@ -37,8 +41,10 @@ tags:
   cd ../.. #to step back 2 levels
   cd . #to go to the current directory
 ```
-* `ls` to see the content of a directory, it is a short for list
-  ```bash
+---
+
+`ls` to see the content of a directory, it is a short for list
+```bash
   ls
   # the -l is called a flag, and the l flag is a short for long so it returns
   # a long list
@@ -54,20 +60,26 @@ tags:
 ---
 
 * ### Finding files commands
-	1. `locate` will go through the entire system and search for the word you gave, it is not efficient but sometimes there is no harm of taking a lot of data.
-		```bash
+`locate` will go through the entire system and search for the word you gave, it is not efficient but sometimes there is no harm of taking a lot of data.
+```bash
 locate nmap
 ```
-	2. `whereis` is a command to find not a file with a name but the binaries of a program, it is more efficient and gives less data but hit the point well.
-	```bash
+---
+
+`whereis` is a command to find not a file with a name but the binaries of a program, it is more efficient and gives less data but hit the point well.
+```bash
 whereis nmap
 ```
-	3. `which` returns the path of the binaries from the `PATH` variable (the `PATH` is a variable that holds the crucial paths of the binaries that you need)
-	```bash
+---
+
+`which` returns the path of the binaries from the `PATH` variable (the `PATH` is a variable that holds the crucial paths of the binaries that you need)
+```bash
 which nmap
 ```
-	4. `find` is the most powerful and flexible of the searching utilities.
-		```bash
+---
+
+`find` is the most powerful and flexible of the searching utilities.
+```bash
   # the syntax 
   # find [directory path] -type f -user [username] -group [group name] -size         [size] -newermt '[date and time]  -name [filename]
   # how to use the size: find /home/Andy -type f -size 10c (c for bytes, k for       kilobytes M megabytes, G for gigabytes)
@@ -85,17 +97,22 @@ which nmap
   # there is also an option to use [] to specify the charcters you want to           search on the name, like a range of chars [a-e] and so on
   find /home/p -type f -name "*ca[t-z]"
 ```
-* `grep` it is a powerful tool made to search in the content of the file on a keyword, there is some tools like this tool like 'ripgrep' that used to power up plugins in nvim for live searching for a key word in multiple files 
-	```bash
+---
+
+`grep` it is a powerful tool made to search in the content of the file on a keyword, there is some tools like this tool like `ripgrep` that used to power up plugins in `nvim` for live searching for a key word in multiple files 
+```bash
 # grep {the word} {the file}
 grep fofo file.txt
 ```
-	there is also a thing called piping that is a way to take the output of a command and give it to a another command 
-	```bash
+
+there is also a thing called piping that is a way to take the output of a command and give it to a another command 
+
+```bash
 	#this command take the output of the ls command which is a text of the list       of the files and give it to the grep and the grep searches it this word          'file.txt' appeared in the output of the the previous command
 	
 	ls -la | grep file.txt
 ```
+---
 ### Directories and files manipulating commands
 
  1. `mkdir` to make a directory (a folder)
