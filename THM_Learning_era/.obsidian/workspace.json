@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "cbbbc68fb360fc31",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c9ed3f8be57be3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e7dbd139233b834",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux_basics_for_Hackers_book/Basic_Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d36bafe2cc094ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e2ac86a95071824",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cb860693e8af7c6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "4a736a4dc8979083",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#find",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "691ec495e19998ac",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "59b821cbd1c5cf2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ede76e64eac2e642",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b09cdb13abb692b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linux_basics_for_Hackers_book/Basic_Commands.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "25d81f46fec0f15e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Linux_basics_for_Hackers_book/Basic_Commands.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "63c63d1f638b78b9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c3fbc27a94e92c92",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linux_basics_for_Hackers_book/Basic_Commands.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "0e7dbd139233b834",
+  "lastOpenFiles": [
+    "Linux_basics_for_Hackers_book/General_Basics.md",
+    "Linux_basics_for_Hackers_book/Book.md",
+    "Linux_basics_for_Hackers_book/Basic_Commands.md",
+    "THM/Room 1.md",
+    "THM/THM-Panel.md",
+    "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
+    "Basic_Commands.md",
+    "Linux_basics_for_Hackers_book",
+    "THM",
+    "test/ooo.ooo.md",
+    "test2/ttt.md",
+    "2024-04-27.md",
+    "test2",
+    "test"
+  ]
+}
