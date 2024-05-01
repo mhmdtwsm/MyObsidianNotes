@@ -15,6 +15,7 @@ so, it is basically a defending system to catch naughty boys who is attacking th
 
 to install it :
 https://medium.com/@sajerestan/6-steps-to-installing-snort-on-kali-linux-aa0396b33b33
+
 ---
 #### Viewing head and tail of a file
 `head`, this command displays the first 10 lines of a file by default.
