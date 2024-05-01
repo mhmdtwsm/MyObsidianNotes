@@ -40,7 +40,7 @@ and hit `CTRL + w` and enter `Flag`
 
 # task 3
 
-go to this ==>[[Basic_Commands#Directories and files manipulating commands]]
+loo at the [Directories and files manipulating commands](../Linux_basics_for_Hackers_book/Basic_Commands.md#Directories and files manipulating commands)
 
 ---
 
