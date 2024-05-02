@@ -14,7 +14,7 @@ link: https://tryhackme.com/r/room/linuxstrengthtraining
 
 # task 1
 empty
-# task 2
+# task 2: find
 
 * the [find ](../Linux_basics_for_Hackers_book/Basic_Commands.md)command
 * to use a file in the name of it ==> `-` by adding `--` before the name of the file and putting the file name between double quotes
@@ -38,7 +38,7 @@ and hit `CTRL + w` and enter `Flag`
 
 ----
 
-# task 3
+# task 3: files
 
 look at the [basic commands](../Linux_basics_for_Hackers_book/Basic_Commands.md)
 
@@ -57,7 +57,7 @@ mv folder1/* folder2/
 ```
 ---
 
-# task 4
+# task 4: Hashing
 
 ##### The hash is a unique key produced by some algorithm to get a unique and irreversible equivalent to some content.
 **videos to explain it:**
@@ -99,4 +99,21 @@ john --format=raw-sha256 --wordlist=ww.mnf hash1_1601657952696.txt
 scp sarah@10.10.23.80:/home/sarah/system\ AB/db/ww.mnf /home/p/
 ```
 ---
-# task 5
+# task 5: encoding
+
+#### The encoding is a function that produce keys of a content but that function you can reverse.
+
+just take look about the (en/de)coding: https://www.base64encode.net/
+
+---
+
+**to decode the content of the file:**
+```bash
+# the -d flag is for decode
+base64 -d encoded.txt
+```
+---
+**to take the hash code and get the keyword:**
+- *look at the doc of* **task 4**
+
+---
