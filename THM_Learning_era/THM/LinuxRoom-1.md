@@ -4,6 +4,11 @@ tags:
   - find
   - grep
   - mv
+  - "#base64"
+  - hashing
+  - "#John_the_Ripper"
+  - cat
+  - tac
 ---
 
 # Linux_Strength_Training
@@ -117,3 +122,50 @@ base64 -d encoded.txt
 - *look at the doc of* **task 4**
 
 ---
+# task 6: `gpg`
+
+##### The encryption has two  types:
+1. Symmetric: which is we have one key between us to decode and encode
+2. Asymmetric: in which we have 2 different keys or methods, 1 for decoding, and the other for encoding.
+#### Encryption methods like:
+1. AES: The Advanced Encryption Standard (AES) is a symmetric block encryption algorithm. It can use cryptographic keys of sizes 128, 192, and 256 bits.
+2. DES: The Data Encryption Standard (DES) is block encryption that works at the bit level. The plaintext is broken down into blocks of 64 bits.
+#### What is `gpg`?
+GNU Privacy Guard, is a free and open-source software that provides encryption and digital signature capabilities. It's used for securing communication and data integrity.
+
+---
+
+##### How to encrypt with `gpg` tool?
+```bash
+#gpg --cipher-algo [encryption method] [encryption type]  [file to encrypt]
+gpg --cipher-algo AES-256 --symmetric file.txt
+```
+
+---
+# task 7: Cracking through the `gpg`
+
+#### Extract the hash from the `gpg` file and crack it with `JTR`
+```bash
+#extract the hash
+# gpg2john [encrypted gpg file] > [filename of the hash you want to create]
+gpg2john personal.txt.gpg > hash_file
+```
+
+***To crack that hash to get the password  of the `gpg` file  and take a look at the last task.***
+
+---
+#### some random trick to know
+in this task it wanted to reverse the word-list so it used the command `tac` to do it, that command that print the list reversed, to pass the reversed text to another file to make a reversed file of the original we need to use the piping `|`, combined with the cat command. 
+```bash
+tac data.txt | cat > passy
+```
+this command passes the reversed list to an empty file called passy.
+___
+# task 8: SQL!
+```sql
+SELECT * FROM employees WHERE last_name LIKE '%Flag%';
+```
+---
+# task 9 : 
+
+it is a combination of all of the above have fun :)
