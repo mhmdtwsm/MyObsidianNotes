@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM/LinuxRoom-1.md",
+                "file": "THM/TMUX.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73f0204a387386b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "THM/TMUX.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/LinuxRoom-1.md",
+                "file": "THM/TMUX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/LinuxRoom-1.md",
+                "file": "THM/TMUX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/LinuxRoom-1.md"
+                "file": "THM/TMUX.md"
               }
             }
           }
@@ -149,13 +161,14 @@
   },
   "active": "1dd840a87445b834",
   "lastOpenFiles": [
-    "Linux_basics_for_Hackers_book/Basic_Commands.md",
-    "THM/LinuxRoom-1.md",
-    "Linux_basics_for_Hackers_book/TEXT_MANIPULATION.md",
     "Linux_basics_for_Hackers_book/Book.md",
-    "Linux_basics_for_Hackers_book/General_Basics.md",
     "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
+    "Linux_basics_for_Hackers_book/Basic_Commands.md",
+    "THM/TMUX.md",
+    "THM/LinuxRoom-1.md",
     "THM/THM-Panel.md",
+    "Linux_basics_for_Hackers_book/TEXT_MANIPULATION.md",
+    "Linux_basics_for_Hackers_book/General_Basics.md",
     "drafty.md",
     "TEXT.md",
     "Basic_Commands.md",
