@@ -1,6 +1,12 @@
 ---
 tags:
   - grep
+  - chmod
+  - su
+  - encode
+  - decode
+  - hashing
+  - base64
 ---
 # Linux Agency
 

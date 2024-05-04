@@ -9,6 +9,12 @@ tags:
   - "#John_the_Ripper"
   - cat
   - tac
+  - encode
+  - decode
+  - hash
+  - gpg
+  - crack
+  - sql
 ---
 
 # Linux_Strength_Training
