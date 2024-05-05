@@ -8,20 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1dd840a87445b834",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "73f0204a387386b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM/TMUX.md",
+                "file": "Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md"
+              }
             }
           }
         ]
@@ -151,10 +147,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "1dd840a87445b834",
+  "active": "73f0204a387386b9",
   "lastOpenFiles": [
     "THM/LinuxRoom-1.md",
     "THM/LinuxRoom-2.md",
+    "THM/TMUX.md",
     "THM/THM-Panel.md",
     "Linux_basics_for_Hackers_book/TEXT_MANIPULATION.md",
     "Linux_basics_for_Hackers_book/General_Basics.md",
@@ -163,7 +160,6 @@
     "Linux_basics_for_Hackers_book/Basic_Commands.md",
     "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
     "drafty.md",
-    "THM/TMUX.md",
     "ANALYZING.md",
     "Untitled.md",
     "TEXT.md",

@@ -6,6 +6,7 @@ tags:
   - "#IP"
   - MAC
   - wlan
+  - DHCP
 ---
 ### In many situations, you’ll be hacking something over a network, and a good hacker needs to know how to connect to and interact with that network.
 ---
@@ -98,3 +99,51 @@ ifconfig eth0 192.168.181.115 netmask 255.255.0.0 broadcast 192.168.1.255
 	# macchanger {the mac address you want or -r for random} {the net adapter}
 	sudo macchanger -r wlan0
 	```
+---
+#### Changing the `DHCP`IP 
+
+###### Linux has a Dynamic Host Configuration Protocol (DHCP) server that runs in the background. The DHCP server assigns IP addresses to all the systems on the subnet and keeps log files of which IP address is allocated to which machine at any one time.
+***To know more about the DHCP*** :
+1. https://www.youtube.com/watch?v=ODmgVVN-D0Q
+2. https://www.youtube.com/watch?v=Dp2mFo3YSDY
+
+**So**, to request for a new IP address form the `DHCP` server you need to use this command
+```bash
+dhclient eth0
+```
+---
+#### Manipulating the Domain Name System
+
+###### `DNS` is a critical component of the internet, and although it’s designed to translate domain names to `IP` addresses. 
+***To know how `DNS` works***:
+1. https://www.youtube.com/watch?v=mpQZVYPuDGU
+2. https://www.youtube.com/watch?v=s-9143t3cHA
+
+***The `dig` command***
+```bash
+# to search for the dns 
+dig hackers-arise.com ns
+# to search for mail servers connected to the domain
+dig hackers-arise.com mx
+```
+---
+
+#### Changing Your `DNS` Server
+
+You can add or change the `DNS` server from the config file `/etc/resolv.conf`, so access it with what ever text editor you want -personally i use `nvim`-, then add the `DNS` you like, like `8.8.8.8`, which is google's `DNS`. 
+```bash
+nvim /etc/resolv.conf
+```
+**Or** you can append it in the file by the `echo` command.
+```bash
+echo "nameserver 8.8.8.8"> /etc/resolv.conf
+```
+
+The operating system queries each `DNS` server listed in the order it appears in `/etc/resolv.conf`, so the system will only refer to the public `DNS` server if the domain name can’t be found in the local `DNS` server.
+
+---
+#### Mapping Your Own IP Addresses
+
+You can make your system choose a specific `IP` to access a specific domain by adding it to the `/etc/hosts` file
+
+---
