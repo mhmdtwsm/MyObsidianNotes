@@ -2,6 +2,8 @@
 tags:
   - apt
   - apt-cahche
+  - apt-get
+  - update
 ---
 
 #### Searching for a Package
