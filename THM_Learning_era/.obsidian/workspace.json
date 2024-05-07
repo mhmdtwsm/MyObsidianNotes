@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux_basics_for_Hackers_book/Adding_and_removing_software.md",
-                "mode": "preview",
+                "file": "Linux_basics_for_Hackers_book/APT.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux_basics_for_Hackers_book/Adding_and_removing_software.md",
+                "file": "Linux_basics_for_Hackers_book/APT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux_basics_for_Hackers_book/Adding_and_removing_software.md",
+                "file": "Linux_basics_for_Hackers_book/APT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux_basics_for_Hackers_book/Adding_and_removing_software.md"
+                "file": "Linux_basics_for_Hackers_book/APT.md"
               }
             }
           }
@@ -149,9 +149,9 @@
   },
   "active": "73f0204a387386b9",
   "lastOpenFiles": [
+    "Linux_basics_for_Hackers_book/APT.md",
     "THM/LinuxRoom-1.md",
     "THM/LinuxRoom-2.md",
-    "Linux_basics_for_Hackers_book/Adding_and_removing_software.md",
     "Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md",
     "Linux_basics_for_Hackers_book/Book.md",
     "Linux_basics_for_Hackers_book/Adding_and removing_software.md",
