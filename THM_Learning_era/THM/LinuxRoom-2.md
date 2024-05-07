@@ -7,6 +7,9 @@ tags:
   - decode
   - hashing
   - base64
+  - RevShell
+  - tools
+  - cyber_chef
 ---
 # Linux Agency
 
@@ -45,3 +48,5 @@ link : https://tryhackme.com/r/room/linuxagency
 			chmod +r flag.txt
 		```
 - ***(Mission 14,15,16)*** Use [Cyber Chef👨‍🍳](https://gchq.github.io/CyberChef/) to solve them.
+- ***Tools*** [RevShell](https://www.revshells.com/)
+- 

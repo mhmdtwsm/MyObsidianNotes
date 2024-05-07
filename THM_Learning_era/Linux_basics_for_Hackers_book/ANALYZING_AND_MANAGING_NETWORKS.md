@@ -7,6 +7,7 @@ tags:
   - MAC
   - wlan
   - DHCP
+  - DNS
 ---
 ### In many situations, you’ll be hacking something over a network, and a good hacker needs to know how to connect to and interact with that network.
 ---

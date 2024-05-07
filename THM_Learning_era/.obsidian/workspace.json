@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md",
-                "mode": "source",
+                "file": "Linux_basics_for_Hackers_book/Adding_and_removing_software.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md",
+                "file": "Linux_basics_for_Hackers_book/Adding_and_removing_software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md",
+                "file": "Linux_basics_for_Hackers_book/Adding_and_removing_software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md"
+                "file": "Linux_basics_for_Hackers_book/Adding_and_removing_software.md"
               }
             }
           }
@@ -151,15 +151,19 @@
   "lastOpenFiles": [
     "THM/LinuxRoom-1.md",
     "THM/LinuxRoom-2.md",
+    "Linux_basics_for_Hackers_book/Adding_and_removing_software.md",
+    "Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md",
+    "Linux_basics_for_Hackers_book/Book.md",
+    "Linux_basics_for_Hackers_book/Adding_and removing_software.md",
+    "Linux_basics_for_Hackers_book/Adding_and.md",
+    "Adding_and.md",
+    "drafty.md",
+    "Linux_basics_for_Hackers_book/Basic_Commands.md",
     "THM/TMUX.md",
     "THM/THM-Panel.md",
     "Linux_basics_for_Hackers_book/TEXT_MANIPULATION.md",
     "Linux_basics_for_Hackers_book/General_Basics.md",
-    "Linux_basics_for_Hackers_book/Book.md",
-    "Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md",
-    "Linux_basics_for_Hackers_book/Basic_Commands.md",
     "Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
-    "drafty.md",
     "ANALYZING.md",
     "Untitled.md",
     "TEXT.md",
