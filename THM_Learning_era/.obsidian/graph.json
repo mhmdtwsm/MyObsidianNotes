@@ -5,7 +5,7 @@
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:Linux_basics_for_Hackers_book  ",
@@ -27,11 +27,11 @@
   "textFadeMultiplier": -1.9,
   "nodeSizeMultiplier": 1.53128898128898,
   "lineSizeMultiplier": 2.40738045738046,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.287941787941788,
   "repelStrength": 3.26403326403326,
   "linkStrength": 1,
   "linkDistance": 50,
-  "scale": 1.580246913580245,
+  "scale": 1.05349794238683,
   "close": false
 }

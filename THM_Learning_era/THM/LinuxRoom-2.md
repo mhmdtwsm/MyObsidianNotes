@@ -10,6 +10,7 @@ tags:
   - RevShell
   - tools
   - cyber_chef
+  - ltrace
 ---
 # Linux Agency
 
@@ -49,4 +50,45 @@ link : https://tryhackme.com/r/room/linuxagency
 		```
 - ***(Mission 14,15,16)*** Use [Cyber Chef👨‍🍳](https://gchq.github.io/CyberChef/) to solve them.
 - ***Tools*** [RevShell](https://www.revshells.com/)
-- 
+- ***(Mission 16)*** it was a fucking compiled sh file just run the damn script!!! -it was a note screaming to myself-
+- ***(Mission 17,18,19,20)*** use the right compiler to run the language
+- ***(Mission 21)*** he spawned you into an `/bin/sh` try to get back to `/bin/bash`
+- ***(Mission 22)*** he spawned you into a python interpreter try to open the `/bin/bash` form it
+	- there is a library in python called `pty` that generate terminal with a command you want
+	  ```python
+		import pty;pty.spawn('/bin/bash')
+		```
+- ***(Mission 23)*** there was a site hosted in the machine you could know it by seeing the content of `/etc/hosts` and the ***hosts*** file is mentioned in the [Ch3 ](../Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md)in the LBFH book.
+	- to view the site on the server you can use `wget`
+	  ```bash
+	  wget localhost
+		```
+- ***(Mission 24)*** there is an important command `ltrace` that traces the libraries called to execute a code or a command, so you can use it to trace what that sh file does in the background and look at the variables it is dealing with ad look at the functions it is using.
+- ***(Mission 25)*** you can't use `ls` so enter any char and take a space and hit double tabs and it will show you the files in the directory, to print the content of `flag.txt` we need something other than the `cat` command, lucky us that we have `printf` that acts like the echo command, next we need some expressions to extract the content from the file
+  ```bash
+  printf %s $(<flag.txt) 
+	```
+	Lets breakthrough this code:
+	- `   printf`: This is a command used to format and print data. It takes a format string followed by arguments to fill in the placeholders in the format string.
+    
+	- `%s`: This is a format specifier used with `printf` to indicate that the corresponding argument should be treated as a string.
+    
+	- `$(<flag.txt)`: This part of the command is a command substitution. It reads the contents of the file named `flag.txt` and substitutes it as an argument to `printf`.
+		- the `<` means to read the content of the flag
+		- `$(....)` it is an expression  that executes whatever is between those brackets as a command, so if it is a text or a number it will return it, if it is command it will run it.
+	Last thing, The damn `su` is not working because he cleared the fucking PATH variable!, to make it enter this command that adds the su command to the PATH like normal
+	```bash
+	export PATH=/bin:/usr/bin/su
+	```
+	and that should make the `su` works
+- ***(Mission 26)*** there is a command named `file` to check the details of a file use it
+- ***(Mission 27)*** act like it is a `gz` compressed file that contains a regular file
+- ***(Mission 28)*** you are spawned in a ruby interpreter
+  1. to exit from it: `exec '/bin/bash'`
+  2. to print a text file reversed use the command `rev`
+- ***(viktor Mission)*** you can get the logs of the git by 
+  ```bash
+	git log
+	```
+
+# Task 4
