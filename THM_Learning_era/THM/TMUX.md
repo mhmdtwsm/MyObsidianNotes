@@ -28,3 +28,4 @@ tmux a -t 0
   ```bash
 	  bind-key r command-prompt -p 'Rename window:' 'rename-window "%%"'
 	```
+	
