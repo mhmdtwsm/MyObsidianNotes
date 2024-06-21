@@ -3,6 +3,12 @@ tags:
   - CTF
   - reverse
   - RevShell
+  - John_the_Ripper
+  - crack
+  - base64
+  - hashing
+  - nmap
+  - gobuster
 ---
 ----------------------
 - Link: https://tryhackme.com/r/room/mrrobot
@@ -44,7 +50,7 @@ you will find the first flag in the file text in the `robot` directory, and anot
 	https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php
 - and listen with 
 ```bash
-nc -lvnp 6969
+nc -lvnp {your opened port}
 ```
 - change your shell to a normal shell, BTW this thing already mentioned in the [LinuxRoom-2](LinuxRoom-2.md)
 ```bash
