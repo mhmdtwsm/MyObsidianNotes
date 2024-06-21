@@ -3,10 +3,7 @@
 ---
 
 
-usr : TheVHSBoy-1
-mail : 5e64ec2be0@emailbbox.pro
-pass : THM-acc1
-path : RedTeaming
+-#TheVHSBoy-1:5e64ec2be0@emailbbox.pro:THM-acc1:RedTeaming#-
 
 ---
 
