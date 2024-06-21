@@ -5,8 +5,8 @@ tags:
   - RevShell
 ---
 ----------------------
-Link: https://tryhackme.com/r/room/mrrobot
-write-ups:
+- Link: https://tryhackme.com/r/room/mrrobot
+- write-ups:
 1. https://youtu.be/FxeFGkRhR3Q?si=yI84qwF4P7MExMCc
 2. https://medium.com/@DRX_Sicher/writeup-mr-robot-ctf-1baf5f20e6f4
 
