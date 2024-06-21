@@ -67,4 +67,4 @@ find / -perm +6000 2>/dev/null | grep '/bin/'
 - The hint on the site says one thing `nmap` and the `nmap` appears to have a root privileges, so what we want to do is to open an interactive shell to access the root directory of the machine from the `namp`
 	- here is a link of a site to open an interactive shell, search with the name of the tool and the condition of your shell. the link --->
 		https://gtfobins.github.io/gtfobins/nmap/
-	- after that access the root directory `cd /root/` and take the keygit config --global user.name
+	- after that access the root directory `cd /root/` and take the key.....
