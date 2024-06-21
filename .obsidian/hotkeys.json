@@ -8,7 +8,9 @@
       "key": "C"
     }
   ],
-  "obsidian-git:commit-specified-message": [
+  "command-palette:open": [],
+  "editor:toggle-comments": [],
+  "obsidian-git:push2": [
     {
       "modifiers": [
         "Alt",
