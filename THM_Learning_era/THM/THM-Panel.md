@@ -2,9 +2,6 @@
 
 ---
 
-
--#TheVHSBoy-1:5e64ec2be0@emailbbox.pro:THM-acc1:RedTeaming#-
-
 ---
 
 usr : shrfmhmd93
