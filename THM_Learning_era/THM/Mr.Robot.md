@@ -34,7 +34,7 @@ gobuster dir -u {ip} -w /usr/share/dirbuster/wordlists/directory-list-2.3-small.
 ---
 #### 2 - important directories 
 
-`/license` , `/robot` , `login`
+`/license` , `/robots` , `login`
 
 ---
 #### 3 - get to `robot`
@@ -46,7 +46,7 @@ you will find the first flag in the file text in the `robot` directory, and anot
 #### 4 - Login-page
 
 - Go and login in the `/login` directory with the password you will find in `/license` directory - and scroll down in the page to find it-
-- Get to the appearance menu in word press and go to editor and open any templte and add the `php reverse shell code` from the following link and make sure to add  your `IP` and the port and go to the link of the php you edit it `{ip}/404.php`:
+- Get to the appearance menu in word press and go to editor and open any template and add the `php reverse shell code` from the following link and make sure to add  your `IP` and the port and go to the link of the PHP you edit it `{ip}/404.php`:
 	https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php
 - and listen with 
 ```bash
