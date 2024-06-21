@@ -46,7 +46,7 @@ you will find the first flag in the file text in the `robot` directory, and anot
 ```bash
 nc -lvnp 6969
 ```
-- change your shell to a normal shell, BTW this thing already mentioned in the [[LinuxRoom-2.md]] 
+- change your shell to a normal shell, BTW this thing already mentioned in the [LinuxRoom-2](LinuxRoom-2.md)
 ```bash
 python -c 'import pty;pty.spawn("/bin/bash")'
 ```
