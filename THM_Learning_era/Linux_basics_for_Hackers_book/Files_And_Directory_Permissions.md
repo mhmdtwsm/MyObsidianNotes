@@ -6,7 +6,7 @@ tags:
 ---
 ## File and Directory Permissions
 
-Not every user of a single operating system should have the same level of access to files and directories. **Linux** has methods for securing file and directory access.
+*Not every user of a single operating system should have the same level of access to files and directories. **Linux** has methods for securing file and directory access.*
 
 ---
 
@@ -73,3 +73,19 @@ total 4
 
 ---
 ## Changing Permissions
+
+Only a root user or the file’s owner can change permissions. Changing permissions can be done with `chmod` (or change mode).
+#### Changing Permissions with Decimal Notation
+The table of representing the permissions
+
+| Binary | Octal | rwx |
+| :----- | ----- | --- |
+| 000    | 0     | --- |
+| 001    | 1     | --x |
+| 010    | 2     | -w- |
+| 011    | 3     | -wx |
+| 100    | 4     | r-- |
+| 101    | 5     | r-x |
+| 110    | 6     | rw- |
+| 111    | 7     | rwx |
+
