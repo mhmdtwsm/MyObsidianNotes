@@ -103,4 +103,34 @@ The thing of the decimal notation is representing every available permission wit
 # The solution
 chmod 774 file
 ```
-c
+
+---
+
+#### Changing Permissions with `UGO`
+
+The symbolic method is often referred to as the `UGO` syntax, which stands for user (or owner), group, and others.
+
+`UGO` syntax is very simple. Enter the `chmod` command and then the users you want to change permissions for, providing u for user, g for group, or o for, followed by one of three operators:
+- **`+`** for adding permission
+- **`-`** for removing permission
+- **`=`** sets a permission so if you gave it `rw` it will add the read and write permissions and removes the execute, so it enables the given and disables or removes the ungiven
+
+followed by the permission's character like `r` or `w` or `x`
+
+**Example**:
+
+```bash
+# Remove the write permission from the user
+chmod u-w file
+# Add write and excute permissions to the user
+chmod u+rx file
+# We can enable the read and write and disable the excution by this command
+chmod u=rw file
+# you can also do it for the user and group and other at the same command
+chmod u=rw,g+x,o-rwx file
+# or if you want to add the same permissions for 2 of them you can do this
+chmod ug+rwx,o=r file
+```
+
+---
+#### Giving Root Execute Permission on a New Tool
