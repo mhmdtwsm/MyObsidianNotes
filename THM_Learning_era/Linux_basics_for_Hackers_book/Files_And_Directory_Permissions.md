@@ -187,10 +187,7 @@ chmod 4644 file
 This means that, with an `SGID` bit set, someone without execute permission can execute a file if the owner belongs to the group that has permission to execute that file.
 
 This means that, with an `SGID` bit set, someone without execute permission can execute a file if the owner belongs to the group that has permission to execute that file.
-
-###### **So, it is basically if we have the same `SGID` of a directory every thing under it is OURS!**
-
-commubunn
+##### **So, it is basically if we have the same `SGID` of a directory every thing under it is OURS!**
 ![comubun](../../photos/comubun.jpg)
 
 And like the `SUID`, the `SGID` done by adding a bit by the `chmod`, but that time the bit is `2` 
