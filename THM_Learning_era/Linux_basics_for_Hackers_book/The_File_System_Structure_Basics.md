@@ -17,7 +17,7 @@
 `/media` Where CDs and USB devices are usually attached or mounted to the file system.
 
 ---  
-`/bin` Where application binaries (the equivalent of executables in Microsoft Windows or applications in mac-OS) reside.
+`/bin` Where application binaries (the equivalent of executable in Microsoft Windows or applications in mac-OS) reside.
 
 ------
 `/lib` Where you’ll find libraries (shared programs that are similar to Windows DLLs).

@@ -5,6 +5,9 @@ tags:
   - chgrp
   - ls
   - find
+  - grep
+  - privilege_escalation
+  - umask
 ---
 ## File and Directory Permissions
 
@@ -208,6 +211,19 @@ find / -user root -perm -4000
 ```
 With this command, we ask Kali to start looking at the whole file system with the `/` syntax. It then looks everywhere below `/` for files that are owned by root, specified with user root, and that have the `SUID` permission bit set `-perm -4000`.
 
-The last command used for privilege escalation in the [Mr.Robot room](../THM/Mr.Robot.md) noted in another file, let's break through it
+The last command used for privilege escalation in the [Mr.Robot room](../THM/Mr.Robot.md) noted in another file, let's break through it:
 
+```bash
+# Mr.Robot's Machine Command
+find / -perm +6000 2>/dev/null | grep '/bin/'
+```
+- `/` it is searching in the root directory, in the whole system.
+- `-perm +6000` it is specifying with this flag a specific permission which is `6000`, the `6000` is a value that describes 2 things:
+	- 1st thing the first bit `6`, it describes the Combined `SUID` and `SGID` bits (4 + 2).
+	- 2nd the other 3 bits `000` represent no permissions.
+	- So it is searching for only root user executable binaries, that have both an `SUID` and `SGID` permissions.
+- `2>/dev/null` this makes all the error messages of the searching disappears.
+- `|` this redirects all the output of this command to the next command
+- `grep '/bin/'` this filters all the output and gets for you only the results from the `/bin/` directory so you can use one of the binaries in it for the Privilege Escalation. 
+- `grep`, `| `, `find` were mentioned in [ch1](Basic_Commands.md), and the purpose of `/bin/` directory was mentioned in [ch1](The_File_System_Structure_Basics.md).
 ---

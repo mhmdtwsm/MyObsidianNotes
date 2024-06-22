@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Files_And_Directory_Permissions.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "joh",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "92e63a351c15eb98",
@@ -149,20 +150,20 @@
   "active": "f54045c4acd4585d",
   "lastOpenFiles": [
     "THM_Learning_era/Linux_basics_for_Hackers_book/Files_And_Directory_Permissions.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Basic_Commands.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/APT.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/TEXT_MANIPULATION.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/General_Basics.md",
+    "THM_Learning_era/THM/LinuxRoom-1.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md",
+    "THM_Learning_era/THM/Mr.Robot.md",
     "photos/comubun.jpg",
     "photos/03ed8e374e621e87c8778c5730500bb6.jpg",
     "photos",
     "03ed8e374e621e87c8778c5730500bb6.jpg",
     "03ed8e374e621e87c8778c5730500bb6.jpg.crdownload",
-    "THM_Learning_era/THM/Mr.Robot.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/General_Basics.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/TEXT_MANIPULATION.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Basic_Commands.md",
-    "THM_Learning_era/THM/LinuxRoom-1.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/APT.md",
     "THM_Learning_era/THM/LinuxRoom-2.md",
     "THM_Learning_era/THM/THM-Panel.md",
     "THM_Learning_era/THM/BountyHacker-Cowboy-bebop.md",
