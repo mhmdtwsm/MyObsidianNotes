@@ -9,6 +9,10 @@ tags:
   - hashing
   - nmap
   - gobuster
+  - tee
+  - echo
+  - python
+  - find
 ---
 ----------------------
 - Link: https://tryhackme.com/r/room/mrrobot
