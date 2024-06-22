@@ -3,6 +3,8 @@ tags:
   - chmod
   - chown
   - chgrp
+  - ls
+  - find
 ---
 ## File and Directory Permissions
 
@@ -31,7 +33,7 @@ tags:
  To move the ownership of a file from a user to another:
 
 ```bash
-chown {the other user} file
+chown {the_other_user} file
 ```
 
 ---
@@ -41,7 +43,7 @@ chown {the other user} file
 `chgrp` is to transfer ownership of a file from one group to another.
 
 ```bash
-chgrp {the other group} file
+chgrp {the_other_group} file
 ```
 
 ---
@@ -51,7 +53,7 @@ chgrp {the other group} file
 If you want to check the permissions of a file or a directory you can just view it with `ls` and add the flag `-l` for longer  description.
 
 ```bash
-ls -l {the directory the file in it}
+ls -l {the_directory_the_file_in_it}
 ```
 
 Example: 
@@ -88,4 +90,16 @@ The table of representing the permissions
 | 101    | 5     | r-x |
 | 110    | 6     | rw- |
 | 111    | 7     | rwx |
+The thing of the decimal notation is representing every available permission with `1` and every empty permission with `0`, so every permission will match a number in the octal numerical system, so we can set a full permission to a user by just using `7` from the previous table and so on.
 
+**Example**:
+```r
+# we want to do this permission with the decimal notation
+-rwxrwxr--
+```
+
+```bash
+# The solution
+chmod 774 file
+```
+c
