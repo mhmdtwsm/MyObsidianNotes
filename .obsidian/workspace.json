@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM/Mr.Robot.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Directory_Permissions.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTimeReverse"
               }
             }
           },
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tee",
+                "query": "joh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM/Mr.Robot.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Directory_Permissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM/Mr.Robot.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Directory_Permissions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM/Mr.Robot.md"
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Directory_Permissions.md"
               }
             }
           }
@@ -149,18 +148,19 @@
   },
   "active": "5a9de2263b4770c8",
   "lastOpenFiles": [
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Basic_Commands.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/TEXT_MANIPULATION.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/APT.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Directory_Permissions.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/General_Basics.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Basic_Commands.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/TEXT_MANIPULATION.md",
+    "THM_Learning_era/THM/LinuxRoom-1.md",
     "THM_Learning_era/THM/Mr.Robot.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/APT.md",
     "THM_Learning_era/THM/LinuxRoom-2.md",
     "THM_Learning_era/THM/THM-Panel.md",
     "THM_Learning_era/THM/BountyHacker-Cowboy-bebop.md",
-    "THM_Learning_era/THM/LinuxRoom-1.md",
     "THM_Learning_era/THM/TMUX.md",
     "THM_Learning_era/drafty.md"
   ]
