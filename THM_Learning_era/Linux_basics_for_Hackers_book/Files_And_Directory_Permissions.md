@@ -185,6 +185,6 @@ This means that, with an `SGID` bit set, someone without execute permission can 
 
 This means that, with an `SGID` bit set, someone without execute permission can execute a file if the owner belongs to the group that has permission to execute that file.
 
-![comubun](photos/comubun.jpg)
+![comubun](../../photos/comubun.jpg)
 
 ---
