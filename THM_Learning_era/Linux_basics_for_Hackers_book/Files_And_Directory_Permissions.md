@@ -91,7 +91,7 @@ The table of representing the permissions
 | 110    | 6     | rw- |
 | 111    | 7     | rwx |
 
-The thing of the decimal notation is representing every available permission with `1` and every empty permission with `0`, so every permission will match a number in the octal numerical system, so we can set a full permission to a user by just using `7` from the previous table and so on.
+The thing of the decimal notation is representing every available permission with `1` and every empty permission with `0`, so every permission will match a number in the octal numerical system, so for example if we want to set a full permission to a user we can do it by just typing `7` from the previous table and so on.
 
 **Example**:
 ```r
