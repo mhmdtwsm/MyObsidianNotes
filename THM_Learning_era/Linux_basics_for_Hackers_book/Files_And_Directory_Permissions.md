@@ -71,7 +71,7 @@ total 4
 3. This part: `6 Jun 22 18:24 file`, the `6` is the **size** of the file, and this: `Dec 5 10:47` is when the file was created or last modified, and this: `file` is the name of the file.
 4. last thing the **dashes** or **hyphens** or `-`, if it is in the permission characters it will say that this entity does not have this permission, so it refers to empty or non.
 
-**And *a disclaimer*, the root can do anything, the root user has already all the permissions of everything, reading and writing.. all of it, the permissions is made to limit the access of directories and files for other users in the system **
+**And a disclaimer, the root can do anything, the root user has already all the permissions of everything, reading and writing.. all of it, the permissions is made to limit the access of directories and files for other users in the system.**
 
 ---
 ## Changing Permissions
