@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d630f6c3b6b8634b",
+        "id": "4f8b8881f6247007",
         "type": "tabs",
         "children": [
           {
-            "id": "5a9de2263b4770c8",
+            "id": "f54045c4acd4585d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "92e63a351c15eb98",
@@ -147,15 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5a9de2263b4770c8",
+  "active": "f54045c4acd4585d",
   "lastOpenFiles": [
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Files_And_Directory_Permissions.md",
     "photos/comubun.jpg",
     "photos/03ed8e374e621e87c8778c5730500bb6.jpg",
     "photos",
     "03ed8e374e621e87c8778c5730500bb6.jpg",
     "03ed8e374e621e87c8778c5730500bb6.jpg.crdownload",
     "THM_Learning_era/THM/Mr.Robot.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Files_And_Directory_Permissions.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/General_Basics.md",

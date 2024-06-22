@@ -185,8 +185,29 @@ This means that, with an `SGID` bit set, someone without execute permission can 
 
 This means that, with an `SGID` bit set, someone without execute permission can execute a file if the owner belongs to the group that has permission to execute that file.
 
-So, it is basically if we have the same `SGID` of a directory every thing under it is OURS!
+###### **So, it is basically if we have the same `SGID` of a directory every thing under it is OURS!**
 
 ![comubun](../../photos/comubun.jpg)
+
+And like the `SUID`, the `SGID` done by adding a bit by the `chmod`, but that time the bit is `2` 
+
+```bash
+# The symbolic method
+chmod g+s file
+# The numerical method
+chmod 2755 file
+```
+
+#### Special Permissions, Privilege Escalation, and the Hacker
+
+*these special permissions can be used to exploit Linux systems through privilege escalation, whereby a regular user gains root or sysadmin privileges and the associated permissions. With root privileges, you can do anything on the system.*
+
+In this case, we want to find files anywhere on the file system, for the root user or other sysadmin, with the permissions `4000`. To do this, we can use the following find command:
+```bash
+find / -user root -perm -4000
+```
+With this command, we ask Kali to start looking at the whole file system with the `/` syntax. It then looks everywhere below `/` for files that are owned by root, specified with user root, and that have the `SUID` permission bit set `-perm -4000`.
+
+The last command used for privilege escalation in the [Mr.Robot room](../THM/Mr.Robot.md) noted in another file, let's break through it
 
 ---
