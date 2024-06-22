@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "92e63a351c15eb98",
@@ -150,14 +149,14 @@
   "active": "5a9de2263b4770c8",
   "lastOpenFiles": [
     "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
-    "THM_Learning_era/THM/Mr.Robot.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Files_And_Directory_Permissions.md",
+    "THM_Learning_era/THM/Mr.Robot.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/General_Basics.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Basic_Commands.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/TEXT_MANIPULATION.md",
-    "THM_Learning_era/THM/LinuxRoom-1.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/The_File_System_Structure_Basics.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/TEXT_MANIPULATION.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Basic_Commands.md",
+    "THM_Learning_era/THM/LinuxRoom-1.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/APT.md",
     "THM_Learning_era/THM/LinuxRoom-2.md",
     "THM_Learning_era/THM/THM-Panel.md",
