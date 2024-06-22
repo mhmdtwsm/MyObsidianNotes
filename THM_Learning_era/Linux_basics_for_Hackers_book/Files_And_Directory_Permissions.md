@@ -190,9 +190,9 @@ This means that, with an `SGID` bit set, someone without execute permission can 
 
 ###### **So, it is basically if we have the same `SGID` of a directory every thing under it is OURS!**
 
-
+commubunn
 ![comubun](../../photos/comubun.jpg)
-						commubun
+
 And like the `SUID`, the `SGID` done by adding a bit by the `chmod`, but that time the bit is `2` 
 
 ```bash
