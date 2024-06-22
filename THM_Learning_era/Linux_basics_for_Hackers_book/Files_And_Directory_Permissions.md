@@ -76,7 +76,7 @@ total 4
 ---
 ## Changing Permissions
 
-Only a root user or the file’s owner can change permissions. Changing permissions can be done with `chmod` (or change mode).
+*Only a root user or the file’s owner can change permissions. Changing permissions can be done with `chmod` (or change mode).*
 #### Changing Permissions with Decimal Notation
 The table of representing the permissions
 
@@ -104,11 +104,11 @@ The thing of the decimal notation is representing every available permission wit
 chmod 774 file
 ```
 
----
+
 
 #### Changing Permissions with `UGO`
 
-The symbolic method is often referred to as the `UGO` syntax, which stands for user (or owner), group, and others.
+*The symbolic method is often referred to as the `UGO` syntax, which stands for user (or owner), group, and others.*
 
 `UGO` syntax is very simple. Enter the `chmod` command and then the users you want to change permissions for, providing u for user, g for group, or o for, followed by one of three operators:
 - **`+`** for adding permission
@@ -132,5 +132,59 @@ chmod u=rw,g+x,o-rwx file
 chmod ug+rwx,o=r file
 ```
 
----
+
 #### Giving Root Execute Permission on a New Tool
+
+If you downloaded a new tool from internet the Linux by default give a `666` permission for files and `777` for directories, so you wouldn't execute it, the solution is to just change the permissions and add the execute permission to it.
+
+```bash
+chmod u+x tool
+# Or
+chmod 766 tool
+```
+
+---
+## Setting More Secure Default Permissions with`umask`
+
+The `umask` method represents the permissions you want to remove from the base permissions on a file or directory to make them more secure, so basically it is made to reduce the permissions that will be given by default to any file or directory, This means that when a new file or directory is created, its permissions are set to the default value minus the
+value in `umask`.
+
+| New File | New Directory |                               |
+| :------: | ------------- | ----------------------------- |
+|   666    | 777           | Linux Base permissions        |
+|   022    | 022           | umask                         |
+|   644    | 755           | Default resulting permissions |
+
+In `Kali`, as with most `Debian` systems, the `umask` is preconfigured to `022`, meaning the `Kali` default is `644` for files and `755` for directories.
+
+The `umask` value is not universal to all users on the system. Each user can set a personal default `umask` value for the files and directories in their personal `~/.profile` file. 
+
+---
+## Special Permissions
+
+*Linux has three special permissions that are slightly more complicated. These special per- missions are set user ID or `SUID`, set group ID or `SGID`.*
+
+#### Granting Temporary Root Permissions with `SUID`
+
+*Basically, the `SUID` bit says that any user can execute the file with the permissions of the owner but those permissions don’t extend beyond the use of that file.* 
+
+In practice the `SUID` is added as an additional bit in the permissions of the file, and you can add it by `chmod`, and it is add i the `chmod` by adding `4` before the regular permissions.
+
+```bash
+# The symbolic method
+chmod u+s file
+# The numerical method
+chmod 4644 file
+```
+
+#### Granting the Root User’s Group Permissions `SGID`
+
+*`SGID` also grants temporary elevated permissions, but it grants the permissions of the file owner’s group, rather than of the file’s owner.*
+
+This means that, with an `SGID` bit set, someone without execute permission can execute a file if the owner belongs to the group that has permission to execute that file.
+
+This means that, with an `SGID` bit set, someone without execute permission can execute a file if the owner belongs to the group that has permission to execute that file.
+
+![[comubun.jpg]]
+
+---
