@@ -72,3 +72,14 @@ kill -{the_signal_number} {PID}
 ---
 
 ### Scheduling Processes
+*As a hacker you need to use the scheduled processes for your side, you can a use a scheduled script with some high permissions to open ports for you or run a daemon for yourself*
+
+To do scheduling processes search for `crond` and `at`.
+The `at` command:
+```bash
+at 7:20am
+```
+and specify the location of the script in the input mode.
+
+also look for the scheduled processes in [Linux_Agency_THM](../THM/LinuxRoom-2.md) 
+
