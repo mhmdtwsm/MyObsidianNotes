@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Process_Management.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "92e63a351c15eb98",
