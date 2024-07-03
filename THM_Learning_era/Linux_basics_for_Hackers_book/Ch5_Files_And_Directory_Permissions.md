@@ -223,5 +223,5 @@ find / -perm +6000 2>/dev/null | grep '/bin/'
 - `2>/dev/null` this makes all the error messages of the searching disappears.
 - `|` this redirects all the output of this command to the next command
 - `grep '/bin/'` this filters all the output and gets for you only the results from the `/bin/` directory so you can use one of the binaries in it for the Privilege Escalation. 
-- `grep`, `| `, `find` were mentioned in [ch1](Basic_Commands.md), and the purpose of `/bin/` directory was mentioned in [ch1](The_File_System_Structure_Basics.md).
+- `grep`, `| `, `find` were mentioned in [ch1](Ch1_Sec2_Basic_Commands.md), and the purpose of `/bin/` directory was mentioned in [ch1](Ch1_Sec1_The_File_System_Structure_Basics.md).
 ---

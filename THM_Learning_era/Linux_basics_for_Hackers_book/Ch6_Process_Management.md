@@ -19,7 +19,7 @@ The Linux Kernel, the core of the operating system gives every process an *ID* a
 ps aux
 ```
 
-The output is so big right? use [`grep`](Basic_Commands.md) and get information about only the processes you need.
+The output is so big right? use [`grep`](Ch1_Sec2_Basic_Commands.md) and get information about only the processes you need.
 
 ```bash
 ps aux | grep {process_name}

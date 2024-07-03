@@ -52,7 +52,7 @@ nl file
 ---
 #### Filtering Text with grep
 
-[already mentioned.](Basic_Commands.md)
+[already mentioned.](Ch1_Sec2_Basic_Commands.md)
 
 ---
 
