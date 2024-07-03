@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
+                "file": "THM_Learning_era/THM/THM-Panel.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
+                "file": "THM_Learning_era/THM/THM-Panel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
+                "file": "THM_Learning_era/THM/THM-Panel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md"
+                "file": "THM_Learning_era/THM/THM-Panel.md"
               }
             }
           }
@@ -148,22 +148,23 @@
   },
   "active": "033f50c23e1178b5",
   "lastOpenFiles": [
+    "THM_Learning_era/THM/Daily_Bugle.md",
+    "THM_Learning_era/THM/BountyHacker-Cowboy-bebop.md",
+    "THM_Learning_era/THM/TMUX.md",
+    "THM_Learning_era/THM/THM-Panel.md",
+    "Untitled.canvas",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec1_The_File_System_Structure_Basics.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec2_Basic_Commands.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_General_Basics.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch2_TEXT_MANIPULATION.md",
     "THM_Learning_era/THM/LinuxRoom-1.md",
-    "THM_Learning_era/THM/TMUX.md",
-    "THM_Learning_era/THM/THM-Panel.md",
     "THM_Learning_era/THM/LinuxRoom-2.md",
-    "THM_Learning_era/THM/Daily_Bugle.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch6_Process_Management.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch4_APT.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch3_ANALYZING_AND_MANAGING_NETWORKS.md",
     "THM_Learning_era/THM/Mr.Robot.md",
-    "THM_Learning_era/THM/BountyHacker-Cowboy-bebop.md",
     "THM_Learning_era/drafty.md",
     "README.md",
     "photos/comubun.jpg",

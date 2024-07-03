@@ -19,4 +19,4 @@ path : Pre Security
 * [Linux Agency](LinuxRoom-2.md)
 * [Bounty Hacker](BountyHacker-Cowboy-bebop.md)
 * [Mr.Robot](Mr.Robot.md)
-* 
+* [Daily Bugle](Daily_Bugle.md)
