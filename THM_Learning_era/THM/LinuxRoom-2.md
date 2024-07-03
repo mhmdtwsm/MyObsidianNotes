@@ -59,7 +59,7 @@ writ up: https://waqar-arain.netlify.app/tryhackme/linux-agency/
 	  ```python
 		import pty;pty.spawn("/bin/bash")
 		```
-- ***(Mission 23)*** there was a site hosted in the machine you could know it by seeing the content of `/etc/hosts` and the ***hosts*** file is mentioned in the [Ch3 ](../Linux_basics_for_Hackers_book/ANALYZING_AND_MANAGING_NETWORKS.md)in the LBFH book.
+- ***(Mission 23)*** there was a site hosted in the machine you could know it by seeing the content of `/etc/hosts` and the ***hosts*** file is mentioned in the [Ch3 ](Ch3_ANALYZING_AND_MANAGING_NETWORKS.md)in the LBFH book.
 	- to view the site on the server you can use `wget`
 	  ```bash
 	  wget localhost
