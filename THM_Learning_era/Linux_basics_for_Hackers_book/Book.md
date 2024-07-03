@@ -5,3 +5,5 @@
 # [Fourth Chapter: Adding and removing software](APT.md)
 
 # [Fifth Chapter: CONTROLLING FILE AND DIRECTORY PERMISSIONS](Files_And_Directory_Permissions.md)
+
+# [Sixth Chapter: Process Management](Process_Management.md)

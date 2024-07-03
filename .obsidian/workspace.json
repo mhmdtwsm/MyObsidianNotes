@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM/LinuxRoom-2.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM/LinuxRoom-2.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM/LinuxRoom-2.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM/LinuxRoom-2.md"
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md"
               }
             }
           }
@@ -149,11 +149,12 @@
   "active": "033f50c23e1178b5",
   "lastOpenFiles": [
     "THM_Learning_era/Linux_basics_for_Hackers_book/Basic_Commands.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Process_Management.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
     "THM_Learning_era/THM/LinuxRoom-2.md",
     "THM_Learning_era/THM/LinuxRoom-1.md",
     "THM_Learning_era/THM/Mr.Robot.md",
     "THM_Learning_era/THM/Daily_Bugle.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Process_Management.md",
     "THM_Learning_era/THM/TMUX.md",
     "THM_Learning_era/THM/BountyHacker-Cowboy-bebop.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Files_And_Directory_Permissions.md",
@@ -165,7 +166,6 @@
     "THM_Learning_era/THM/THM-Panel.md",
     "THM_Learning_era/drafty.md",
     "README.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
     "photos/comubun.jpg",
     "photos/03ed8e374e621e87c8778c5730500bb6.jpg",
     "photos",
