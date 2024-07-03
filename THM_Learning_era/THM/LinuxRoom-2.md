@@ -167,7 +167,7 @@ rm $TF
 ```
 Now get a good shell...
 ```bash
-python -c 'import pty;pty.spawn("/bin/bash")
+python -c 'import pty;pty.spawn("/bin/bash")'
 ```
 
 and get your flag....
