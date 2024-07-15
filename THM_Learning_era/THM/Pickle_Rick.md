@@ -46,4 +46,6 @@ Enter the directory of the login page `/login.php` and get to the portal
 
 This command field directly executes commands on Ricks computer, So let's open a reverse shell with python -Note that you can get the code of the reverse shell from [revshell](https://www.revshells.com/)
 
-Now we're in! 
+#### The last thing
+
+check the `home` and the `root` and the first directory you are logged in.
