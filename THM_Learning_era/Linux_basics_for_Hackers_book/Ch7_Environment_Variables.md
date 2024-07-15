@@ -63,7 +63,54 @@ export HISTSIZE
 
 This code snippet will set your `HISTSIZE` variable’s value to 1,000 and export it to all your environments.
 
-Note that, `export` command was already used in [Linux Strength Training](../THM/LinuxRoom-2.md) room on `tryhackme` to export to the `PATH` variable the path of the `su` and `bash` commands to run them normally.
+Note that, `export` command was already used in [Linux Agency](../THM/LinuxRoom-2.md) room on [`tryhackme`](https://tryhackme.com/r/room/linuxagency) to export to the `PATH` variable the path of the `su` and `bash` commands to run them normally.
 
 ---
 ### Changing Your Shell Prompt
+```bash
+PS1="World's Best Hacker: #"
+export PS1
+```
+---
+### Changing Your PATH
+
+The `PATH` variable is crucial in your environment as it tells the shell where to look for commands like `grep`, `ls`, and `echo`. These commands are usually found in directories like `/usr/local/sbin` or `/usr/local/bin`. If a command isn't in any of the directories listed in your PATH, you'll get a "command not found" error, even if the command exists elsewhere.
+
+To see which directories are in your `PATH`, use:
+```bash
+echo $PATH
+```
+This will output something like:
+```bash
+`/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
+```
+Directories in PATH are separated by colons (:). Always add `$` before the variable name to access its content.
+#### Adding to the PATH Variable
+
+To add a new binaries or commands to run you must add their directory to the `PATH` variable, to do that enter this command:
+```bash
+# PATH=$PATH:{directory_of_your_binaries}
+PATH=$PATH:/root/newhackingtool
+```
+This command is like `x=x+1` it gets the content of the current `PATH` with  this symbol:`$` and add to it the new directory and adds it back to a new `PATH` variable.
+
+**Note**, *adding to `PATH` can be a useful technique for directories you use often, but be careful
+not to add too many directories to your `PATH` variable. Because the system will have to
+search through each and every directory in `PATH` to find commands, adding a lot of
+directories could slow down your terminal and your hacking.*
+
+---
+#### A common mistake while adding to the `PATH` variable
+
+Don't add  a directory to the `PATH` variable like this:
+```bash
+PATH=/root/newhackingtool
+```
+Because this way you will delete all the content of the variable and only keeping the directory you wanted to append to the variable, that made all the system commands disappears for this session, so no `ls` or `cd` or any command was working before just your command making this a disaster for the system
+
+The right way to append a directory to `PATH` is like before:
+```bash
+PATH=$PATH:/root/newhackingtool
+```
+
+---
