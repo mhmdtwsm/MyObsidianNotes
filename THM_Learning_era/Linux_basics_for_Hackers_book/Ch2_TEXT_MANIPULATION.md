@@ -4,6 +4,8 @@ tags:
   - head
   - tail
   - nl
+  - more
+  - less
 ---
 
 ### In Linux, nearly everything you deal with directly is a file, and most often these will be text files.
