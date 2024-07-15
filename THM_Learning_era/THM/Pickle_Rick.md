@@ -9,6 +9,9 @@ tags:
   - gobuster
 ---
 Link:https://tryhackme.com/r/room/picklerick
+Writ-ups:
+- https://whokilleddb.medium.com/tryhackme-pickle-rick-walkthrough-2c33bf07c77b
+- https://infosecwriteups.com/try-hack-me-pickle-rick-walkthrough-f3378114dd7a
 
 ---
 
