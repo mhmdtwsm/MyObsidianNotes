@@ -45,3 +45,25 @@ And **bang!** just like that. Now, when you try to use the up- and down-arrow ke
 
 ---
 #### Making Variable Value Changes Permanent
+*When you change an environment variable in a bash shell session, the change is temporary and will be lost when you close the terminal. To make changes permanent, use the `export` command. This ensures new processes inherit the exported variables.*
+
+Environment variables are strings, so it's wise to save their contents before modifying them. For example, to change the `PS1` variable (which controls the prompt display), save its current value to a text file in your home directory with this command:
+```bash
+echo $HISTSIZE> ~/valueofHISTSIZE.txt
+```
+This way, you can always undo your changes. If you want to be even more cautious and create a text file with all the current settings, you can save the output of the set command to a text file with a command like this one
+```bash
+set> ~/valueofALLon01012019.txt
+```
+Now, we can make a permanent change to `HISTSIZE` by this command
+```bash
+HISTSIZE=1200
+export HISTSIZE
+```
+
+This code snippet will set your `HISTSIZE` variable’s value to 1,000 and export it to all your environments.
+
+Note that, `export` command was already used in [Linux Strength Training](../THM/LinuxRoom-2.md) room on `tryhackme` to export to the `PATH` variable the path of the `su` and `bash` commands to run them normally.
+
+---
+### Changing Your Shell Prompt
