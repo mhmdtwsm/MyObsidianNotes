@@ -22,13 +22,13 @@ This machine is an easy one.
 ```bash
 nmap -p22,80 -sV -sC -T4 -Pn -oA {IP}
 ```
-![[../../photos/Pickle_Rick/nmap.png]]
+![nmap](../../photos/Pickle_Rick/nmap.png)
 
 #### Scanning with `gobuster`
 ```bash
 gobuster dir -u 10.10.2.43 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
 ```
- ![[../../photos/Pickle_Rick/gobuster.png]]
+ ![gobuster](../../photos/Pickle_Rick/gobuster.png)
 
 ---
 
