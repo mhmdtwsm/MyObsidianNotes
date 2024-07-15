@@ -4,6 +4,8 @@ tags:
   - env
   - more
   - grep
+  - echo
+  - PATH
 ---
 
 
@@ -114,3 +116,19 @@ PATH=$PATH:/root/newhackingtool
 ```
 
 ---
+### Creating a User-Defined Variable
+
+In Linux, you can create custom variables for advanced shell scripting or to save long commands you use frequently. To define a variable, use the syntax:
+```bash
+MYNEWVARIABLE="Hacking is the most valuable skill set in the 21st century"
+```
+To display the variable's value, use:
+```bash
+echo $MYNEWVARIABLE
+```
+If you want the variable to persist across sessions, export it. To delete a variable, including its value, use:
+```bash
+unset MYNEWVARIABLE 
+```
+
+After that, the `echo $MYNEWVARIABLE` command will return a blank line.
