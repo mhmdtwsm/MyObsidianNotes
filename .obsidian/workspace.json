@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM/Pickle_Rick.md",
+                "file": "THM_Learning_era/THM/Blue.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM/Pickle_Rick.md",
+                "file": "THM_Learning_era/THM/Blue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM/Pickle_Rick.md",
+                "file": "THM_Learning_era/THM/Blue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM/Pickle_Rick.md"
+                "file": "THM_Learning_era/THM/Blue.md"
               }
             }
           }
@@ -159,13 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19bcfbf4784cdfcd",
+  "active": "bbdcf5bcdb6a57fd",
   "lastOpenFiles": [
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
+    "THM_Learning_era/THM/Blue.md",
+    "THM_Learning_era/THM/Mr.Robot.md",
+    "THM_Learning_era/THM/Pickle_Rick.md",
+    "THM_Learning_era/THM/THM-Panel.md",
+    "THM_Learning_era/THM/TMUX.md",
     "photos/Pickle_Rick/robots.png",
     "photos/Pickle_Rick/home.png",
-    "THM_Learning_era/THM/Pickle_Rick.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
-    "THM_Learning_era/THM/Mr.Robot.md",
     "photos/Pickle_Rick/gobuster.png",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch7_Environment_Variables.md",
     "THM_Learning_era/THM/LinuxRoom-1.md",
@@ -173,8 +176,6 @@
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch6_Process_Management.md",
     "THM_Learning_era/THM/BountyHacker-Cowboy-bebop.md",
     "photos/Pickle_Rick",
-    "THM_Learning_era/THM/TMUX.md",
-    "THM_Learning_era/THM/THM-Panel.md",
     "THM_Learning_era/THM/LinuxRoom-2.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Untitled.md",
     "THM_Learning_era/THM/Daily_Bugle.md",
