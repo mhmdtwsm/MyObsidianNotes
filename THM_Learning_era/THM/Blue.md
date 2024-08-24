@@ -67,4 +67,9 @@ Which we can crack with 2 or three ways:
    Just paste the hashes you got and let him crack
    ![search](../../photos/blue/crks.png)
 2. John The Ripper which i mentioned in [LinuxRoom-1](LinuxRoom-1.md)
-3. 
+   Knowing that we are on windows and on an eternal blue old machine the hash type would be `NTLM`, and by cracking it with `john` and `rockyou` we will get the password
+   ![search](../../photos/blue/john.png)
+3. `hashcat` which is a tool to identify and crack the hashes
+   - So first let's identify the hash and get the number of it on the hash cat list
+     ![search](../../photos/blue/cati.png)
+ 

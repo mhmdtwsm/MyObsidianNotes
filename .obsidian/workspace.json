@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM/LinuxRoom-1.md",
+                "file": "THM_Learning_era/THM/Blue.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM/LinuxRoom-1.md",
+                "file": "THM_Learning_era/THM/Blue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM/LinuxRoom-1.md",
+                "file": "THM_Learning_era/THM/Blue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM/LinuxRoom-1.md"
+                "file": "THM_Learning_era/THM/Blue.md"
               }
             }
           }
@@ -148,10 +148,12 @@
   },
   "active": "bbdcf5bcdb6a57fd",
   "lastOpenFiles": [
+    "photos/blue/cati.png",
     "THM_Learning_era/THM/Blue.md",
+    "photos/blue/john.png",
+    "THM_Learning_era/THM/LinuxRoom-1.md",
     "THM_Learning_era/THM/Daily_Bugle.md",
     "THM_Learning_era/THM/THM-Panel.md",
-    "THM_Learning_era/THM/LinuxRoom-1.md",
     "photos/blue/crks.png",
     "photos/blue/hash.png",
     "photos/blue/exploit.png",
@@ -162,11 +164,9 @@
     "photos/blue/2000.gif",
     "THM_Learning_era/THM/Pickle_Rick.md",
     "photos/blue",
-    "photos/blue/nmap1.png",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "THM_Learning_era/THM/Mr.Robot.md",
     "THM_Learning_era/THM/TMUX.md",
-    "photos/Pickle_Rick/robots.png",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch7_Environment_Variables.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch6_Process_Management.md",
     "THM_Learning_era/THM/BountyHacker-Cowboy-bebop.md",
