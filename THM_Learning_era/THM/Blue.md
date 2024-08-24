@@ -24,7 +24,7 @@ First thing First, let's do the `nmap` scan to detect the open ports and the ser
 4. `-- script=vuln` here I am choosing a script that searches for vulns and their exploits on services on the scanned ports
 5. `10.10.2.215` basically the IP :)
 
-After the scan done 😴
+#### After the scan done 😴
 
 ![nmap](../../photos/blue/2000.gif)
 
