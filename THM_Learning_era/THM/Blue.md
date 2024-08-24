@@ -72,4 +72,4 @@ Which we can crack with 2 or three ways:
 3. `hashcat` which is a tool to identify and crack the hashes
    - So first let's identify the hash and get the number of it on the hash cat list
      ![search](../../photos/blue/cati.png)
- - lets crack it
+	 - lets crack it
