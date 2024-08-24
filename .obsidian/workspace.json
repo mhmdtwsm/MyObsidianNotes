@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM/Blue.md",
+                "file": "THM_Learning_era/THM/LinuxRoom-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rev",
+                "query": "john",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM/Blue.md",
+                "file": "THM_Learning_era/THM/LinuxRoom-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM/Blue.md",
+                "file": "THM_Learning_era/THM/LinuxRoom-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM/Blue.md"
+                "file": "THM_Learning_era/THM/LinuxRoom-1.md"
               }
             }
           }
@@ -146,12 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19bcfbf4784cdfcd",
+  "active": "bbdcf5bcdb6a57fd",
   "lastOpenFiles": [
+    "THM_Learning_era/THM/Blue.md",
+    "THM_Learning_era/THM/Daily_Bugle.md",
+    "THM_Learning_era/THM/THM-Panel.md",
+    "THM_Learning_era/THM/LinuxRoom-1.md",
+    "photos/blue/crks.png",
+    "photos/blue/hash.png",
     "photos/blue/exploit.png",
     "photos/blue/search.png",
     "Pasted image 20240824204851.png",
-    "THM_Learning_era/THM/Blue.md",
     "photos/blue/vuln.png",
     "vulny.png",
     "photos/blue/2000.gif",
@@ -160,20 +165,14 @@
     "photos/blue/nmap1.png",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "THM_Learning_era/THM/Mr.Robot.md",
-    "THM_Learning_era/THM/THM-Panel.md",
     "THM_Learning_era/THM/TMUX.md",
     "photos/Pickle_Rick/robots.png",
-    "photos/Pickle_Rick/home.png",
-    "photos/Pickle_Rick/gobuster.png",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch7_Environment_Variables.md",
-    "THM_Learning_era/THM/LinuxRoom-1.md",
-    "photos/Pickle_Rick/nmap.png",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch6_Process_Management.md",
     "THM_Learning_era/THM/BountyHacker-Cowboy-bebop.md",
     "photos/Pickle_Rick",
     "THM_Learning_era/THM/LinuxRoom-2.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Untitled.md",
-    "THM_Learning_era/THM/Daily_Bugle.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec2_Basic_Commands.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch2_TEXT_MANIPULATION.md",
     "Untitled.canvas",

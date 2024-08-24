@@ -46,3 +46,25 @@ Now let's set the parameters and hit exploit..
 of course you will enter in `LHOST` your IP on `tryhackeme`, and `RHOSTS` is the machine IP and here I am counting on that the `SMB` is on the default port which is `445`
 
 ![search](../../photos/blue/exploit.png)
+
+#### Now take a break to answer task 1 and task 2 based on all the previous.
+
+---
+
+# Escalate
+
+This task is easy and repetitive to things above, the thing to consider in this task is the command `ps` and the command `migrate` which makes you migrate you session from a process to another to maintain it and keep it from antiviruses, try those commands and search about them.
+
+---
+# Cracking
+
+To get the hashes of the password on the machine we will use the command `hashdump`, this will lead us to a non default user called `Jon` and his password's hash
+
+![search](../../photos/blue/hash.png)
+
+Which we can crack with 2 or three ways:
+1. [Crack Station](https://crackstation.net/)
+   Just paste the hashes you got and let him crack
+   ![search](../../photos/blue/crks.png)
+2. John The Ripper which i mentioned in [LinuxRoom-1](LinuxRoom-1.md)
+3. 
