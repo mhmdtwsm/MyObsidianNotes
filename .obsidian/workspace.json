@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "248c72953ea66117",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THM_Learning_era/THM/Pickle_Rick.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bbdcf5bcdb6a57fd",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,10 +148,17 @@
   },
   "active": "bbdcf5bcdb6a57fd",
   "lastOpenFiles": [
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
+    "photos/blue/search.png",
+    "Pasted image 20240824204851.png",
     "THM_Learning_era/THM/Blue.md",
-    "THM_Learning_era/THM/Mr.Robot.md",
+    "photos/blue/vuln.png",
+    "vulny.png",
+    "photos/blue/2000.gif",
     "THM_Learning_era/THM/Pickle_Rick.md",
+    "photos/blue",
+    "photos/blue/nmap1.png",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
+    "THM_Learning_era/THM/Mr.Robot.md",
     "THM_Learning_era/THM/THM-Panel.md",
     "THM_Learning_era/THM/TMUX.md",
     "photos/Pickle_Rick/robots.png",
@@ -189,10 +183,7 @@
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch3_ANALYZING_AND_MANAGING_NETWORKS.md",
     "THM_Learning_era/drafty.md",
     "README.md",
-    "photos/comubun.jpg",
-    "photos/03ed8e374e621e87c8778c5730500bb6.jpg",
     "photos",
-    "03ed8e374e621e87c8778c5730500bb6.jpg",
     "03ed8e374e621e87c8778c5730500bb6.jpg.crdownload"
   ]
 }
