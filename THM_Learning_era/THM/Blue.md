@@ -39,3 +39,10 @@ The `vuln` script found a vulnerability of a remote code execution....
 Let's search with the name of it on the `msfconsole`....
 
 ![search](../../photos/blue/search.png)
+
+Then enter this: `use 0`
+
+Now let's set the parameters and hit exploit..
+of course you will enter in `LHOST` your IP on `tryhackeme`, and `RHOSTS` is the machine IP and here I am counting on that the `SMB` is on the default port which is `445`
+
+![search](../../photos/blue/exploit.png)
