@@ -81,11 +81,11 @@ Which we can crack with 2 or three ways:
 
 # Flags
 
-Flag 1,2 are easy just on the `Meterpreter` hit this command:
+**Flag 1,2** are easy just on the `Meterpreter` hit this command:
 ```bash
 search -f flag1.txt
 ```
 
 and take the path of path the files and see them with `cat` and that's it.
 
-Flag 3 the hint might make interested to look at the `c:\\Users\\` directory, might also make you search into Jon's files, or just hit `search -f flag3.txt` in the directory 
+**Flag 3** the hint might make interested to look at the `c:\\Users\\` directory, might also make you search into Jon's files, or just hit `search -f flag3.txt` in the directory 😅
