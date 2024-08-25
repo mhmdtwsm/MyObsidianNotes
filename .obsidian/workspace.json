@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM/Blue.md",
+                "file": "THM_Learning_era/THM/What_Is_Shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM/Blue.md",
+                "file": "THM_Learning_era/THM/What_Is_Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM/Blue.md",
+                "file": "THM_Learning_era/THM/What_Is_Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM/Blue.md"
+                "file": "THM_Learning_era/THM/What_Is_Shell.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "bbdcf5bcdb6a57fd",
   "lastOpenFiles": [
-    "photos/blue/catc.png",
     "THM_Learning_era/THM/Blue.md",
+    "THM_Learning_era/THM/What_Is_Shell.md",
+    "photos/blue/catc.png",
     "photos/blue/cati.png",
     "photos/blue/john.png",
     "THM_Learning_era/THM/LinuxRoom-1.md",
