@@ -325,3 +325,19 @@ there are `cron jobs` in:
 - `/tmp/test.py`
 
 #### [RevShell](https://www.revshells.com/)
+ Go to `revhsell` site and get a code for `python` or `bash` or both what ever you like.
+ 
+ Then put a listener and wait....
+```bash
+nc -lvnp {port}
+``` 
+
+#### Matt Password
+
+Get matt's password by accessing `/etc/shadow` from the rooted `revshell`
+
+![matt](../../photos/matt.png)
+
+and crack it by john...
+
+![jo](../../photos/jo.png)

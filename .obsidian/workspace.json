@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "92e63a351c15eb98",
@@ -147,8 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bbdcf5bcdb6a57fd",
+  "active": "19bcfbf4784cdfcd",
   "lastOpenFiles": [
+    "photos/jo.png",
+    "photos/matt.png",
     "photos/root.png",
     "photos/hash.png",
     "photos/base64.png",
@@ -168,8 +169,6 @@
     "photos/blue/crks.png",
     "photos/blue/hash.png",
     "photos/blue/exploit.png",
-    "photos/blue/search.png",
-    "Pasted image 20240824204851.png",
     "THM_Learning_era/THM/Pickle_Rick.md",
     "photos/blue",
     "THM_Learning_era/THM/Mr.Robot.md",
