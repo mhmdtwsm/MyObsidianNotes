@@ -412,3 +412,29 @@ On host..
 on Attacked Machine...
 
 ![machine.png](../../photos/machine.png)
+
+---
+
+# Capstone Challenge
+
+#### Finding `SUID` binaries
+```bash
+find / -name flag1.txt 2>/dev/null
+```
+
+And it is `base64`...
+
+![[mhash.png]]
+
+
+Cracking the hash...
+
+![hashed](../../photos/hashed.png)
+
+Getting `flag1`
+
+![flag1.png](../../photos/flag1.png)
+
+Using the `sudo` method and getting the `rootflag`..
+
+![rootf.png](../../photos/rootf.png)
