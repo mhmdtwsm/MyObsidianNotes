@@ -183,3 +183,14 @@ hostname
 ```bash
 uname -a
 ```
+
+#### What Linux is this?
+```bash
+cat /etc/os-release
+```
+
+#### What version of the Python language is installed on the system?
+```bash
+python --version
+```
+cat 
