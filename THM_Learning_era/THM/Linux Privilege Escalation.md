@@ -287,6 +287,7 @@ base64 /etc/shadow | base64 -d
 ```
 
 and i found the desired hashes...
+
 ![hash](../../photos/hash.png)
 
 
