@@ -86,3 +86,21 @@ we can get only the users by this command:
 cat /etc/passwd | cud -d ":" -f 1
 ```
 
+and we can `grep` on it:
+```bash
+cat /etc/passwd | grep root
+```
+---
+### `history`
+
+Looking at earlier commands with the `history` command can give us some idea about the target system and, albeit rarely, have stored information such as passwords or usernames.
+
+---
+### `ifconfig`
+
+The `ifconfig` command will give us information about the network interfaces of the system.
+
+```bash
+ifconfig
+```
+---
