@@ -28,8 +28,6 @@ Will get the environment variables of the shell you are in.
 env
 ```
 
-==Note==
-
 ---
 ###  `unmae`
 
