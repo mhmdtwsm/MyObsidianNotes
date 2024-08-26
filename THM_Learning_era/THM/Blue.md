@@ -6,7 +6,7 @@ tags:
   - nmap
   - exploit
 ---
-Link: https://tryhackme.com/r/room/blue
+`Link: https://tryhackme.com/r/room/blue
 
 ---
 

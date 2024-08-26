@@ -29,8 +29,12 @@ Now I must make a request from my side to connect to this machine on the waiting
 ```bash
 nc 10.0.0.1 69
 ```
-and it's done
 
+The meaning of the flags:
+- **-l** is used to tell `netcat` that this will be a listener
+- **-v** is used to request a verbose output
+- **-n** tells `netcat` not to resolve host names or use `DNS`.
+- **-p** indicates that the port specification will follow.
 ### Other tools
 
 There are other tools like `metasploit` and `msvenom` which you can make connection with but with different methods.
@@ -39,7 +43,6 @@ ___
 # Shell Types
 
 ***There are mainly two types of shells:***
-
 ## Bind Shell
 
 **The bind shell** is to put a listener on the machine, opening a port for you to make the request from your side and connect.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM/What_Is_Shell.md",
+                "file": "THM_Learning_era/THM/Linux Privilege Escalation.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "92e63a351c15eb98",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM/What_Is_Shell.md",
+                "file": "THM_Learning_era/THM/Linux Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM/What_Is_Shell.md",
+                "file": "THM_Learning_era/THM/Linux Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM/What_Is_Shell.md"
+                "file": "THM_Learning_era/THM/Linux Privilege Escalation.md"
               }
             }
           }
@@ -148,8 +149,13 @@
   },
   "active": "bbdcf5bcdb6a57fd",
   "lastOpenFiles": [
-    "THM_Learning_era/THM/Blue.md",
     "THM_Learning_era/THM/What_Is_Shell.md",
+    "THM_Learning_era/THM/Linux Privilege Escalation.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch6_Process_Management.md",
+    "THM_Learning_era/THM/Blue.md",
+    "THM_Learning_era/THM/LinuxRoom-2.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch7_Environment_Variables.md",
     "photos/blue/catc.png",
     "photos/blue/cati.png",
     "photos/blue/john.png",
@@ -165,14 +171,10 @@
     "vulny.png",
     "THM_Learning_era/THM/Pickle_Rick.md",
     "photos/blue",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "THM_Learning_era/THM/Mr.Robot.md",
     "THM_Learning_era/THM/TMUX.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch7_Environment_Variables.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch6_Process_Management.md",
     "THM_Learning_era/THM/BountyHacker-Cowboy-bebop.md",
     "photos/Pickle_Rick",
-    "THM_Learning_era/THM/LinuxRoom-2.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Untitled.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec2_Basic_Commands.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch2_TEXT_MANIPULATION.md",
