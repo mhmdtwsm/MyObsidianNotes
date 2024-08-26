@@ -169,3 +169,17 @@ netstat -ano
 ### General Linux Commands
 
 As we are in the Linux realm, familiarity with Linux commands, in general, will be very useful. Please spend some time getting comfortable with commands such as `find`, `locate`, `grep`, `cut`, `sort`, etc.
+
+---
+
+### The flags
+
+#### What is the host name of the target system?
+```bash
+hostname
+```
+
+#### What is the Linux kernel version of the target system?
+```bash
+uname -a
+```
