@@ -193,4 +193,15 @@ cat /etc/os-release
 ```bash
 python --version
 ```
-cat 
+
+#### What vulnerability seem to affect the kernel of the target system?
+
+ Enter the `kali`:
+```bash
+searchsploit kernel 3.13.0
+```
+
+Search on `Exploit-DB` on the `kernel 3.13.0`
+
+---
+
