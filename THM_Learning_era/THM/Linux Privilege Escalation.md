@@ -112,7 +112,9 @@ Following an initial check for existing interfaces and network routes, it is wor
 	- `netstat -at` or `netstat -au` can also be used to list `TCP` or `UDP` protocols.
 
 - `netstat -l`: list ports in “listening” mode.
+
 - `netstat -s`: list network usage statistics by protocol
 	- with the `-t` or `-u` options to limit the output to a specific protocol.
 		- `netstat -tp`: list connections with the service name and `PID` information.
+
 - 
