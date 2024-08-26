@@ -294,7 +294,7 @@ and i found the desired hashes...
 #### Let's crack the hash of `user2`
 
 ```bash
-echo "$6$m6VmzKTbzCD/.I10$cKOvZZ8/rsYwHd.pE099ZRwM686p/Ep13h7pFMBCG4t7IukRqc/fXlA1gHXh9F2CbwmD4Epi1Wgh.Cl.VV1mb/" > hash; john --format=sha512crypt --wordlist=/usr/share/wordlists/rockyou.txt hash
+echo '$6$m6VmzKTbzCD/.I10$cKOvZZ8/rsYwHd.pE099ZRwM686p/Ep13h7pFMBCG4t7IukRqc/fXlA1gHXh9F2CbwmD4Epi1Wgh.Cl.VV1mb/' > hash; john --format=sha512crypt --wordlist=/usr/share/wordlists/rockyou.txt hash
 ```
  ---
 # Privilege Escalation: Capabilities
@@ -313,3 +313,15 @@ There is a capability for `VIM`....
 ![root](../../photos/root.png)
 
 ---
+# Privilege Escalation: `Cron Jobs`
+
+#### Finding the `cron jobs` in the system
+```bash
+cat /etc/crontap
+```
+
+there are `cron jobs` in:
+- `/home/karen/backup.sh`
+- `/tmp/test.py`
+
+#### [RevShell](https://www.revshells.com/)
