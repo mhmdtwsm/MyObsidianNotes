@@ -424,7 +424,7 @@ find / -name flag1.txt 2>/dev/null
 
 And it is `base64`...
 
-![[mhash.png]]
+![mhash.png](../../photos/mhash.png)
 
 
 Cracking the hash...
