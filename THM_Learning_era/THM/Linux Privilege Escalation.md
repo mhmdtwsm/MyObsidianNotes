@@ -104,3 +104,12 @@ The `ifconfig` command will give us information about the network interfaces o
 ifconfig
 ```
 ---
+### `netstat`
+
+Following an initial check for existing interfaces and network routes, it is worth looking into existing communications. The `netstat` command can be used with several different options to gather information on existing connections.
+
+- `netstat -a`: shows all listening ports and established connections.
+	- `netstat -at` or `netstat -au` can also be used to list `TCP` or `UDP` protocols.
+- `netstat -l`: list ports in “listening” mode.
+- `netstat -s`: list network usage statistics by protocol
+	- with the `-t` or `-u` options to limit the output to a specific protocol.
