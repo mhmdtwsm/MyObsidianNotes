@@ -20,3 +20,7 @@ path : Pre Security
 * [Bounty Hacker](BountyHacker-Cowboy-bebop.md)
 * [Mr.Robot](Mr.Robot.md)
 * [Daily Bugle](Daily_Bugle.md)
+* [Blue](Blue.md)
+* [Pickle Rick](Pickle_Rick.md)
+* [Linux_Privilege_Escalation](Linux_Privilege_Escalation.md)
+* 
