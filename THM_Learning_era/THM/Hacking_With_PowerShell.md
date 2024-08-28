@@ -83,3 +83,10 @@ When a _cmdlet_ outputs a lot of information, you may need to sort it to extra
 ```powershell
 Get-Process | Sort-Object Id
 ```
+
+---
+
+# Enumeration
+
+***This Task is based on research, So my answers might by a mixture between googling and chatGPTing The answers***
+
