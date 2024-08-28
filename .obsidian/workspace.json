@@ -11,8 +11,12 @@
             "id": "bbdcf5bcdb6a57fd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "THM_Learning_era/THM/Hacking_With_PowerShell.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "92e63a351c15eb98",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "THM_Learning_era/THM/Hacking_With_PowerShell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "THM_Learning_era/THM/Hacking_With_PowerShell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "THM_Learning_era/THM/Hacking_With_PowerShell.md"
+              }
             }
           }
         ]
@@ -140,11 +149,14 @@
   },
   "active": "bbdcf5bcdb6a57fd",
   "lastOpenFiles": [
-    "THM_Learning_era/THM/THM-Panel.md",
     "THM_Learning_era/THM/Linux_Privilege_Escalation.md",
+    "THM_Learning_era/THM/Hacking_With_PowerShell.md",
+    "THM_Learning_era/THM/TMUX.md",
+    "photos/blue/crks.png",
+    "photos/blue/2000.gif",
+    "THM_Learning_era/THM/THM-Panel.md",
     "THM_Learning_era/THM/Pickle_Rick.md",
     "THM_Learning_era/THM/Blue.md",
-    "THM_Learning_era/THM/TMUX.md",
     "photos/rootf.png",
     "Pasted image 20240826232051.png",
     "photos/hashed.png",
@@ -154,8 +166,6 @@
     "photos/host.png",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "photos/test.png",
-    "photos/thm.png",
-    "photos/find.png",
     "THM_Learning_era/THM/What_Is_Shell.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch6_Process_Management.md",
     "THM_Learning_era/THM/LinuxRoom-2.md",
