@@ -55,4 +55,31 @@ The following will get The help of all the commands found in the result of the s
 Get-Command Get-Ch* | Get-Help
 ```
 
+### `Select-Object`
 
+is pulling out the properties from the output of a _`cmdlet`_ and creating a new object.
+```powershell
+Get-Process | Select-Object ProcessName
+```
+
+### `Where-Object`
+
+to filter based on the value of properties.
+
+The operators of `Where-Object`
+- `-Contains`: if any item in the property value is an exact match for the specified value
+- `-EQ`: if the property value is the same as the specified value
+- `-GT`: if the property value is greater than the specified value
+
+The example picks all the processes with name `svchost`:
+```powershell
+Get-Process | Select-Object Id, ProcessName | Where-Object -Property ProcessName -eq svchost
+```
+
+###  `Sort-Object`
+
+When a _cmdlet_ outputs a lot of information, you may need to sort it to extract the information more efficiently. You do this by pipe-lining the output of a _`cmdlet`_ to the `Sort-Object` _`cmdlet`_.
+
+```powershell
+Get-Process | Sort-Object Id
+```
