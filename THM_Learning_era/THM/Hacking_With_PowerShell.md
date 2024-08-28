@@ -43,7 +43,7 @@ And it allows for pattern matching.
 Get-Command Get-C* 
 ```
 
-- The Pipeline(`|`) is used to pass output from one _cmdlet_ to another. A major difference compared to other shells is that `Powershell` passes an object to the next _`cmdlet`_ instead of passing text or string to the command after the pipe.
+##### The Pipeline(`|`) is used to pass output from one _cmdlet_ to another. A major difference compared to other shells is that `Powershell` passes an object to the next _`cmdlet`_ instead of passing text or string to the command after the pipe.
 
 The following will get The help of all the commands found in the result of the search:
 ```powershell
