@@ -22,7 +22,9 @@ tags:
 
 # Basic Commands
 
-- `Get-Help` displays information about a _`cmdlet`._
+### `Get-Help` 
+
+displays information about a _`cmdlet`._
 ```powershell
 Get-Help Get-ChildItem
 ```
@@ -33,7 +35,9 @@ Get-Help ls
 ```
 
 
-- `Get-Command` gets all the _`cmdlets`_ installed on the current Computer.
+### `Get-Command` 
+
+gets all the _`cmdlets`_ installed on the current Computer.
 ```powershell
 Get-command
 ```
@@ -43,7 +47,8 @@ And it allows for pattern matching.
 Get-Command Get-C* 
 ```
 
-##### The Pipeline(`|`) is used to pass output from one _cmdlet_ to another. A major difference compared to other shells is that `Powershell` passes an object to the next _`cmdlet`_ instead of passing text or string to the command after the pipe.
+#### The Pipeline(`|`),
+used to pass output from one _cmdlet_ to another. A major difference compared to other shells is that `Powershell` passes an object to the next _`cmdlet`_ instead of passing text or string to the command after the pipe.
 
 The following will get The help of all the commands found in the result of the search:
 ```powershell
