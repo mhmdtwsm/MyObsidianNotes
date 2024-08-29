@@ -155,3 +155,10 @@ Get-NetIPAddress
 
 4. **`TimeWait`**: The connection is closed but is waiting for any delayed packets to arrive to ensure that the connection can be safely reestablished if necessary.
 
+#### What is the remote address of the local port listening on port 445?
+```powershell
+Get-NetTCPConnection -LocalPort 445
+```
+
+**`-LocalPort 445`**: Filters the results to show only connections where the local port is 445.
+
