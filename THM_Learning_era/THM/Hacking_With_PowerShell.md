@@ -162,3 +162,29 @@ Get-NetTCPConnection -LocalPort 445
 
 **`-LocalPort 445`**: Filters the results to show only connections where the local port is 445.
 
+
+#### How many patches have been applied?
+```powershell
+(Get-Hotfix).Count
+```
+**`Get-HotFix`**: This `cmdlet` retrieves a list of all the updates, patches, and` hotfixes` that have been installed on the system.
+
+#### When was the patch with ID `KB4023834` installed?
+```powershell
+Get-HotFix -Id KB4023834
+```
+**`-Id KB4023834`**: Filters the results to only show information about the patch with the specified ID, `KB4023834`.
+
+
+#### Find the contents of a backup file.
+
+```powershell
+Get-ChildItem -Path C:\ -Include *.bak* -File -Recurse -ErrorAction SilentlyContinue
+```
+
+- **`Get-ChildItem`**: Lists files and directories at the specified location.
+- **`-Path C:\`**: Specifies the root directory `C:\` as the starting point for the search. You can change this path to search in a different directory.
+- **`-Include *.bak*`**: Filters the search to include files with names that match the pattern `*.bak*`, which will capture files with `.bak` and other similar extensions (e.g., `.bak1`, `.backup`, etc.).
+- **`-File`**: Limits the search to files only, excluding directories.
+- **`-Recurse`**: Recursively searches all subdirectories within the specified path.
+- **`-ErrorAction SilentlyContinue`**: Suppresses error messages, such as permission-related errors, so they don't interrupt the command.
