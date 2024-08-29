@@ -186,5 +186,17 @@ Get-ChildItem -Path C:\ -Include *.bak* -File -Recurse -ErrorAction SilentlyCont
 - **`-Path C:\`**: Specifies the root directory `C:\` as the starting point for the search. You can change this path to search in a different directory.
 - **`-Include *.bak*`**: Filters the search to include files with names that match the pattern `*.bak*`, which will capture files with `.bak` and other similar extensions (e.g., `.bak1`, `.backup`, etc.).
 - **`-File`**: Limits the search to files only, excluding directories.
-- **`-Recurse`**: Recursively searches all subdirectories within the specified path.
+- **`-Recurse`**: Recursively searches all `subdirectories` within the specified path.
 - **`-ErrorAction SilentlyContinue`**: Suppresses error messages, such as permission-related errors, so they don't interrupt the command.
+
+#### Search for all files containing API_KEY
+
+```
+Get-ChildItem C:\* -recurse | Select-String -pattern API_KEY
+```
+
+- **`Select-String`**: Searches for text within files, similar to `grep` in Linux.
+- **`-Path "C:\*"`**: Specifies the path where the search should start. Here, it's the root of the `C:\` drive. You can change this to search a different directory.
+- **`-Pattern "API_KEY"`**: Specifies the string to search for, in this case, `API_KEY`.
+- **`-Recurse`**: Searches all `subdirectories` within the specified path.
+- **`-ErrorAction SilentlyContinue`**: Suppresses error messages, such as access-denied errors, to avoid interruptions.
