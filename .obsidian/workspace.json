@@ -11,15 +11,36 @@
             "id": "bbdcf5bcdb6a57fd",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "photos/Exploit/id2.png"
+              }
+            }
+          },
+          {
+            "id": "3c78e1aadef5471c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "photos/Exploit/id1.png"
+              }
+            }
+          },
+          {
+            "id": "365740855af8449c",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM/Hacking_With_PowerShell.md",
+                "file": "THM_Learning_era/THM/Exploiting_Active_Directory.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "92e63a351c15eb98",
@@ -86,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM/Hacking_With_PowerShell.md",
+                "file": "THM_Learning_era/THM/Exploiting_Active_Directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM/Hacking_With_PowerShell.md",
+                "file": "THM_Learning_era/THM/Exploiting_Active_Directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM/Hacking_With_PowerShell.md"
+                "file": "THM_Learning_era/THM/Exploiting_Active_Directory.md"
               }
             }
           }
@@ -147,26 +167,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bbdcf5bcdb6a57fd",
+  "active": "365740855af8449c",
   "lastOpenFiles": [
-    "THM_Learning_era/THM/Linux_Privilege_Escalation.md",
-    "THM_Learning_era/THM/Hacking_With_PowerShell.md",
+    "THM_Learning_era/THM/Pickle_Rick.md",
+    "THM_Learning_era/THM/What_Is_Shell.md",
     "THM_Learning_era/THM/TMUX.md",
+    "THM_Learning_era/drafty.md",
+    "THM_Learning_era/THM/Exploiting_Active_Directory.md",
+    "photos/Exploit/f1.png",
+    "THM_Learning_era/THM/Hacking_With_PowerShell.md",
+    "photos/Exploit/id1.png",
+    "photos/Exploit/id2.png",
+    "photos/Exploit/vali.png",
+    "photos/Exploit/Groub1.png",
+    "photos/Exploit/cred1.png",
+    "photos/Exploit",
+    "photos/Exploit/con1.png",
+    "THM_Learning_era/THM/Linux_Privilege_Escalation.md",
     "photos/blue/crks.png",
     "photos/blue/2000.gif",
     "THM_Learning_era/THM/THM-Panel.md",
-    "THM_Learning_era/THM/Pickle_Rick.md",
     "THM_Learning_era/THM/Blue.md",
     "photos/rootf.png",
-    "Pasted image 20240826232051.png",
-    "photos/hashed.png",
-    "photos/flag1.png",
-    "photos/mhash.png",
-    "photos/machine.png",
-    "photos/host.png",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
-    "photos/test.png",
-    "THM_Learning_era/THM/What_Is_Shell.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch6_Process_Management.md",
     "THM_Learning_era/THM/LinuxRoom-2.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch7_Environment_Variables.md",
@@ -185,8 +208,6 @@
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_General_Basics.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch4_APT.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch3_ANALYZING_AND_MANAGING_NETWORKS.md",
-    "THM_Learning_era/drafty.md",
-    "README.md",
     "photos",
     "03ed8e374e621e87c8778c5730500bb6.jpg.crdownload"
   ]

@@ -4,7 +4,7 @@ tags:
   - powershell
   - Get
 ---
-HLink: https://tryhackme.com/r/room/powershell
+Link: https://tryhackme.com/r/room/powershell
 
 ---
 
