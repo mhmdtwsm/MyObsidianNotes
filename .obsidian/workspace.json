@@ -8,39 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bbdcf5bcdb6a57fd",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "photos/Exploit/id2.png"
-              }
-            }
-          },
-          {
-            "id": "3c78e1aadef5471c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "photos/Exploit/id1.png"
-              }
-            }
-          },
-          {
             "id": "365740855af8449c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM/Exploiting_Active_Directory.md",
+                "file": "THM_Learning_era/THM/Services.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM/Exploiting_Active_Directory.md",
+                "file": "THM_Learning_era/THM/Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM/Exploiting_Active_Directory.md",
+                "file": "THM_Learning_era/THM/Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM/Exploiting_Active_Directory.md"
+                "file": "THM_Learning_era/THM/Services.md"
               }
             }
           }
@@ -167,10 +146,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "365740855af8449c",
+  "active": "19bcfbf4784cdfcd",
   "lastOpenFiles": [
-    "photos/mhash.png",
+    "files/nmap_tryhackme_room_services.txt",
+    "files/nmap_tryhackme_room_services.txt.crdownload",
+    "files",
+    "photos/srv/nmap.png",
+    "Pasted image 20240831230914.png",
+    "THM_Learning_era/THM/Services.md",
+    "photos/srv/open.png",
+    "photos/Untitled.md",
+    "photos/srv",
     "THM_Learning_era/THM/Exploiting_Active_Directory.md",
+    "photos/mhash.png",
     "photos/Exploit/inj.png",
     "photos/Exploit/TGS.png",
     "THM_Learning_era/THM/Linux_Privilege_Escalation.md",
@@ -178,15 +166,11 @@
     "photos/Exploit/TGT.png",
     "photos/Exploit/t2.png",
     "photos/Exploit/lsdump.png",
-    "photos/Exploit/svc.png",
-    "photos/Exploit/c2.png",
     "THM_Learning_era/THM/Pickle_Rick.md",
     "THM_Learning_era/THM/What_Is_Shell.md",
     "THM_Learning_era/THM/TMUX.md",
     "THM_Learning_era/drafty.md",
-    "photos/Exploit/f1.png",
     "THM_Learning_era/THM/Hacking_With_PowerShell.md",
-    "photos/Exploit/id1.png",
     "photos/Exploit",
     "THM_Learning_era/THM/THM-Panel.md",
     "THM_Learning_era/THM/Blue.md",
@@ -207,8 +191,6 @@
     "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec1_The_File_System_Structure_Basics.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_General_Basics.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch4_APT.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch3_ANALYZING_AND_MANAGING_NETWORKS.md",
     "photos",
     "03ed8e374e621e87c8778c5730500bb6.jpg.crdownload"
   ]

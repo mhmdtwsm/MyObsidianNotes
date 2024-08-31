@@ -1,0 +1,123 @@
+# Nmap 7.93 scan initiated Sun Sep  1 02:11:22 2024 as: nmap -vvv -p 53,80,88,135,139,389,445,464,593,636,3268,3389,3269,5985,9389,47001,49664,49666,49667,49665,49668,49674,49675,49676,49678,49679,49696,49706 -sV -sC -Pn -T4 -O -oN nmap 10.10.0.204
+Nmap scan report for services.local (10.10.0.204)
+Host is up, received user-set (0.072s latency).
+Scanned at 2024-09-01 02:11:22 EEST for 70s
+
+PORT      STATE SERVICE       REASON          VERSION
+53/tcp    open  domain        syn-ack ttl 127 Simple DNS Plus
+80/tcp    open  http          syn-ack ttl 127 Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Above Services
+88/tcp    open  kerberos-sec  syn-ack ttl 127 Microsoft Windows Kerberos (server time: 2024-08-31 20:11:28Z)
+135/tcp   open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-ssn
+389/tcp   open  ldap          syn-ack ttl 127 Microsoft Windows Active Directory LDAP (Domain: services.local0., Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds? syn-ack ttl 127
+464/tcp   open  kpasswd5?     syn-ack ttl 127
+593/tcp   open  ncacn_http    syn-ack ttl 127 Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped    syn-ack ttl 127
+3268/tcp  open  ldap          syn-ack ttl 127 Microsoft Windows Active Directory LDAP (Domain: services.local0., Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped    syn-ack ttl 127
+3389/tcp  open  ms-wbt-server syn-ack ttl 127 Microsoft Terminal Services
+| ssl-cert: Subject: commonName=WIN-SERVICES.services.local
+| Issuer: commonName=WIN-SERVICES.services.local
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2024-08-30T19:57:04
+| Not valid after:  2025-03-01T19:57:04
+| MD5:   b25face77b29a1a5b4c8e3adc464df01
+| SHA-1: 07bc82103db5fc0c6a1421b904c6487006b0c6b0
+| -----BEGIN CERTIFICATE-----
+| MIIC+jCCAeKgAwIBAgIQOzAe93Yi45VEgTJ34r2vszANBgkqhkiG9w0BAQsFADAm
+| MSQwIgYDVQQDExtXSU4tU0VSVklDRVMuc2VydmljZXMubG9jYWwwHhcNMjQwODMw
+| MTk1NzA0WhcNMjUwMzAxMTk1NzA0WjAmMSQwIgYDVQQDExtXSU4tU0VSVklDRVMu
+| c2VydmljZXMubG9jYWwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDc
+| q6dNEn2tv0F+BDVVVDKq++npW7bmo3uCyO4AHZKhhJ4QDx9cwsjKLiztO35y2fcZ
+| 1Q5Vvw3pIWAfrZNE6fWHRxvTW9JGLGFGYkWAmUpix4HZixmJv/9wVEI8ecsz2KI2
+| YjzglChNinQ6iTW8NrJHexmLU8MnrW73C1vNDYq0/EiZZ2dcFFRzgA0ZuIGz9Ckn
+| P0X4yYyYV4ulFUTQYBrNknrKyG+I3S3V43Hu0IjdDVdfPY1R0MW4P/sgki8QLifz
+| 0Ae+IkbMO8KCg5noTkdfyaYggezBeI2hNX5I69HfH2SO5zeRVAlO0zk4sY1IHpDE
+| AZciZupnRqbDZ7BtY6lRAgMBAAGjJDAiMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsG
+| A1UdDwQEAwIEMDANBgkqhkiG9w0BAQsFAAOCAQEAkNhmmJo/KU3QNAdYp/fF9Kau
+| 2KUvK0PqIKCEdGZuqWqQIcR6IMScQ0xFTIShpbfKEHBSvd0yoYPVR5HI/F280zRi
+| kTYVsjYnw5gdBT5xApCeP/vCNVT2uHe1Ra77hnIJugx6N8uYdhOw9LKdd6HcBmJs
+| Qmtn5b/Y+r25I2mXdxhW3u3pKGDf16q/59FYYgcOBLaF9ZG4DKIkJhTICKk7/95M
+| lftMVIy9J3Uc39674I6fV91poSHc3DY5W0NMnSsWIhWf3GHRqqbNAlhOyWEtisId
+| ubdadKkrd8Kj0MjnnkIe3r99rLMoRu7Ek1fFfOL0NKy0QMEKvZkF7yfBZ6DJuw==
+|_-----END CERTIFICATE-----
+|_ssl-date: 2024-08-31T20:12:31+00:00; -3h00m00s from scanner time.
+| rdp-ntlm-info: 
+|   Target_Name: SERVICES
+|   NetBIOS_Domain_Name: SERVICES
+|   NetBIOS_Computer_Name: WIN-SERVICES
+|   DNS_Domain_Name: services.local
+|   DNS_Computer_Name: WIN-SERVICES.services.local
+|   Product_Version: 10.0.17763
+|_  System_Time: 2024-08-31T20:12:21+00:00
+5985/tcp  open  http          syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+9389/tcp  open  mc-nmf        syn-ack ttl 127 .NET Message Framing
+47001/tcp open  http          syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+49664/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49665/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49666/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49667/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49668/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49674/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49675/tcp open  ncacn_http    syn-ack ttl 127 Microsoft Windows RPC over HTTP 1.0
+49676/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49678/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49679/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49696/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49706/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+Aggressive OS guesses: Microsoft Windows 10 1709 - 1909 (93%), Microsoft Windows Server 2012 (92%), Microsoft Windows Vista SP1 (92%), Microsoft Windows Longhorn (91%), Microsoft Windows 10 1709 - 1803 (91%), Microsoft Windows 10 1809 - 1909 (91%), Microsoft Windows Server 2012 R2 (91%), Microsoft Windows Server 2012 R2 Update 1 (91%), Microsoft Windows 7, Windows Server 2012, or Windows 8.1 Update 1 (91%), Microsoft Windows 10 1511 (90%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.93%E=4%D=9/1%OT=53%CT=%CU=40580%PV=Y%DS=2%DC=I%G=N%TM=66D3A360%P=x86_64-pc-linux-gnu)
+SEQ(SP=109%GCD=1%ISR=10B%TI=I%CI=I%II=I%SS=S%TS=U)
+OPS(O1=M508NW8NNS%O2=M508NW8NNS%O3=M508NW8%O4=M508NW8NNS%O5=M508NW8NNS%O6=M508NNS)
+WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70)
+ECN(R=Y%DF=Y%T=80%W=FFFF%O=M508NW8NNS%CC=Y%Q=)
+T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)
+T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)
+T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)
+T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)
+T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)
+IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=265 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: WIN-SERVICES; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -3h00m00s, deviation: 0s, median: -3h00m00s
+| smb2-security-mode: 
+|   311: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2024-08-31T20:12:21
+|_  start_date: N/A
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 14862/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 64285/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 28678/udp): CLEAN (Failed to receive data)
+|   Check 4 (port 45703/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep  1 02:12:32 2024 -- 1 IP address (1 host up) scanned in 71.14 seconds
