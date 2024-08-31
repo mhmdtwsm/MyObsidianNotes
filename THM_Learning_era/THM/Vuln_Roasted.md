@@ -35,3 +35,5 @@ Trying to get the hash from the usernames and the bingo goes to `t-skid`
 
 ![Vuln_Roasted-1.png](../../photos/srv/hashy.png)
 
+Cracking with `john` ...
+![cracky.png](../../photos/srv/cracky.p)
