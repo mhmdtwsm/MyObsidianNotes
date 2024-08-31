@@ -85,5 +85,13 @@ The thing with this machine is to find a service to escalate with, so a command 
 Now we found the service let's make a `revshell` by `msfvenom` and upload it  and run it as the service.
 
 ##### `msfvenom`
+
 ![venom.png](../../photos/srv/venom.png)
 
+Uploading the executable on the machine and running it...
+
+![rev.png](../../photos/srv/rev.png)
+
+Got The `revshell` and the flag:
+
+![[flag.png](../../photos/srv/flag.png)

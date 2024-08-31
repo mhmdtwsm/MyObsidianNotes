@@ -146,8 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "365740855af8449c",
+  "active": "19bcfbf4784cdfcd",
   "lastOpenFiles": [
+    "photos/srv/flag.png",
+    "photos/srv/rev.png",
     "photos/srv/venom.png",
     "THM_Learning_era/THM/Exploiting_Active_Directory.md",
     "THM_Learning_era/THM/THM-Panel.md",
@@ -160,8 +162,6 @@
     "photos/srv/crack.png",
     "photos/srv/hash.png",
     "photos/srv/valid.png",
-    "photos/srv/list.png",
-    "photos/srv/staff.png",
     "files/nmap_tryhackme_room_services.txt",
     "files/nmap_tryhackme_room_services.txt.crdownload",
     "files",
