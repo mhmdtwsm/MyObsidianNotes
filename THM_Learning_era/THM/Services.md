@@ -94,4 +94,4 @@ Uploading the executable on the machine and running it...
 
 Got The `revshell` and the flag:
 
-![[flag.png](../../photos/srv/flag.png)
+![flag.png](../../photos/srv/flag.png)
