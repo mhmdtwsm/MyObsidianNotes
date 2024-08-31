@@ -18,3 +18,72 @@ Some interesting things in the scan..
 ![photos/srv/nmap.png](../../photos/srv/nmap.png)
 
 #### I put the `nmap` scan results on this [file](../../files/nmap_tryhackme_room_services.txt)
+
+---
+
+# Enumeration
+
+### The website
+
+First thing let's take a look at the website.
+From this page it appears that it might be a way of typing the user names on the company
+
+![tyep.png](../../photos/srv/tyep.png)
+
+And with finding the names of the employees in the company in this this page we have a user list to check.
+
+![staff.png](../../photos/srv/staff.png)
+
+### `Kerberos`
+
+To validate that the names we got is actually a users on the system or not we need to check their validity with `kerbrute` by making a list of their usernames on the same format we found the contact mail on.
+
+![list.png](../../photos/srv/list.png)
+
+Now let's check the validity..
+```bash
+kerbrute userenum --dc 10.10.0.204 -d services.local creds
+```
+
+![valid.png](../../photos/srv/valid.png)
+
+So they are all Valid let's see from who can we dumb hashes to login.
+
+I would use `impacket-GetNPUsers` for this.
+
+![valid.png](../../photos/srv/hash.png)
+
+And the only one who provided a hash is `j.rock`
+
+Now cracking time with `john`
+
+![valid.png](../../photos/srv/crack.png)
+
+And we are in !
+
+![log.png](../../photos/srv/log.png)
+
+---
+
+# Escalating
+
+### `user.txt`
+
+```powershell
+tree /f /a ..
+type ..\Desktop\user.txt
+```
+
+![user.png](../../photos/srv/user.png)
+
+### The Root
+
+The thing with this machine is to find a service to escalate with, so a command like `services` would be useful to find a writable high privileged service to edit it with our demand.
+
+![AWS.png](../../photos/srv/AWS.png)
+
+Now we found the service let's make a `revshell` by `msfvenom` and upload it  and run it as the service.
+
+##### `msfvenom`
+![venom.png](../../photos/srv/venom.png)
+
