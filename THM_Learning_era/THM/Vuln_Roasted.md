@@ -32,5 +32,6 @@ Now the valid users are:
 ![Vuln_Roasted-1.png](../../photos/srv/validy.png)
 
 Trying to get the hash from the usernames and the bingo goes to `t-skid`
+
 ![Vuln_Roasted-1.png](../../photos/srv/hashy.png)
 
