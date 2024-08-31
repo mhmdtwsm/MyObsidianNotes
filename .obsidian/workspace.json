@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM/Services.md",
+                "file": "THM_Learning_era/THM/Vuln_Roasted.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM/Services.md",
+                "file": "THM_Learning_era/THM/Vuln_Roasted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM/Services.md",
+                "file": "THM_Learning_era/THM/Vuln_Roasted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM/Services.md"
+                "file": "THM_Learning_era/THM/Vuln_Roasted.md"
               }
             }
           }
@@ -148,19 +148,24 @@
   },
   "active": "365740855af8449c",
   "lastOpenFiles": [
-    "photos/srv/flag.png",
+    "Vuln_Roasted-1.png",
+    "Vuln_Roasted.png",
+    "THM_Learning_era/THM/THM-Panel.md",
     "THM_Learning_era/THM/Services.md",
+    "THM_Learning_era/THM/Vuln_Roasted.md",
+    "files/vuln_roasted/nmap.txt",
+    "files/vuln_roasted/nmap.txt.crdownload",
+    "files/vuln_roasted",
+    "photos/srv/flag.png",
     "photos/srv/rev.png",
     "photos/srv/venom.png",
     "THM_Learning_era/THM/Exploiting_Active_Directory.md",
-    "THM_Learning_era/THM/THM-Panel.md",
     "photos/srv/AWS.png",
     "photos/srv/adws.png",
     "photos/srv/user.png",
     "photos/srv/log.png",
     "photos/srv/nmap.png",
     "photos/srv/crack.png",
-    "photos/srv/hash.png",
     "files/nmap_tryhackme_room_services.txt",
     "files/nmap_tryhackme_room_services.txt.crdownload",
     "files",
@@ -189,9 +194,6 @@
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch2_TEXT_MANIPULATION.md",
     "Untitled.canvas",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec1_The_File_System_Structure_Basics.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_General_Basics.md",
-    "photos",
-    "03ed8e374e621e87c8778c5730500bb6.jpg.crdownload"
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec1_The_File_System_Structure_Basics.md"
   ]
 }
