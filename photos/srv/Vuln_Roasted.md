@@ -58,3 +58,18 @@ Now the `SYSVOL` in the `smb` is a marked directory to access, so let's get into
 
 ![smbs.png](../../photos/srv/smbs.png)
 
+inside that `ResetPassword.vbs` while scrolling i found a text credentials in a visual basic script file, most likely it's put there for some sort of comparison, how ever it's a horrible mistake to leave like this, at least the admin could make it encoded and change the wide obvious variable names that clarifies that this is a password and a user name.
+
+![vbs.png](../../photos/srv/vbs.png)
+
+When we re enumerate with the new credentials we will find that it has admin privileges !
+
+![adminn.png](../../photos/srv/adminn.png)
+
+Now if we tried to `secretdumb` with this credentials we will get the administrator hash 
+
+![ahsash.png](../../photos/srv/ahsash.png)
+
+I didn't crack to be hones i just passed it with `evilwinrm` and got the system flag
+
+![sysf.png](../../photos/srv/sysf.png)

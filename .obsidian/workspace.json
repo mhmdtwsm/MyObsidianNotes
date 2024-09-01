@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM/Vuln_Roasted.md",
+                "file": "photos/srv/Vuln_Roasted.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM/Vuln_Roasted.md",
+                "file": "photos/srv/Vuln_Roasted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM/Vuln_Roasted.md",
+                "file": "photos/srv/Vuln_Roasted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM/Vuln_Roasted.md"
+                "file": "photos/srv/Vuln_Roasted.md"
               }
             }
           }
@@ -148,19 +148,19 @@
   },
   "active": "365740855af8449c",
   "lastOpenFiles": [
+    "photos/srv/sysf.png",
+    "photos/srv/ahsash.png",
+    "photos/srv/adminn.png",
+    "photos/srv/vbs.png",
     "photos/srv/smbs.png",
     "photos/srv/smbmap.png",
     "photos/srv/userv.png",
     "README.md",
-    "THM_Learning_era/THM/Vuln_Roasted.md",
+    "photos/srv/Vuln_Roasted.md",
     "THM_Learning_era/THM/Pasted image 20240901024646.png",
     "photos/srv/hs.png",
     "photos/srv/cracky.png",
     "photos/srv/validy.png",
-    "photos/srv/test.png",
-    "photos/srv/hashy.png",
-    "photos/srv/users.png",
-    "photos/srv/Vuln_Roasted-1.png",
     "THM_Learning_era/THM/THM-Panel.md",
     "THM_Learning_era/THM/Services.md",
     "files/vuln_roasted/nmap.txt",
