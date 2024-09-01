@@ -36,4 +36,25 @@ Trying to get the hash from the usernames and the bingo goes to `t-skid`
 ![Vuln_Roasted-1.png](../../photos/srv/hashy.png)
 
 Cracking with `john` ...
-![cracky.png](../../photos/srv/cracky.p)
+![cracky.png](../../photos/srv/cracky.png)
+
+And now it is `Kerberoasting` time to look if we can get a `TGS`
+```bash
+impacket-GetUserSPNs -dc-ip 10.10.12.26 'vulnnet-rst.local/t-skid:tj072889*' -outputfile khash
+```
+
+Luckily we got one for `enterprise-core-vn`, and by cracking it with john that would be the pass
+ ![hs.png](../../photos/srv/hs.png)
+
+And.. I'am in and got the flag.....
+
+![userv.png](../../photos/srv/userv.png)
+
+Now There is no further more progress we can achieve in this session so let's map the `smb` using `smbmab` looking for further info to escalate.
+
+![smbmap.png](../../photos/srv/smbmap.png)
+
+Now the `SYSVOL` in the `smb` is a marked directory to access, so let's get into it
+
+![smbs.png](../../photos/srv/smbs.png)
+
