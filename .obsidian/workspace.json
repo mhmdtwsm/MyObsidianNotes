@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5796f74d8d1ad31c",
+        "id": "8b4adcddbe0eb830",
         "type": "tabs",
         "children": [
           {
-            "id": "365740855af8449c",
+            "id": "c0fafe8b335dfccc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,10 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "365740855af8449c",
+  "active": "c0fafe8b335dfccc",
   "lastOpenFiles": [
-    "THM_Learning_era/THM/Linux_Privilege_Escalation.md",
     "THM_Learning_era/THM/Tech_exam.md",
+    "THM_Learning_era/THM/Linux_Privilege_Escalation.md",
     "THM_Learning_era/THM/Mr.Robot.md",
     "THM_Learning_era/THM/Vuln_Roasted.md",
     "photos/srv/sysf.png",

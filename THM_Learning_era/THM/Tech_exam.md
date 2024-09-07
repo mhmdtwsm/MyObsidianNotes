@@ -73,6 +73,13 @@ from users list
 impacket-GetNPUsers the.corp/ -dc-ip 10.10.42.254 -usersfile users -format john -outputfile hash -no-pass -request
 ```
 
+`smbpasswd` :
+The **`impacket-smbpasswd`** tool is part of the` Impacket` suite, used to change or reset a user's password on a remote `SMB` (Windows) system via the **`SAMR`** (Security Account Manager Remote) protocol.
+
+```bash
+impacket-smbpasswd DOMAIN/john.doe:oldpassword@192.168.1.10 -newpass NewPassword123!
+```
+
 ---
 
 ### `kerbrute`
@@ -98,6 +105,20 @@ kerbrute passwordspray -d the.corp -dc 10.10.42.254 -P "Password123" users
 ```
 
 ---
+
+### `SMB`
+
+List the shares
+```bash
+smbclient -L //192.168.1.10 -U username
+```
+Get into it
+```bash
+smbclient //192.168.1.10/shared_folder -U username
+```
+
+---
+
 
 ### bloodhound
 #### Neo4j
