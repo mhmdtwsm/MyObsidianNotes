@@ -18,31 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "de1a476d648ae87f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "THM_Learning_era/photos/blue/2000.gif"
-              }
-            }
-          },
-          {
-            "id": "b6ee06ba994fead8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THM_Learning_era/First_Phase/THM/Blue.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 343.5
   },
   "right": {
     "id": "92e63a351c15eb98",
@@ -169,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6ee06ba994fead8",
+  "active": "df294ab5e1e4a009",
   "lastOpenFiles": [
     "THM_Learning_era/First_Phase/THM/Mr.Robot.md",
     "THM_Learning_era/First_Phase/THM/vuln.png",
