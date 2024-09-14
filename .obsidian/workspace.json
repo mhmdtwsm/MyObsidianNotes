@@ -13,13 +13,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/First_Phase/THM/Tech_exam.md",
-                "mode": "preview",
+                "file": "THM_Learning_era/First_Phase/THM/Blue.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de1a476d648ae87f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "THM_Learning_era/photos/blue/2000.gif"
+              }
+            }
+          },
+          {
+            "id": "b6ee06ba994fead8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "THM_Learning_era/First_Phase/THM/Mr.Robot.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "92e63a351c15eb98",
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/First_Phase/THM/Tech_exam.md",
+                "file": "THM_Learning_era/First_Phase/THM/Mr.Robot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/First_Phase/THM/Tech_exam.md",
+                "file": "THM_Learning_era/First_Phase/THM/Mr.Robot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/First_Phase/THM/Tech_exam.md"
+                "file": "THM_Learning_era/First_Phase/THM/Mr.Robot.md"
               }
             }
           }
@@ -148,23 +171,25 @@
   },
   "active": "19bcfbf4784cdfcd",
   "lastOpenFiles": [
+    "THM_Learning_era/First_Phase/THM/vuln.png",
+    "THM_Learning_era/First_Phase/THM/search.png",
+    "THM_Learning_era/First_Phase/THM/nmap1.png",
+    "THM_Learning_era/First_Phase/THM/john.png",
+    "THM_Learning_era/First_Phase/THM/hash.png",
+    "THM_Learning_era/First_Phase/THM/exploit.png",
+    "THM_Learning_era/First_Phase/THM/crks.png",
+    "THM_Learning_era/First_Phase/THM/cati.png",
+    "THM_Learning_era/First_Phase/THM/catc.png",
+    "THM_Learning_era/First_Phase/THM/2000.gif",
+    "THM_Learning_era/photos/blue/2000.gif",
+    "THM_Learning_era/First_Phase/THM/Blue.md",
+    "THM_Learning_era/First_Phase/THM/Tech_exam.md",
     "THM_Learning_era/First_Phase",
     "THM_Learning_era/First_Phase/THM/Services.md",
-    "THM_Learning_era/First_Phase/THM/Tech_exam.md",
     "THM_Learning_era/First_Phase/THM/Linux_Privilege_Escalation.md",
     "THM_Learning_era/First_Phase/THM/Mr.Robot.md",
     "THM_Learning_era/First_Phase/THM/Vuln_Roasted.md",
-    "THM_Learning_era/photos/srv/sysf.png",
-    "THM_Learning_era/photos/srv/ahsash.png",
-    "THM_Learning_era/photos/srv/adminn.png",
-    "THM_Learning_era/photos/srv/vbs.png",
-    "THM_Learning_era/photos/srv/smbs.png",
-    "THM_Learning_era/photos/srv/smbmap.png",
-    "THM_Learning_era/photos/srv/userv.png",
     "README.md",
-    "THM_Learning_era/First_Phase/THM/Pasted image 20240901024646.png",
-    "THM_Learning_era/photos/srv/hs.png",
-    "THM_Learning_era/photos/srv/cracky.png",
     "THM_Learning_era/First_Phase/THM/THM-Panel.md",
     "files/vuln_roasted/nmap.txt",
     "files/vuln_roasted/nmap.txt.crdownload",
@@ -181,7 +206,6 @@
     "THM_Learning_era/drafty.md",
     "THM_Learning_era/First_Phase/THM/Hacking_With_PowerShell.md",
     "THM_Learning_era/photos/Exploit",
-    "THM_Learning_era/First_Phase/THM/Blue.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch6_Process_Management.md",
     "THM_Learning_era/First_Phase/THM/LinuxRoom-2.md",
@@ -190,7 +214,6 @@
     "THM_Learning_era/First_Phase/THM/Daily_Bugle.md",
     "THM_Learning_era/photos/blue",
     "THM_Learning_era/First_Phase/THM/BountyHacker-Cowboy-bebop.md",
-    "THM_Learning_era/photos/Pickle_Rick",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Untitled.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec2_Basic_Commands.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch2_TEXT_MANIPULATION.md",
