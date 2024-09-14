@@ -15,10 +15,17 @@
       }
     },
     {
-      "query": "path:THM_Learning_era/THM  ",
+      "query": "path:THM_Learning_era/THM_CTF ",
       "color": {
         "a": 1,
         "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:THM_Learning_era/First_Phase  ",
+      "color": {
+        "a": 1,
+        "rgb": 7028029
       }
     }
   ],
