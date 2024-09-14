@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM_CTF/LinuxRoom-2.md",
+                "file": "THM_Learning_era/THM_CTF/CTF_List.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM_CTF/LinuxRoom-2.md",
+                "file": "THM_Learning_era/THM_CTF/CTF_List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM_CTF/LinuxRoom-2.md",
+                "file": "THM_Learning_era/THM_CTF/CTF_List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM_CTF/LinuxRoom-2.md"
+                "file": "THM_Learning_era/THM_CTF/CTF_List.md"
               }
             }
           }
@@ -148,9 +148,11 @@
   },
   "active": "19bcfbf4784cdfcd",
   "lastOpenFiles": [
+    "THM_Learning_era/THM_CTF/Mr.Robot.md",
+    "THM_Learning_era/THM_CTF/CTF_List.md",
     "THM_Learning_era/THM_CTF/LinuxRoom-1.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch3_ANALYZING_AND_MANAGING_NETWORKS.md",
     "THM_Learning_era/THM_CTF/LinuxRoom-2.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch3_ANALYZING_AND_MANAGING_NETWORKS.md",
     "THM_Learning_era/THM_CTF/Blue.md",
     "THM_Learning_era/THM_CTF/photo",
     "THM_Learning_era/First_Phase/THM/Linux_Privilege_Escalation.md",
@@ -179,7 +181,6 @@
     "THM_Learning_era/First_Phase/THM/What_Is_Shell.md",
     "THM_Learning_era/First_Phase/THM/TMUX.md",
     "THM_Learning_era/First_Phase/THM/Pickle_Rick.md",
-    "THM_Learning_era/THM_CTF/Mr.Robot.md",
     "THM_Learning_era/First_Phase/THM/Hacking_With_PowerShell.md",
     "THM_Learning_era/First_Phase/THM/Exploiting_Active_Directory.md",
     "THM_Learning_era/First_Phase/THM/Daily_Bugle.md",
@@ -190,7 +191,6 @@
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch4_APT.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch2_TEXT_MANIPULATION.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec2_Basic_Commands.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec1_The_File_System_Structure_Basics.md",
     "THM_Learning_era/First_Phase/photos",
     "THM_Learning_era/First_Phase/THM",
     "THM_Learning_era/Linux_basics_for_Hackers_book",
