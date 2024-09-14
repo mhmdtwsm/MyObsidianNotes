@@ -209,7 +209,7 @@ find / -user root -perm -4000
 ```
 With this command, we ask Kali to start looking at the whole file system with the `/` syntax. It then looks everywhere below `/` for files that are owned by root, specified with user root, and that have the `SUID` permission bit set `-perm -4000`.
 
-The last command used for privilege escalation in the [Mr.Robot room](../THM/Mr.Robot.md) noted in another file, let's break through it:
+The last command used for privilege escalation in the [Mr.Robot room](Mr.Robot.md) noted in another file, let's break through it:
 
 ```bash
 # Mr.Robot's Machine Command

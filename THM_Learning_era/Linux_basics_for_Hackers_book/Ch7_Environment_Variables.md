@@ -65,7 +65,7 @@ export HISTSIZE
 
 This code snippet will set your `HISTSIZE` variable’s value to 1,000 and export it to all your environments.
 
-Note that, `export` command was already used in [Linux Agency](../THM/LinuxRoom-2.md) room on [`tryhackme`](https://tryhackme.com/r/room/linuxagency) to export to the `PATH` variable the path of the `su` and `bash` commands to run them normally.
+Note that, `export` command was already used in [Linux Agency](LinuxRoom-2.md) room on [`tryhackme`](https://tryhackme.com/r/room/linuxagency) to export to the `PATH` variable the path of the `su` and `bash` commands to run them normally.
 
 ---
 ### Changing Your Shell Prompt
