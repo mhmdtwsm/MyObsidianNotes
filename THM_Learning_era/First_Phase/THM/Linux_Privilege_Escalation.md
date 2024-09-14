@@ -288,7 +288,7 @@ base64 /etc/shadow | base64 -d
 
 and i found the desired hashes...
 
-![hash](photos/hash.png)
+![hash](THM_Learning_era/photos/hash.png)
 
 
 #### Let's crack the hash of `user2`
@@ -359,7 +359,7 @@ Found it !!
 
 As it appears test runs thm as a root...
 
-![test](photos/test.png)
+![test](THM_Learning_era/photos/test.png)
 
 let's add a command to print the flag....
 

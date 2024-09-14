@@ -25,7 +25,7 @@ impacket-lookupsid anonymous@10.10.12.26
 
 Now let's make a list and test on `kerbrute` ..
 
-![Vuln_Roasted-1.png](photos/srv/test.png)
+![Vuln_Roasted-1.png](THM_Learning_era/photos/srv/test.png)
 
 Now the valid users are:
 

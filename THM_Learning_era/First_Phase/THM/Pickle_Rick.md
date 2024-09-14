@@ -25,7 +25,7 @@ This machine is an easy one.
 ```bash
 nmap -p22,80 -sV -sC -T4 -Pn -oA {IP}
 ```
-![nmap](photos/Pickle_Rick/nmap.png)
+![nmap](THM_Learning_era/photos/Pickle_Rick/nmap.png)
 
 #### Scanning with `gobuster`
 ```bash

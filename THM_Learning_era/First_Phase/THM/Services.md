@@ -15,7 +15,7 @@ sudo nmap -p 53,80,88,135,139,389,445,464,593,636,3268,3389,3269,5985,9389,47001
 
 Some interesting things in the scan..
 
-![photos/srv/nmap.png](photos/srv/nmap.png)
+![THM_Learning_era/photos/srv/nmap.png](THM_Learning_era/photos/srv/nmap.png)
 
 #### I put the `nmap` scan results on this [file](nmap_tryhackme_room_services.txt)
 
@@ -51,7 +51,7 @@ So they are all Valid let's see from who can we dumb hashes to login.
 
 I would use `impacket-GetNPUsers` for this.
 
-![valid.png](photos/srv/hash.png)
+![valid.png](THM_Learning_era/photos/srv/hash.png)
 
 And the only one who provided a hash is `j.rock`
 

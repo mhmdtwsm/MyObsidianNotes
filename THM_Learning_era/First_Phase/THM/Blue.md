@@ -60,7 +60,7 @@ This task is easy and repetitive to things above, the thing to consider in this 
 
 To get the hashes of the password on the machine we will use the command `hashdump`, this will lead us to a non default user called `Jon` and his password's hash
 
-![search](photos/blue/hash.png)
+![search](THM_Learning_era/photos/blue/hash.png)
 
 Which we can crack with 2 or three ways:
 1. [Crack Station](https://crackstation.net/)
