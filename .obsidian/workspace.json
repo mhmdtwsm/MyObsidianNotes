@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/First_Phase/THM/Mr.Robot.md",
+                "file": "THM_Learning_era/First_Phase/THM/Blue.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/First_Phase/THM/Mr.Robot.md",
+                "file": "THM_Learning_era/First_Phase/THM/Blue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/First_Phase/THM/Mr.Robot.md",
+                "file": "THM_Learning_era/First_Phase/THM/Blue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/First_Phase/THM/Mr.Robot.md"
+                "file": "THM_Learning_era/First_Phase/THM/Blue.md"
               }
             }
           }
@@ -169,8 +169,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19bcfbf4784cdfcd",
+  "active": "b6ee06ba994fead8",
   "lastOpenFiles": [
+    "THM_Learning_era/First_Phase/THM/Mr.Robot.md",
     "THM_Learning_era/First_Phase/THM/vuln.png",
     "THM_Learning_era/First_Phase/THM/search.png",
     "THM_Learning_era/First_Phase/THM/nmap1.png",
@@ -181,13 +182,11 @@
     "THM_Learning_era/First_Phase/THM/cati.png",
     "THM_Learning_era/First_Phase/THM/catc.png",
     "THM_Learning_era/First_Phase/THM/2000.gif",
-    "THM_Learning_era/photos/blue/2000.gif",
     "THM_Learning_era/First_Phase/THM/Blue.md",
     "THM_Learning_era/First_Phase/THM/Tech_exam.md",
     "THM_Learning_era/First_Phase",
     "THM_Learning_era/First_Phase/THM/Services.md",
     "THM_Learning_era/First_Phase/THM/Linux_Privilege_Escalation.md",
-    "THM_Learning_era/First_Phase/THM/Mr.Robot.md",
     "THM_Learning_era/First_Phase/THM/Vuln_Roasted.md",
     "README.md",
     "THM_Learning_era/First_Phase/THM/THM-Panel.md",
