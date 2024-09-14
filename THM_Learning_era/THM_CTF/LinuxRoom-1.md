@@ -27,7 +27,7 @@ link: https://tryhackme.com/r/room/linuxstrengthtraining
 empty
 # task 2: find
 
-* the [find ](Ch1_Sec2_Basic_Commands.md)command
+* the [find ](../Linux_basics_for_Hackers_book/Ch1_Sec2_Basic_Commands.md)command
 * to use a file in the name of it ==> `-` by adding `--` before the name of the file and putting the file name between double quotes
 ```bash
   mv -- "-MoveMe.txt" "-march folder"/
@@ -51,7 +51,7 @@ and hit `CTRL + w` and enter `Flag`
 
 # task 3: files
 
-look at the [basic commands](Ch1_Sec2_Basic_Commands.md)
+look at the [basic commands](../Linux_basics_for_Hackers_book/Ch1_Sec2_Basic_Commands.md)
 
 ---
 
