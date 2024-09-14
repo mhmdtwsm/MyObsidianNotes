@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/First_Phase/THM/Daily_Bugle.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/First_Phase/THM/Daily_Bugle.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/First_Phase/THM/Daily_Bugle.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/First_Phase/THM/Daily_Bugle.md"
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md"
               }
             }
           }
@@ -146,10 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19bcfbf4784cdfcd",
+  "active": "df294ab5e1e4a009",
   "lastOpenFiles": [
-    "THM_Learning_era/First_Phase/THM/Blue.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch6_Process_Management.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch7_Environment_Variables.md",
+    "THM_Learning_era/First_Phase/THM/LinuxRoom-2.md",
     "THM_Learning_era/First_Phase/THM/Mr.Robot.md",
+    "THM_Learning_era/First_Phase/THM/Blue.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch3_ANALYZING_AND_MANAGING_NETWORKS.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec1_The_File_System_Structure_Basics.md",
+    "THM_Learning_era/First_Phase/THM/Daily_Bugle.md",
     "THM_Learning_era/First_Phase/THM/vuln.png",
     "THM_Learning_era/First_Phase/THM/search.png",
     "THM_Learning_era/First_Phase/THM/nmap1.png",
@@ -183,16 +189,11 @@
     "THM_Learning_era/First_Phase/THM/Hacking_With_PowerShell.md",
     "THM_Learning_era/First_Phase/photos/Exploit",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch6_Process_Management.md",
-    "THM_Learning_era/First_Phase/THM/LinuxRoom-2.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch7_Environment_Variables.md",
     "THM_Learning_era/First_Phase/THM/LinuxRoom-1.md",
-    "THM_Learning_era/First_Phase/THM/Daily_Bugle.md",
     "THM_Learning_era/First_Phase/photos/blue",
     "THM_Learning_era/First_Phase/THM/BountyHacker-Cowboy-bebop.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Untitled.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec2_Basic_Commands.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch2_TEXT_MANIPULATION.md",
     "Untitled.canvas"
   ]
 }
