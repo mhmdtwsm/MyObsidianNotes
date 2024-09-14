@@ -7,3 +7,5 @@
 # [Fifth Chapter: CONTROLLING FILE AND DIRECTORY PERMISSIONS](Ch5_Files_And_Directory_Permissions.md)
 
 # [Sixth Chapter: Process Management](Ch6_Process_Management.md)
+
+# [Ch7_Environment_Variables](Ch7_Environment_Variables.md)

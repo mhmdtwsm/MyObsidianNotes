@@ -11,8 +11,12 @@
             "id": "df294ab5e1e4a009",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md"
+              }
             }
           }
         ]
@@ -138,8 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19bcfbf4784cdfcd",
+  "active": "df294ab5e1e4a009",
   "lastOpenFiles": [
+    "THM_Learning_era/First_Phase/THM/Old_THM-Panel.md",
+    "THM_Learning_era/First_Phase/THM/Tech_exam.md",
+    "THM_Learning_era/First_Phase/THM/Vuln_Roasted.md",
+    "THM_Learning_era/First_Phase/photos/Untitled.md",
+    "THM_Learning_era/First_Phase/THM/Services.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "THM_Learning_era/THM_CTF",
     "THM_Learning_era/First_Phase/photos/srv/venom.png",
     "THM_Learning_era/First_Phase/photos/srv/vbs.png",
@@ -153,15 +167,10 @@
     "THM_Learning_era/First_Phase/photos/srv/sysf.png",
     "THM_Learning_era/First_Phase/photos/srv",
     "THM_Learning_era/First_Phase/photos/blue",
-    "THM_Learning_era/First_Phase/photos/Untitled.md",
     "THM_Learning_era/First_Phase/photos/Pickle_Rick",
     "THM_Learning_era/First_Phase/photos/Exploit",
     "THM_Learning_era/First_Phase/THM/What_Is_Shell.md",
-    "THM_Learning_era/First_Phase/THM/Vuln_Roasted.md",
-    "THM_Learning_era/First_Phase/THM/Tech_exam.md",
     "THM_Learning_era/First_Phase/THM/TMUX.md",
-    "THM_Learning_era/First_Phase/THM/Old_THM-Panel.md",
-    "THM_Learning_era/First_Phase/THM/Services.md",
     "THM_Learning_era/First_Phase/THM/Pickle_Rick.md",
     "THM_Learning_era/THM_CTF/Mr.Robot.md",
     "THM_Learning_era/First_Phase/THM/Linux_Privilege_Escalation.md",
@@ -174,7 +183,6 @@
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch7_Environment_Variables.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch6_Process_Management.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch4_APT.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch3_ANALYZING_AND_MANAGING_NETWORKS.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch2_TEXT_MANIPULATION.md",
@@ -185,7 +193,6 @@
     "THM_Learning_era/First_Phase/THM",
     "THM_Learning_era/Linux_basics_for_Hackers_book",
     "THM_Learning_era/First_Phase",
-    "THM_Learning_era",
     "Untitled.canvas"
   ]
 }
