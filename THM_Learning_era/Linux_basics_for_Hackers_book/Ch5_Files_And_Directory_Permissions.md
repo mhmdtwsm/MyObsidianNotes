@@ -189,7 +189,7 @@ This means that, with an `SGID` bit set, someone without execute permission can 
 This means that, with an `SGID` bit set, someone without execute permission can execute a file if the owner belongs to the group that has permission to execute that file.
 #### **So, it is basically if we have the same `SGID` of a directory every thing under it is OURS!**
 
-![commubun](THM_Learning_era/Linux_basics_for_Hackers_book/photo/comubun.jpg)
+![commubun](/THM_Learning_era/Linux_basics_for_Hackers_book/photo/comubun.jpg)
 
 And like the `SUID`, the `SGID` done by adding a bit by the `chmod`, but that time the bit is `2` 
 
