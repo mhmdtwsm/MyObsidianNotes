@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
+                "file": "THM_Learning_era/THM_Walkthrough/Walkthroughs_List.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
+                "file": "THM_Learning_era/THM_Walkthrough/Walkthroughs_List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
+                "file": "THM_Learning_era/THM_Walkthrough/Walkthroughs_List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md"
+                "file": "THM_Learning_era/THM_Walkthrough/Walkthroughs_List.md"
               }
             }
           }
@@ -148,10 +148,14 @@
   },
   "active": "1ee6d83a88f63361",
   "lastOpenFiles": [
-    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Complete_Beginner_Path.md",
-    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
-    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals",
+    "THM_Learning_era/THM_Walkthrough/Walkthroughs_List.md",
     "().md",
+    "THM_Learning_era/THM_CTF/CTF_List.md",
+    "THM_Learning_era/First_Phase/THM/Old_THM-Panel.md",
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md",
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Complete_Beginner_Path.md",
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals",
     "THM_Learning_era/Notes_Commands/Important_AD_Commands.md",
     "THM_Learning_era/Notes_Commands",
     "Untitled",
@@ -165,12 +169,10 @@
     "THM_Learning_era/First_Phase/THM/Daily_Bugle.md",
     "THM_Learning_era/THM_Walkthrough/TMUX.md",
     "THM_Learning_era/THM_CTF/Pickle_Rick.md",
-    "THM_Learning_era/First_Phase/THM/Old_THM-Panel.md",
     "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path",
     "Untitled.canvas",
     "THM_Learning_era/THM_Walkthrough",
-    "THM_Learning_era/THM_CTF/CTF_List.md",
     "THM_Learning_era/THM_CTF/Mr.Robot.md",
     "THM_Learning_era/THM_CTF/LinuxRoom-1.md",
     "THM_Learning_era/THM_CTF/LinuxRoom-2.md",
@@ -192,7 +194,6 @@
     "files/photos/srv/test.png",
     "files/photos/srv",
     "THM_Learning_era/THM_CTF/photo/blue",
-    "files/photos/Pickle_Rick",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch7_Environment_Variables.md"
+    "files/photos/Pickle_Rick"
   ]
 }
