@@ -11,12 +11,8 @@
             "id": "1ee6d83a88f63361",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THM_Learning_era/Notes_Commands/Notes_List.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/Notes_Commands/Notes_List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/Notes_Commands/Notes_List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "THM_Learning_era/Notes_Commands/Notes_List.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,6 +140,7 @@
   },
   "active": "1ee6d83a88f63361",
   "lastOpenFiles": [
+    "THM_Learning_era/drafty.md",
     "THM_Learning_era/Notes_Commands/Notes_List.md",
     "THM_Learning_era/THM_Walkthrough/Walkthroughs_List.md",
     "().md",
@@ -181,7 +174,6 @@
     "THM_Learning_era/THM_CTF/Blue.md",
     "THM_Learning_era/THM_CTF/photo",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
-    "THM_Learning_era/First_Phase/photos/Untitled.md",
     "THM_Learning_era/THM_CTF",
     "files/photos/srv/venom.png",
     "files/photos/srv/vbs.png",

@@ -27,6 +27,20 @@
         "a": 1,
         "rgb": 7028029
       }
+    },
+    {
+      "query": "path:THM_Learning_era/Notes_Commands  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:THM_Learning_era/THM_Walkthrough  ",
+      "color": {
+        "a": 1,
+        "rgb": 16743168
+      }
     }
   ],
   "collapse-display": false,
@@ -35,10 +49,10 @@
   "nodeSizeMultiplier": 1.325,
   "lineSizeMultiplier": 2.26927083333333,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
+  "centerStrength": 0.677083333333333,
   "repelStrength": 12.2916666666667,
   "linkStrength": 1,
   "linkDistance": 30,
   "scale": 0.8528216906666056,
-  "close": true
+  "close": false
 }
