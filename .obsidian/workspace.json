@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/Notes_Commands/Important_AD_Commands.md",
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/Notes_Commands/Important_AD_Commands.md",
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/Notes_Commands/Important_AD_Commands.md",
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/Notes_Commands/Important_AD_Commands.md"
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md"
               }
             }
           }
@@ -148,6 +148,11 @@
   },
   "active": "1ee6d83a88f63361",
   "lastOpenFiles": [
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Complete_Beginner_Path.md",
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals",
+    "().md",
+    "THM_Learning_era/Notes_Commands/Important_AD_Commands.md",
     "THM_Learning_era/Notes_Commands",
     "Untitled",
     "THM_Learning_era/First_Phase/THM/What_Is_Shell.md",
@@ -162,7 +167,6 @@
     "THM_Learning_era/THM_CTF/Pickle_Rick.md",
     "THM_Learning_era/First_Phase/THM/Old_THM-Panel.md",
     "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
-    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Complete_Beginner_Path.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path",
     "Untitled.canvas",
     "THM_Learning_era/THM_Walkthrough",
@@ -174,7 +178,6 @@
     "THM_Learning_era/THM_CTF/Blue.md",
     "THM_Learning_era/THM_CTF/photo",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
-    "THM_Learning_era/Notes_Commands/Important_AD_Commands.md",
     "THM_Learning_era/First_Phase/photos/Untitled.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "THM_Learning_era/THM_CTF",
@@ -190,10 +193,6 @@
     "files/photos/srv",
     "THM_Learning_era/THM_CTF/photo/blue",
     "files/photos/Pickle_Rick",
-    "files/photos/Exploit",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/photo",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch7_Environment_Variables.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch6_Process_Management.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch4_APT.md"
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch7_Environment_Variables.md"
   ]
 }
