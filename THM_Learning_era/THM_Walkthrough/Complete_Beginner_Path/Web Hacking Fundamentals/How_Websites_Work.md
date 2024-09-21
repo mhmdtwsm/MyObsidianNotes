@@ -3,7 +3,7 @@
 
 When you visit a website, your browser requests data from a *web server*, which processes the request and sends back information to display the page. A website consists of a ***front end (how the browser renders it)*** and a ***back end (the server handling requests and responses)***.
 
-### HTML
+### `HTML`
 
 Websites are built using HTML for structure, CSS for styling, and JavaScript for interactivity. HTML is the core language that defines a webpage's layout using elements (tags).
 
@@ -28,3 +28,18 @@ Websites are built using HTML for structure, CSS for styling, and JavaScript for
 - `<img>`: Embeds an image from a specified source using the `src` attribute (e.g., `<img src="img/cat.jpg">`).
 Attributes like `class` and `id` help style or identify elements.
 
+### `JS`
+
+JavaScript (JS) is a popular programming language that adds interactivity to web pages, complementing HTML, which structures the content. Without JS, web pages remain static. It allows real-time updates, such as changing button styles or displaying animations. JS can be embedded in HTML using `<script>` tags or linked externally.
+
+For example, to change the content of an element with the id "demo" to "Hack the Planet," you can use:
+
+```js
+document.getElementById("demo").innerHTML = "Hack the Planet";
+```
+
+HTML elements can trigger `JS` events like `<onclick>` to execute code, such as changing text when a button is clicked:
+
+```html
+<button onclick='document.getElementById("demo").innerHTML = "Button Clicked";'>Click Me!</button>
+```
