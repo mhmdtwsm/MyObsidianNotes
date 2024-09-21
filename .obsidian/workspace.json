@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
+                "file": "THM_Learning_era/THM_CTF/Pickle_Rick.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
+                "file": "THM_Learning_era/THM_CTF/Pickle_Rick.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
+                "file": "THM_Learning_era/THM_CTF/Pickle_Rick.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md"
+                "file": "THM_Learning_era/THM_CTF/Pickle_Rick.md"
               }
             }
           }
@@ -146,10 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1ee6d83a88f63361",
+  "active": "19bcfbf4784cdfcd",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "THM_Learning_era/First_Phase/THM/Old_THM-Panel.md",
+    "THM_Learning_era/First_Phase/THM/Exploiting_Active_Directory.md",
     "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Complete_Beginner_Path.md",
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path",
+    "Untitled.canvas",
     "THM_Learning_era/THM_Walkthrough",
     "THM_Learning_era/THM_CTF/CTF_List.md",
     "THM_Learning_era/THM_CTF/Mr.Robot.md",
@@ -159,7 +163,6 @@
     "THM_Learning_era/THM_CTF/Blue.md",
     "THM_Learning_era/THM_CTF/photo",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
-    "THM_Learning_era/First_Phase/THM/Old_THM-Panel.md",
     "THM_Learning_era/First_Phase/THM/Tech_exam.md",
     "THM_Learning_era/First_Phase/THM/Vuln_Roasted.md",
     "THM_Learning_era/First_Phase/photos/Untitled.md",
@@ -182,17 +185,14 @@
     "files/photos/Exploit",
     "THM_Learning_era/First_Phase/THM/What_Is_Shell.md",
     "THM_Learning_era/First_Phase/THM/TMUX.md",
-    "THM_Learning_era/First_Phase/THM/Pickle_Rick.md",
+    "THM_Learning_era/THM_CTF/Pickle_Rick.md",
     "THM_Learning_era/First_Phase/THM/Hacking_With_PowerShell.md",
-    "THM_Learning_era/First_Phase/THM/Exploiting_Active_Directory.md",
     "THM_Learning_era/First_Phase/THM/Daily_Bugle.md",
     "THM_Learning_era/First_Phase/THM/BountyHacker-Cowboy-bebop.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch7_Environment_Variables.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch6_Process_Management.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch4_APT.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch2_TEXT_MANIPULATION.md",
-    "files/photos",
-    "THM_Learning_era/First_Phase/THM"
+    "files/photos"
   ]
 }
