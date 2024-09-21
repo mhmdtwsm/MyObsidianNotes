@@ -21,9 +21,10 @@ Websites are built using HTML for structure, CSS for styling, and JavaScript for
 </html>
 ```
 
-- `<!DOCTYPE html>`: Declares HTML5.
+- `<!DOCTYPE html>`: Declares `HTML5`.
 - `<html>`: Root element.
 - `<head>`: Contains metadata (like the title).
 - `<body>`: Visible content (e.g., headings, paragraphs, images).
-
+- `<img>`: Embeds an image from a specified source using the `src` attribute (e.g., `<img src="img/cat.jpg">`).
 Attributes like `class` and `id` help style or identify elements.
+
