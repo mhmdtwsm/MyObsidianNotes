@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2cc74506f488015c",
+        "id": "1a97585d8f480735",
         "type": "tabs",
         "children": [
           {
-            "id": "df294ab5e1e4a009",
+            "id": "1ee6d83a88f63361",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM_CTF/CTF_List.md",
+                "file": "THM_Learning_era/First_Phase/THM/Linux_Privilege_Escalation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM_CTF/CTF_List.md",
+                "file": "THM_Learning_era/First_Phase/THM/Linux_Privilege_Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM_CTF/CTF_List.md",
+                "file": "THM_Learning_era/First_Phase/THM/Linux_Privilege_Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM_CTF/CTF_List.md"
+                "file": "THM_Learning_era/First_Phase/THM/Linux_Privilege_Escalation.md"
               }
             }
           }
@@ -146,10 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19bcfbf4784cdfcd",
+  "active": "1ee6d83a88f63361",
   "lastOpenFiles": [
-    "THM_Learning_era/THM_CTF/Mr.Robot.md",
     "THM_Learning_era/THM_CTF/CTF_List.md",
+    "THM_Learning_era/THM_CTF/Mr.Robot.md",
     "THM_Learning_era/THM_CTF/LinuxRoom-1.md",
     "THM_Learning_era/THM_CTF/LinuxRoom-2.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch3_ANALYZING_AND_MANAGING_NETWORKS.md",
@@ -164,20 +164,20 @@
     "THM_Learning_era/First_Phase/THM/Services.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "THM_Learning_era/THM_CTF",
-    "THM_Learning_era/First_Phase/photos/srv/venom.png",
-    "THM_Learning_era/First_Phase/photos/srv/vbs.png",
-    "THM_Learning_era/First_Phase/photos/srv/validy.png",
-    "THM_Learning_era/First_Phase/photos/srv/valid.png",
-    "THM_Learning_era/First_Phase/photos/srv/userv.png",
-    "THM_Learning_era/First_Phase/photos/srv/users.png",
-    "THM_Learning_era/First_Phase/photos/srv/user.png",
-    "THM_Learning_era/First_Phase/photos/srv/tyep.png",
-    "THM_Learning_era/First_Phase/photos/srv/test.png",
-    "THM_Learning_era/First_Phase/photos/srv/sysf.png",
-    "THM_Learning_era/First_Phase/photos/srv",
+    "files/photos/srv/venom.png",
+    "files/photos/srv/vbs.png",
+    "files/photos/srv/validy.png",
+    "files/photos/srv/valid.png",
+    "files/photos/srv/userv.png",
+    "files/photos/srv/users.png",
+    "files/photos/srv/user.png",
+    "files/photos/srv/tyep.png",
+    "files/photos/srv/test.png",
+    "files/photos/srv/sysf.png",
+    "files/photos/srv",
     "THM_Learning_era/THM_CTF/photo/blue",
-    "THM_Learning_era/First_Phase/photos/Pickle_Rick",
-    "THM_Learning_era/First_Phase/photos/Exploit",
+    "files/photos/Pickle_Rick",
+    "files/photos/Exploit",
     "THM_Learning_era/First_Phase/THM/What_Is_Shell.md",
     "THM_Learning_era/First_Phase/THM/TMUX.md",
     "THM_Learning_era/First_Phase/THM/Pickle_Rick.md",
@@ -191,7 +191,7 @@
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch4_APT.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch2_TEXT_MANIPULATION.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec2_Basic_Commands.md",
-    "THM_Learning_era/First_Phase/photos",
+    "files/photos",
     "THM_Learning_era/First_Phase/THM",
     "THM_Learning_era/Linux_basics_for_Hackers_book",
     "Untitled.canvas"
