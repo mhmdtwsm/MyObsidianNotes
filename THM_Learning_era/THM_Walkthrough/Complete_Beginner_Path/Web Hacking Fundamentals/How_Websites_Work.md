@@ -43,3 +43,10 @@ HTML elements can trigger `JS` events like `<onclick>` to execute code, such as 
 ```html
 <button onclick='document.getElementById("demo").innerHTML = "Button Clicked";'>Click Me!</button>
 ```
+
+### Data exposure
+
+***Look at the source***
+
+Sensitive Data Exposure happens when websites fail to protect sensitive information, such as login credentials, in their frontend source code. This can allow attackers to exploit such data by viewing the page source, potentially gaining unauthorized access to various parts of the application.
+###
