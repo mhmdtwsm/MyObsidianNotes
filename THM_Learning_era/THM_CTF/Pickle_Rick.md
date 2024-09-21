@@ -25,22 +25,22 @@ This machine is an easy one.
 ```bash
 nmap -p22,80 -sV -sC -T4 -Pn -oA {IP}
 ```
-![nmap](../../../files/photos/Pickle_Rick/nmap.png)
+![nmap](../../files/photos/Pickle_Rick/nmap.png)
 
 #### Scanning with `gobuster`
 ```bash
 gobuster dir -u 10.10.2.43 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
 ```
- ![gobuster](../../../files/photos/Pickle_Rick/gobuster.png)
+ ![gobuster](../../files/photos/Pickle_Rick/gobuster.png)
 
 ---
 
 ### Getting to the site directories
 
 While searching in the source of the home page we will find a username for login
-	 ![home](../../../files/photos/Pickle_Rick/home.png)
+	 ![home](../../files/photos/Pickle_Rick/home.png)
 While trying to look for something in `robots.txt` file you will find the password, ironically it's `wubbalubbadabadab`
-	![robots](../../../files/photos/Pickle_Rick/robots.png)
+	![robots](../../files/photos/Pickle_Rick/robots.png)
 
 Enter the directory of the login page `/login.php` and get to the portal
 
