@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md",
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Burp_Suite_The_Basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md",
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Burp_Suite_The_Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md",
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Burp_Suite_The_Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md"
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Burp_Suite_The_Basics.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "1ee6d83a88f63361",
   "lastOpenFiles": [
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md",
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Burp_Suite_The_Basics.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
     "THM_Learning_era/drafty.md",
     "THM_Learning_era/Notes_Commands/Notes_List.md",
@@ -155,7 +157,6 @@
     "().md",
     "THM_Learning_era/THM_CTF/CTF_List.md",
     "THM_Learning_era/First_Phase/THM/Old_THM-Panel.md",
-    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Complete_Beginner_Path.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals",
     "THM_Learning_era/Notes_Commands/Important_AD_Commands.md",
@@ -181,7 +182,6 @@
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch3_ANALYZING_AND_MANAGING_NETWORKS.md",
     "THM_Learning_era/THM_CTF/Blue.md",
     "THM_Learning_era/THM_CTF/photo",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
     "THM_Learning_era/THM_CTF",
     "files/photos/srv/venom.png",
     "files/photos/srv/vbs.png",
