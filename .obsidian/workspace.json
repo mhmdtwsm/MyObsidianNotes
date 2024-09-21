@@ -11,8 +11,12 @@
             "id": "1ee6d83a88f63361",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md"
+              }
             }
           }
         ]
@@ -140,13 +148,13 @@
   },
   "active": "1ee6d83a88f63361",
   "lastOpenFiles": [
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
     "THM_Learning_era/drafty.md",
     "THM_Learning_era/Notes_Commands/Notes_List.md",
     "THM_Learning_era/THM_Walkthrough/Walkthroughs_List.md",
     "().md",
     "THM_Learning_era/THM_CTF/CTF_List.md",
     "THM_Learning_era/First_Phase/THM/Old_THM-Panel.md",
-    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Complete_Beginner_Path.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals",
