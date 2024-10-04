@@ -64,3 +64,4 @@ So simply keystrokes types commands, commands get output, output displayed on a 
 
 ## What is `tty`
 
+![](photo/tty.png)
