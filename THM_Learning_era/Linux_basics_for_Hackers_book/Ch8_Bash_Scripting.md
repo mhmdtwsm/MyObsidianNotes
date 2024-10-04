@@ -59,7 +59,7 @@ Originally the terminal was a device, in our early days it is just a window, bot
 
 **In the the good old days**, the terminal was not a computer, as i said it was a peripheral of a bigger computer like a mainframe. The terminal has a keyboard to translate each character you want to type to ASCII code to write a command you desire, and a display CRT screen to see the what you type and what is the result of your command, so it was the window that you access the shell of the OS that runs on the mainframe and that OS manages terminals sessions.
 
-So simply keystrokes types commands, commands get output, output displayed on a display platform which is the CRT screen, it needed a whole device to make this small functions, to make more than one person uses the computers in the old days, but those small functions were also made in another more older device called tty.
+So simply keystrokes types commands, commands get output, output displayed on a display platform which is the CRT screen, it needed a whole device to make this small functions, to make more than one person uses the computers in the old days, but those small functions were also made in another more older device called `tty`.
 
 
 ## What is `tty`
