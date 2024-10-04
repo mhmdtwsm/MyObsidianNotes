@@ -51,10 +51,9 @@ The first modern shell made was made for UNIX and the name of it was [Thompson S
 Before the shell was made there was another form of the command interpreters we see today which is was the [CTSS](https://en.wikipedia.org/wiki/Compatible_Time-Sharing_System), it was made to share give a command input to a mainframe -a large computer in the old days- from a peripheral device -which is a terminal- connected to the mainframe and get the output from the mainframe as soon as the process end it was based on synchronization and made the old computers look interactive till Thompson came and rolled the table.
 
 ## What is the Terminal ?
-
+![](photo/terminal.png)
 Originally the terminal was a device, in our early days it is just a window, both were made to take our key types and translate it into characters which makes a command, and display the output of the response of the command we made by the shell on the computer.
 
 ##### A GPT definition of it:
 - A **terminal** originally referred to a physical device (like a keyboard and display) used to interact with a computer. In the modern context, a terminal is often a command-line interface (`CLI`) environment that lets you interact with the shell. 
 
-![](photo/terminal.png)
