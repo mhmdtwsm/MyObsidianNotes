@@ -57,3 +57,4 @@ Originally the terminal was a device, in our early days it is just a window, bot
 ##### A GPT definition of it:
 - A **terminal** originally referred to a physical device (like a keyboard and display) used to interact with a computer. In the modern context, a terminal is often a command-line interface (`CLI`) environment that lets you interact with the shell. 
 
+![](photo/terminal.png)
