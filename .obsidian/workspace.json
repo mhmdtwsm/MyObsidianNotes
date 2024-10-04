@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
-    "collapsed": true
+    "width": 343.5
   },
   "right": {
     "id": "92e63a351c15eb98",
@@ -149,6 +148,7 @@
   },
   "active": "1ee6d83a88f63361",
   "lastOpenFiles": [
+    "THM_Learning_era/Linux_basics_for_Hackers_book/photo/terminal.png",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch8_Bash_Scripting.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch4_APT.md",
@@ -178,7 +178,6 @@
     "THM_Learning_era/First_Phase/THM/Pasted image 20240901024646.png",
     "THM_Learning_era/THM_Walkthrough/Hacking_With_PowerShell.md",
     "THM_Learning_era/First_Phase/THM/BountyHacker-Cowboy-bebop.md",
-    "THM_Learning_era/First_Phase/THM/Exploiting_Active_Directory.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path",
     "Untitled.canvas",
     "THM_Learning_era/THM_Walkthrough",
