@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1a97585d8f480735",
+        "id": "9dde0128e2aadd3b",
         "type": "tabs",
         "children": [
           {
-            "id": "1ee6d83a88f63361",
+            "id": "fb64546f6247aa56",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,13 +147,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1ee6d83a88f63361",
+  "active": "fb64546f6247aa56",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch8_Bash_Scripting.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/photo/tty_art.png",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/tty.png",
     "Pasted image 20241004163348.png",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/terminal.png",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch8_Bash_Scripting.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch4_APT.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch3_ANALYZING_AND_MANAGING_NETWORKS.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch2_TEXT_MANIPULATION.md",
@@ -182,7 +184,6 @@
     "THM_Learning_era/THM_Walkthrough/Hacking_With_PowerShell.md",
     "THM_Learning_era/First_Phase/THM/BountyHacker-Cowboy-bebop.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path",
-    "Untitled.canvas",
     "THM_Learning_era/THM_Walkthrough",
     "THM_Learning_era/THM_CTF/photo",
     "THM_Learning_era/THM_CTF",
@@ -191,8 +192,6 @@
     "files/photos/srv/validy.png",
     "files/photos/srv/valid.png",
     "files/photos/srv/userv.png",
-    "files/photos/srv/users.png",
-    "files/photos/srv/user.png",
     "files/photos/srv",
     "THM_Learning_era/THM_CTF/photo/blue",
     "files/photos/Pickle_Rick"

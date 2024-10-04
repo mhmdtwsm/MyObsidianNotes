@@ -62,6 +62,12 @@ Originally the terminal was a device, in our early days it is just a window, bot
 So simply keystrokes types commands, commands get output, output displayed on a display platform which is the CRT screen, it needed a whole device to make this small functions, to make more than one person uses the computers in the old days, but those small functions were also made in another more older device called `tty`.
 
 
-## What is `tty`
+## What is `tty` ?
 
 ![](photo/tty.png)
+
+A **teleprinter** (**teletypewriter**, **teletype** or **`TTY`**) is an [electromechanical](https://en.wikipedia.org/wiki/Electromechanical "Electromechanical") device that can be used to send and receive typed messages through various communications channels, in both [point-to-point](https://en.wikipedia.org/wiki/Point-to-point_(telecommunications) "Point-to-point (telecommunications)") and [point-to-multipoint](https://en.wikipedia.org/wiki/Point-to-multipoint_communication "Point-to-multipoint communication") configurations. ([WIKIPEDIA](https://en.wikipedia.org/wiki/Teleprinter))
+
+It was a mechanical or some times electrical device, which was used to send messages and each character had its own code, and to receive a message and print it, so it was a sender receiver, encoder decoder, mechanical or electrical device to communicate and it was very  old that it was used to communicate in the World War 2 and invented even before it.
+It even had it's own art, which developed on our days to ASCII art:
+![](photo/tty_art.png)
