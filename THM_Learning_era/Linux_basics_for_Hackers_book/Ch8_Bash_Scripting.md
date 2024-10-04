@@ -77,8 +77,18 @@ It even had it's own art, which developed on our days to the ASCII art:
 
 #### So why the `tty` is related to Linux?
 
-In a direct way, no there are no relation between the old teletypewriters and the modern Linux in a way or or another, but it was an old concept of the development of what we see today, the old terminals were a modern teletypewriters but with CRT display and electrical keyboards which were working by a world unified code which is the ASCII, and then when the era of the mainframes became to an end -i know it didn't end and still there are mainframes but they are so rare to use and they are all in IBM- there was another type of computers got to the stage which were the small computers, less computing power and storage but small, the keyboard and CRT are embedded into the device, there were still mainframes, but the new small computers by IBM made a new way to say the computers, So the OS is working now on just one computer, the computer and the terminal were in the same device were the same hardware, and i think from this point in the 1970s, late in specific, the terminals switched to be a software.
+In a direct way, no there are no relation between the old teletypewriters and the modern Linux in a way or or another, but it was an old concept of the development of what we see today, the old terminals were a modern teletypewriters but with CRT display and electrical keyboards which were working by a world unified code which is the ASCII, and then when the era of the mainframes became to an end -i know it didn't end and still there are mainframes but they are so rare to use and they are all in IBM- there was another type of computers got to the stage which were the small computers, less computing power and storage but small, the keyboard and CRT are embedded into the device, there were still mainframes, but the new small computers by IBM made a new way to say the computers, So the OS is working now on just one computer, the computer and the terminal were in the same device were the same hardware, and i think from this point in the 1970s -late in specific-, the terminals switched to be a software.
 
 ## The modern use of the word `tty`
 
+Let's just ignore the phase that made terminals switch to be a software component in UNIX and other operating systems in 80s and 90s, and let's go to what we and see what we live in now. The terminal remained in the OS as a device but logically, in Linux there is a Virtual Terminal, which is defined on the system as a device that takes keystrokes and do some actions on the display, just a text screen you write and take your output on it.
 
+The Linux have main 7 Virtual terminals or `tty` or terminal teletypes, you can switch between them with `CTRL`+`ALT`+`F1` (Function keys), The first one for your display manager, the second is for your DE or WM and the reset are spare, and there are more than 7 `tty` on Linux and it differs from distro to another how they are used.
+
+So imagine that with me we are know on a personal IBM small computer on the mid of 80s, and we have UNIX which is the famous operating system back then, and we have a virtual devices that acts like terminals on our system and they are a tex based, the question is: how all that graphics and GUI came if we all -till now- on the background live on a text based virtually emulated 60s  command prompt device?
+
+The answer is the 2 words: `pty`, `X windows`
+
+## What is `X Windows` ?
+
+![](photo/X.png)
