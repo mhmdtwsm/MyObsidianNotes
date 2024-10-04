@@ -8,6 +8,8 @@ tags:
 ---
 ##### sources might help you: 
 - [What is tty](https://www.youtube.com/watch?v=N1bz1DTD8Io)
+- [Using a 1930 Teletype as a Linux Terminal](https://www.youtube.com/watch?v=2XLZ4Z8LpEE&t=509s)
+- 
 - [tty and Xwindows](https://www.feyrer.de/NetBSD/ttys.html)
 
 ---
@@ -72,3 +74,10 @@ It was a mechanical or some times electrical device, which was used to send mess
 It even had it's own art, which developed on our days to the ASCII art:
 ![](photo/tty_art.png)
 > Example of teleprinter art: a portrait of [Dag Hammarskjöld](https://en.wikipedia.org/wiki/Dag_Hammarskj%C3%B6ld "Dag Hammarskjöld"), 1962
+
+#### So why the `tty` is related to Linux?
+
+In a direct way, no there are no relation between the old teletypewriters and the modern Linux in a way or or another, but it was an old concept of the development of what we see today, the old terminals were a modern teletypewriters but with CRT display and electrical keyboards which were working by a world unified code which is the ASCII, and then when the era of the mainframes became to an end -i know it didn't end and still there are mainframes but they are so rare to use and they are all in IBM- there was another type of computers got to the stage which were the small computers, less computing power and storage but small, the keyboard and CRT are embedded into the device, there were still mainframes, but the new small computers by IBM made a new way to say the computers, So the OS is working now on just one computer, the computer and the terminal were in the same device were the same hardware, and i think from this point in the 1970s, late in specific, the terminals switched to be a software.
+
+## The modern use of the word `tty`
+
