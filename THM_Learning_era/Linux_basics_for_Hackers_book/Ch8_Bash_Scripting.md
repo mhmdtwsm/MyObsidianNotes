@@ -22,7 +22,7 @@ Okay, let's ask some questions:
 5. what is `pty`
 6. what is `X Windows`
 
-And i know that Sh!$#y damn hard questions isn't in the book, but that is my notes and that is what i asked while reading the book, So, before i get into the bash scripting i am saying all what i searched for about: What is the terminal?
+And i know that questions isn't in the book, but that is my notes and that is what i asked while reading the book, So, before i get into the bash scripting i am saying all what i searched for about: What is the terminal?
 
 ## Intro
 
