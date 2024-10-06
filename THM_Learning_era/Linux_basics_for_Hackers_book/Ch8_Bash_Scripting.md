@@ -112,3 +112,4 @@ The X Window System and `PTY`s (pseudo-terminals) both serve as interfaces for u
 In the X Window System, a PTY (pseudoterminal) provides an interface that mimics a physical terminal, enabling terminal emulators like `xterm` to interact with processes. A PTY has two components: the master (controlled by the emulator) and the slave (seen as a terminal by applications). When a user types, input goes from the emulator through the master side to the slave, where it's processed like terminal input. Output from the application is sent back through the master, displayed by the emulator. PTYs allow terminal-based applications to function within graphical environments like X.
 
 
+> The End 
