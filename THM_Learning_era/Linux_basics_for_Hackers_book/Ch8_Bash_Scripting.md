@@ -10,7 +10,6 @@ tags:
 - [What is tty](https://www.youtube.com/watch?v=N1bz1DTD8Io)
 - [Using a 1930 Teletype as a Linux Terminal](https://www.youtube.com/watch?v=2XLZ4Z8LpEE&t=509s)
 - [tty and Xwindows](https://www.feyrer.de/NetBSD/ttys.html)
-
 ---
 
 Okay, let's ask some questions:
