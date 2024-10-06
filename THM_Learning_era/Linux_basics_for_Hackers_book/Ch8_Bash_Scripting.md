@@ -89,6 +89,26 @@ So imagine that with me we are now on a personal IBM small computer on the mid o
 
 The answer is the 2 words: `pty`, `X windows`
 
-## What is `X Windows` ?
+## What is `X Window` ?
 
 ![](photo/X.png)
+
+This is the Godfather of the modern GUI i searched a lot of the mechanism of how the `X Window` system, and how it works but i didn't get how actually it is working behind scenes just had some conflicting thoughts might be right or wrong, so i will just give a surface look about what is the `X window` and what it does, and to find a good article to give you some info look at this [article](https://www.feyrer.de/NetBSD/ttys.html) i will talk based on it.
+
+The `X window` is a graphical protocol that controls the `tty` screen and draws upon it a graphical interface. The `X window` is used on the UNIX and UNIX-Like systems from 80s till now!
+
+The X Window System, developed at MIT in the mid-1980s, revolutionized how graphical interfaces are presented on Unix-based systems. Initially, Unix operated on a purely text-based interface, where users interacted through teletypes and CRT terminals connected via serial lines. Commands were sent to a central mainframe, with responses displayed character by character. The need for a more intuitive user experience led to the development of the X Window System, which decoupled the graphical interface from the hardware.
+
+In the context of the X Window System, "networks" refers to the capability of X to operate in a distributed environment. This means that the X server (the component that manages the display and input devices) can run on one machine while the X clients (the applications that use the graphical interface) can run on different machines connected through a network. 
+
+X is designed to allow applications (clients) to be executed on one machine while their graphical output is displayed on another machine. This architecture is particularly useful in networked environments, enabling remote access to graphical applications, so when you have a terminal that supports the `X system` and you want to access a GUI app, the `X server` runs and treats you as an `X client` and give you the a processed graphical output of the application you want.
+
+So to be clear and simple, the `X window` system which is in the modern Linux systems called `XOrg` or `X11` are a protocol that controls the `tty` screen, and by communicating with the frame buffer and a lot of other things and other protocols it directly access the hardware and use it to draw your screen pixel by pixel, and in the front end it has special protocols to communicate with the programs with libraries like `GTK` or `QT` to define a mutual ground with the apps to communicate with them for making the GUI.
+
+## What is `pty`
+
+The X Window System and `PTY`s (pseudo-terminals) both serve as interfaces for user interaction in Unix-like systems, but they operate at different layers. `PTY`s emulate physical terminals, providing bidirectional communication between processes (such as shells) and terminal emulators. X Window, on the other hand, manages graphical output and input devices, allowing applications to display windows and receive input via keyboard and mouse. While `PTY`s enable text-based I/O over virtual terminals, X manages graphical sessions. X clients (applications) can interact with remote or local X servers, while `PTY`s facilitate terminal-based interactions within those environments.
+
+In the X Window System, a PTY (pseudoterminal) provides an interface that mimics a physical terminal, enabling terminal emulators like `xterm` to interact with processes. A PTY has two components: the master (controlled by the emulator) and the slave (seen as a terminal by applications). When a user types, input goes from the emulator through the master side to the slave, where it's processed like terminal input. Output from the application is sent back through the master, displayed by the emulator. PTYs allow terminal-based applications to function within graphical environments like X.
+
+
