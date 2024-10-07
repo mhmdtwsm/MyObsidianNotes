@@ -5,11 +5,15 @@ tags:
   - tty
   - pty
   - IP
+  - X
+  - X11
+  - Xorg
 ---
 ##### sources might help you: 
 - [What is tty](https://www.youtube.com/watch?v=N1bz1DTD8Io)
 - [Using a 1930 Teletype as a Linux Terminal](https://www.youtube.com/watch?v=2XLZ4Z8LpEE&t=509s)
 - [tty and Xwindows](https://www.feyrer.de/NetBSD/ttys.html)
+- [`X System`](https://www.youtube.com/watch?v=R-N-fgKWYGU&list=LL&index=1&t=1084s)
 ---
 
 Okay, let's ask some questions:

@@ -9,3 +9,6 @@
 # [Sixth Chapter: Process Management](Ch6_Process_Management.md)
 
 # [Ch7_Environment_Variables](Ch7_Environment_Variables.md)
+
+# [Ch8_Bash_Scripting](Ch8_Bash_Scripting.md)
+
