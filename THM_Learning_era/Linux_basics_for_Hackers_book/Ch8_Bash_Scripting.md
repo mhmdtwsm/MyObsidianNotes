@@ -128,7 +128,7 @@ Writing a script is a skill that every hacker must have. **Scripts** most of the
 
 # Writing a script
 
-## The Shebang!
+## 1. The Shebang!
 
 
 
