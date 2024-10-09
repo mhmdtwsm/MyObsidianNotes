@@ -189,6 +189,33 @@ read cmd;
 man $cmd;
 ```
 
+## The scanning script
+
+We leverage `nmap`, a powerful network scanning tool available in Kali Linux, which allows us to probe various systems in a specified IP range. The script begins by prompting the user for a starting IP address and the last octet of the target range, enabling flexibility in the scan without altering the script each time. Users can also specify the port to scan, defaulting to 3306 if none is provided. The command `nmap -sT` is employed to perform a TCP connect scan, searching for open ports in the specified range. The results are stored in a grepable format (`-oG`), which simplifies the process of filtering for open ports. The output is directed to a temporary file, which is subsequently filtered to display only hosts with the desired port open.
+
+```bash
+#!/bin/bash
+
+# MySQL Port Scanner Script
+echo "Enter the starting IP address (e.g., 192.168.181.0): "
+read FirstIP
+echo "Enter the last octet of the last IP address (e.g., 255): "
+read LastOctetIP
+echo "Enter the port number you want to scan for (default: 3306): "
+read port
+
+# Default to port 3306 if no input is given
+port=${port:-3306}
+
+# Execute nmap scan
+nmap -sT $FirstIP-$LastOctetIP -p $port -oG MySQLscan >/dev/null
+
+# Display results
+echo "Scanning for open ports..."
+cat MySQLscan | grep open > MySQLscan2
+echo "Hosts with port $port open:"
+cat MySQLscan2
+```
 
 # Basic BASH Script commands
 
