@@ -189,4 +189,38 @@ read cmd;
 man $cmd;
 ```
 
+
+# Basic BASH Script commands
+
+| Command    | Describtion                                                                                                                   |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `:`        | Returns 0 or true.                                                                                                            |
+| `.`        | Executes a shell script in the current shell environment, allowing access to variables and functions defined in the script.   |
+| `bg`       | Puts a suspended job in the background, allowing the user to continue using the shell while the job runs.                     |
+| `break`    | Exits the nearest enclosing loop (like `for`, `while`, or `until`) immediately.                                               |
+| `cd`       | Changes the current working directory to the specified path.                                                                  |
+| `continue` | Skips the remaining commands in the current loop iteration and proceeds to the next iteration.                                |
+| `echo`     | Displays the specified text or variables to the terminal.                                                                     |
+| `fg`       | Brings a suspended job to the foreground for direct interaction.                                                              |
+| `getopts`  | Parses command-line options and arguments for shell scripts, handling flags and options in a structured manner.               |
+| `jobs`     | Lists all background jobs in the current shell session, including their status.                                               |
+| `pwd`      | Outputs the absolute path of the current directory.                                                                           |
+| `read`     | Reads a line of input from the user and stores it in a specified variable.                                                    |
+| `readonly` | Marks a variable or function as read-only, preventing modification after declaration.                                         |
+| `set`      | Displays the names and values of all shell variables and functions in the current session.                                    |
+| `shift`    | Moves the script's input parameters to the left, dropping the first parameter, useful for consuming parameters one at a time. |
+| `test`     | Evaluates conditional expressions, returning an exit status based on the result.                                              |
+| `[[`       | Performs a conditional test with additional features, such as pattern matching, for complex conditions.                       |
+| `times`    | Prints the accumulated user and system CPU time used by the shell and its child processes.                                    |
+| `trap`     | Catches and responds to specific signals, allowing custom handling of interruptions in scripts.                               |
+| `type`     | Displays how the shell interprets a command, indicating its type (built-in, alias, function, or executable).                  |
+| `umask`    | Sets default file permissions for newly created files and directories, determining permissions not set by default.            |
+| `unset`    | Removes a variable or function definition, effectively deleting its value from the current shell environment.                 |
+| `wait`     | Pauses execution of a script until all background jobs complete or until a specific job ID is provided.                       |
+| `eval`     | Takes a string as an argument and executes it as a command, allowing for dynamic command execution.                           |
+| `exec`     | Replaces the current shell process with the specified command, running it in place of the shell.                              |
+| `exit`     | Terminates the current shell session and returns control to the parent process, optionally returning an exit status.          |
+| `export`   | Marks a variable or function for export to child processes, allowing access to its value across scripts and applications.     |
+
+
 ---
