@@ -158,4 +158,6 @@ ls ls "/home/$USER/Desktop"
 
 The `$USER` is an **environment** **variable** the contains the name of the user running the script on his shell. To revise on environment variables go to [Chapter 7](Ch7_Environment_Variables.md)
 
+After writing the last script on your code editor open the terminal and give the script execute permissions. To revise on the permissions go to [Chapter 5](Ch5_Files_And_Directory_Permissions.md)
+
 ---
