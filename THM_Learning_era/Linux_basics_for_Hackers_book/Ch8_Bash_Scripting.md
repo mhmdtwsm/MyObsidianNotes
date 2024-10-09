@@ -130,7 +130,7 @@ Writing a script is a skill that every hacker must have. **Scripts** most of the
 
 ## The Shebang!
 
-First line of the BASH script is to indicate that you want to use the BASH interpreter binary to run the script, to do that there you need to to type the shebang (`#!`) followed by the path of the bash binary on the system (`/bin/bash`
+First line of the BASH script is to indicate that you want to use the BASH interpreter binary to run the script, to do that there you need to to type the shebang (`#!`) followed by the path of the bash binary on the system (`/bin/bash`)
 
 ```bash
 #! /bin/bash
@@ -141,5 +141,23 @@ knowing that it is okay to use the shebang method for any other interpreted lang
 
 The Shebang must be in the first line and nothing before it not even a comment.
 
+## Write, Executebash
+# The Shebang
+
+
+Now the next point is to add a function to the script to see it working. I will make it say hello world and get the content of the desktop.
+
+```bash
+#! /bin/bash
+# The Shebang
+
+#print hello world
+echo "Hello World"
+
+#print the content of the Desktop
+ls ls "/home/$USER/Desktop"
+```
+
+The `$USER` is an **environment** **variable** the contains the name of the user running the script on his shell. To revise on environment variables go to [Chapter 7](Ch7_Environment_Variables.md)
 
 ---
