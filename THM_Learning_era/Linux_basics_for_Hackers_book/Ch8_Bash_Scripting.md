@@ -10,6 +10,7 @@ tags:
   - Xorg
 ---
 ##### sources might help you: 
+-[Terminal and CLI art](https://youtu.be/KdoaiGTIBY4?si=r-ikK2oqcvU_1clK)
 - [What is tty](https://www.youtube.com/watch?v=N1bz1DTD8Io)
 - [Using a 1930 Teletype as a Linux Terminal](https://www.youtube.com/watch?v=2XLZ4Z8LpEE&t=509s)
 - [tty and Xwindows](https://www.feyrer.de/NetBSD/ttys.html)
@@ -119,3 +120,16 @@ Now, after answering all the questions i asked, after explaining all what i rese
 
 ---
 
+# What is BASH and what is Scripting
+
+A shell is an interface between the user and the operating system for running commands and managing files directly, without a GUI. Linux offers various shells like Korn, Z shell, C shell, and Bash (Bourne-again shell).
+
+Writing a script is a skill that every hacker must have. **Scripts** most of the times are made to automate some repetitive commands, because of that often the used languages for scripting are interpreted high-level languages (like python, java script, bash). **Bash** is a shell that gives you the ability to communicate with the system, and the commands of it is ran by an interpreter, so it gives you the ability to run a script of the commands of this shell on that interpreter.
+
+# Writing a script
+
+## The Shebang!
+
+
+
+---
