@@ -130,12 +130,11 @@ Writing a script is a skill that every hacker must have. **Scripts** most of the
 
 ## The Shebang!
 
-First line of the BASH script is to indicate that you want to use the BASH interpreter binary to run the script, to do that there you need to to type the shebang (`#!`) followed by the path of the bash binary on the system `/bin/bash`
+First line of the BASH script is to indicate that you want to use the BASH interpreter binary to run the script, to do that there you need to to type the shebang (`#!`) followed by the path of the bash binary on the system (`/bin/bash`
 
 ```bash
 #! /bin/bash
 # The Shebang
-
 ```
 
 knowing that it is okay to use the shebang method for any other interpreted language like python for example.
