@@ -10,7 +10,7 @@ tags:
   - Xorg
 ---
 ##### sources might help you: 
--[Terminal and CLI art](https://youtu.be/KdoaiGTIBY4?si=r-ikK2oqcvU_1clK)
+- [Terminal and CLI art](https://youtu.be/KdoaiGTIBY4?si=r-ikK2oqcvU_1clK)
 - [What is tty](https://www.youtube.com/watch?v=N1bz1DTD8Io)
 - [Using a 1930 Teletype as a Linux Terminal](https://www.youtube.com/watch?v=2XLZ4Z8LpEE&t=509s)
 - [tty and Xwindows](https://www.feyrer.de/NetBSD/ttys.html)
