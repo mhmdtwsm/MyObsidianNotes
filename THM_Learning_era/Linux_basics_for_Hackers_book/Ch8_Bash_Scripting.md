@@ -160,4 +160,32 @@ The `$USER` is an **environment** **variable** the contains the name of the user
 
 After writing the last script on your code editor open the terminal and give the script execute permissions. To revise on the permissions go to [Chapter 5](Ch5_Files_And_Directory_Permissions.md)
 
+```bash
+chmod +x {your script name}
+```
+
+Now to run it you need to but `./` before the file name.
+
+The `./` before a filename indicates that the script should be executed from the current directory, ignoring any files with the same name in other directories. Using `./` is good practice, as it localizes execution and prevents conflicts with files that may have duplicate names.
+
+```bash
+./script
+```
+
+## Taking input
+
+To take input for the script you need to use `read` followed by the name of the variable you want to store the input in.
+
+Here is a scenario of using it, knowing that this symbol `$` means to execute the text given so it expects that what you give it can be executed on the BASH, as a string or as a command or a value it depends on the place you put it in.
+Read [this](https://medium.com/@linuxadminhacks/what-does-the-syntax-do-in-bash-f6c4b23027ba) to know more about this symbol `$`
+
+```bash
+#! /bin/bash
+
+echo "Enter a command and i will give a manual for it";
+echo "-----------------------------------------------";
+read cmd;
+man $cmd;
+```
+
 ---
