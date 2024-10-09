@@ -141,9 +141,7 @@ knowing that it is okay to use the shebang method for any other interpreted lang
 
 The Shebang must be in the first line and nothing before it not even a comment.
 
-## Write, Executebash
-# The Shebang
-
+## Write, Execute
 
 Now the next point is to add a function to the script to see it working. I will make it say hello world and get the content of the desktop.
 
