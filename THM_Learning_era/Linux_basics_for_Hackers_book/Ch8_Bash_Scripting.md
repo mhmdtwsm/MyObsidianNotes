@@ -217,7 +217,7 @@ echo "Hosts with port $port open:"
 cat MySQLscan2
 ```
 
-# Basic BASH Script commands
+# Basic BASH Scripting commands
 
 | Command    | Describtion                                                                                                                   |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------- |
