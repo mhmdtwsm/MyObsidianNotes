@@ -15,6 +15,7 @@ tags:
 - [Using a 1930 Teletype as a Linux Terminal](https://www.youtube.com/watch?v=2XLZ4Z8LpEE&t=509s)
 - [tty and Xwindows](https://www.feyrer.de/NetBSD/ttys.html)
 - [`X System`](https://www.youtube.com/watch?v=R-N-fgKWYGU&list=LL&index=1&t=1084s)
+- [BASH scripting](https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/)
 ---
 
 Okay, let's ask some questions:
@@ -177,7 +178,7 @@ The `./` before a filename indicates that the script should be executed from the
 To take input for the script you need to use `read` followed by the name of the variable you want to store the input in.
 
 Here is a scenario of using it, knowing that this symbol `$` means to execute the text given so it expects that what you give it can be executed on the BASH, as a string or as a command or a value it depends on the place you put it in.
-Read [this](https://medium.com/@linuxadminhacks/what-does-the-syntax-do-in-bash-f6c4b23027ba) to know more about this symbol `$`
+Read [this](https://medium.com/@linuxadminhacks/what-does-the-syntax-do-in-bash-f6c4b23027ba) and [this](https://medium.com/@linuxadminhacks/what-is-the-variable-in-bash-438e4f9786da) to know more about this symbol `$`
 
 ```bash
 #! /bin/bash
