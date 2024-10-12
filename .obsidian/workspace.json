@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Ch8_Bash_Scripting.md",
-                "mode": "preview",
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Burp_Suite_The_Basics.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
-    "collapsed": true
+    "width": 343.5
   },
   "right": {
     "id": "92e63a351c15eb98",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Ch8_Bash_Scripting.md",
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Burp_Suite_The_Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Ch8_Bash_Scripting.md",
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Burp_Suite_The_Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Ch8_Bash_Scripting.md"
+                "file": "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Burp_Suite_The_Basics.md"
               }
             }
           }
@@ -149,8 +148,11 @@
   },
   "active": "ef856662374a0be4",
   "lastOpenFiles": [
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md",
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Burp_Suite_The_Basics.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch8_Bash_Scripting.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec1_The_File_System_Structure_Basics.md",
     "THM_Learning_era/THM_CTF/Vuln_Roasted.md",
     "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
@@ -170,9 +172,6 @@
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch3_ANALYZING_AND_MANAGING_NETWORKS.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch2_TEXT_MANIPULATION.md",
     "THM_Learning_era/THM_CTF/LinuxRoom-1.md",
-    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Burp_Suite_The_Basics.md",
-    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
-    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md",
     "THM_Learning_era/drafty.md",
     "THM_Learning_era/Notes_Commands/Notes_List.md",
     "THM_Learning_era/THM_Walkthrough/Walkthroughs_List.md",
