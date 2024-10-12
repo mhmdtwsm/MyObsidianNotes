@@ -129,6 +129,9 @@ netstat -ano
 
 Some notes from the Linux Basics For Hackers Book for:
 - [Find Commands](../Linux_basics_for_Hackers_book/Ch1_Sec2_Basic_Commands.md#Finding-files-commands)
+- [File Permissions](../Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md)
+
+The Find commands:
 
 - `find . -name flag1.txt`: find the file named `flag1.txt` in the current directory
 
