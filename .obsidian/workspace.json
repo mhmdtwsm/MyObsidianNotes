@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md"
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md"
               }
             }
           }
@@ -146,20 +146,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19bcfbf4784cdfcd",
+  "active": "ef856662374a0be4",
   "lastOpenFiles": [
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch9_Compressing_And_Archiving.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch8_Bash_Scripting.md",
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Complete_Beginner_Path.md",
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
+    "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec2_Basic_Commands.md",
-    "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Burp_Suite_The_Basics.md",
-    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch8_Bash_Scripting.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec1_The_File_System_Structure_Basics.md",
     "THM_Learning_era/THM_CTF/Vuln_Roasted.md",
     "THM_Learning_era/THM_Walkthrough/Hacking_With_PowerShell.md",
-    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Complete_Beginner_Path.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_General_Basics.md",
     "THM_Learning_era/THM_CTF/Pickle_Rick.md",
     "THM_Learning_era/THM_CTF/Mr.Robot.md",
@@ -180,7 +181,6 @@
     "THM_Learning_era/THM_CTF/CTF_List.md",
     "THM_Learning_era/First_Phase/THM/Old_THM-Panel.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals",
-    "THM_Learning_era/Notes_Commands/Important_AD_Commands.md",
     "THM_Learning_era/Notes_Commands",
     "Untitled",
     "THM_Learning_era/First_Phase/THM/Pasted image 20240901024646.png",

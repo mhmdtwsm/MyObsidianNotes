@@ -12,3 +12,6 @@
 
 # [Ch8_Bash_Scripting](Ch8_Bash_Scripting.md)
 
+# [Ch9_Compressing_And_Archiving](Ch9_Compressing_And_Archiving.md)
+
+
