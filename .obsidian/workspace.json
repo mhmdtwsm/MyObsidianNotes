@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Ch9_Compressing_And_Archiving.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Ch9_Compressing_And_Archiving"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Ch9_Compressing_And_Archiving.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Ch9_Compressing_And_Archiving"
             }
           },
           {
@@ -102,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Ch9_Compressing_And_Archiving.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Ch9_Compressing_And_Archiving"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md"
-              }
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Ch9_Compressing_And_Archiving.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Ch9_Compressing_And_Archiving"
             }
           }
         ]
@@ -146,10 +162,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef856662374a0be4",
+  "active": "19bcfbf4784cdfcd",
   "lastOpenFiles": [
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch9_Compressing_And_Archiving.md",
+    "Java_Script",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch9_Compressing_And_Archiving.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch8_Bash_Scripting.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Complete_Beginner_Path.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
@@ -179,10 +196,8 @@
     "THM_Learning_era/THM_Walkthrough/Walkthroughs_List.md",
     "().md",
     "THM_Learning_era/THM_CTF/CTF_List.md",
-    "THM_Learning_era/First_Phase/THM/Old_THM-Panel.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals",
     "THM_Learning_era/Notes_Commands",
-    "Untitled",
     "THM_Learning_era/First_Phase/THM/Pasted image 20240901024646.png",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path",
     "THM_Learning_era/THM_Walkthrough",
