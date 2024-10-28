@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8f2edb0011e5e276",
+        "id": "4630f2d7f70432a7",
         "type": "tabs",
         "children": [
           {
-            "id": "ef856662374a0be4",
+            "id": "5b71661418d62613",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -158,7 +158,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef856662374a0be4",
+  "active": "5b71661418d62613",
   "lastOpenFiles": [
     "Java_Script/DOM/getElementById.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch9_Compressing_And_Archiving.md",
