@@ -1,7 +1,7 @@
 
 JavaScript has several fundamental data types, which can be divided into two categories: **primitive types** and **non-primitive types**.
 
-# Primitive Data Types
+## Primitive Data Types
 
 **Number**: Used for any type of numerical value, including integers and floating-point numbers.
 ```js
@@ -38,7 +38,7 @@ console.log(value); // undefined
 let uniqueKey = Symbol('key');
 ```
 
-# Non-Primitive (Complex) Data Types
+## Non-Primitive (Complex) Data Types
 
 **Objects**: Used to store collections of data or more complex entities. Objects include arrays, functions, and other structures that store values.
 
@@ -53,3 +53,17 @@ console.log(person.name);     // Output: "Alice"
 console.log(person.age);      // Output: 25
 console.log(person.isStudent); // Output: true
 ```
+
+**Array**.
+```js
+let numbers = [1, 2, 3, 4];
+```
+
+**Function**
+```js
+function greet() { console.log("Hello World"); }
+console.log(typeof greet); // It should return function
+```
+
+---
+# 
