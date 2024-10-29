@@ -81,18 +81,21 @@ let d = a.concat(' ', b)
 ```
 
 
-**Boolean**: Holds either `true` or `false`, typically used in conditional logic.
+### **Boolean**
+Holds either `true` or `false`, typically used in conditional logic.
 ```js
 let correct = true;
 ```
 
-**Undefined**: A variable that has been declared but not assigned a value.
+### **Undefined**
+A variable that has been declared but not assigned a value.
 ```js
 let value;
 console.log(value); // undefined
 ```
 
-**Symbol**: Represents a unique identifier, commonly used for object properties that should not conflict with other properties.
+### **Symbol**
+Represents a unique identifier, commonly used for object properties that should not conflict with other properties.
 ```js
 let uniqueKey = Symbol('key');
 ```
@@ -109,7 +112,8 @@ let uniqueKey = Symbol('key');
 
 **Objects**: Used to store collections of data or more complex entities. Objects include arrays, functions, and other structures that store values.
 
-**Object literal**. In JavaScript, an **object literal** is a way to create an object directly using a set of curly braces `{}` with key-value pairs. This approach is simple and commonly used to create objects with specific properties and values without needing a constructor function or class.
+### **Object literal**
+In JavaScript, an **object literal** is a way to create an object directly using a set of curly braces `{}` with key-value pairs. This approach is simple and commonly used to create objects with specific properties and values without needing a constructor function or class.
 ```js
 let person = {
   name: "Alice",
@@ -121,12 +125,12 @@ console.log(person.age);      // Output: 25
 console.log(person.isStudent); // Output: true
 ```
 
-**Array**.
+### **Array**.
 ```js
 let numbers = [1, 2, 3, 4];
 ```
 
-**Function**
+### **Function**
 ```js
 function greet() { console.log("Hello World"); }
 console.log(typeof greet); // It should return function
