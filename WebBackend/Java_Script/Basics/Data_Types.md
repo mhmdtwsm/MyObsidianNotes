@@ -18,6 +18,12 @@ JavaScript has several fundamental data types, which can be divided into two cat
 ### **Number**
 
 Used for any type of numerical value, including integers and floating-point numbers.
+```js
+let a = 10
+let b = 10.1
+console.log(typeof a)
+console.log(typeof b)
+```
 
 - The JavaScript `Number` type is a [double-precision 64-bit binary format IEEE 754](https://en.wikipedia.org/wiki/Double_precision_floating-point_format) value, like `double` in Java or C#.
 
@@ -30,24 +36,50 @@ Used for any type of numerical value, including integers and floating-point numb
 	- Negative values greater than -[`Number.MIN_VALUE`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MIN_VALUE) are converted to `-0`.
 
 
-*Example:*
-```js
-let a = 10
-let b = 10.1
-console.log(typeof a)
-console.log(typeof b)
-```
 
-**`BigInt`**: Represents integers of arbitrary precision, useful for very large integers that go beyond the safe integer limit in JavaScript (`2^53 - 1`).
+### **`BigInt`**
+Represents integers of arbitrary precision, useful for very large integers that go beyond the safe integer limit in JavaScript (`2^53 - 1`).
 ```js
 let bigNumber = 123456789012345678901234567890n;
 ```
 
-**String**: Used for text data, written inside quotes (`''`, `""`, or `` ` ` `` for template literals).
+### **String**
+Used for text data, written inside quotes (`''`, `""`, or `` ` ` `` for template literals).
 ```js
 let name = "Alice"; 
 let greeting = `Hello, ${name}!`; // Used here to evaluate a thing in the middle of a string
 ```
+
+- The [`String`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) type represents textual data and is encoded as a sequence of 16-bit unsigned integer values representing [UTF-16 code units](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#utf-16_characters_unicode_code_points_and_grapheme_clusters).
+
+- Each element in the string occupies a position in the string. The first element is at index `0`, the next at index `1`, and so on.
+
+- The [length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length) of a string is the number of UTF-16 code units in it, which may not correspond to the actual number of Unicode characters.
+
+- JavaScript strings are immutable. This means that once a string is created, it is not possible to modify it.
+
+**String methods** create new strings based on the content of the current string — for 
+example:
+
+1. A **substring** of the original using [`substring()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
+```js
+const str = 'Mozilla';
+
+console.log(str.substring(1, 3));
+// Expected output: "oz"
+
+console.log(str.substring(2));
+// Expected output: "zilla"
+```
+
+2. A concatenation of two strings using the concatenation operator (`+`) or [`concat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat). 
+```js
+let a = "Hello";
+let b = "World";
+let c = a + b // The + operator
+let d = a.concat(' ', b)
+```
+
 
 **Boolean**: Holds either `true` or `false`, typically used in conditional logic.
 ```js
