@@ -77,7 +77,7 @@ console.log(str.substring(2));
 let a = "Hello";
 let b = "World";
 let c = a + b // The + operator
-let d = a.concat(' ', b)
+let d = a.concat(' ', b) // Using concat method
 ```
 
 
