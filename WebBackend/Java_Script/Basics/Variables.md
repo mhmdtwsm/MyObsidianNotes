@@ -1,3 +1,4 @@
+
 # Declaring a variable
 
 First thing. How to make a variable?

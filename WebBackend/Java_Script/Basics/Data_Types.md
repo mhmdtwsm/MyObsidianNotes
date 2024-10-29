@@ -1,4 +1,6 @@
 
+# JS Data types
+
 JavaScript has several fundamental data types, which can be divided into two categories: **primitive types** and **non-primitive types**.
 
 ## Primitive Data Types
