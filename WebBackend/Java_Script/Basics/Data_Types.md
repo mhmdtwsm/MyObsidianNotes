@@ -68,4 +68,5 @@ console.log(typeof greet); // It should return function
 ```
 
 ---
-# 
+# [Dynamic and weak typing](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#dynamic_and_weak_typing)
+
