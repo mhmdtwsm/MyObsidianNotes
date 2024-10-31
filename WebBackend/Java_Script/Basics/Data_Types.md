@@ -42,7 +42,7 @@ Represents integers of arbitrary precision, useful for very large integers that 
 ```js
 let bigNumber = 123456789012345678901234567890n;
 ```
-
+---
 ### **String**
 Used for text data, written inside quotes (`''`, `""`, or `` ` ` `` for template literals).
 ```js
@@ -68,6 +68,7 @@ example:
 1. A **substring** of the original using [`substring()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
 
 *Documentation:*
+
 The `substring()` method in JavaScript is used to extract a portion of a string between two specified indices (positions). It returns a new string without modifying the original string.
 ```
 substring(indexStart)
@@ -111,7 +112,7 @@ let b = "World";
 let c = a + b // The + operator
 let d = a.concat(' ', b) // Using concat method
 ```
-
+---
 
 ### **Boolean**
 Holds either `true` or `false`, typically used in conditional logic.
