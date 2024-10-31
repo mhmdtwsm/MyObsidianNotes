@@ -42,10 +42,11 @@ Represents integers of arbitrary precision, useful for very large integers that 
 ```js
 let bigNumber = 123456789012345678901234567890n;
 ```
-
-
+---
 ### Strings
 [**Look Here**](Strings.md)
+
+---
 ### **Boolean**
 Holds either `true` or `false`, typically used in conditional logic.
 ```js
