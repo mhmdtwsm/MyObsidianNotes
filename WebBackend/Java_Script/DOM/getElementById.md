@@ -1,3 +1,9 @@
+---
+tags:
+  - getElementById
+  - innerText
+---
+
 `getElementById` is a method in the Document Object Model (DOM) used in JavaScript to select and manipulate HTML elements.
 
 So basically you enter the ID of an object in the HTML Doc and start playing with it.

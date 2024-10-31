@@ -1,3 +1,9 @@
+---
+tags:
+  - let
+  - var
+  - const
+---
 
 # Declaring a variable
 

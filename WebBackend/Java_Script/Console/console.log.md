@@ -1,3 +1,9 @@
+---
+tags:
+  - console
+  - log
+---
+
 - **Definition**: `console.log` is a method of the `console` object that outputs messages to the web console.
 
 - **Purpose**: It is used for logging information, debugging scripts, and displaying variable values or messages during the execution of a program.
