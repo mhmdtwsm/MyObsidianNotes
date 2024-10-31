@@ -95,6 +95,15 @@ concat(value1) concat(value1, value2)
 concat(value1, value2, /* …, */ valueN)
 ```
 
+`concat()` *Example*:
+```js
+let a = [1,2,3,4];
+let b = [5];
+let c = [6];
+console(a.concat(b, c)) // It will print [1, 2, 3, 4 ,5 ,6]
+```
+
+`concat()` strings *Example*:
 ```js
 let a = "Hello";
 let b = "World";
