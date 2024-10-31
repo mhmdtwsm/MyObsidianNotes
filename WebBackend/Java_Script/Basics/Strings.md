@@ -3,6 +3,10 @@ tags:
   - substring
   - concat
   - length
+  - toUpperCase
+  - toLowerCase
+  - replace
+  - charAt
 ---
 
 # What is String?
@@ -35,6 +39,8 @@ let greeting = `Hello, ${name}!`; // Used here to evaluate a thing in the middle
 #substring 
 
 The `substring()` method in JavaScript is used to extract a portion of a string between two specified indices (positions). It returns a new string without modifying the original string.
+
+Syntax
 ```
 substring(indexStart)
 substring(indexStart, indexEnd)
@@ -55,6 +61,8 @@ console.log(str.substring(2));
 #concat 
 
 The **`concat()`** method of [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) instances is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
+
+***Syntax***
 ```
 concat() 
 concat(value1) concat(value1, value2) 
@@ -87,5 +95,76 @@ let a = [1,2,3,4,5];
 let b = "mhmd";
 console.log(a.lenght); // Should return 5
 console.log(b.length); // Shoule return 4
+```
+
+### `toUpperCase`
+#toUpperCase
+
+The **`toUpperCase()`** method of [`String`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) values returns this string converted to uppercase.
+```js
+const sentence = 'The quick brown fox jumps over the lazy dog.';
+
+console.log(sentence.toUpperCase());
+// Expected output: "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG."
+```
+
+### `toLowerCase`
+#toLowerCase
+
+The **`toLowerCase()`** method of [`String`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) values returns this string converted to lower case.
+```js
+const sentence = 'The quicK BrOwn Fox JUMPS OVEr the lazy dog.';
+
+console.log(sentence.toLowerCase());
+// Expected output: 'the quick brown fox jumps over the lazy dog.'
+```
+
+### `replace`
+#replace
+
+The `replace()` method in JavaScript is used to create a new string by replacing some or all matches of a pattern within a given string. The `pattern` can be a simple string or a more complex regular expression. ***It remove only the first occurrence of the word or pattern you want.*** 
+
+***Syntax***
+```
+replace(pattern, replacement)
+```
+
+*Example*
+```js
+let a = "Hello Ladies, Hello Gentelmen"
+console.log(a.replace("Hello", "Hi")) // Hi Ladies, Hello Gentelmen
+```
+
+#### `replaceAll`
+
+There is `replaceAll` if you want to replace all occurence of a word or a pattern in the whole string.
+```js
+let a = "Hello Ladies, Hello Gentelmen"
+console.log(a.replaceAll("Hello", "Hi")) // Hi Ladies, Hi Gentelmen
+```
+
+### `charAt`
+#charAt
+
+**The `charAt()` method** is used to access a specific character within a string. It takes an index as an argument, which represents the position of the character you want to retrieve. The index starts from 0. If the index is out of bounds, it returns an empty string.
+```js
+let str = "hello"; 
+let firstChar = str.charAt(0); // 'h'
+```
+
+But there are the **Bracket Notation** which is: `a[0]`, so why you use `charAt` for strings?
+- **`charAt()`:** Returns an empty string when the index is out of bounds.
+- **Bracket Notation:** Returns `undefined` for out-of-bounds indices.
+
+```js
+let str = "hello";
+
+// Using charAt()
+let char1 = str.charAt(0); // 'h'
+let char2 = str.charAt(5); // '' (empty string)
+
+// Using bracket notation
+let char3 = str[0]; // 'h'
+let char4 = str[5]; // undefined
 ```
 

@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#substring",
+                "query": "tag:#replace",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,7 +163,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9bc5873ed7fa2753",
+  "active": "9665b01f323deb89",
   "lastOpenFiles": [
     "Java_Script/Basics/Strings.md",
     "Java_Script/Basics/Data_Types.md",
