@@ -170,4 +170,16 @@ let char4 = str[5]; // undefined
 
 ### **Template Literals**
 
-Template literals provide a concise and readable way to embed variables and expressions within strings. They are enclosed in backticks (\`\`) and use `${}` to denote expressions. 
+Template literals provide a concise and readable way to embed variables and expressions within strings. They are enclosed in backticks **(\`\`)** and use `${}` to denote expressions.
+
+***Syntax***
+```js
+`${expression1} ${expression2} ...`
+```
+
+*Example*
+```js
+let name = "Alice"; 
+let age = 30; 
+let message = `My name is ${name} and I am ${age} years old.`; console.log(message); // Output: My name is Alice and I am 30 years old.
+```
