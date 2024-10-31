@@ -67,7 +67,8 @@ example:
 
 1. A **substring** of the original using [`substring()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
 
-*Documentation:* 
+*Documentation:*
+The `substring()` method in JavaScript is used to extract a portion of a string between two specified indices (positions). It returns a new string without modifying the original string.
 ```
 substring(indexStart)
 substring(indexStart, indexEnd)
