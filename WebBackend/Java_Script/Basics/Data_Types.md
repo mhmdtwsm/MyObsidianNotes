@@ -69,6 +69,7 @@ example:
 ```js
 const str = 'Mozilla';
 
+// substring(indexStart, indexEnd)
 console.log(str.substring(1, 3));
 // Expected output: "oz"
 
@@ -76,7 +77,9 @@ console.log(str.substring(2));
 // Expected output: "zilla"
 ```
 
-2. A concatenation of two strings using the concatenation operator (`+`) or [`concat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat). 
+- 
+
+1. A concatenation of two strings using the concatenation operator (`+`) or [`concat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat). 
 ```js
 let a = "Hello";
 let b = "World";
