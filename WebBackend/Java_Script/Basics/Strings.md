@@ -1,11 +1,11 @@
 ---
 tags:
   - substring
-  - lenght
   - concat
+  - length
 ---
 
-## What is String?
+# What is String?
 
 Used for text data, written inside quotes (`''`, `""`, or `` ` ` `` for template literals).
 
@@ -13,6 +13,8 @@ Used for text data, written inside quotes (`''`, `""`, or `` ` ` `` for template
 let name = "Alice"; 
 let greeting = `Hello, ${name}!`; // Used here to evaluate a thing in the middle of a string
 ```
+
+## Some Notes to consider
 
 - The [`String`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) type represents textual data and is encoded as a sequence of 16-bit unsigned integer values representing [`UTF-16` code units](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#utf-16_characters_unicode_code_points_and_grapheme_clusters).
 
@@ -29,10 +31,8 @@ let greeting = `Hello, ${name}!`; // Used here to evaluate a thing in the middle
 
 ## String methods
 
-1. A **substring** of the original using [`substring()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
-
-*Documentation:*
-
+### [`substring()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
+#substring 
 The `substring()` method in JavaScript is used to extract a portion of a string between two specified indices (positions). It returns a new string without modifying the original string.
 ```
 substring(indexStart)
@@ -50,10 +50,8 @@ console.log(str.substring(2));
 // Expected output: "zilla"
 ```
 
-2. A concatenation of two strings using the concatenation operator (`+`) or [`concat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat). 
-
-`concat()` *Documentation:*
-
+### [`concat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat)a string
+#concat 
 The **`concat()`** method of [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) instances is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
 ```
 concat() 
@@ -75,3 +73,16 @@ let a = "Hello";
 let b = "World";
 let c = a + b // The + operator
 let d = a.concat(' ', b) // Using concat method
+```
+
+### `.lenght`
+#length 
+The **`length`** data property of an [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) instance represents the number of elements in that array. The value is an unsigned, 32-bit integer that is always numerically greater than the highest index in the array.
+
+```js
+let a = [1,2,3,4,5];
+let b = "mhmd";
+console.log(a.lenght); // Should return 5
+console.log(b.length); // Shoule return 4
+```
+
