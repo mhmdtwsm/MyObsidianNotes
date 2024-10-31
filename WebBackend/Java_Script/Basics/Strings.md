@@ -40,7 +40,7 @@ let greeting = `Hello, ${name}!`; // Used here to evaluate a thing in the middle
 
 The `substring()` method in JavaScript is used to extract a portion of a string between two specified indices (positions). It returns a new string without modifying the original string.
 
-Syntax
+***Syntax***
 ```
 substring(indexStart)
 substring(indexStart, indexEnd)
@@ -168,3 +168,6 @@ let char3 = str[0]; // 'h'
 let char4 = str[5]; // undefined
 ```
 
+### **Template Literals**
+
+Template literals provide a concise and readable way to embed variables and expressions within strings. They are enclosed in backticks (\`\`) and use `${}` to denote expressions. 
