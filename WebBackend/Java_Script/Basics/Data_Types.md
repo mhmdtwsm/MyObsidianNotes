@@ -66,10 +66,17 @@ let greeting = `Hello, ${name}!`; // Used here to evaluate a thing in the middle
 example:
 
 1. A **substring** of the original using [`substring()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
+
+*Documentation:* 
+```
+substring(indexStart)
+substring(indexStart, indexEnd)
+```
+
+*Example:*
 ```js
 const str = 'Mozilla';
 
-// substring(indexStart, indexEnd)
 console.log(str.substring(1, 3));
 // Expected output: "oz"
 
@@ -77,9 +84,17 @@ console.log(str.substring(2));
 // Expected output: "zilla"
 ```
 
-- 
+2. A concatenation of two strings using the concatenation operator (`+`) or [`concat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat). 
 
-1. A concatenation of two strings using the concatenation operator (`+`) or [`concat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat). 
+`concat()` *Documentation:*
+
+The **`concat()`** method of [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) instances is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
+```
+concat() 
+concat(value1) concat(value1, value2) 
+concat(value1, value2, /* …, */ valueN)
+```
+
 ```js
 let a = "Hello";
 let b = "World";
