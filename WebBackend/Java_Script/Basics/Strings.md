@@ -33,6 +33,7 @@ let greeting = `Hello, ${name}!`; // Used here to evaluate a thing in the middle
 
 ### [`substring()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
 #substring 
+
 The `substring()` method in JavaScript is used to extract a portion of a string between two specified indices (positions). It returns a new string without modifying the original string.
 ```
 substring(indexStart)
@@ -52,6 +53,7 @@ console.log(str.substring(2));
 
 ### [`concat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat)a string
 #concat 
+
 The **`concat()`** method of [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) instances is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
 ```
 concat() 
@@ -77,6 +79,7 @@ let d = a.concat(' ', b) // Using concat method
 
 ### `.lenght`
 #length 
+
 The **`length`** data property of an [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) instance represents the number of elements in that array. The value is an unsigned, 32-bit integer that is always numerically greater than the highest index in the array.
 
 ```js
