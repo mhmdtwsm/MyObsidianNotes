@@ -8,7 +8,7 @@ tags:
   - replace
   - charAt
 ---
-
+``
 # What is String?
 
 Used for text data, written inside quotes (`''`, `""`, or `` ` ` `` for template literals).
@@ -183,3 +183,20 @@ let name = "Alice";
 let age = 30; 
 let message = `My name is ${name} and I am ${age} years old.`; console.log(message); // Output: My name is Alice and I am 30 years old.
 ```
+
+# A Challenge
+
+**This text: `"Hello World"`, How can you make it reversed?**
+
+***In this question  the used methods  are three.***
+
+### 1. `Split()`
+#split
+
+The `split()` method is used to split a string into an array of substrings based on a specified separator.
+
+```js
+string.split(separator, limit)
+```
+- `separator`: The delimiter or regular expression used to split the string.
+- `limit`: Optional. The maximum number of elements to include in the resulting array.
