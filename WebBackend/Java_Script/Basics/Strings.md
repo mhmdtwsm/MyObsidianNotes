@@ -194,9 +194,17 @@ let message = `My name is ${name} and I am ${age} years old.`; console.log(messa
 #split
 
 The `split()` method is used to split a string into an array of substrings based on a specified separator.
-
 ```js
 string.split(separator, limit)
 ```
 - `separator`: The delimiter or regular expression used to split the string.
 - `limit`: Optional. The maximum number of elements to include in the resulting array.
+
+It will be used to convert the string to array to use the array methods on it.
+```js
+let a = "Hello World"
+a = a.split("")
+```
+and the parameter `""` is an empty string which will tell the program to break the string at each character making it return an array of characters of the string.
+
+
