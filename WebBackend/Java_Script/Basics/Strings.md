@@ -186,7 +186,7 @@ let age = 30;
 let message = `My name is ${name} and I am ${age} years old.`; console.log(message); // Output: My name is Alice and I am 30 years old.
 ```
 
-# A Challenge
+# Challenging 
 
 **This text: `"Hello World"`, How can you make it reversed?**
 
@@ -234,3 +234,5 @@ a.reverse(); // reverse
 a = a.join(""); // join
 console.log(a);
 ```
+---
+
