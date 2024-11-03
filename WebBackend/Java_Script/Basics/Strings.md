@@ -190,7 +190,7 @@ let message = `My name is ${name} and I am ${age} years old.`; console.log(messa
 
 ***In this question  the used methods  are three.***
 
-### 1. `Split()`
+### `Split()`
 #split
 
 The `split()` method is used to split a string into an array of substrings based on a specified separator.
@@ -207,4 +207,15 @@ a = a.split("")
 ```
 and the parameter `""` is an empty string which will tell the program to break the string at each character making it return an array of characters of the string.
 
+### `reverse()`
+#reverse 
+
+The `reverse()` method reverses the order of elements in an array in place. It modifies the original array directly.
+
+It will be used to ***reverse*** the array we made with the `split()` method.
+```js
+let a = "Hello World"
+a = a.split("") // split
+a = a.reverse() // reverse
+```
 
