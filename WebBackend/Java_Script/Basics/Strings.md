@@ -7,6 +7,8 @@ tags:
   - toLowerCase
   - replace
   - charAt
+  - split
+  - reverse
 ---
 ``
 # What is String?
@@ -210,12 +212,25 @@ and the parameter `""` is an empty string which will tell the program to break t
 ### `reverse()`
 #reverse 
 
-The `reverse()` method reverses the order of elements in an array in place. It modifies the original array directly.
+The `reverse()` method reverses the order of elements in an array in place. It modifies the original array directly. Just by calling the reverse method it will directly edit on the array it is called from and reverse it.
 
 It will be used to ***reverse*** the array we made with the `split()` method.
 ```js
-let a = "Hello World"
-a = a.split("") // split
-a = a.reverse() // reverse
+let a = "Hello World";
+a = a.split(""); // split
+a.reverse(); // reverse
 ```
 
+### `join()`
+#join
+
+The `join()` method is used to create a new string by concatenating the elements of an array, separated by a specified separator. 
+
+***Basically it is the reverse of the splitting method*** used previously, but now it is used to return the array back to a string.
+```js
+let a = "Hello World";
+a = a.split(""); //split
+a.reverse(); // reverse
+a = a.join(""); // join
+console.log(a);
+```
