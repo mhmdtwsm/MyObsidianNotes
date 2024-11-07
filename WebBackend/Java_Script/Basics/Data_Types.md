@@ -36,7 +36,8 @@ Holds either `true` or `false`, typically used in conditional logic.
 let correct = true;
 ```
 
-- If you entered the boolean values in a strings `"true"` they are seen as a string not as a boolean data.
+- If you entered the boolean values in a string `"true"` they are seen as a string not as a boolean data.
+- There is a Method called `isNaN` ( #isNaN ) which returns a boolean value that checks whether the operation returns a `NaN` value or not. 
 
 ### **Undefined**
 A variable that has been declared but not assigned a value.

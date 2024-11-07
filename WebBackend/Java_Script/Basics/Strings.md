@@ -9,6 +9,7 @@ tags:
   - charAt
   - split
   - reverse
+  - isNaN
 ---
 ``
 # What is String?
@@ -180,6 +181,16 @@ let char2 = str.charAt(5); // '' (empty string)
 // Using bracket notation
 let char3 = str[0]; // 'h'
 let char4 = str[5]; // undefined
+```
+
+#### `isNaN`
+#isNaN
+
+To know if you are using the operators in a right way with the strings you can use `isNaN` to check that the operation not returning `NaN` value, which is (Not A number value) so you made a wrong operation on the strings.
+
+```js
+console.log(isNaN("hello" + 10)); // return true
+console.log(isNaN(10 + "10")); // reutrn false
 ```
 
 ### **Template Literals**
