@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java_Script/Basics/Strings.md",
+                "file": "Java_Script/Basics/Numerical.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Strings"
+              "title": "Numerical"
             }
           }
         ]
@@ -164,8 +164,8 @@
   },
   "active": "9665b01f323deb89",
   "lastOpenFiles": [
-    "Java_Script/Basics/Data_Types.md",
     "Java_Script/Basics/Strings.md",
+    "Java_Script/Basics/Data_Types.md",
     "Java_Script/Basics/Numerical.md",
     "Java_Script/Basics/Variables.md",
     "Java_Script/Console/Console.md",

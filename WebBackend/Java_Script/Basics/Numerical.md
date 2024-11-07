@@ -18,5 +18,19 @@ console.log(typeof b)
 	- Negative values smaller than -[`Number.MAX_VALUE`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_VALUE) are converted to `-Infinity`.
 	- Negative values greater than -[`Number.MIN_VALUE`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MIN_VALUE) are converted to `-0`.
 
-- 
+
+
+
+## Math Library
+
+The JavaScript Math library provides a set of mathematical functions and constants to perform various calculations.
+
+```JS
+// Example usage:
+let randomNumber = Math.random(); // Generate a random number between 0 and 1
+let roundedNumber = Math.round(3.14); // Round 3.14 to the nearest integer
+let squareRoot = Math.sqrt(16); // Calculate the square root of 16
+let power = Math.pow(2, 3); // Calculate 2 raised to the power of 3
+let piValue = Math.PI; // Access the value of pi
+```
 
