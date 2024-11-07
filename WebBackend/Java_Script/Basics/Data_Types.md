@@ -55,6 +55,7 @@ console.log(Boolean(10)) // true
 console.log(Boolean(0)) // false
 console.log(Boolean(NaN)) // false
 ```
+
 ### **Undefined**
 A variable that has been declared but not assigned a value.
 ```js
