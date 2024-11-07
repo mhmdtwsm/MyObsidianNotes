@@ -39,7 +39,16 @@ let correct = true;
 - If you entered the boolean values in a string `"true"` they are seen as a string not as a boolean data.
 - There is a Method called `isNaN` ( #isNaN ) which returns a boolean value that checks whether the operation returns a `NaN` value or not. 
 - You can return Boolean values by the comparing operators `>`, `<`, `>=`, `<=`, `==`, `==` 
+```js
+// Comparing operators and Boolean values
+let a = 10;
+let b = 5;
 
+let isGreaterThan = a > b; // true
+let isLessThanOrEqualTo = a <= b; // false
+let isEqual = a == b; // false
+let isStrictlyEqual = a === b; // false
+```
 ### **Undefined**
 A variable that has been declared but not assigned a value.
 ```js
