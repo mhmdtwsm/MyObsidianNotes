@@ -49,6 +49,12 @@ let isLessThanOrEqualTo = a <= b; // false
 let isEqual = a == b; // false
 let isStrictlyEqual = a === b; // false
 ```
+- There is a function called `Boolean()` which convert any exiting value to `true` and any empty or non exiting value to `false`
+```JS
+console.log(Boolean(10)) // true
+console.log(Boolean(0)) // false
+console.log(Boolean(NaN)) // false
+```
 ### **Undefined**
 A variable that has been declared but not assigned a value.
 ```js
