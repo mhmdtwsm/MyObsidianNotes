@@ -36,6 +36,8 @@ Holds either `true` or `false`, typically used in conditional logic.
 let correct = true;
 ```
 
+- If you entered the boolean values in a strings `"true"` they are seen as a string not as a boolean data.
+
 ### **Undefined**
 A variable that has been declared but not assigned a value.
 ```js
