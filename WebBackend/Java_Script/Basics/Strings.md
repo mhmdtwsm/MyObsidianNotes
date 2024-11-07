@@ -195,6 +195,7 @@ let message = `My name is ${name} and I am ${age} years old.`; console.log(messa
 ### `Split()`
 #split
 
+
 The `split()` method is used to split a string into an array of substrings based on a specified separator.
 ```js
 string.split(separator, limit)

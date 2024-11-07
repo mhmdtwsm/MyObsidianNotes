@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "THM_Learning_era/THM_CTF/Vuln_Roasted.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Vuln_Roasted"
             }
           }
         ]
@@ -164,6 +164,8 @@
   },
   "active": "5b71661418d62613",
   "lastOpenFiles": [
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
+    "README.md",
     "Java_Script/DOM/getElementById.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch9_Compressing_And_Archiving.md",
     "Java_Script/DOM",
@@ -175,7 +177,6 @@
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Complete_Beginner_Path.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
     "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec2_Basic_Commands.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Burp_Suite_The_Basics.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md",
@@ -197,7 +198,6 @@
     "THM_Learning_era/THM_CTF/LinuxRoom-1.md",
     "THM_Learning_era/drafty.md",
     "THM_Learning_era/Notes_Commands/Notes_List.md",
-    "THM_Learning_era/THM_Walkthrough/Walkthroughs_List.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals",
     "THM_Learning_era/Notes_Commands",
     "THM_Learning_era/First_Phase/THM/Pasted image 20240901024646.png",

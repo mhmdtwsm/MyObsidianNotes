@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java_Script/Basics/Data_Types.md",
+                "file": "Java_Script/Basics/Numerical.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data_Types"
+              "title": "Numerical"
             }
           }
         ]
@@ -164,11 +164,12 @@
   },
   "active": "9665b01f323deb89",
   "lastOpenFiles": [
-    "Java_Script/Basics/Variables.md",
+    "Java_Script/Basics/Data_Types.md",
+    "Java_Script/Basics/Numerical.md",
     "Java_Script/Basics/Strings.md",
+    "Java_Script/Basics/Variables.md",
     "Java_Script/Console/Console.md",
     "Java_Script/DOM/getElementById.md",
-    "Java_Script/Basics/Data_Types.md",
     "Java_Script/Console/console.log.md",
     "Java_Script/Functions/Basic_Function.md",
     "Java_Script/DOM/DOM.md",
@@ -194,7 +195,6 @@
     "THM_Learning_era/THM_CTF/Vuln_Roasted.md",
     "THM_Learning_era/THM_Walkthrough/Hacking_With_PowerShell.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_General_Basics.md",
-    "THM_Learning_era/THM_CTF/Pickle_Rick.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/X.png",
     "Untitled.canvas",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/tty_art.png",
