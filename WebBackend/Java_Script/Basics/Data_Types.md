@@ -79,7 +79,6 @@ let uniqueKey = Symbol('key');
 
 ---
 
-
 ## Non-Primitive (Complex) Data Types
 
 **Objects**: Used to store collections of data or more complex entities. Objects include arrays, functions, and other structures that store values.
