@@ -18,7 +18,7 @@ console.log(typeof b)
 	- Negative values smaller than -[`Number.MAX_VALUE`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_VALUE) are converted to `-Infinity`.
 	- Negative values greater than -[`Number.MIN_VALUE`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MIN_VALUE) are converted to `-0`.
 
-
+- 
 
 
 ## Math Library
@@ -37,4 +37,3 @@ let numbers = [10, 5, 20, 3, 15];
 let minNumber = Math.min(...numbers); // Output: 3 
 let maxNumber = Math.max(...numbers); // Output: 20
 ```
-
