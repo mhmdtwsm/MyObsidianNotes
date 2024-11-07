@@ -1,3 +1,9 @@
+---
+tags:
+  - Math
+---
+
+# Numerical
 
 **Used for any type of numerical value, including integers and floating-point numbers.**
 
@@ -22,6 +28,7 @@ console.log(typeof b)
 
 
 ## Math Library
+#Math
 
 The JavaScript Math library provides a set of mathematical functions and constants to perform various calculations.
 
