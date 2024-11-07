@@ -56,6 +56,8 @@ console.log(Boolean(0)) // false
 console.log(Boolean(NaN)) // false
 ```
 
+---
+
 ### **Undefined**
 A variable that has been declared but not assigned a value.
 ```js
@@ -63,6 +65,7 @@ let value;
 console.log(value); // undefined
 ```
 
+---
 ### **Symbol**
 Represents a unique identifier, commonly used for object properties that should not conflict with other properties.
 ```js
@@ -74,7 +77,7 @@ let uniqueKey = Symbol('key');
 
 - All primitive types, except [`null`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null) and [`undefined`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined), have their corresponding object wrapper types, which provide useful methods for working with the primitive values.
 
-
+---
 
 
 ## Non-Primitive (Complex) Data Types
