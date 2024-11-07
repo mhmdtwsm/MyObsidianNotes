@@ -32,5 +32,9 @@ let roundedNumber = Math.round(3.14); // Round 3.14 to the nearest integer
 let squareRoot = Math.sqrt(16); // Calculate the square root of 16
 let power = Math.pow(2, 3); // Calculate 2 raised to the power of 3
 let piValue = Math.PI; // Access the value of pi
+
+let numbers = [10, 5, 20, 3, 15]; 
+let minNumber = Math.min(...numbers); // Output: 3 
+let maxNumber = Math.max(...numbers); // Output: 20
 ```
 
