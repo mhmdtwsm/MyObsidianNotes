@@ -33,6 +33,18 @@ let greeting = `Hello, ${name}!`; // Used here to evaluate a thing in the middle
 	- the `length` of a string (measured in `UTF-16` code units) does not always equal the **visible or logical number of characters** in that string.
 
 - JavaScript strings are immutable. This means that once a string is created, it is not possible to modify it.
+
+- JavaScript can perform mathematical operations on strings if they can be interpreted as numbers. However, if a string cannot be converted to a number, the result will be `NaN` ***(Not a Number)***.
+```js
+"10" + "5" // Output: "105" (string concatenation)
+"10" - "5" // Output: 5 (numeric subtraction)
+"10" * "2" // Output: 20 (numeric multiplication)
+"hello" + 5 // Output: "hello5" (string concatenation)
+"world" - 3 // Output: NaN
+"10abc" * 2 // Output: NaN
+```
+
+- 
 ---
 
 ## String methods

@@ -15,9 +15,11 @@ JavaScript has several fundamental data types, which can be divided into two cat
 | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type)       | `"string"`            | [`String`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)   |
 | [Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#symbol_type)       | `"symbol"`            | [`Symbol`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)   |
 
+---
 ### **Number**
+[***Look Here***](Numerical.md)
 
-
+---
 ### **`BigInt`**
 Represents integers of arbitrary precision, useful for very large integers that go beyond the safe integer limit in JavaScript (`2^53 - 1`).
 ```js
@@ -25,7 +27,7 @@ let bigNumber = 123456789012345678901234567890n;
 ```
 ---
 ### Strings
-[**Look Here**](Strings.md)
+[***Look Here***](Strings.md)
 
 ---
 ### **Boolean**
