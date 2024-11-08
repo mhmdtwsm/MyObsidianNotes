@@ -2,7 +2,7 @@ JavaScript is a dynamically typed language, which means it automatically determi
 
 - **Numeric Conversions:**
     
-    - **To Number:**
+    - **To Number:** #Number
         - `Number()` function: Explicitly converts a value to a number.
         - Unary `+` operator: Implicitly converts a string to a number if possible.
     
@@ -14,7 +14,7 @@ JavaScript is a dynamically typed language, which means it automatically determi
     let difference = +num1 - num2; // 5 (numeric subtraction)
     ```
     
-- **Boolean Conversions:**
+- **Boolean Conversions:** #Boolean
     
     - **To Boolean:**
         - `Boolean()` function: Explicitly converts a value to a Boolean.
@@ -29,9 +29,9 @@ JavaScript is a dynamically typed language, which means it automatically determi
     }
     ```
     
-- **String Conversions:**
+- **String Conversions:** #String
     
-    - **ToString:**
+    - **To String:**
         - `String()` function: Explicitly converts a value to a string.
         - Implicit conversion in string concatenation.
     
