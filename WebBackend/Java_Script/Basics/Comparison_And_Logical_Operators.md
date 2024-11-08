@@ -105,3 +105,15 @@ let result = a || b; // true
 let a = true;
 let result = !a; // false
 ```
+
+---
+
+# Combining between them
+
+```js
+let a = 10; 
+let b = 5;
+let c = 15; 
+// Combining comparison operators with logical AND: 
+let isBetween = a > b && a < c; // true
+```
