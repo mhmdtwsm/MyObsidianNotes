@@ -39,6 +39,7 @@ let correct = true;
 - If you entered the boolean values in a string `"true"` they are seen as a string not as a boolean data.
 - There is a Method called `isNaN` ( #isNaN ) which returns a boolean value that checks whether the operation returns a `NaN` value or not. 
 - You can return Boolean values by the comparing operators `>`, `<`, `>=`, `<=`, `==`, `==` 
+	- [***Look Here***](Comparison_And_Logical_Operators.md) for more about these operators.
 ```js
 // Comparing operators and Boolean values
 let a = 10;
@@ -158,3 +159,4 @@ console.log(0 == false); // true, because false is coerced to 0
 console.log("5" === 5); // false, no type coercion occurs
 ```
 
+[***Look Here***](Coercion.md) for more about coercion.
