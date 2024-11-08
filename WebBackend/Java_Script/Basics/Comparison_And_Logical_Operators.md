@@ -63,3 +63,45 @@ let b = "5";
 
 let result = a === b; // false (different types)
 ```
+
+---
+
+# Logical Operators
+
+Logical operators are used to combine Boolean expressions and return a Boolean result.
+
+**1. Logical AND (`&&`)**
+
+- Returns `true` if both operands are `true`.
+- Returns `false` otherwise.
+
+```js
+let a = true;
+let b = false;
+let result = a && b; // false
+```
+
+
+
+**2. Logical OR (`||`)**
+
+- Returns `true` if at least one operand is `true`.
+- Returns `false` if both operands are `false`.
+
+```js
+let a = true;
+let b = false;
+let result = a || b; // true
+```
+
+
+**3. Logical NOT (`!`)**
+
+- Inverts the Boolean value of its operand.
+- Returns `true` if the operand is `false`.
+- Returns `false` if the operand is `true`.
+
+```js
+let a = true;
+let result = !a; // false
+```
