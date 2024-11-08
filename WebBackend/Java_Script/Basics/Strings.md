@@ -11,7 +11,7 @@ tags:
   - reverse
   - isNaN
 ---
-``
+
 # What is String?
 
 Used for text data, written inside quotes (`''`, `""`, or `` ` ` `` for template literals).
