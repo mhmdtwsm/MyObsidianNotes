@@ -100,90 +100,58 @@ JavaScript is a dynamically typed language, which means it automatically determi
 
 - **Loose Equality (`==`)**: Compares values after type conversion if necessary.
     
-    JavaScript
-    
-    ```
+    ```js
     5 == "5" // true (string "5" is converted to number 5)
     0 == false // true (false is converted to 0)
     ```
     
-    يُرجى استخدام الرمز البرمجي [بحذر](/faq#coding).
-    
 - **Strict Equality (`===`)**: Compares values without type conversion.
     
-    JavaScript
-    
-    ```
+    ```js
     5 === "5" // false (different types)
     true === 1 // false (different types)
     ```
     
-    يُرجى استخدام الرمز البرمجي [بحذر](/faq#coding).
-    
 - **Loose Inequality (`!=`)**: Compares values after type conversion.
     
-    JavaScript
-    
-    ```
+    ```js
     5 != "5" // false (types are converted and values match)
     ```
     
-    يُرجى استخدام الرمز البرمجي [بحذر](/faq#coding).
-    
 - **Strict Inequality (`!==`)**: Compares values without type conversion.
     
-    JavaScript
-    
-    ```
+    ```js
     5 !== "5" // true (different types)
     ```
-    
-    يُرجى استخدام الرمز البرمجي [بحذر](/faq#coding).
-    
 
 ### Greater Than/Less Than
 
 - **Greater Than (`>`), Less Than (`<`)**: Compares numbers directly.
     
-    JavaScript
-    
-    ```
+    ```js
     5 > 2 // true
     ```
     
-    يُرجى استخدام الرمز البرمجي [بحذر](/faq#coding).
-    
 - **Greater Than or Equal To (`>=`), Less Than or Equal To (`<=`)**: Compares numbers directly.
     
-    JavaScript
-    
-    ```
+    ```js
     5 >= 5 // true
     ```
     
-    يُرجى استخدام الرمز البرمجي [بحذر](/faq#coding).
-    
 - **String Comparison**: Compares lexicographically (dictionary order).
     
-    JavaScript
-    
-    ```
+    ```js
     "apple" > "banana" // false
     "5" > "20" // true (compared as strings)
     ```
     
-    يُرجى استخدام الرمز البرمجي [بحذر](/faq#coding).
-    
 - **Mixed Types**: Attempts to convert both to numbers for comparison.
     
-    JavaScript
-    
-    ```
+    ```js
     "10" > 5 // true (string "10" is converted to number 10)
     ```
-    
-    يُرجى استخدام الرمز البرمجي [بحذر](/faq#coding).
-    
+
+---
 
 ## Logical Operators
 
@@ -191,46 +159,32 @@ JavaScript is a dynamically typed language, which means it automatically determi
 
 - Returns the first falsy value or the last value if all are truthy.
     
-    JavaScript
-    
-    ```
+    ```js
     true && "Hello" // "Hello"
     0 && "Hello" // 0
     ```
-    
-    يُرجى استخدام الرمز البرمجي [بحذر](/faq#coding).
-    
 
 ### Logical OR (`||`)
 
 - Returns the first truthy value or the last value if all are falsy.
     
-    JavaScript
-    
-    ```
+    ```js
     false || "Hello" // "Hello"
     "" || 0 || null || "default" // "default"
     ```
-    
-    يُرجى استخدام الرمز البرمجي [بحذر](/faq#coding).
-    
 
 ### Logical NOT (`!`)
 
 - Inverts the Boolean value.
     
-    JavaScript
-    
-    ```
+    ```js
     !true // false
     !0 // true
     !"" // true
     ```
-    
-    يُرجى استخدام الرمز البرمجي [بحذر](/faq#coding).
-    
 
-**Type Coercion**
+
+### **Type Coercion**
 
 - **Falsy Values**: 0, "", `null`, `undefined`, `NaN`, and `false`.
 - **Truthy Values**: Any non-falsy value.
