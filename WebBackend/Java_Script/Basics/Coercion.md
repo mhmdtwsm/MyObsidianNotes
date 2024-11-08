@@ -1,3 +1,11 @@
+---
+tags:
+  - String
+  - Number
+  - Boolean
+---
+
+
 JavaScript is a dynamically typed language, which means it automatically determines the data type of a variable at runtime. This can lead to implicit type coercion, where JavaScript converts values from one data type to another.
 
 - **Numeric Conversions:**
