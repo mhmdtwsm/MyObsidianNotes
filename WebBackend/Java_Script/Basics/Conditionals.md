@@ -16,7 +16,7 @@ The **`if...else`** statement executes a statement if a specified condition is
 
 The `if...else` conditions is made out of 3 things:
 
-- The `if`, `else if`, and `else` statements work like this:
+- **The `if`, `else if`, and `else` statements**:
 
 	- `if` checks if a condition is `true` and runs its code block if it is.
 	- `else if` checks another condition only if the previous `if` was `false`.
