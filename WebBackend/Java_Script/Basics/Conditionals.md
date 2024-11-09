@@ -15,7 +15,12 @@ The **`if...else`** statement executes a statement if a specified condition is
 ## `if...else`
 
 The `if...else` conditions is made out of 3 things:
-- **The statement**, which is `if`, `else if`, `else`, and they are working like: `if` something is `true` do this code block, if something else is `true` and the above condition is `false`(`else if`) do this code block, if all of the conditions above are `false` (`else`) do this last code block
+
+- The `if`, `else if`, and `else` statements work like this:
+
+	- `if` checks if a condition is `true` and runs its code block if it is.
+	- `else if` checks another condition only if the previous `if` was `false`.
+	- `else` runs its code block if all previous conditions are `false`.
 
 - **The logical condition**, which is a phrase written in [**comparison and logical operators**](Comparison_And_Logical_Operators.md)  and it returns `true` or `false`.
 
@@ -23,3 +28,4 @@ The `if...else` conditions is made out of 3 things:
 
 ***Note that...***
 	When you have a series of `if...else` statements, only the first condition that evaluates to `true` will run its code block, and the rest will be ignored. If you want more than one condition to run, use separate `if` statements instead of combining them in an `if...else` chain.
+
