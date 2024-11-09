@@ -118,6 +118,7 @@ switch (day) {
     case 3:
         console.log("Wednesday"); // Also runs if day is 2 because there's no break
     default:
-        console.log("Another day");
+        console.log("Another day"); // Also rund the default
 }
 ```
+
