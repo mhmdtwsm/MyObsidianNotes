@@ -69,6 +69,8 @@ if (attendance >= 90) {
 }
 ```
 
+---
+
 ## `switch`
 
 **`switch` statements** are used for exact matches with specific values, typically a single variable or expression against multiple fixed values.
@@ -106,6 +108,7 @@ switch (grade) {
 
 ***Note that...***
 	if a `case` in a `switch` statement matches and there's no `break` statement after it, JavaScript will execute that matching case and all subsequent cases below it. This behavior is known as **fall-through**.
+
 ```js
 let day = 2;
 
@@ -122,3 +125,44 @@ switch (day) {
 }
 ```
 
+***Note that...***
+	If you put a `return` statement inside a `switch` case, it will immediately exit the `switch` statement and return a value from the function where the `switch` resides. This stops further evaluation of the `switch` cases, just like it would stop execution in any other function when a `return` is encountered.
+
+```js
+function getDayName(day) {
+    switch(day) {
+        case 1:
+            return "Monday";
+        case 2:
+            return "Tuesday";
+        case 3:
+            return "Wednesday";
+        default:
+            return "Invalid day";
+    }
+}
+
+console.log(getDayName(2));  // Output: Tuesday
+console.log(getDayName(4));  // Output: Invalid day
+```
+
+***Note that***
+	You can convert the if statements to switch cases, or you can write logical conditions in the switch cases by assigning the comparing expression above in switch to `true` that makes the switch run with the same mechanism as the if condition making it compare between the true value and the output of each statement in each case, which will be made by [**comparison and logical operators**](Comparison_And_Logical_Operators.md) to return a true or false
+
+```js
+let num = 5;
+
+switch(true) {
+    case (num > 0):  // num > 0 is true
+        console.log("Positive number");
+        break;
+    case (num < 0):  // num < 0 is false
+        console.log("Negative number");
+        break;
+    default:
+        console.log("Zero");
+}
+
+```
+
+---
