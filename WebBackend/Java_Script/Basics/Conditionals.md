@@ -29,14 +29,14 @@ The `if...else` conditions is made out of 3 things:
 *Syntax*
 ```js
 if (condition1)
-  statement1
+  code-block1
 else if (condition2)
-  statement2
+  code-block2
 else if (condition3)
-  statement3
+  code-block3
 // …
 else
-  statementN
+  code-blockN
 ```
 
 *Example*
@@ -68,3 +68,4 @@ if (attendance >= 90) {
     console.log("Eligible for attendance award");  // This will also run
 }
 ```
+
