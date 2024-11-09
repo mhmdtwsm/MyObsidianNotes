@@ -29,3 +29,17 @@ The `if...else` conditions is made out of 3 things:
 ***Note that...***
 	When you have a series of `if...else` statements, only the first condition that evaluates to `true` will run its code block, and the rest will be ignored. If you want more than one condition to run, use separate `if` statements instead of combining them in an `if...else` chain.
 
+*Example*
+```js
+let score = 75;
+
+if (score >= 90) {
+    console.log("Grade: A");   // Runs if score is 90 or above
+} else if (score >= 80) {
+    console.log("Grade: B");   // Runs if score is between 80 and 89
+} else if (score >= 70) {
+    console.log("Grade: C");   // Runs if score is between 70 and 79
+} else {
+    console.log("Grade: F");   // Runs if score is below 70
+}
+```
