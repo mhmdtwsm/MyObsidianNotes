@@ -89,7 +89,7 @@ switch (expression) {
     statements
 }
 ```
-
+1
 *Example*
 ```js
 switch (grade) {
@@ -101,5 +101,23 @@ switch (grade) {
         break;
     default:
         console.log("Needs improvement");
+}
+```
+
+***Note that...***
+	if a `case` in a `switch` statement matches and there's no `break` statement after it, JavaScript will execute that matching case and all subsequent cases below it. This behavior is known as **fall-through**.
+```js
+let day = 2;
+
+switch (day) {
+    case 1:
+        console.log("Monday");
+        break;          // Stops here if day is 1
+    case 2:
+        console.log("Tuesday"); // Runs if day is 2
+    case 3:
+        console.log("Wednesday"); // Also runs if day is 2 because there's no break
+    default:
+        console.log("Another day");
 }
 ```
