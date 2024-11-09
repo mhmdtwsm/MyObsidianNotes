@@ -69,3 +69,37 @@ if (attendance >= 90) {
 }
 ```
 
+## `switch`
+
+**`switch` statements** are used for exact matches with specific values, typically a single variable or expression against multiple fixed values.
+
+The **`switch`** statement evaluates an [expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators), matching the expression's value against a series of `case` clauses, and executes [statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements) after the first `case` clause with a matching value, until a `break` statement is encountered. The `default` clause of a `switch` statement will be jumped to if no `case` matches the expression's value.
+
+*Syntax*
+```js
+switch (expression) {
+  case caseExpression1:
+    statements
+  case caseExpression2:
+    statements
+  // …
+  case caseExpressionN:
+    statements
+  default:
+    statements
+}
+```
+
+*Example*
+```js
+switch (grade) {
+    case 'A':
+        console.log("Excellent");
+        break;
+    case 'B':
+        console.log("Good");
+        break;
+    default:
+        console.log("Needs improvement");
+}
+```
