@@ -46,3 +46,15 @@ console.log(arr); // Output: [10, 25, 30, 40]
 ```
 
 ---
+
+# Array Methods
+
+### `push()`
+
+`push()`: Adds one or more elements to the end of an array.
+```js
+let arr = [1, 2, 3];
+arr.push(4);  // Adds 4 at the end
+console.log(arr); // Output: [1, 2, 3, 4]
+```
+
