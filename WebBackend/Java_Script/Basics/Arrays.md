@@ -1,5 +1,8 @@
 ---
 tags:
+  - pop
+  - push
+  - length
 ---
 # Array Basics
 
@@ -49,16 +52,8 @@ console.log(arr); // Output: [10, 25, 30, 40]
 
 # Array Methods
 
-### `push()`
-
-`push()`: Adds one or more elements to the end of an array.
-```js
-let arr = [1, 2, 3];
-arr.push(4);  // Adds 4 at the end
-console.log(arr); // Output: [1, 2, 3, 4]
-```
-
 ### `pop()`
+#pop 
 
 **`pop()`**: Removes the last element from an array and returns it.
 ```js
@@ -68,7 +63,40 @@ console.log(lastElement); // Output: 4
 console.log(arr); // Output: [1, 2, 3]
 ```
 
+### `shift`
+#shift
+
+**`shift()`**: Removes the first element from an array and returns it.
+```js
+let arr = [1, 2, 3];
+let firstElement = arr.shift();
+console.log(firstElement); // Output: 1
+console.log(arr); // Output: [2, 3]
+```
+
+### `push()`
+#push 
+
+`push()`: Adds one or more elements to the end of an array.
+```js
+let arr = [1, 2, 3];
+arr.push(4);  // Adds 4 at the end
+console.log(arr); // Output: [1, 2, 3, 4]
+```
+
+### `unshift()`
+#unshift
+
+**`unshift()`**: Adds one or more elements to the beginning of an array.
+```js
+let arr = [2, 3];
+arr.unshift(1);  // Adds 1 at the beginning
+console.log(arr); // Output: [1, 2, 3]
+```
+
+
 ### `length`
+#length 
 
 The `length` property of an array in JavaScript represents the number of elements it contains. It's a dynamic property, meaning it can be both read and written.
 
@@ -95,6 +123,7 @@ myArray.length = 5; // Now myArray is [1, 2, empty, empty, empty]
 #### Accessing Elements Beyond the Current `length`
 
 You can access and assign values to elements at indices beyond the current `length`. This effectively extends the array and fills the intermediate positions with `undefined`.
+
 ```js
 myArray[10] = 10; // myArray is now [1, 2, empty, ..., empty, 10]
 ```
