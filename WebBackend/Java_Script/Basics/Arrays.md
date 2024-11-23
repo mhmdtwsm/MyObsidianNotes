@@ -58,3 +58,43 @@ arr.push(4);  // Adds 4 at the end
 console.log(arr); // Output: [1, 2, 3, 4]
 ```
 
+### `pop()`
+
+**`pop()`**: Removes the last element from an array and returns it.
+```js
+let arr = [1, 2, 3, 4];
+let lastElement = arr.pop();
+console.log(lastElement); // Output: 4
+console.log(arr); // Output: [1, 2, 3]
+```
+
+### `length`
+
+The `length` property of an array in JavaScript represents the number of elements it contains. It's a dynamic property, meaning it can be both read and written.
+
+#### Reading the `length` Property
+
+To get the current length of an array, simply access its `length` property:
+```js
+let myArray = [1, 2, 3];
+let arrayLength = myArray.length; // arrayLength will be 3
+```
+
+#### Setting the `length` Property
+
+Assigning a new value to `array.length` modifies the array's size:
+
+- **Decreasing `length`:** Removes elements from the end of the array.
+- **Increasing `length`:** Adds empty slots to the end of the array.
+
+```js
+myArray.length = 2; // Now myArray is [1, 2]
+myArray.length = 5; // Now myArray is [1, 2, empty, empty, empty]
+```
+
+#### Accessing Elements Beyond the Current `length`
+
+You can access and assign values to elements at indices beyond the current `length`. This effectively extends the array and fills the intermediate positions with `undefined`.
+```js
+myArray[10] = 10; // myArray is now [1, 2, empty, ..., empty, 10]
+```
