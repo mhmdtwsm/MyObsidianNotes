@@ -3,6 +3,7 @@ tags:
   - pop
   - push
   - length
+  - splice
 ---
 # Array Basics
 
@@ -97,17 +98,39 @@ console.log(arr); // Output: [1, 2, 3]
 ### `splice()`
 #splice
 
-**splice()**: Adds or removes elements at a specific index.
+The **`splice()`** method of [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) instances changes the contents of an array by removing or replacing existing elements and/or adding new elements [in place](https://en.wikipedia.org/wiki/In-place_algorithm).
+
+**Removing**. To remove elements from an array, you specify the starting index and the number of elements to remove:
 ```js
-let arr = [1, 2, 3, 4];
-arr.splice(2, 1, 'a', 'b');  // At index 2, remove 1 element, and add 'a', 'b'
-console.log(arr); // Output: [1, 2, 'a', 'b', 4]
+let fruits = ['apple', 'banana', 'orange', 'grape'];
+
+// Remove one element starting from index 1
+fruits.splice(1, 1); // fruits is now ['apple', 'orange', 'grape']
+
+// Remove two elements starting from index 0
+fruits.splice(0, 2); // fruits is now ['grape']
+```
+
+**Replacing**, To replace elements, you specify the starting index, the number of elements to remove, and the new elements to insert:
+```js
+let numbers = [1, 2, 3, 4, 5];
+
+// Replace the second and third elements with 'a' and 'b'
+numbers.splice(1, 2, 'a', 'b'); // numbers is now [1, 'a', 'b', 4, 5]
+```
+
+**Inserting**. To insert elements without removing any, specify the starting index and the elements to insert:
+```js
+let colors = ['red', 'green', 'blue'];
+
+// Insert 'yellow' and 'purple' after the first element
+colors.splice(1, 0, 'yellow', 'purple'); // colors is now ['red', 'yellow', 'purple', 'green', 'blue']
 ```
 
 ### `length`
 #length 
 
-The `length` property of an array in JavaScript represents the number of elements it contains. It's a dynamic property, meaning it can be both read and written.
+The `length` property of an array in JavaScript represents the number of elements it contains. It's a dynamic property, meaning it can be both read and written, the removed or the replace part is returned.
 
 #### Reading the `length` Property
 

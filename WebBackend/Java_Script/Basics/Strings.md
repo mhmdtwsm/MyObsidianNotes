@@ -100,7 +100,7 @@ let c = a + b // The + operator
 let d = a.concat(' ', b) // Using concat method
 ```
 
-### `.lenght`
+### `lenght`
 #length 
 
 The **`length`** data property of an [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) instance represents the number of elements in that array. The value is an unsigned, 32-bit integer that is always numerically greater than the highest index in the array.
