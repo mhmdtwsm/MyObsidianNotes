@@ -94,6 +94,15 @@ arr.unshift(1);  // Adds 1 at the beginning
 console.log(arr); // Output: [1, 2, 3]
 ```
 
+### `splice()`
+#splice
+
+**splice()**: Adds or removes elements at a specific index.
+```js
+let arr = [1, 2, 3, 4];
+arr.splice(2, 1, 'a', 'b');  // At index 2, remove 1 element, and add 'a', 'b'
+console.log(arr); // Output: [1, 2, 'a', 'b', 4]
+```
 
 ### `length`
 #length 
