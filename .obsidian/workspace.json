@@ -11,10 +11,14 @@
             "id": "5b71661418d62613",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux_Privilege_Escalation"
             }
           }
         ]

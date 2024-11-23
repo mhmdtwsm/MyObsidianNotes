@@ -147,7 +147,7 @@ console.log(getDayName(4));  // Output: Invalid day
 ```
 
 ***Note that***
-	You can convert the if statements to switch cases, or you can write logical conditions in the switch cases by assigning the comparing expression above in switch to `true` that makes the switch run with the same mechanism as the if condition making it compare between the true value and the output of each statement in each case, which will be made by [**comparison and logical operators**](Comparison_And_Logical_Operators.md) to return a true or false
+	You can convert the if statements to switch cases, or you can write logical conditions in the switch cases by assigning the comparing expression above in switch to `true`, that makes the switch run with the same mechanism as the if condition, making it compare between the true value and the output of each statement in each case, which will be made by [**comparison and logical operators**](Comparison_And_Logical_Operators.md) to return a true or false.
 
 ```js
 let num = 5;
@@ -162,7 +162,6 @@ switch(true) {
     default:
         console.log("Zero");
 }
-
 ```
 
 ---
