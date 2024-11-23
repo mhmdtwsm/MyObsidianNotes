@@ -254,6 +254,8 @@ arr.reverse();
 console.log(arr); // [4, 3, 2, 1]
 ```
 
+#### `reverse()` and `slice()`
+
 **To make a reversed copy** of an array you will use `slice()` and `reverse()`
 ```js
 let a = [1,2,3,4];
