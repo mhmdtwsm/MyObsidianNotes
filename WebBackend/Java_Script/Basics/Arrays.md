@@ -264,3 +264,38 @@ console.log(b); // will return [4,3,2,1]
 ```
 *the slice without parameters given returns the content of a then when calling the reverse on it, it reverse it.*
 
+### `join()`
+
+The `join()` method creates and returns a new string by concatenating all the elements in an array. The elements are joined together using a specified separator string.
+
+- Does **not modify** the original array.
+- Converts all elements of the array to strings if they are not already strings.
+- The separator can be a string of any length or an empty string (`""`).
+
+***Syntax***
+```js
+array.join(separator)
+```
+- **separator** _(optional)_: A string used to separate each element in the resulting string.
+    - Defaults to a **comma (`,`)** if no separator is provided.
+- Returns a string with all the array elements joined by the separator.
+
+***Example***
+```js
+const numbers = [1, 2, 3, 4];
+const result = numbers.join(" + ");
+console.log(result); // "1 + 2 + 3 + 4"
+```
+
+#### `slice()`, `reverse()` and `join()`
+
+```js
+const words = ["JavaScript", "is", "fun"];
+const reversedWords = words.slice().reverse(); // Copy array and reverse it
+const sentence = reversedWords.join(" ");
+console.log(sentence); // Output: "fun is JavaScript"
+console.log(words); // Output: ["JavaScript", "is", "fun"] (unchanged)
+```
+- **`slice()`** creates a copy of the array to prevent modifying the original.
+- **`reverse()`** reverses the copied array.
+- **`join()`** combines the reversed array into a string.
