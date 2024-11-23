@@ -4,6 +4,12 @@ tags:
   - push
   - length
   - splice
+  - shift
+  - unshift
+  - slice
+  - includes
+  - indexof
+  - findindex
 ---
 # Array Basics
 
@@ -159,3 +165,100 @@ You can access and assign values to elements at indices beyond the current `leng
 ```js
 myArray[10] = 10; // myArray is now [1, 2, empty, ..., empty, 10]
 ```
+
+### `slice()`
+#slice
+
+**slice()**: Returns a shallow copy of a portion of an array.
+```js
+let arr = [1, 2, 3, 4, 5];
+let newArr = arr.slice(1, 3);  // Extracts elements from index 1 to 2
+console.log(newArr); // Output: [2, 3]
+```
+
+### `includes()`
+#includes 
+
+The `includes()` method determines whether an array contains a specific value.
+
+***Syntax:***
+```js
+array.includes(valueToSearchFor, fromIndex)
+```
+***Example***
+```js
+const fruits = ['apple', 'banana', 'orange'];
+
+// Check if 'banana' is in the array
+const hasBanana = fruits.includes('banana'); // true
+
+// Check if 'grape' is in the array starting from index 2
+const hasGrape = fruits.includes('grape', 2); // false
+```
+
+- `includes()` is case-sensitive.
+- It's efficient for checking membership in an array.
+- For more complex searches, consider using `findIndex()` or `filter()`.
+
+### `indexof()`
+#indexof
+
+Searches for the first occurrence of a specified value within an array and returns its index.
+
+***Syntax***:
+```js
+array.indexOf(searchElement, fromIndex)
+```
+- **`searchElement`**: The value to search for.
+- **`fromIndex` (optional)**: The index to start the search from. Default is 0.
+- Return Value: The index of the first occurrence of the value, or -1 if not found.
+
+***Example***
+```js
+const numbers = [1, 2, 3, 4, 2, 5];
+const index = numbers.indexOf(2); // index will be 1
+```
+
+### `findIndex()`
+#findindex
+
+Searches for the first element in an array that satisfies a given condition and returns its index.
+
+*Return Value: The index of the first element that satisfies the condition, or -1 if no such element is found.*
+
+***Example***
+```js
+const persons = [
+  { name: 'Alice', age: 30 },
+  { name: 'Bob', age: 25 },
+  { name: 'Charlie', age: 30 }
+];
+
+// Find the index of the first person with age 25
+const index = persons.findIndex(person => person.age === 25); // index will be 1
+```
+
+### `reverse()`
+#reverse 
+
+The `reverse()` method reverses the order of elements in an array in place. It modifies the original array directly. Just by calling the reverse method it will directly edit on the array it is called from and reverse it.
+
+- **Mutates the Original Array**: The array is reversed directly; the original order is lost.
+- **Returns the Same Array Reference**: The method returns the array itself (after reversing), not a new array.
+- Works for arrays of any data type.
+- Returns the reversed array.
+
+```js
+const arr = [1, 2, 3, 4];
+arr.reverse();
+console.log(arr); // [4, 3, 2, 1]
+```
+
+**To make a reversed copy** of an array you will use `slice()` and `reverse()`
+```js
+let a = [1,2,3,4];
+let b = a.slice().reverse();
+console.log(b); // will return [4,3,2,1]
+```
+*the slice without parameters given returns the content of a then when calling the reverse on it, it reverse it.*
+
