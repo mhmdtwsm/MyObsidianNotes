@@ -2,6 +2,7 @@
 tags:
   - getElementById
   - innerText
+  - addEventListener
 ---
 
 In JavaScript, the `document` object represents the entire HTML document that is loaded in the browser. It is part of the Document Object Model (DOM) and provides various methods and properties to interact with the content and structure of the web page.
@@ -30,15 +31,24 @@ let a = document.getElementById("count")
 a.getElementById("count").innerText = "5";
 ```
 
+## `.addEventListener`
+#addEventListener
 
+An event listener is a mechanism to execute a specific function when a particular event occurs on a DOM element.
 
+***Syntax:***
+```js
+element.addEventListener(event, function);
+```
+- `event`: The type of event to listen for (e.g., 'click', 'mouseover', 'keydown').
+- `function`: The function to be executed when the event occurs.
 
+***Example:***
+```js
+const button = document.getElementById('myButton');
 
-
-
-
-
-
-
-
-
+button.addEventListener('click', function(){ alert("Button clicked!");});
+```
+- **Event Object:** When an event occurs, a `Event` object is passed to the event listener function. This object contains information about the event, such as the target element, the type of event, and additional properties.
+- **Multiple Event Listeners:** You can attach multiple event listeners to a single element.
+- **Removing Event Listeners:** Use the `removeEventListener()` method to remove an event listener.
