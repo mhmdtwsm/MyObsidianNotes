@@ -40,6 +40,7 @@ An event listener is a mechanism to execute a specific function when a particula
 ```js
 element.addEventListener(event, function);
 ```
+
 - `event`: The type of event to listen for (e.g., 'click', 'mouseover', 'keydown').
 - `function`: The function to be executed when the event occurs.
 
@@ -49,6 +50,7 @@ const button = document.getElementById('myButton');
 
 button.addEventListener('click', function(){ alert("Button clicked!");});
 ```
+
 - **Event Object:** When an event occurs, a `Event` object is passed to the event listener function. This object contains information about the event, such as the target element, the type of event, and additional properties.
 - **Multiple Event Listeners:** You can attach multiple event listeners to a single element.
 - **Removing Event Listeners:** Use the `removeEventListener()` method to remove an event listener.
