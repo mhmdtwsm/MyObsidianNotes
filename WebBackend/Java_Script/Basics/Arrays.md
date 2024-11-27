@@ -10,6 +10,7 @@ tags:
   - includes
   - indexof
   - findindex
+  - join
 ---
 # Array Basics
 
@@ -265,6 +266,7 @@ console.log(b); // will return [4,3,2,1]
 *the slice without parameters given returns the content of a then when calling the reverse on it, it reverse it.*
 
 ### `join()`
+#join 
 
 The `join()` method creates and returns a new string by concatenating all the elements in an array. The elements are joined together using a specified separator string.
 
