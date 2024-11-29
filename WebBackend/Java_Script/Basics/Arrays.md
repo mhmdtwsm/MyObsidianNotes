@@ -301,3 +301,50 @@ console.log(words); // Output: ["JavaScript", "is", "fun"] (unchanged)
 - **`slice()`** creates a copy of the array to prevent modifying the original.
 - **`reverse()`** reverses the copied array.
 - **`join()`** combines the reversed array into a string.
+
+### Iteration in arrays with `for...in`, `for...of`, and indexing
+
+### Using `for...in` Loop
+
+***It iterates by using `i` or the iteration variable as index number.***
+
+The `for...in` loop iterates over the properties of an object, including array indices. However, it's generally not recommended for iterating over arrays, as it can iterate over additional properties added to the array object.
+
+```js
+const numbers = ['Hello', 'My', 'World'];
+
+for (const index in numbers) {
+  console.log(i); // output: 0, 1, 2
+}
+```
+
+### Using `for...of` Loop
+
+The `for...of` loop is a more concise and preferred way to iterate over arrays. It directly iterates over the values of the array.
+
+```js
+const fruits = ['apple', 'banana', 'orange'];
+
+for (const fruit of fruits) {
+  console.log(fruit);
+} // output: apple, bannana, orange
+```
+
+### Using Traditional `for` Loop with Indexing
+
+The traditional `for` loop is flexible and allows you to access both the index and the value of each element:
+
+```js
+const colors = ['red', 'green', 'blue'];
+
+for (let i = 0; i < colors.length; i++) {
+  console.log(colors[i]);
+}
+```
+
+
+- **`for...of`:** Best for iterating over the values of an array.
+
+- **Traditional `for` loop:** Useful when you need to access the index of each element or modify the array elements.
+
+- **Avoid `for...in` for arrays:** It can iterate over unexpected properties added to the array object.
