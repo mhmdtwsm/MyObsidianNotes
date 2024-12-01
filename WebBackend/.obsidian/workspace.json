@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#replace",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,8 +165,8 @@
   "active": "9665b01f323deb89",
   "lastOpenFiles": [
     "Java_Script/Basics/Strings.md",
-    "Java_Script/DOM/DOM.md",
     "Java_Script/Basics/Arrays.md",
+    "Java_Script/DOM/DOM.md",
     "Java_Script/DOM/getElementById.md",
     "Java_Script/Basics/Variables.md",
     "Java_Script/Basics/Data_Types.md",

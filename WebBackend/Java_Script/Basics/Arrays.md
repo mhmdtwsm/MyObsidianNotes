@@ -348,3 +348,6 @@ for (let i = 0; i < colors.length; i++) {
 - **Traditional `for` loop:** Useful when you need to access the index of each element or modify the array elements.
 
 - **Avoid `for...in` for arrays:** It can iterate over unexpected properties added to the array object.
+
+
+Hisham.
