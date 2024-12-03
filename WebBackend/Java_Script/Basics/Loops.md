@@ -100,9 +100,9 @@ do {
 
 - **`for`**: When you know the number of iterations in advance.
 
-- **`for...of`**: When you want to iterate over the values of an iteratable object (like an array).
-
 - **`for...in`**: When you need to loop over the keys of an object.
+
+- **`for...of`**: When you want to iterate over the values of an iterable object (like an array).
 
 - **`while`**: When you want to repeat an action as long as a condition is true, and you are unsure of the number of iterations.
 
