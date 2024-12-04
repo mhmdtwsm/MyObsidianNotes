@@ -172,10 +172,10 @@ console.log(global.y);// 20
     
 - **Global Lexical**: The lexical global scope refers to variables defined by `let` and `const`. These are scoped to the file or block they are defined in and do not become part of the true global context.
 
-| Feature            | True Global Scope (e.g., `window` in browser)                 | Global Lexical Scope (e.g., `let`, `const` in browser/Node.js) |
-| ------------------ | ------------------------------------------------------------- | -------------------------------------------------------------- |
-| **Scope Type**     | Available globally, attached to `window` (browser)            | Block-scoped, does not attach to `window` or `global`          |
-| **Usage of `var`** | Attaches `var` variables to the `window` object               | `let`, `const` do not attach to `window` or `global`           |
-| **Behavior**       | Variables are accessible anywhere, including inside functions | Variables are not accessible outside their block               |
+| Feature            | True Global Scope (e.g., `window` in browser)                 | Global Lexical Scope (e.g., `let`, `const` in browser/`Node.js`)       |
+| ------------------ | ------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Scope Type**     | Available globally, attached to `window` (browser)            | Block-scoped, does not attach to `window` or `global`                  |
+| **Usage of `var`** | Attaches `var` variables to the `window` object               | `let`, `const`, `var`(`Node.js`) do not attach to `window` or `global` |
+| **Behavior**       | Variables are accessible anywhere, including inside functions | Variables are not accessible outside their block and modules           |
 
 ---
