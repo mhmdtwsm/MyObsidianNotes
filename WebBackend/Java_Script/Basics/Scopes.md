@@ -94,10 +94,18 @@ ___
 
 There are two contexts to declare a variable in the Global scope in Browser.
 
-**First Way**, is to declare it Globally within a specific module or a script, so it is isolated from the rest of the project files, not globally seen on the runtime of the current tab or environment of the browser.
+***First Way**,* is to declare it Globally within a specific ***Module*** or a script, so it is isolated from the rest of the project files, not globally seen on the runtime of the current tab or environment of the browser.
+- ***Modules*** in the browser are isolated, meaning that they don't directly interact with the global scope unless you explicitly import/export between them.
 
-- Modules in the browser are isolated, meaning that they don't directly interact with the global scope unless you explicitly import/export between them.
+```html
+<!-- HTML File -->
+<script type="module">
+  let x = 10;  // x is scoped to this module
+  console.log(x);  // This will work inside the module
+</script>
 
-```js
-
+<script>
+  console.log(x);  // Error: x is not defined in this global scope
+</script>
 ```
+
