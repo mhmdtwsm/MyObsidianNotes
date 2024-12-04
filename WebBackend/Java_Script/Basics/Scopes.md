@@ -120,3 +120,8 @@ In the browser, the global scope is tied to the `window` object. This means any 
 var globalVar = "I am global!";
 console.log(window.globalVar);  // "I am global!"
 ```
+
+#### `var` vs `let` in the Browser:
+
+- **`var`**: Variables declared with `var` in the global scope are attached to the `window` object. They are also function-scoped.
+- **`let` and `const`**: Variables declared with `let` and `const` are scoped to the block in which they are defined, and they do not attach themselves to the `window` object.
