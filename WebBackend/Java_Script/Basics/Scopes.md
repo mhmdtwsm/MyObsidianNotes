@@ -115,3 +115,8 @@ Is to declare it Globally by attaching it to the `window` object which is a shar
 
 > __Personally, i find this philosophy of `JS` of declaring a global object is weird, but i can accept due to where `JS` meant to be and work with.__
 
+In the browser, the global scope is tied to the `window` object. This means any variable declared in the global scope without `let`, `const`, or `var` is added as a property of the `window` object.
+```js
+var globalVar = "I am global!";
+console.log(window.globalVar);  // "I am global!"
+```
