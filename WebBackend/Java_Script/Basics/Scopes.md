@@ -158,7 +158,7 @@ console.log(global.y); // undefined
 ```
 
 ### ***Second way**,*
-To explicitly attach a variable to the global object in Node.js, you can use `variable.global` or just declaring it without adding a declaration word.
+To explicitly attach a variable to the global object in `Node.js`, you can use `variable.global` or just declaring it without adding a declaration word.
 ```js
 global.x = 10;
 y = 20
