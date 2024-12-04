@@ -112,5 +112,6 @@ is to declare it Globally within a specific ***Module*** or a script, so it is i
 
 ### ***Second way**,*
 Is to declare it Globally by attaching it to the `window` object which is a shared object across the environment that holds objects that meant to be shared globally across all the environment, and that is what meant by **Global Scope**, it is globally shared with every thing once it got set.  
+
 > __Personally, i find this philosophy of `JS` of declaring a global object is weird, but i can accept due to where `JS` meant to be and work with.__
 
