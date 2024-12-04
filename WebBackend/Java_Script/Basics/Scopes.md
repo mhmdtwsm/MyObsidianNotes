@@ -94,7 +94,8 @@ ___
 
 There are two contexts to declare a variable in the Global scope in Browser.
 
-***First Way**,* is to declare it Globally within a specific ***Module*** or a script, so it is isolated from the rest of the project files, not globally seen on the runtime of the current tab or environment of the browser.
+### ***First Way**,* 
+is to declare it Globally within a specific ***Module*** or a script, so it is isolated from the rest of the project files, not globally seen on the runtime of the current tab or environment of the browser.
 - ***Modules*** in the browser are isolated, meaning that they don't directly interact with the global scope unless you explicitly import/export between them.
 
 ```html
@@ -108,4 +109,8 @@ There are two contexts to declare a variable in the Global scope in Browser.
   console.log(x);  // Error: x is not defined in this global scope
 </script>
 ```
+
+### ***Second way**,*
+Is to declare it Globally by attaching it to the `window` object which is a shared object across the environment that holds objects that meant to be shared globally across all the environment, and that is what meant by **Global Scope**, it is globally shared with every thing once it got set.  
+> __Personally, i find this philosophy of `JS` of declaring a global object is weird, but i can accept due to where `JS` meant to be and work with.__
 
