@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java_Script/Basics/Loops.md",
+                "file": "Java_Script/Basics/Scopes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Loops"
+              "title": "Scopes"
             }
           }
         ]
@@ -164,8 +164,10 @@
   },
   "active": "9665b01f323deb89",
   "lastOpenFiles": [
-    "Java_Script/Basics/Strings.md",
+    "Java_Script/Functions/Basic_Function.md",
+    "Java_Script/Basics/Scopes.md",
     "Java_Script/Basics/Loops.md",
+    "Java_Script/Basics/Strings.md",
     "Java_Script/Basics/Arrays.md",
     "Hello",
     "Java_Script/DOM/DOM.md",
@@ -178,7 +180,6 @@
     "Java_Script/Basics/Numerical.md",
     "Java_Script/Console/Console.md",
     "Java_Script/Console/console.log.md",
-    "Java_Script/Functions/Basic_Function.md",
     "Java_Script/Functions",
     "Java_Script/Basics",
     "Java_Script/Console",
@@ -195,7 +196,6 @@
     "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec2_Basic_Commands.md",
-    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Burp_Suite_The_Basics.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/X.png",
     "Untitled.canvas",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/tty_art.png",
