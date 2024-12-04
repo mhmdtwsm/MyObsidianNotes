@@ -1,6 +1,7 @@
 
-In JavaScript, scopes define the accessibility of variables and functions in different parts of the code. The two primary types of scopes are:
+![](../../photos/Basics/Scopes.png)
 
+In JavaScript, scopes define the accessibility of variables and functions in different parts of the code. The two primary types of scopes are:
 
 # Local Scope
 
