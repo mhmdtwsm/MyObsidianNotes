@@ -156,3 +156,20 @@ fofo(); // 10, 20
 console.log(global.x); // undefined
 console.log(global.y); // undefined
 ```
+
+### ***Second way**,*
+To explicitly attach a variable to the global object in Node.js, you can use `variable.global` or just declaring it without adding a declaration word.
+```js
+global.x = 10;
+y = 20
+console.log(global.x);// 10
+console.log(global.y);// 20
+```
+
+___
+
+# *At the end*,
+
+- **True Global**: The true global scope refers to variables that are available in the global context (like `window` in browsers or `global` in `Node.js`). For example, `var` declarations at the global level are considered true global variables.
+    
+- **Global Lexical**: The lexical global scope refers to variables defined by `let` and `const`. These are scoped to the file or block they are defined in and do not become part of the true global context.
