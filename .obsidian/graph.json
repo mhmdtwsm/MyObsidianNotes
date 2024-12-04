@@ -1,30 +1,58 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Java_Script  ",
+      "query": "path:THM_Learning_era/Linux_basics_for_Hackers_book  ",
       "color": {
         "a": 1,
-        "rgb": 15662848
+        "rgb": 16768256
+      }
+    },
+    {
+      "query": "path:THM_Learning_era/THM_CTF ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:THM_Learning_era/First_Phase  ",
+      "color": {
+        "a": 1,
+        "rgb": 7028029
+      }
+    },
+    {
+      "query": "path:THM_Learning_era/Notes_Commands  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:THM_Learning_era/THM_Walkthrough  ",
+      "color": {
+        "a": 1,
+        "rgb": 16743168
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": 0.2,
-  "nodeSizeMultiplier": 1.171875,
-  "lineSizeMultiplier": 2.42239583333333,
+  "nodeSizeMultiplier": 1.19739583333333,
+  "lineSizeMultiplier": 2.26927083333333,
   "collapse-forces": false,
-  "centerStrength": 0.447916666666667,
+  "centerStrength": 0.348958333333333,
   "repelStrength": 7.08333333333333,
-  "linkStrength": 0,
+  "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.7665871289345415,
-  "close": false
+  "scale": 0.846782323609555,
+  "close": true
 }
