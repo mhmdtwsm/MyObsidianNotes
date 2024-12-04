@@ -84,12 +84,10 @@ closureFunction(); // "I am from the outer function"
 ___
 
 # **Global Scope**
-*Read [this](https://dev.to/rahulvijayvergiya/nodejs-vs-browser-understanding-the-global-scope-battle-39al) to know the differences between Global scope in browser and `NodeJS`*
+Read [this](https://flexiple.com/javascript/global-variables) to know more about **Global variables** in `JS`
+*Read [this](https://dev.to/rahulvijayvergiya/nodejs-vs-browser-understanding-the-global-scope-battle-39al) to know the differences between **Global** scope in browser and `NodeJS`*
 
 **Variables declared outside any function are accessible anywhere in the code.**
 
 ## 1. Global Scope in the Browser
 
-There are two contexts of declaring a **Global variable** in the **browser** environment.
-
-**The First way** is to 
