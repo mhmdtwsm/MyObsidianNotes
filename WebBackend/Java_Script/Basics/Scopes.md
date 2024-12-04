@@ -128,7 +128,31 @@ console.log(window.globalVar);  // "I am global!"
 ```js
 var x = 10;
 let y = 20;
-
 console.log(window.x); // 10
 console.log(window.y); // undefined
+```
+
+## 2.Global Scope in `Node.js`
+
+The same way declaring a global function works in the browser works also in the `Node.js` but with some differences.
+
+1. The Global Object here called `global` not `window` there is no `window` object in `Node.js`
+	
+	- `Node.js` was built for server-side execution, where there's no concept of a "window" or "document" because those are specific to a browser environment. Instead, `Node.js` offers tools (`global`, `process`, etc.) suited for handling server-side tasks like file I/O, network operations, and process management.
+
+2. The way to declare the Global variable to a module and to the `global` object
+
+### ***First Way**,* 
+Declaring a global variable to a module in `Node.js` works by declaring it with `let`, `const`, and surprisingly `var` by adding them in outer space of the file.
+```js
+var x = 10;
+let y = 20;
+
+function fofo(){
+	console.log(x, y);
+}
+
+fofo(); // 10, 20
+console.log(global.x); // undefined
+console.log(global.y); // undefined
 ```
