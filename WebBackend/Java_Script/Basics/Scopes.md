@@ -125,3 +125,10 @@ console.log(window.globalVar);  // "I am global!"
 
 - **`var`**: Variables declared with `var` in the global scope are attached to the `window` object. They are also function-scoped.
 - **`let` and `const`**: Variables declared with `let` and `const` are scoped to the block in which they are defined, and they do not attach themselves to the `window` object.
+```js
+var x = 10;
+let y = 20;
+
+console.log(window.x); // 10
+console.log(window.y); // undefined
+```
