@@ -5,6 +5,8 @@ In JavaScript, scopes define the accessibility of variables and functions in dif
 
 # Local Scope
 
+![](../../photos/Basics/LocalScope.png)
+
 **Variables declared inside a function or block are only accessible within that function or block.**
 
 ## 1. **Function Scope**
