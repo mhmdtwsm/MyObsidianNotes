@@ -92,3 +92,12 @@ ___
 
 ## 1. Global Scope in the Browser
 
+There are two contexts to declare a variable in the Global scope in Browser.
+
+**First Way**, is to declare it Globally within a specific module or a script, so it is isolated from the rest of the project files, not globally seen on the runtime of the current tab or environment of the browser.
+
+- Modules in the browser are isolated, meaning that they don't directly interact with the global scope unless you explicitly import/export between them.
+
+```js
+
+```
