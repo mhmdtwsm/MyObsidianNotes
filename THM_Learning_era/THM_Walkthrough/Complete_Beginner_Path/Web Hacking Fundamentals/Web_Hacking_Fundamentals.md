@@ -1,2 +1,0 @@
-- [How_Websites_Work](How_Websites_Work.md)
-- [Burp_Suite_The_Basics](Burp_Suite_The_Basics.md)

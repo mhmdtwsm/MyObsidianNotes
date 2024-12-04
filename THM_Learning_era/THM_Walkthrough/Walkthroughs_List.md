@@ -1,5 +1,0 @@
-- [Complete_Beginner_Path](Complete_Beginner_Path/Complete_Beginner_Path.md)
-- [Hacking_With_PowerShell](Hacking_With_PowerShell.md)
-- [Linux_Privilege_Escalation](Linux_Privilege_Escalation.md)
-- [TMUX](TMUX.md)
-- 

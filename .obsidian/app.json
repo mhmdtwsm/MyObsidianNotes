@@ -9,8 +9,5 @@
   },
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
-  "showUnsupportedFiles": false,
-  "userIgnoreFilters": [
-    "WebBackend/"
-  ]
+  "showUnsupportedFiles": false
 }
