@@ -25,7 +25,7 @@ console.log(st)
 hello(s);
 ```
 
-## ## Function Expressions
+## Function Expressions
 
 A JavaScript function can also be defined using an **expression**.
 
