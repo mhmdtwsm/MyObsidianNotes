@@ -130,3 +130,80 @@ function myCallback() {
 higherOrderFunction(myCallback);
 ```
 
+## Uses
+
+**Synchronous Callback**: Callback functions can execute immediately or at a specific point during the execution of a higher-order function:
+```js
+function greet(name, callback) {
+  console.log(`Hello, ${name}`);
+  callback();
+}
+
+greet("Alice", function () {
+  console.log("This is a callback function!");
+});
+```
+
+**Asynchronous Callback**: Commonly used for handling asynchronous operations, such as API calls or timers:
+```js
+setTimeout(function () {
+  console.log("This message appears after 2 seconds.");
+}, 2000);
+```
+
+**Event Listeners**: Event handling often uses callbacks to respond to user interactions:
+```js
+document
+.getElementById("btn")
+.addEventListener("click", function () {
+  console.log("Button clicked!");
+});
+```
+
+**Using Callbacks in Array Methods**: Callbacks are integral to array manipulation methods like `map`, `filter`, and `forEach`:
+```js
+const numbers = [1, 2, 3];
+const doubled = numbers.map(function (num) {
+  return num * 2;
+});
+console.log(doubled); // Output: [2, 4, 6]
+```
+
+## **Characteristics**
+
+1. **Higher-Order Functions**:
+    
+    - The function receiving the callback is called a higher-order function.
+    - Example: `setTimeout`, `addEventListener`, or custom functions.
+
+2. **First-Class Functions**:
+    
+    - In JavaScript, functions are first-class citizens, meaning they can be assigned to variables, passed as arguments, or returned by other functions.
+
+3. **Execution Control**:
+    
+    - Callbacks allow developers to control when certain parts of the code execute.
+
+
+## **Best Practices**
+
+1. **Use Named Callback Functions**:
+
+```js
+function printMessage() {
+  console.log("Callback executed!");
+}
+
+setTimeout(printMessage, 1000);
+```
+
+2. **Limit Nesting**:
+    - Keep nesting levels low. Use Promises or `async/await` for better readability.
+
+3. **Prefer Arrow Functions for Simplicity**:
+
+- For inline callbacks, arrow functions provide a concise syntax:
+
+```js
+setTimeout(() => console.log("Arrow function as callback!"), 1000);
+```
