@@ -61,7 +61,7 @@ const result = add(5, 3); // result will be 8
 
 ### **Characteristics**
 
-**Global Scope Execution**:
+1. **Global Scope Execution**:
 
 - Functions created using the `Function` constructor execute in the **global scope**.
 - They do **not** have access to the local scope where they are defined.
@@ -76,3 +76,31 @@ function test() {
 test();
 ```
 
+2. **Dynamic Function Creation**:
+
+- Useful for scenarios where the function logic needs to be dynamically generated.
+
+```js
+const operation = 'a * b';
+const multiply = new Function('a', 'b', `return ${operation}`);
+console.log(multiply(4, 5)); // Output: 20
+```
+
+3. **Security Risks**:
+    
+    - Using the `Function` constructor can expose your code to **security vulnerabilities** like code injection if the function body is derived from untrusted input.
+    - Avoid using the `Function` constructor when working with user-provided data.
+
+4. **Performance**:
+    
+    - Functions created this way are less efficient than regular functions because the function body must be parsed each time the `Function` constructor is called.
+
+#### **When to Use**
+
+- To create dynamic functions where the function body is determined at runtime.
+- For meta-programming tasks, like dynamically generating or manipulating code.
+
+#### **When to Avoid**
+
+- When static functions suffice, as they are safer and more performant.
+- When dealing with untrusted or user-generated data, to avoid security risks.
