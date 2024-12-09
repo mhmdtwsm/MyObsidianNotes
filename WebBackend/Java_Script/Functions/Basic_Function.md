@@ -104,3 +104,29 @@ console.log(multiply(4, 5)); // Output: 20
 
 - When static functions suffice, as they are safer and more performant.
 - When dealing with untrusted or user-generated data, to avoid security risks.
+
+# CallBack
+
+A **callback function** is a function passed as an argument to another function, which is then executed at a later point in time. Callbacks are widely used in JavaScript for handling asynchronous operations, event-driven programming, and higher-order functions.
+
+#### **How It Works**
+
+1. **Callback as an Argument**:
+    - A function is passed as a parameter to another function.
+2. **Execution**:
+    - The "higher-order" function decides when to call (or execute) the callback.
+
+***Syntax:***
+```js
+function higherOrderFunction(callback) {
+  // Execute the callback
+  callback();
+}
+
+function myCallback() {
+  console.log("Callback executed!");
+}
+
+higherOrderFunction(myCallback);
+```
+
