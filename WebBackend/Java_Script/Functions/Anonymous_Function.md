@@ -56,3 +56,27 @@ document.getElementById("btn").addEventListener("click", function () {
   console.log("Button clicked!");
 });
 ```
+
+## **When to Avoid**
+
+- When the function will be reused multiple times.
+- In scenarios where debugging is crucial, as named functions are easier to trace.
+
+#### **Characteristics**
+
+1. **No Name**:
+    
+    - Unlike named functions, anonymous functions do not have a name property.
+     
+2. **Flexibility**:
+    
+    - Anonymous functions can be used inline, making them highly versatile.
+
+3. **Scope**:
+    
+    - Like any function, anonymous functions have their own local scope.
+
+4. **Cannot Be Recursively Called Without Assignment**:
+    
+    - Without a name, anonymous functions cannot reference themselves unless assigned to a variable or constant.
+
