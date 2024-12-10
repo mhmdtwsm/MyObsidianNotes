@@ -101,6 +101,16 @@ for (let i = 0; i < 3; i++) {
 1. **Memory Address**: When you use `var`, JavaScript creates _one memory address_ for the variable `i` outside or at the start of the loop.
 2. **Iteration**: Each loop iteration reuses that _same memory address_, simply updating its value.
 3. **Asynchronous Capture**: Since `setTimeout` is asynchronous, it captures the _memory address_ of `i` (not the value at that specific moment). By the time `setTimeout` runs, the loop has completed, so `i` has the final value of `3` in that _one shared address_. As a result, each `console.log(i)` points to this same address and displays `3`.
+4. When you declare a variable with `var` inside a function, it is **function-scoped**, meaning it is accessible anywhere within the function, regardless of the block in which it is declared.
+```js
+function example() {
+  if (true) {
+    var x = 10; // Declared inside a block
+  }
+  console.log(x); // Accessible outside the block: 10
+}
+example();
+```
 
 ### Using `let`
 
