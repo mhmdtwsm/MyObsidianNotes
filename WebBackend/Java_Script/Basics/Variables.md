@@ -129,10 +129,6 @@ example();
 3. **Asynchronous Capture**: When `setTimeout` is called, it captures the _memory address for that iteration’s `i`_. Since each iteration has its own unique address, each `setTimeout` retains the correct `i` value from its specific iteration. So when `setTimeout` runs, it reads each unique address and correctly outputs `0`, `1`, and `2`.
 
 
-***SoO0oo..... to be clear***:
-- **`var`** shares a single memory address across all iterations.
-- **`let`** creates a new memory address for each iteration, preserving the values for asynchronous functions like `setTimeout`.
-
 # To continue.....
 
 To continue go [***Here***](Data_Types.md)
