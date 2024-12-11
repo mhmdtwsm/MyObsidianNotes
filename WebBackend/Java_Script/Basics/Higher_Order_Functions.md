@@ -8,6 +8,8 @@ tags:
 
 The `map()` function is an array method in JavaScript used to create a new array by applying a provided callback function to each element of the original array.
 
+To apply the change to the new array, the element that the callback function will return must be a true value thing neither it's value would not be added, and it would be in the case like the element deleted from the new array after applying the callback function on.
+
 ### **Syntax**
 ```javascript
 array.map(callback(element, index, array), thisArg);
@@ -98,6 +100,7 @@ By understanding the behavior and flexibility of `map()`, you can efficiently tr
 ### Some Uses
 
 - You can use it by referencing a already built function in it, but make sure that this function works with the same structure of the `map` function of taking the first parameter as the value you want to reformat or do the operation on and it will work automatically.
+
 ```js
 let a = ['1','2','3','5'];
 
@@ -108,3 +111,4 @@ const y = (x) => {
 let b = a.map(y);
 console.log(b); // [ 1, 4, 9, 25 ]
 ```
+
