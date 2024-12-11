@@ -1,6 +1,8 @@
 ---
 tags:
   - map
+  - filter
+  - reduce
 ---
 
 # `map`
@@ -175,6 +177,7 @@ console.log(result); // [3, 4, 5] -- Elements greater than 2
 ```
 
 # `reduce`
+#reduce
 
 The **`reduce()`** method is an array method in JavaScript that applies a **reducer function** (a function that processes each element) on an array, ultimately reducing it to a single value (e.g., a sum, product, or other cumulative result).
 
