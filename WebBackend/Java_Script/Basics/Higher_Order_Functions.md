@@ -209,6 +209,13 @@ const max = numbers.reduce((accumulator, currentValue) => {
 }, numbers[0]);
 console.log(max);  // Output: 5
 ```
+ 
+ - **Explanation of `currentValue > accumulator ? currentValue : accumulator`:**
+
+	In the context of the `reduce()` function, this expression is comparing the `currentValue` (the current item in the array) with the `accumulator` (the previous value that is being accumulated during the iteration).
+
+	- If **`currentValue` is greater than `accumulator`**, the expression returns `currentValue`.
+	- Otherwise, it returns the `accumulator`.
 
 ### Example 3: Flattening an Array of Arrays
 ```js
@@ -217,3 +224,7 @@ result = a.reduce((x, y) => [...x, ...y], []);
 console.log(result);
 ```
 
+### Example 4: Counting Occurrences of Items
+```js
+1
+```
