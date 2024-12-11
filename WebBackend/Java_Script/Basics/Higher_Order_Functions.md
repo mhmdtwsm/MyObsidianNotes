@@ -7,9 +7,6 @@ tags:
 #map
 
 The `map()` function is an array method in JavaScript used to create a new array by applying a provided callback function to each element of the original array.
-
-To apply the change to the new array, the element that the callback function will return must be a true value thing neither it's value would not be added, and it would be in the case like the element deleted from the new array after applying the callback function on.
-
 ### **Syntax**
 ```javascript
 array.map(callback(element, index, array), thisArg);
