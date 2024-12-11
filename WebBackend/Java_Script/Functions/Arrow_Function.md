@@ -60,3 +60,56 @@ arrowFunction(1, 2, 3);  // Error: arguments is not defined
 
 ```
 
+### When to Use Arrow Functions:
+
+- For **simple functions** where you want concise syntax.
+- When you need to **preserve the context** of `this` inside a callback or event handler.
+
+
+# Special Case with Higher Order Functions
+
+***Example of an issue of using it with `mab` fucnction***
+
+When you use an arrow function in JavaScript, `this` inside the arrow function does **not** refer to the `a` object (or the context passed in the second argument to `map()`), but instead, it refers to the lexical scope in which the arrow function was created. In this case, `this` refers to the global object (`window` in browsers or `global` in Node.js), not the `a` object.
+
+
+**Solution 1: Using Regular Function (this will bind `this` correctly)**
+
+```js
+let a = {
+  x: 1,
+  fofo(vv) {
+    console.log(vv + this.x);
+  },
+  y: 2,
+};
+
+let b = [1, 2, 3, 4, 5, 6];
+
+b = b.map(function(x) {  // Use a regular function here
+  return this.fofo(x);   // this will refer to 'a'
+}, a);  // 'a' is explicitly passed as the context
+
+console.log(b);
+```
+
+**Solution 2: Using `bind()` to bind the context explicitly**
+
+```js
+let a = {
+  x: 1,
+  fofo(vv) {
+    console.log(vv + this.x);
+  },
+  y: 2,
+};
+
+let b = [1, 2, 3, 4, 5, 6];
+
+b = b.map((x) => {
+  return this.fofo(x);
+}.bind(a));  // Explicitly bind 'a' as the context for the arrow function
+
+console.log(b);
+
+```
