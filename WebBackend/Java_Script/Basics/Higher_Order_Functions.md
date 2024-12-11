@@ -7,9 +7,6 @@ tags:
 #map
 
 The `map()` function is an array method in JavaScript used to create a new array by applying a provided callback function to each element of the original array.
-
-To apply the change to the new array, the element that the callback function will return must be a true value thing neither it's value would not be added, and it would be in the case like the element deleted from the new array after applying the callback function on.
-
 ### **Syntax**
 ```javascript
 array.map(callback(element, index, array), thisArg);
@@ -117,10 +114,63 @@ console.log(b); // [ 1, 4, 9, 25 ]
 # `filter`
 #filter
 
-The **`filter()`** method of [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) instances creates a [shallow copy](https://developer.mozilla.org/en-US/docs/Glossary/Shallow_copy) of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
+The **`filter()`** method of [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) instances creates a [shallow copy](https://developer.mozilla.org/en-US/docs/Glossary/Shallow_copy) of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function, so the output of the given callback function must be a true or false boolean value.
 
 ***Syntax:***
 ```js
-const newArray = array.filter(callback(element[, index[, array]])[, thisArg]);
+const newArray = array.filter(callbackFn, thisArg);
+```
+
+***Parameters:***
+
+- **`callback`**: A function that tests each element of the array. It accepts the following parameters:
+    
+	- `element`: The current element being processed.
+    
+	- `index` (optional): The index of the current element.
+    
+	- `array` (optional): The array `filter` was called upon.
+
+- **`thisArg`** (optional): A value to use as `this` when executing the `callback`.
+
+***Return Value:***
+
+- A new array containing all the elements that passed the test. If no elements pass, an empty array is returned.
+
+***Example 1:***
+```js
+const numbers = [1, 2, 3, 4, 5, 6];
+const evenNumbers = numbers.filter(num => num % 2 === 0);
+console.log(evenNumbers); // [2, 4, 6]
+```
+
+***Example 2: (on objects)***
+```js
+const users = [
+  { name: 'Alice', age: 25 },
+  { name: 'Bob', age: 17 },
+  { name: 'Charlie', age: 30 }
+];
+
+const adults = users.filter(user => user.age >= 18);
+console.log(adults); 
+// [{ name: 'Alice', age: 25 }, { name: 'Charlie', age: 30 }]
+```
+
+***Example 3: (Using `thisArg`)***
+```js
+const multiplier = {
+  factor: 2,
+  multiply(x) {
+    return x * this.factor;
+  }
+};
+
+const numbers = [1, 2, 3, 4, 5];
+const result = numbers.filter(function(num) {
+  return num > 2;
+}, multiplier);
+
+console.log(result); // [3, 4, 5] -- Elements greater than 2
 ```
 
