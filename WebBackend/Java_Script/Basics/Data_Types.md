@@ -102,7 +102,7 @@ console.log(person.isStudent); // Output: true
 let numbers = [1, 2, 3, 4];
 ```
 
-### ****
+### **[Functions](../Functions/Functions.md)**
 ```js
 function greet() { console.log("Hello World"); }
 console.log(typeof greet); // It should return function
