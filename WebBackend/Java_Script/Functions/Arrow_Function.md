@@ -113,3 +113,7 @@ b = b.map((x) => {
 console.log(b);
 
 ```
+
+
+- **Solution 1** uses a regular function within the `map()` method, so `this` correctly refers to `a` when the method is called.
+- **Solution 2** binds the `fofo` method's context explicitly to `a` using `.bind(a)`.
