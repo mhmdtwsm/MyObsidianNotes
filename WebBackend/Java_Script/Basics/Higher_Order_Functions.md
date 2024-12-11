@@ -174,3 +174,46 @@ const result = numbers.filter(function(num) {
 console.log(result); // [3, 4, 5] -- Elements greater than 2
 ```
 
+# `reduce`
+
+The **`reduce()`** method is an array method in JavaScript that applies a **reducer function** (a function that processes each element) on an array, ultimately reducing it to a single value (e.g., a sum, product, or other cumulative result).
+
+***Syntax:***
+```js
+array.reduce(callback(accumulator, currentValue, currentIndex, array), initialValue);
+```
+
+### Parameters:
+
+- **`callback`**: A function that is executed on each element in the array.
+    - **`accumulator`**: The accumulated value from the previous iteration. It is updated with the return value of the callback.
+    - **`currentValue`**: The current element being processed in the array.
+    - **`currentIndex`** (optional): The index of the current element being processed.
+    - **`array`** (optional): The original array that `reduce()` was called on.
+
+- **`initialValue`** (optional): A value to use as the first argument to the first call of the `callback`. If not provided, the first element of the array is used as the initial value, and the iteration starts from the second element.
+
+### Example 1: Summing an Array of Numbers
+```js
+const numbers = [1, 2, 3, 4, 5];
+const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+console.log(sum);  // Output: 15
+```
+- Here, `accumulator` starts at `0` (the `initialValue`), and for each element, it adds the `currentValue` to it, resulting in the sum of the array.
+
+### Example 2: Finding the Maximum Value in an Array
+```js
+const numbers = [1, 2, 3, 4, 5];
+const max = numbers.reduce((accumulator, currentValue) => {
+  return currentValue > accumulator ? currentValue : accumulator;
+}, numbers[0]);
+console.log(max);  // Output: 5
+```
+
+### Example 3: Flattening an Array of Arrays
+```js
+let a = [[1, 2], [3, 4], [5, 6]];
+result = a.reduce((x, y) => [...x, ...y], []);
+console.log(result);
+
+```
