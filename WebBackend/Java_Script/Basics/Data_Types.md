@@ -97,12 +97,12 @@ console.log(person.age);      // Output: 25
 console.log(person.isStudent); // Output: true
 ```
 
-### **Array**.
+### **[Arrays](Arrays.md)**.
 ```js
 let numbers = [1, 2, 3, 4];
 ```
 
-### **Function**
+### ****
 ```js
 function greet() { console.log("Hello World"); }
 console.log(typeof greet); // It should return function
