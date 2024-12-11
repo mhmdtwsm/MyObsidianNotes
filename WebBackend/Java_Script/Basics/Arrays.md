@@ -302,6 +302,11 @@ console.log(words); // Output: ["JavaScript", "is", "fun"] (unchanged)
 - **`reverse()`** reverses the copied array.
 - **`join()`** combines the reversed array into a string.
 
+### Higher Order Functions
+
+Look at [here](Higher_Order_Functions.md) for more complex methods of arrays.
+
+---
 ### Iteration in arrays with `for...in`, `for...of`, and indexing
 
 ### Using `for...in` Loop
@@ -348,3 +353,4 @@ for (let i = 0; i < colors.length; i++) {
 - **Traditional `for` loop:** Useful when you need to access the index of each element or modify the array elements.
 
 - **Avoid `for...in` for arrays:** It can iterate over unexpected properties added to the array object.
+

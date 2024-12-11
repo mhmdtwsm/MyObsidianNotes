@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java_Script/Basics/Variables.md",
+                "file": "Java_Script/Basics/Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variables"
+              "title": "Arrays"
             }
           }
         ]
@@ -164,11 +164,12 @@
   },
   "active": "9665b01f323deb89",
   "lastOpenFiles": [
-    "Java_Script/Basics/Data_Types.md",
+    "Java_Script/Basics/Higher_Order_Functions.md",
+    "Java_Script/Basics/Arrays.md",
     "Java_Script/Basics/Variables.md",
     "Java_Script/Basics/Scopes.md",
+    "Java_Script/Basics/Data_Types.md",
     "Java_Script/Functions/Anonymous_Function.md",
-    "Java_Script/Basics/Arrays.md",
     "Java_Script/Functions/Basic_Function.md",
     "Java_Script/Basics/Strings.md",
     "Java_Script/Basics/Numerical.md",
@@ -200,7 +201,6 @@
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Complete_Beginner_Path.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
     "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/X.png",
     "Untitled.canvas",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/tty_art.png",
