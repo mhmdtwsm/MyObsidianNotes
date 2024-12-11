@@ -68,9 +68,9 @@ arrowFunction(1, 2, 3);  // Error: arguments is not defined
 
 # Special Case with Higher Order Functions
 
-***Example of an issue of using it with `mab` fucnction***
+***Example of an issue of using it with `mab` function***
 
-When you use an arrow function in JavaScript, `this` inside the arrow function does **not** refer to the `a` object (or the context passed in the second argument to `map()`), but instead, it refers to the lexical scope in which the arrow function was created. In this case, `this` refers to the global object (`window` in browsers or `global` in Node.js), not the `a` object.
+When you use an arrow function in JavaScript, `this` inside the arrow function does **not** refer to the `a` object (or the context passed in the second argument to `map()`), but instead, it refers to the lexical scope in which the arrow function was created. In this case, `this` refers to the global object (`window` in browsers or `global` in `Node.js`), not the `a` object.
 
 
 **Solution 1: Using Regular Function (this will bind `this` correctly)**
