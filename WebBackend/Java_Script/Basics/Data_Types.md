@@ -97,6 +97,8 @@ console.log(person.age);      // Output: 25
 console.log(person.isStudent); // Output: true
 ```
 
+***Look [here](Object_Literals.md) for more***
+
 ### **[Arrays](Arrays.md)**.
 ```js
 let numbers = [1, 2, 3, 4];
