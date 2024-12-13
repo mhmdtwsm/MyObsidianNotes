@@ -260,15 +260,3 @@ console.log(obj.name); // "Alice"
 ```
 
 ---
-
-## Summary
-
-Objects in JavaScript are flexible and form the backbone of most functionality in the language. They support:
-
-- Dynamic addition and deletion of properties
-- Prototypal inheritance for sharing behaviors
-- Built-in methods for manipulation and introspection
-- Context-aware usage of `this` for dynamic behaviors
-
-Understanding objects is key to mastering JavaScript.
-
