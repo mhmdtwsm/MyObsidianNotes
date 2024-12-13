@@ -252,6 +252,7 @@ function Student(name, age, year) {
 - Binds `this` to the new object.
 - Initializes the properties defined inside the constructor function.
 - Returns the new object (unless the constructor explicitly returns something else).
+
 ```js
 let student1 = new Student("Ahmed", 22, "2020");
 ```
