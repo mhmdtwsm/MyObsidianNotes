@@ -1,3 +1,7 @@
+---
+tags:
+  - Object
+---
 
 
 **JavaScript objects are collections of key-value pairs, where the keys (also called properties) are strings or Symbols, and the values can be any type of data, including other objects, functions, or primitives.**
@@ -23,6 +27,7 @@ person.greet(); // "Hello, my name is John"
 ```
 
 ### Using `Object` Constructor
+#Object
 
 ```javascript
 const obj = new Object();
@@ -207,6 +212,48 @@ greet.apply(person); // "Hello, my name is Emma"
 
 const boundGreet = greet.bind(person);
 boundGreet(); // "Hello, my name is Emma"
+```
+
+### Creating Objects with Constructor Functions
+
+A **constructor function** is a special type of function used to create objects. By using the `new` keyword with a constructor function, we can instantiate objects with properties and methods. Constructor functions allow for the creation of multiple objects with the same structure.
+
+***Syntax:***
+```js
+function ConstructorFunction(parameter1, parameter2, ...) {
+  this.property1 = parameter1;
+  this.property2 = parameter2;
+  // Additional properties and methods can be added
+}
+```
+
+- **`this`**: In the context of a constructor function, `this` refers to the newly created object.
+
+- **`new` keyword**: When you call a constructor function with `new`, JavaScript creates a new object and assigns `this` to it.
+
+#### Step-by-Step Process
+
+**Define a Constructor Function**: A constructor function is defined like any other JavaScript function, but it is typically written with a capital letter to distinguish it from regular functions.
+```js
+function Student(name, age, year) {
+  this.name = name;
+  this.age = age;
+  this.year = year;
+}
+```
+- `Student` is the name of the constructor function.
+    - The function accepts three parameters: `name`, `age`, and `year`.
+    
+	- Inside the function, `this.name`, `this.age`, and `this.year` are used to define properties on the object.
+
+**Create a New Object Using `new`**: When you use the `new` keyword, JavaScript performs the following steps:
+
+- Creates a new empty object.
+- Binds `this` to the new object.
+- Initializes the properties defined inside the constructor function.
+- Returns the new object (unless the constructor explicitly returns something else).
+```js
+let student1 = new Student("Ahmed", 22, "2020");
 ```
 
 ---
