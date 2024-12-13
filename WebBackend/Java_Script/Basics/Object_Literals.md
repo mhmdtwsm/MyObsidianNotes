@@ -246,6 +246,7 @@ function Student(name, age, year) {
     
 	- Inside the function, `this.name`, `this.age`, and `this.year` are used to define properties on the object.
 
+
 **Create a New Object Using `new`**: When you use the `new` keyword, JavaScript performs the following steps:
 
 - Creates a new empty object.
@@ -256,6 +257,59 @@ function Student(name, age, year) {
 ```js
 let student1 = new Student("Ahmed", 22, "2020");
 ```
+- - `student1` is a new object that is created with the `Student` constructor.
+    - The `name`, `age`, and `year` properties are set on `student1`.
+
+
+**Access Object Properties**: After creating the object, you can access its properties like any regular object in JavaScript.
+
+```js
+console.log(student1.name);  // Output: Ahmed
+console.log(student1.age);   // Output: 22
+console.log(student1.year);  // Output: 2020
+
+```
+
+**Returning the Object**:
+
+- By default, the `new` keyword automatically returns the new object created.
+- If you explicitly return an object from the constructor function, that object will be returned instead of the default object.
+
+```js
+function Student(name, age, year) {
+  this.name = name;
+  this.age = age;
+  this.year = year;
+  return { custom: "value" };  // This will override the default object
+}
+
+let student2 = new Student("Sara", 21, "2021");
+console.log(student2);  // Output: { custom: "value" }
+```
+
+***Full Example:***
+```js
+function Student(name, age, year) {
+  this.name = name;
+  this.age = age;
+  this.year = year;
+  this.greet = function() {
+    console.log("Hello, my name is " + this.name + ".");
+  };
+}
+
+// Creating a new Student object
+let student1 = new Student("Ahmed", 22, "2020");
+
+// Accessing object properties
+console.log(student1.name);  // Output: Ahmed
+console.log(student1.age);   // Output: 22
+console.log(student1.year);  // Output: 2020
+
+// Calling the greet method
+student1.greet();  // Output: Hello, my name is Ahmed.
+```
+
 
 ---
 
