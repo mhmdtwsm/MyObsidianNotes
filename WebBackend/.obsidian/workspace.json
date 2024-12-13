@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java_Script/Basics/Data_Types.md",
+                "file": "Java_Script/Basics/Object_Literals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data_Types"
+              "title": "Object_Literals"
             }
           }
         ]
@@ -164,9 +164,10 @@
   },
   "active": "9665b01f323deb89",
   "lastOpenFiles": [
+    "Java_Script/Basics/Data_Types.md",
+    "Java_Script/Basics/Object_Literals.md",
     "Java_Script/Functions/Functions.md",
     "Java_Script/Functions/Arrow_Function.md",
-    "Java_Script/Basics/Data_Types.md",
     "Java_Script/Basics/Conditionals.md",
     "Java_Script/Basics/Higher_Order_Functions.md",
     "Java_Script/Functions/Basic_Function.md",
@@ -200,7 +201,6 @@
     "Java_Script/Document.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch8_Bash_Scripting.md",
-    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Complete_Beginner_Path.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/X.png",
     "Untitled.canvas",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/tty_art.png",
