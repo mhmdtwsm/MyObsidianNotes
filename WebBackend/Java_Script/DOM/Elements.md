@@ -316,3 +316,15 @@ element.id = 'newId';  // Modifying the DOM property
 
 ## Editing the Style of an Element
 
+
+### **Editing the Style**
+
+Once you've accessed the element, you can modify its inline style using the `style` property. The `style` property represents the inline styles applied to an element.
+
+#### **Setting Styles**
+
+To set a style, you directly assign the desired value to the style property:
+```js
+element.style.propertyName = 'value';
+```
+
