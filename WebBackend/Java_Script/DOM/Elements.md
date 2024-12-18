@@ -265,3 +265,48 @@ console.log(inField.value); // "Default Value"
 ```
 
 - Here, the `value` attribute in the HTML becomes `"Hello"`, but the input field still displays `"Default Value"` until re-rendered.
+
+
+### Key Points:
+
+- **`value` property** reflects the current live value (what the user sees).
+
+- **`value` attribute** defines the initial default value and does not change with user interaction unless explicitly updated.
+
+- Use `inField.value` to interact with or set the visible value directly.
+
+- Use `inField.setAttribute("value", "value");` to update the default value in the HTML.
+
+---
+
+## `DOM` and attributes are Object and properties in `JS` 
+
+***Accessing an attribute*** of an HTML element from the JavaScript ***`DOM`*** is somewhat similar to accessing a property of an object. However, there are key differences:
+
+- **HTML Attributes vs DOM Properties:**
+    
+    - **Attributes** are the values defined in the HTML markup (e.g., `<div id="myDiv" class="example">`).
+    
+	- **Properties** are part of the DOM objects that JavaScript works with. They represent the current state of an element, and can reflect changes to the DOM (e.g., `<div id="myDiv" class="newClass">` might change dynamically).
+
+- **Accessing Attributes:** You access an HTML element's attribute using `getAttribute()` and `setAttribute()` methods:
+```js
+let element = document.getElementById('myDiv');
+let id = element.getAttribute('id');  // Accessing an attribute
+element.setAttribute('id', 'newId');  // Modifying an attribute
+```
+
+- **Accessing Properties:** You access a property directly, like an object property:
+```js
+let element = document.getElementById('myDiv');
+let id = element.id;  // Accessing the DOM property
+element.id = 'newId';  // Modifying the DOM property
+```
+
+**Differences in Behavior:**
+    
+- Attributes in HTML are static values set at page load. Properties represent the current state of an element in the `DOM`.
+    
+- Some attributes (like `checked` for `checkboxes` or `value` for form elements) are often automatically synchronized with their corresponding properties.
+    
+- When you modify an attribute via `setAttribute()`, it doesn't always reflect immediately in the `DOM` properties (and vice versa), especially for dynamic elements like `<input>`.
