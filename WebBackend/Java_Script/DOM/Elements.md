@@ -283,11 +283,11 @@ console.log(inField.value); // "Default Value"
 
 ***Accessing an attribute*** of an HTML element from the JavaScript ***`DOM`*** is somewhat similar to accessing a property of an object. However, there are key differences:
 
-- **HTML Attributes vs DOM Properties:**
+- **HTML Attributes vs `DOM` Properties:**
     
     - **Attributes** are the values defined in the HTML markup (e.g., `<div id="myDiv" class="example">`).
     
-	- **Properties** are part of the DOM objects that JavaScript works with. They represent the current state of an element, and can reflect changes to the DOM (e.g., `<div id="myDiv" class="newClass">` might change dynamically).
+	- **Properties** are part of the `DOM` objects that JavaScript works with. They represent the current state of an element, and can reflect changes to the `DOM` (e.g., `<div id="myDiv" class="newClass">` might change dynamically).
 
 - **Accessing Attributes:** You access an HTML element's attribute using `getAttribute()` and `setAttribute()` methods:
 ```js
@@ -305,8 +305,8 @@ element.id = 'newId';  // Modifying the DOM property
 
 **Differences in Behavior:**
     
-- Attributes in HTML are static values set at page load. Properties represent the current state of an element in the `DOM`.
+- ***Attributes*** in HTML are static values set at page load. ***Properties*** represent the current state of an element in the `DOM`.
     
-- Some attributes (like `checked` for `checkboxes` or `value` for form elements) are often automatically synchronized with their corresponding properties.
+- Some ***attributes*** (like `checked` for `checkboxes` or `value` for form elements) are often automatically synchronized with their corresponding properties.
     
-- When you modify an attribute via `setAttribute()`, it doesn't always reflect immediately in the `DOM` properties (and vice versa), especially for dynamic elements like `<input>`.
+- When you modify an ***attribute*** via `setAttribute()`, it doesn't always reflect immediately in the `DOM` properties (and vice versa), especially for dynamic elements like `<input>`.
