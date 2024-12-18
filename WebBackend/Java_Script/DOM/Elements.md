@@ -395,3 +395,16 @@ You can also remove all inline styles at once:
 element.removeAttribute('style'); // Removes all inline styles
 ```
 
+### **Considerations**
+
+- **Inline Styles vs CSS**: Modifying styles through JavaScript only affects the inline styles. These changes will override any CSS rules applied via external stylesheets or `<style>` tags, but they can be overridden again if other inline styles or stylesheets are applied afterward.
+
+- **CSS Variables**: If you're working with CSS variables, you can manipulate them using JavaScript:
+
+
+```js
+document.documentElement.style.setProperty('--main-color', 'green');
+```
+
+**Reflow and Repaint**: Changing styles can trigger reflow and repaint processes in the browser, which might impact performance if done frequently. ***Be mindful when making style changes in loops or on multiple elements.***
+
