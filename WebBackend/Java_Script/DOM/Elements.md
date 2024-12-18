@@ -1,7 +1,5 @@
 # Accessing HTML Elements from JavaScript
 
-![](../../photos/DOM/DOM_Elements.png)
-
 In this document, we'll explore how to interact with HTML elements using JavaScript. By accessing and manipulating HTML elements, you can create dynamic and interactive web pages.
 
 ## Methods to Access HTML Elements
