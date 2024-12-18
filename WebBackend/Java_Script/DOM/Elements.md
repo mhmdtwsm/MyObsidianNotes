@@ -244,3 +244,24 @@ console.log(inField.getAttribute("value")); // "Default Value"
 - Here, the input field will show `Hello`, but the `value` attribute in the HTML remains `"Default Value"`.
 
 
+### 2. **`inField.setAttribute("value", "Hello");`**
+
+- This sets the **value attribute** in the HTML markup, not the `value` property.
+
+- The `value` attribute represents the **default value** of the input field, which is set when the page loads or when the form is reset.
+
+- Changing the `value` attribute does **not immediately** update what the user sees in the UI unless the field is re-rendered or reset.
+
+***Example:***
+
+```html
+<input id="inField" value="Default Value">
+```
+
+```js
+const inField = document.getElementById("inField");
+inField.setAttribute("value", "Hello");
+console.log(inField.value); // "Default Value"
+```
+
+- Here, the `value` attribute in the HTML becomes `"Hello"`, but the input field still displays `"Default Value"` until re-rendered.

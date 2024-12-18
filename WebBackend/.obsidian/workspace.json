@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java_Script/DOM/DOM.md",
+                "file": "Java_Script/DOM/Elements.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DOM"
+              "title": "Elements"
             }
           }
         ]
@@ -164,13 +164,13 @@
   },
   "active": "9665b01f323deb89",
   "lastOpenFiles": [
+    "Java_Script/Functions/Functions.md",
+    "Java_Script/DOM/DOM.md",
     "photos/DOM/DOM_Methods.png",
     "Java_Script/DOM/Elements.md",
     "photos/DOM",
     "photos/DOM/DOM_Elements.png",
-    "Java_Script/DOM/DOM.md",
     "Java_Script/Basics/Variables.md",
-    "Java_Script/Functions/Functions.md",
     "Java_Script/Functions/Basic_Function.md",
     "Java_Script/Functions/Anonymous_Function.md",
     "Java_Script/Console/console.log.md",
@@ -209,7 +209,6 @@
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/tty.png",
     "Pasted image 20241004163348.png",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/terminal.png",
-    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals",
-    "THM_Learning_era/First_Phase/THM/Pasted image 20240901024646.png"
+    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals"
   ]
 }
