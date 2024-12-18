@@ -162,8 +162,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9665b01f323deb89",
+  "active": "19bcfbf4784cdfcd",
   "lastOpenFiles": [
+    "photos/DOM",
+    "photos/DOM/DOM_Elements.png",
     "Java_Script/DOM/DOM.md",
     "Java_Script/DOM/Elements.md",
     "Java_Script/Basics/Variables.md",
@@ -200,7 +202,6 @@
     "Java_Script",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch9_Compressing_And_Archiving.md",
     "Java_Script/Document.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/X.png",
     "Untitled.canvas",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/tty_art.png",
@@ -209,7 +210,6 @@
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/terminal.png",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals",
     "THM_Learning_era/Notes_Commands",
-    "THM_Learning_era/First_Phase/THM/Pasted image 20240901024646.png",
-    "files/photos/srv/venom.png"
+    "THM_Learning_era/First_Phase/THM/Pasted image 20240901024646.png"
   ]
 }

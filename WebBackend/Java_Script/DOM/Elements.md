@@ -1,5 +1,7 @@
 # Accessing HTML Elements from JavaScript
 
+![](../../photos/DOM/DOM_Elements.png)
+
 In this document, we'll explore how to interact with HTML elements using JavaScript. By accessing and manipulating HTML elements, you can create dynamic and interactive web pages.
 
 ## Methods to Access HTML Elements
@@ -202,3 +204,45 @@ Here are some commonly used attributes and how to work with them:
     console.log(element.getAttribute("data-custom-attribute"));
     element.setAttribute("data-custom-attribute", "newValue");
     ```
+
+---
+
+# Some Notes to put in consideration
+
+
+## Difference between direct property access and accessing with attribute functions
+
+```js
+let inField = document.getElementById("input");
+
+inField.value = "Hello";
+
+inField.setAttribute("value", "Hello");
+```
+
+
+***The difference*** between `inField.value = "Hello";` and `inField.setAttribute("value", "Hello");` lies in how they interact with the `DOM` element's _property_ versus its _attribute_:
+
+### 1. **`inField.value = "Hello";`**
+
+- This directly sets the **value property** of the `DOM` element.
+
+- The `value` property reflects the **current value** of the input field, which is what the user sees and can interact with in the `UI`.
+
+- Changing the `value` property updates the displayed value in the input field but does **not** update the `value` attribute in the HTML source.
+
+***Example:***
+
+```html
+<input id="inField" value="Default Value">
+```
+
+```js
+const inField = document.getElementById("inField");
+inField.value = "Hello";
+console.log(inField.getAttribute("value")); // "Default Value"
+```
+
+- Here, the input field will show `Hello`, but the `value` attribute in the HTML remains `"Default Value"`.
+
+
