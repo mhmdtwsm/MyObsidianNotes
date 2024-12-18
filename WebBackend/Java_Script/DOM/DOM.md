@@ -17,6 +17,8 @@ In JavaScript, the `document` object represents the entire HTML document that is
 ---
 # Example Methods:
 
+![](../../photos/DOM/DOM_Methods.png)
+
 ## `.getElementById`
 #getElementById 
 
