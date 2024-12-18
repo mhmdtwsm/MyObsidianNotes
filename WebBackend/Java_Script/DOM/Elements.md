@@ -324,7 +324,74 @@ Once you've accessed the element, you can modify its inline style using the `sty
 #### **Setting Styles**
 
 To set a style, you directly assign the desired value to the style property:
+
 ```js
 element.style.propertyName = 'value';
+```
+
+- **`propertyName`**: The CSS property you want to modify (written in camelCase).
+- **`value`**: The value you want to assign to the property.
+
+***Examples:***
+```js
+// Change background color
+element.style.backgroundColor = 'blue';
+
+// Change font size
+element.style.fontSize = '20px';
+
+// Change width
+element.style.width = '100px';
+
+// Change text color
+element.style.color = 'white';
+```
+
+### **Accessing Current Styles**
+
+If you want to read the current computed style of an element (the final, effective style after all CSS rules and inline styles have been applied), you can use the `getComputedStyle()` method:
+
+```js
+let computedStyle = window.getComputedStyle(element);
+
+// Get the computed value of a specific property
+let backgroundColor = computedStyle.backgroundColor;
+let fontSize = computedStyle.fontSize;
+```
+
+### **Adding or Removing CSS Classes**
+
+Instead of directly manipulating the `style` property, you can add or remove CSS classes that are defined in your `stylesheet`. This can be more efficient and maintainable.
+
+**Adding a Class**
+```js
+element.classList.add('new-class');
+```
+
+**Removing Class**
+```js
+element.classList.remove('old-class');
+```
+
+**Toggling a Class**
+
+You can toggle a class (add it if it doesn't exist, remove it if it does) using
+```js
+element.classList.toggle('toggle-class');
+```
+
+***By doing this you will apply or remove styles fast from the elements you want in the page.***
+
+
+### **Removing Inline Styles**
+
+To remove a specific style, you can set it to an empty string:
+```js
+element.style.backgroundColor = ''; // Removes the background color
+```
+
+You can also remove all inline styles at once:
+```js
+element.removeAttribute('style'); // Removes all inline styles
 ```
 
