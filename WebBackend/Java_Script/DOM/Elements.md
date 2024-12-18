@@ -406,5 +406,23 @@ element.removeAttribute('style'); // Removes all inline styles
 document.documentElement.style.setProperty('--main-color', 'green');
 ```
 
-**Reflow and Repaint**: Changing styles can trigger reflow and repaint processes in the browser, which might impact performance if done frequently. ***Be mindful when making style changes in loops or on multiple elements.***
+**`Reflow` and `Repaint`**: Changing styles can trigger `reflow` and `repaint` processes in the browser, which might impact performance if done frequently. ***Be mindful when making style changes in loops or on multiple elements.***
+
+
+### **Example: Changing the Style of an Element**
+
+Here is a simple example where you access an element by its ID and change its background color and font size when a button is clicked:
+
+```html
+<button onclick="changeStyle()">Change Style</button>
+<div id="myDiv">Hello World!</div>
+```
+
+```js
+function changeStyle() {
+  let element = document.getElementById('myDiv');
+  element.style.backgroundColor = 'yellow';
+  element.style.fontSize = '30px';
+}
+```
 
