@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#getAttribute",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,10 +165,10 @@
   },
   "active": "9665b01f323deb89",
   "lastOpenFiles": [
+    "Java_Script/DOM/Elements.md",
     "Java_Script/Functions/Functions.md",
     "Java_Script/DOM/DOM.md",
     "photos/DOM/DOM_Methods.png",
-    "Java_Script/DOM/Elements.md",
     "photos/DOM",
     "photos/DOM/DOM_Elements.png",
     "Java_Script/Basics/Variables.md",

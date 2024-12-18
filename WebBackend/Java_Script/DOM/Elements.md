@@ -1,3 +1,15 @@
+---
+tags:
+  - getElementById
+  - getElementsByClassName
+  - getElementsByTagName
+  - querySelector
+  - querySelectorAll
+  - getAttribute
+  - setAttribute
+  - removeAttribute
+---
+
 # Accessing HTML Elements from JavaScript
 
 In this document, we'll explore how to interact with HTML elements using JavaScript. By accessing and manipulating HTML elements, you can create dynamic and interactive web pages.
