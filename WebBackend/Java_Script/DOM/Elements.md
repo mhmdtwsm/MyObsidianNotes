@@ -4,7 +4,7 @@ In this document, we'll explore how to interact with HTML elements using JavaScr
 
 ## Methods to Access HTML Elements
 
-JavaScript provides several methods to select and work with elements in the DOM (Document Object Model). Below are the most commonly used methods:
+JavaScript provides several methods to select and work with elements in the `DOM` (Document Object Model). Below are the most commonly used methods:
 
 ### 1. `getElementById`
 
@@ -205,10 +205,10 @@ Here are some commonly used attributes and how to work with them:
 
 ---
 
-# Some Notes to put in consideration
+## Some Notes to put in consideration
 
 
-## Difference between direct property access and accessing with attribute functions
+### Difference between direct property access and accessing with attribute functions
 
 ```js
 let inField = document.getElementById("input");
@@ -221,7 +221,7 @@ inField.setAttribute("value", "Hello");
 
 ***The difference*** between `inField.value = "Hello";` and `inField.setAttribute("value", "Hello");` lies in how they interact with the `DOM` element's _property_ versus its _attribute_:
 
-### 1. **`inField.value = "Hello";`**
+#### 1. **`inField.value = "Hello";`**
 
 - This directly sets the **value property** of the `DOM` element.
 
@@ -244,7 +244,7 @@ console.log(inField.getAttribute("value")); // "Default Value"
 - Here, the input field will show `Hello`, but the `value` attribute in the HTML remains `"Default Value"`.
 
 
-### 2. **`inField.setAttribute("value", "Hello");`**
+#### 2. **`inField.setAttribute("value", "Hello");`**
 
 - This sets the **value attribute** in the HTML markup, not the `value` property.
 
@@ -267,7 +267,7 @@ console.log(inField.value); // "Default Value"
 - Here, the `value` attribute in the HTML becomes `"Hello"`, but the input field still displays `"Default Value"` until re-rendered.
 
 
-### Key Points:
+#### Key Points:
 
 - **`value` property** reflects the current live value (what the user sees).
 
@@ -310,3 +310,9 @@ element.id = 'newId';  // Modifying the DOM property
 - Some ***attributes*** (like `checked` for `checkboxes` or `value` for form elements) are often automatically synchronized with their corresponding properties.
     
 - When you modify an ***attribute*** via `setAttribute()`, it doesn't always reflect immediately in the `DOM` properties (and vice versa), especially for dynamic elements like `<input>`.
+
+
+---
+
+## Editing the Style of an Element
+
