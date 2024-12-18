@@ -91,6 +91,114 @@ items.forEach((item) => {
 
 **Note:** If you assign the same `name` attribute to multiple elements, you can access them using `document.getElementsByName`. This will return a NodeList containing all elements with that name. Unlike `id`, it is common and valid to reuse `name` attributes for form elements.
 
-## Summary
+## Accessing and Manipulating Attributes
 
-Accessing HTML elements from JavaScript is fundamental to creating dynamic web pages. Whether you use `getElementById` for a specific element or `querySelectorAll` for multiple elements, these tools allow you to interact with the DOM efficiently.
+HTML elements have attributes that can be accessed and modified directly or using attribute-related functions.
+
+### Direct Access
+
+You can directly access and modify common attributes using their corresponding properties:
+
+```javascript
+const inputField = document.getElementById("input");
+inputField.value = "Hello"; // Sets the current value of the input field
+inputField.placeholder = "Enter your text here"; // Sets the placeholder text
+```
+
+### Using Attribute Functions
+
+For less common or custom attributes, use the following methods:
+
+#### `getAttribute`
+
+- Retrieves the value of a specified attribute.
+
+```javascript
+const inputField = document.getElementById("input");
+console.log(inputField.getAttribute("type")); // Logs the type of the input, e.g., "text"
+```
+
+#### `setAttribute`
+
+- Sets a new value for a specified attribute.
+
+```javascript
+inputField.setAttribute("type", "password"); // Changes the input type to "password"
+```
+
+#### `removeAttribute`
+
+- Removes a specified attribute from an element.
+
+```javascript
+inputField.removeAttribute("readonly"); // Makes the input editable
+```
+
+### Most Used Attributes and Examples
+
+Here are some commonly used attributes and how to work with them:
+
+1. **`id`**
+    
+    - Used to uniquely identify an element.
+    
+    ```javascript
+    const element = document.getElementById("uniqueId");
+    element.id = "newId"; // Changes the id attribute
+    ```
+    
+2. **`class`**
+    
+    - Specifies one or more class names for an element.
+    
+    ```javascript
+    element.setAttribute("class", "newClass");
+    element.className = "anotherClass"; // Alternative way to set class
+    ```
+    
+3. **`src`** (for images, scripts, etc.)
+    
+    - Defines the source URL.
+    
+    ```javascript
+    const img = document.getElementById("myImage");
+    img.src = "newImage.jpg";
+    ```
+    
+4. **`href`** (for links)
+    
+    - Specifies the URL of the link.
+    
+    ```javascript
+    const link = document.querySelector("a");
+    link.href = "https://example.com";
+    ```
+    
+5. **`disabled`**
+    
+    - Disables an input or button.
+    
+    ```javascript
+    const button = document.getElementById("submitButton");
+    button.setAttribute("disabled", "true");
+    button.disabled = true; // Alternative
+    ```
+    
+6. **`style`**
+    
+    - Used to apply inline styles.
+    
+    ```javascript
+    element.style.color = "red";
+    element.style.backgroundColor = "yellow";
+    ```
+    
+7. **Custom Attributes**
+    
+    - Accessed and modified like any other attribute.
+    
+    ```javascript
+    const element = document.querySelector("[data-custom-attribute]");
+    console.log(element.getAttribute("data-custom-attribute"));
+    element.setAttribute("data-custom-attribute", "newValue");
+    ```
