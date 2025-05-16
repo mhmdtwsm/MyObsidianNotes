@@ -4,24 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "bcecab2c3bdb31fd",
+        "id": "9e48172b6586f18b",
         "type": "tabs",
         "children": [
           {
-            "id": "9665b01f323deb89",
+            "id": "fff4684ef02ce5c4",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "photos/Pasted image 20241205004117.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241205004117"
+            }
+          },
+          {
+            "id": "0a4799088f4b144f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java_Script/DOM/Elements.md",
+                "file": "Git/Basics/Sign in Policy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Elements"
+              "title": "Sign in Policy"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +53,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -73,8 +87,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -163,53 +176,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9665b01f323deb89",
+  "active": "0a4799088f4b144f",
   "lastOpenFiles": [
-    "Java_Script/DOM/Elements.md",
-    "Java_Script/Functions/Functions.md",
-    "Java_Script/DOM/DOM.md",
-    "photos/DOM/DOM_Methods.png",
-    "photos/DOM",
-    "photos/DOM/DOM_Elements.png",
-    "Java_Script/Basics/Variables.md",
-    "Java_Script/Functions/Basic_Function.md",
-    "Java_Script/Functions/Anonymous_Function.md",
-    "Java_Script/Console/console.log.md",
-    "Java_Script/Console/Console.md",
-    "Java_Script/Basics/Object_Literals.md",
-    "Java_Script/Basics/Data_Types.md",
-    "Java_Script/Functions/Arrow_Function.md",
-    "Java_Script/Basics/Conditionals.md",
-    "Java_Script/Basics/Higher_Order_Functions.md",
-    "Java_Script/Basics/Arrays.md",
-    "Java_Script/Basics/Scopes.md",
-    "Java_Script/Basics/Strings.md",
-    "Java_Script/Basics/Numerical.md",
-    "Java_Script/Basics/Coercion.md",
-    "Java_Script/Basics/Comparison_And_Logical_Operators.md",
+    "Git/Basics/Introduction.md",
+    "Git/Basics/Sign in Policy.md",
+    "Git/Basics/Revision_Control.md",
+    "Git/Basics/Installation.md",
+    "Git/Photos/DVCS.png",
+    "Git/Photos",
+    "Git/Photos/CVS.png",
+    "Untitled.canvas",
     "Java_Script/Basics/Loops.md",
-    "Pasted image 20241205004117.png",
+    "Git/Testing",
+    "Git/Untitled.md",
+    "Git/Concepts/Identifiers_and_Tags.md",
+    "Git/Concepts/File_Categories.md",
+    "Git/Concepts/Committing_vs_Publishing.md",
+    "Git/Concepts/Git_Architecture.md",
+    "Git/Patches/Synchronizing_Patches.md",
+    "Git/Patches/Applying_Patches.md",
+    "Git/Patches/Creating_Patches.md",
+    "Git/Tools/Graphical_Interfaces.md",
+    "Git/Tools/Git_GUI.md",
+    "Git/Tools/Gerrit.md",
+    "Git/Workflows/Git_Flow.md",
+    "Git/Workflows/Feature_Branch_Workflow.md",
+    "Git/Workflows/Pull_Requests.md",
+    "Git/Workflows/Forking.md",
+    "Git/Remotes/Fetching_and_Pulling.md",
+    "Git/Remotes/Pushing.md",
+    "Git/Remotes/Cloning.md",
+    "Git/Remotes/Remote_Repositories.md",
+    "Git/Branches/Conflict_Resolution.md",
+    "Git/Branches/Rebasing.md",
+    "Git/Concepts",
+    "Git/Patches",
+    "Git/Tools",
+    "Git/Workflows",
+    "Git/Remotes",
+    "Git/Branches",
+    "Git/Commands",
+    "Git/Basics",
+    "photos/DOM/DOM_Methods.png",
+    "photos/DOM/DOM_Elements.png",
+    "photos/Pasted image 20241205004117.png",
     "photos/Basics/LocalScope.png",
     "photos/Basics/Scopes.png",
-    "photos/Basics",
-    "photos",
-    "Hello",
-    "Java_Script/DOM/getElementById.md",
-    "Java_Script/Functions",
-    "Java_Script/Basics",
-    "Java_Script/Console",
-    "Java_Script/DOM/innerText.md",
-    "Welcome.md",
-    "Java_Script/DOM",
-    "Java_Script",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch9_Compressing_And_Archiving.md",
-    "Java_Script/Document.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/X.png",
-    "Untitled.canvas",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/tty_art.png",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/photo/tty.png",
-    "Pasted image 20241004163348.png",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/photo/terminal.png",
-    "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals"
+    "THM_Learning_era/Linux_basics_for_Hackers_book/photo/tty.png"
   ]
 }

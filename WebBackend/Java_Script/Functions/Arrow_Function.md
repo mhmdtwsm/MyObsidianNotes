@@ -44,7 +44,7 @@ logArgs(1, 2, 3);  // [1, 2, 3]
 ```
 ***Unlike the Regular function:*** In a **regular function**, you can access the `arguments` object, which contains all the arguments passed to the function, including those not listed in the function's parameter list.
 ```js
-function regularFunction() {
+function regularFunction(){
   console.log(arguments);  // Access the 'arguments' object
 }
 

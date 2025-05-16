@@ -304,7 +304,7 @@ console.log(words); // Output: ["JavaScript", "is", "fun"] (unchanged)
 
 ### Higher Order Functions
 
-Look at [here](Higher_Order_Functions.md) for more complex methods of arrays.
+Look at [here](../Functions/Higher_Order_Functions.md) for more complex methods of arrays.
 
 ---
 ### Iteration in arrays with `for...in`, `for...of`, and indexing

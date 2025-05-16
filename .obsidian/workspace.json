@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Ch9_Compressing_And_Archiving.md",
+                "file": "THM_Learning_era/Linux_basics_for_Hackers_book/Others/Shell Script/Shell Scripting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ch9_Compressing_And_Archiving"
+              "title": "Shell Scripting"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -52,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "john",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,52 +165,53 @@
   },
   "active": "5b71661418d62613",
   "lastOpenFiles": [
+    "Shell Scripting_File_Condition.png",
+    "Shell Scripting_Num_Conditions.png",
+    "Shell Scripting_String_Conitions.png",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/photo/Shell Scripting_Conditions.png",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch2_TEXT_MANIPULATION.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Others/Shell Script/Shell Scripting.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec1_The_File_System_Structure_Basics.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Others/Shell Script",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Others",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "THM_Learning_era/First_Phase/THM/BountyHacker-Cowboy-bebop.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch10_FileSystem_And_Storage_Device_Management.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/photo/partaion_labeling.png",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/photo/File_SYS_Example.png",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch7_Environment_Variables.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch8_Bash_Scripting.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch9_Compressing_And_Archiving.md",
+    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "THM_Learning_era/THM_Walkthrough/Linux_Privilege_Escalation.md",
     "THM_Learning_era/THM_CTF/Vuln_Roasted.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch5_Files_And_Directory_Permissions.md",
     "README.md",
     "Java_Script/DOM/getElementById.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch9_Compressing_And_Archiving.md",
     "Java_Script/DOM",
     "Java_Script/Document.md",
     "Java_Script/Untitled.md",
     "Java_Script",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Book.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch8_Bash_Scripting.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Complete_Beginner_Path.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Web_Hacking_Fundamentals.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec2_Basic_Commands.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/Burp_Suite_The_Basics.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals/How_Websites_Work.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_Sec1_The_File_System_Structure_Basics.md",
     "THM_Learning_era/THM_Walkthrough/Hacking_With_PowerShell.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/Ch1_General_Basics.md",
     "THM_Learning_era/THM_CTF/Pickle_Rick.md",
     "THM_Learning_era/THM_CTF/Mr.Robot.md",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/X.png",
-    "Untitled.canvas",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/tty_art.png",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/tty.png",
     "Pasted image 20241004163348.png",
     "THM_Learning_era/Linux_basics_for_Hackers_book/photo/terminal.png",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch4_APT.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch3_ANALYZING_AND_MANAGING_NETWORKS.md",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/Ch2_TEXT_MANIPULATION.md",
-    "THM_Learning_era/THM_CTF/LinuxRoom-1.md",
-    "THM_Learning_era/drafty.md",
-    "THM_Learning_era/Notes_Commands/Notes_List.md",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path/Web Hacking Fundamentals",
     "THM_Learning_era/Notes_Commands",
-    "THM_Learning_era/First_Phase/THM/Pasted image 20240901024646.png",
     "THM_Learning_era/THM_Walkthrough/Complete_Beginner_Path",
     "THM_Learning_era/THM_Walkthrough",
     "THM_Learning_era/THM_CTF/photo",
-    "THM_Learning_era/THM_CTF",
-    "files/photos/srv/venom.png",
-    "files/photos/srv/vbs.png",
-    "files/photos/srv/validy.png",
-    "files/photos/srv/valid.png",
-    "files/photos/srv",
-    "THM_Learning_era/THM_CTF/photo/blue"
+    "THM_Learning_era/THM_CTF"
   ]
 }
