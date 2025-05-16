@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9e48172b6586f18b",
+        "id": "582eb01ca57c4d77",
         "type": "tabs",
         "children": [
           {
-            "id": "fff4684ef02ce5c4",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "photos/Pasted image 20241205004117.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241205004117"
-            }
-          },
-          {
-            "id": "0a4799088f4b144f",
+            "id": "0738f3c0e251db8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Basics/Sign in Policy.md",
+                "file": "Git/Basics/Sign_in_Policy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sign in Policy"
+              "title": "Sign_in_Policy"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -176,54 +163,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a4799088f4b144f",
+  "active": "0738f3c0e251db8e",
   "lastOpenFiles": [
     "Git/Basics/Introduction.md",
-    "Git/Basics/Sign in Policy.md",
-    "Git/Basics/Revision_Control.md",
+    "Git/Testing/git/t/unit-tests/clar/test/resources/test/file",
+    "Git/Testing/git/t/t9602/cvsroot/module/sub2/subsubA/default,v",
+    "Git/Testing/git/t/t9602/cvsroot/module/sub2/Attic/branch_B_MIXED_only,v",
+    "Git/Testing/git/t/t9602/cvsroot/module/sub1/subsubB/default,v",
+    "Git/Testing/git/t/t9602/cvsroot/module/sub1/subsubA/default,v",
+    "Git/Testing/git/t/unit-tests/clar/test/resources/test",
+    "Git/Testing/git/t/t9602/cvsroot/module/sub3/default,v",
+    "Git/Testing/git/t/t9602/cvsroot/module/sub2/subsubA",
+    "Git/Testing/git/t/t9602/cvsroot/module/sub2/default,v",
+    "Git/Testing/git/t/t9602/cvsroot/module/sub2/Attic",
+    "Git/Testing/git/t/unit-tests/clar/README.md",
+    "Git/Testing/git/gitweb/static/git-logo.png",
+    "Git/Testing/git/gitweb/static/git-favicon.png",
+    "Git/Testing/git/contrib/vscode/README.md",
+    "Git/Testing/git/contrib/libgit-sys/README.md",
+    "Git/Testing/git/contrib/libgit-rs/README.md",
+    "Git/Testing/git/t/test-binary-2.png",
+    "Git/Testing/git/t/test-binary-1.png",
+    "Git/Testing/git/po/README.md",
+    "Git/Testing/git/git-gui/README.md",
+    "Git/Testing/git/SECURITY.md",
+    "Git/Testing/git/README.md",
+    "Git/Testing/git/CODE_OF_CONDUCT.md",
+    "Git/git/t/unit-tests/clar/README.md",
+    "Git/git/t/test-binary-2.png",
+    "Git/git/t/test-binary-1.png",
+    "Git/git/po/README.md",
+    "Git/git/gitweb/static/git-logo.png",
+    "Git/git/gitweb/static/git-favicon.png",
+    "Git/git/git-gui/README.md",
+    "Git/git/contrib/vscode/README.md",
+    "Git/git/contrib/libgit-sys/README.md",
+    "Git/git/contrib/libgit-rs/README.md",
+    "Git/git/SECURITY.md",
+    "Git/git/README.md",
+    "Git/git/CODE_OF_CONDUCT.md",
+    "Git/Basics/Sign_in_Policy.md",
+    "photos/Pasted image 20241205004117.png",
     "Git/Basics/Installation.md",
+    "Git/Basics/Revision_Control.md",
     "Git/Photos/DVCS.png",
-    "Git/Photos",
-    "Git/Photos/CVS.png",
     "Untitled.canvas",
     "Java_Script/Basics/Loops.md",
-    "Git/Testing",
     "Git/Untitled.md",
-    "Git/Concepts/Identifiers_and_Tags.md",
-    "Git/Concepts/File_Categories.md",
-    "Git/Concepts/Committing_vs_Publishing.md",
-    "Git/Concepts/Git_Architecture.md",
-    "Git/Patches/Synchronizing_Patches.md",
-    "Git/Patches/Applying_Patches.md",
-    "Git/Patches/Creating_Patches.md",
-    "Git/Tools/Graphical_Interfaces.md",
-    "Git/Tools/Git_GUI.md",
-    "Git/Tools/Gerrit.md",
-    "Git/Workflows/Git_Flow.md",
-    "Git/Workflows/Feature_Branch_Workflow.md",
-    "Git/Workflows/Pull_Requests.md",
-    "Git/Workflows/Forking.md",
-    "Git/Remotes/Fetching_and_Pulling.md",
-    "Git/Remotes/Pushing.md",
-    "Git/Remotes/Cloning.md",
-    "Git/Remotes/Remote_Repositories.md",
-    "Git/Branches/Conflict_Resolution.md",
-    "Git/Branches/Rebasing.md",
-    "Git/Concepts",
-    "Git/Patches",
-    "Git/Tools",
-    "Git/Workflows",
-    "Git/Remotes",
-    "Git/Branches",
-    "Git/Commands",
-    "Git/Basics",
-    "photos/DOM/DOM_Methods.png",
-    "photos/DOM/DOM_Elements.png",
-    "photos/Pasted image 20241205004117.png",
-    "photos/Basics/LocalScope.png",
-    "photos/Basics/Scopes.png",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/photo/X.png",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/photo/tty_art.png",
-    "THM_Learning_era/Linux_basics_for_Hackers_book/photo/tty.png"
+    "Git/Concepts/Identifiers_and_Tags.md"
   ]
 }

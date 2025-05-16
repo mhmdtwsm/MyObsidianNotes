@@ -80,3 +80,7 @@ Git stores data as a series of snapshots of the project’s files over time, rat
 
 Because each developer has the full history, work can continue even without a network connection, and syncing changes later is easy.
 
+---
+
+
+- [Continue to Sign-in policy....](Sign_in_Policy.md)
