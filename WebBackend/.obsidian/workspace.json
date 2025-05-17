@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Basics/Sign_in_Policy.md",
+                "file": "Git/Commands/Basic_Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sign_in_Policy"
+              "title": "Basic_Commands"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 343.5,
+    "collapsed": true
   },
   "right": {
     "id": "92e63a351c15eb98",
@@ -165,7 +166,13 @@
   },
   "active": "0738f3c0e251db8e",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Git/Commands/Basic_Commands.md",
+    "Git/Testing/git-test/file",
+    "Git/Testing/git-test",
     "Git/Basics/Introduction.md",
+    "Git/Basics/Installation.md",
+    "Git/Basics/Sign_in_Policy.md",
     "Git/Testing/git/t/unit-tests/clar/test/resources/test/file",
     "Git/Testing/git/t/t9602/cvsroot/module/sub2/subsubA/default,v",
     "Git/Testing/git/t/t9602/cvsroot/module/sub2/Attic/branch_B_MIXED_only,v",
@@ -174,8 +181,6 @@
     "Git/Testing/git/t/unit-tests/clar/test/resources/test",
     "Git/Testing/git/t/t9602/cvsroot/module/sub3/default,v",
     "Git/Testing/git/t/t9602/cvsroot/module/sub2/subsubA",
-    "Git/Testing/git/t/t9602/cvsroot/module/sub2/default,v",
-    "Git/Testing/git/t/t9602/cvsroot/module/sub2/Attic",
     "Git/Testing/git/t/unit-tests/clar/README.md",
     "Git/Testing/git/gitweb/static/git-logo.png",
     "Git/Testing/git/gitweb/static/git-favicon.png",
@@ -202,14 +207,11 @@
     "Git/git/SECURITY.md",
     "Git/git/README.md",
     "Git/git/CODE_OF_CONDUCT.md",
-    "Git/Basics/Sign_in_Policy.md",
     "photos/Pasted image 20241205004117.png",
-    "Git/Basics/Installation.md",
     "Git/Basics/Revision_Control.md",
     "Git/Photos/DVCS.png",
     "Untitled.canvas",
     "Java_Script/Basics/Loops.md",
-    "Git/Untitled.md",
-    "Git/Concepts/Identifiers_and_Tags.md"
+    "Git/Untitled.md"
   ]
 }
