@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 343.5,
+    "collapsed": true
   },
   "right": {
     "id": "92e63a351c15eb98",
@@ -165,6 +166,8 @@
   },
   "active": "0738f3c0e251db8e",
   "lastOpenFiles": [
+    "Git/Testing/git-branch-name-test/file",
+    "Git/Testing/git-branch-name-test",
     "Untitled.md",
     "Git/Commands/Basic_Commands.md",
     "Git/Testing/git-test/file",
@@ -179,7 +182,6 @@
     "Git/Testing/git/t/t9602/cvsroot/module/sub1/subsubA/default,v",
     "Git/Testing/git/t/unit-tests/clar/test/resources/test",
     "Git/Testing/git/t/t9602/cvsroot/module/sub3/default,v",
-    "Git/Testing/git/t/t9602/cvsroot/module/sub2/subsubA",
     "Git/Testing/git/t/unit-tests/clar/README.md",
     "Git/Testing/git/gitweb/static/git-logo.png",
     "Git/Testing/git/gitweb/static/git-favicon.png",
@@ -210,7 +212,6 @@
     "Git/Basics/Revision_Control.md",
     "Git/Photos/DVCS.png",
     "Untitled.canvas",
-    "Java_Script/Basics/Loops.md",
-    "Git/Untitled.md"
+    "Java_Script/Basics/Loops.md"
   ]
 }

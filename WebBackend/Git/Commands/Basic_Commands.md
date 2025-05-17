@@ -96,6 +96,10 @@ git branch -d master
     
 - This is a safe delete to avoid losing any work that hasn’t been merged yet.
 
+Another commit on the new branch...
+```bash
+git commit -m 'New branch'
+```
 
 **Now let's create a remote repo on GitHub** **to link the project to**
 
@@ -126,3 +130,143 @@ cd /path/to/your/project
 gh repo create git-test --public --source=. --remote=origin --push
 ```
 
+**Now let's change the link to the remote repo to make it point to make it point to our `main` branch as the default**
+
+**First**
+```bash
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+```
+
+- Updates the **default remote branch pointer** for `origin` to point to `main`.
+    
+- This tells Git that the default branch on the remote (`origin/HEAD`) is now `main` instead of something else (e.g., `master`).
+    
+- Helps tools and commands (like `git clone` or `git remote show origin`) know that `main` is the main branch.
+
+**Second**
+```bash
+git push -u origin main
+```
+
+- Pushes your **local `main` branch** to the remote repository named `origin` (e.g., GitHub).
+    
+- The `-u` (or `--set-upstream`) option **sets `origin/main` as the upstream branch** for your local `main`.
+    
+- This means future `git pull` and `git push` commands on `main` will automatically target `origin/main`.
+
+now it is all set up.
+
+
+Lets try to list the branches in the repo now:
+```bash
+git branch -a
+```
+
+- This lists **all branches** you have:
+    
+    - On your computer (local branches)
+        
+    - On the remote server (remote branches)
+        
+- You can see which branches exist and which one you are currently using (marked with a `*`).
+
+The Output:
+```R
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+```
+
+- `* main`
+	  
+	- The asterisk (`*`) indicates that your **current local branch** is `main`.
+
+- `remotes/origin/HEAD -> origin/main`
+	
+	- This means: **"the default branch on GitHub is `main`."**
+	    
+	- When you clone the repo, Git uses this to know where to start.
+	    
+	- It’s like saying: **“Follow `origin/main` when you ask for the default branch.”**
+
+- `remotes/origin/main`
+	
+	- This is the **copy of the `main` branch from GitHub** stored on your computer.
+	    
+	- It updates whenever you run `git fetch` or `git pull`.
+	    
+	- It helps you compare your local branch with what’s on GitHub.
+
+
+# But wait... What is `HEAD`?
+
+
+### 1. What is `HEAD`?
+
+- `HEAD` is a **special pointer (or variable)** in Git.
+    
+- It **points to the current branch** you are working on, or directly to a commit if in detached mode.
+    
+- Think of `HEAD` as **“where you are right now”** in your project’s history.
+
+### 2. What does `HEAD` point to?
+
+- Usually, it points to a **branch name** (e.g., `main`, `dev`).
+    
+- Indirectly, this means `HEAD` points to the **latest commit** on that branch.
+    
+- In some cases, it can point **directly to a commit** (called a "detached HEAD").
+
+
+### 3. Why is `HEAD` important?
+
+- When you commit, Git adds the new commit **at the point where `HEAD` points**.
+    
+- Commands like `git commit`, `git checkout`, and `git reset` use `HEAD` to know the current position.
+    
+- Switching branches updates `HEAD` to point to the new branch.
+
+### 4. What is `remotes/origin/HEAD`?
+
+- This is the **remote-tracking pointer** that tells your local Git which branch is the **default branch on the remote repository** (like GitHub).
+    
+- For example, if `remotes/origin/HEAD` points to `origin/main`, then `main` is the remote’s default branch.
+    
+- If you change `remotes/origin/HEAD` to `origin/dev`, then `dev` becomes the remote’s default branch.
+    
+- This helps Git and users know which branch to check out by default when cloning or interacting with the remote.
+
+### 5. When does `remotes/origin/HEAD` exist?
+
+- It is **automatically created** when cloning a repo.
+    
+- If you add a remote manually by making the repo locally on your machine and then creating the remote repo upon it to GitHub, it might not exist until you set it explicitly using:
+```bash
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+```
+	
+- This command tells Git what the default remote branch is.
+
+
+### 6. What happens if you change `remotes/origin/HEAD` to point to another branch?
+
+- The new branch becomes the **default branch** on the remote **from your local Git’s perspective**.
+    
+- Cloning the repo will start on that branch.
+    
+- GitHub also shows that branch as default if you update it on their web interface.
+
+### 7. How to check where `HEAD` points in your local repo?
+
+Run this command in your repo directory:
+
+```bash
+git symbolic-ref HEAD
+```
+
+Alternatively, to see the exact commit `HEAD` points to:
+```bash
+git rev-parse HEAD
+```
+
+- This prints the commit hash `HEAD` currently points to.
