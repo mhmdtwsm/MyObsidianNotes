@@ -70,13 +70,7 @@ git commit -m 'First Commit'
 ```
 
 
-To change the "root" branch  master -> main there are 2 ways:
-1. Making new branch (`main`) and deleting the old one (`master`)
-2. Renaming
-
-**First approach:**
-
-Make the new branch:
+Now lets change from master -> main :
 
 ```bash
 git checkout -b main
