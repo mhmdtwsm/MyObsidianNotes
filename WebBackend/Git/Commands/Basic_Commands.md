@@ -105,10 +105,15 @@ git branch -d master
 
 **Now let's create a remote repo on GitHub** **to link the project to**
 
-**Install** GitHub CLI client ( Debian/Ubuntu -  Other, i don't care....)
+**Install** GitHub CLI client ( Debian/Ubuntu )
 
 ```bash
 sudo apt install gh
+```
+
+(Arch)
+```bash
+sudo pacman -S github-cli
 ```
 
 **Login**
