@@ -427,7 +427,9 @@ SHA-1 hash → 9fceb02c1a7c3c5be1398c877a5c2b8c8f78c2ee
 
 Let’s say you have this commit history:
 
-`A → B → C`
+```css
+A → B → C
+```
 
 - Commit **B** includes the hash of **A** in its content.
     
