@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
@@ -12,6 +12,13 @@
       "color": {
         "a": 1,
         "rgb": 15662848
+      }
+    },
+    {
+      "query": "path:Git  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
       }
     }
   ],
@@ -25,6 +32,6 @@
   "repelStrength": 8.22916666666667,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.556764129460782,
+  "scale": 0.8351461941911729,
   "close": true
 }
