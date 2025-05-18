@@ -5,3 +5,6 @@
 - [Conflict_Resolution](../Branches/Conflict_Resolution)
 - [Merging](../Branches/Merging)
 - [Rebasing](../Branches/Rebasing)
+
+
+Look at [Commands](../Commands/Commands)
