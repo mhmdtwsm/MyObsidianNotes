@@ -280,3 +280,186 @@ Every time you commit:
 - Renaming a file does not create a new blob if the content stays the same.
     
 - Git ensures that any corruption or unintended change to a file can be **detected immediately** by re-checking the hash.
+
+---
+
+
+## 8. How Git Uses Hashes to Make Comparisons Fast
+
+Git does **not compare entire files line by line** every time you run a command. Instead, it compares **hashes**—short, fixed-length strings that uniquely represent file content. This drastically speeds up operations.
+
+Here’s how it works step by step for each operation:
+
+---
+
+### 8.1 `git status`: What Happens Internally
+
+#### Purpose:
+
+Show what has changed in the working directory compared to the last commit or the staging area.
+
+#### Behind the scenes:
+
+1. Git computes the **SHA-1 hash** of each file in the **working directory**.
+    
+2. Git looks at the **index** (staging area), which already stores hashes for the last known state of those files.
+    
+3. Git compares the current hash of each file to the stored hash in the index.
+
+- If the hashes match → Git knows the file has **not changed**.
+    
+- If the hashes differ → Git marks the file as **modified**.
+
+> ⚙️ Git doesn't need to read or compare the entire file content. It just checks if the hash is the same—a constant-time operation.
+
+---
+
+### 8.2 `git diff`: What Happens Internally
+
+#### Purpose:
+
+Show the actual content differences between files, commits, or branches.
+
+#### Behind the scenes:
+
+1. Git **first checks hashes**:
+    
+    - If the hash of a file in one version equals the hash in another version → no diff needed.
+        
+    - If the hashes are different → Git proceeds to compare file contents.
+        
+2. Only for files with **different hashes**, Git reads the content and generates a **line-by-line difference**.
+    
+
+> ⚙️ This optimization means Git can **skip full diff calculations** for files that haven’t changed, even if there are thousands of files in the project.
+
+---
+
+### 8.3 `git log`: What Happens Internally
+
+#### Purpose:
+
+Display commit history.
+
+#### Behind the scenes:
+
+1. Git uses the hash of each **commit object** to:
+    
+    - Retrieve the commit’s metadata.
+        
+    - Follow the **parent commit hash** stored inside it.
+        
+    - Continue tracing backwards through history.
+        
+2. Since each commit references a **tree object** (snapshot of file structure) by hash, Git can instantly identify the project state at any point in time by following these hashes.
+    
+
+> ⚙️ Git doesn’t “recalculate” anything when you run `git log`—it just reads already-hashed commit metadata and follows the chain using hashes.
+
+---
+
+## Summary
+
+| Operation    | Uses Hashes To…                                           | Full Content Compared? |
+| ------------ | --------------------------------------------------------- | ---------------------- |
+| `git status` | Compare working directory to index                        | No                     |
+| `git diff`   | Skip files with identical hashes, diff only changed files | Only if hashes differ  |
+| `git log`    | Navigate history using commit hashes                      | No                     |
+
+---
+
+## Why This Is Fast
+
+- **Comparing two 40-character hashes** is much faster than scanning file contents.
+    
+- For most Git operations, if the hash matches, Git doesn’t touch the file at all.
+    
+- This design allows Git to scale to **large repositories with many files and deep histories**.
+
+---
+
+
+## 9. How Git’s Commit Hashes Create a Chain of Trust
+
+In Git, every commit has a **SHA-1 hash** that uniquely identifies it. This hash isn’t random—Git **calculates it from the content inside the commit object.** That content includes:
+
+1. The **hash of the tree** (which represents all file content and structure).
+    
+2. The **hash of the parent commit(s)**.
+    
+3. The **author information** (name, email, timestamp).
+    
+4. The **commit message**.
+    
+
+So the hash of a commit is based on all of the above. That means:
+
+> If **any part of the content changes**, the hash changes too.
+
+---
+
+### 9.1 What Is Actually Inside a Commit?
+
+When you make a commit, Git creates a **commit object** like this:
+
+```php
+tree <tree_hash> parent <parent_commit_hash>   
+# Omitted for the first commit author Mohamed 
+<email> <timestamp> committer Mohamed <email> <timestamp>  Initial commit message
+```
+
+Then Git calculates the SHA-1 hash of this entire text blob (plus a header like `commit 220` and a null byte), compresses it, and stores it.
+
+Example:
+
+```R
+commit 220\0(tree hash + parent + author info + message)
+↓ 
+SHA-1 hash → 9fceb02c1a7c3c5be1398c877a5c2b8c8f78c2ee
+```
+
+---
+
+### 9.2 How the Chain of Trust Works
+
+Let’s say you have this commit history:
+
+`A → B → C`
+
+- Commit **B** includes the hash of **A** in its content.
+    
+- Commit **C** includes the hash of **B**.
+    
+
+So if **A is changed**, its hash changes → which means the `parent` field in **B** no longer points to a valid hash → so the hash of **B** also becomes invalid → and therefore the hash of **C** becomes invalid too.
+
+This creates a **linked chain**, where every commit **depends on the content and identity of the previous one**.
+
+---
+
+### 9.3 What Happens if Someone Tries to Tamper?
+
+Let’s say someone tries to change a file in an old commit or modify the commit message:
+
+- Git would have to **recalculate the tree or commit hash**.
+    
+- But now the **hash of the commit does not match** the one expected in the history.
+    
+- Every descendant commit’s hash becomes invalid too.
+    
+
+This is how Git can **detect any corruption or unauthorized history rewrites**, unless the attacker rewrites the entire history afterward (which is detectable in shared/public repos like GitHub).
+
+---
+
+### 9.4 This Makes Git Like a Blockchain
+
+Git's commit history is like a simple blockchain:
+
+|Block|Hash includes...|Depends on previous|
+|---|---|---|
+|Commit A|Tree + author + message|No|
+|Commit B|Tree + author + message + hash of A|Yes|
+|Commit C|Tree + author + message + hash of B|Yes|
+
+Changing anything in the chain breaks every hash after it.
