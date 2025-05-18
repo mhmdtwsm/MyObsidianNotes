@@ -4,3 +4,5 @@
 - [Creating_Patches](../Patches/Creating_Patches)
 - [Patches](../Patches/Patches)
 - [Synchronizing_Patches](../Patches/Synchronizing_Patches)
+
+Look at this -> [Remotes](../Remotes/Remotes)
