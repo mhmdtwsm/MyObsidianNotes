@@ -468,3 +468,15 @@ Git's commit history is like a simple blockchain:
 |Commit C|Tree + author + message + hash of B|Yes|
 
 Changing anything in the chain breaks every hash after it.
+
+## Brief in a ragheef
+
+- Git computes a **commit hash** from the full content of the commit.
+    
+- This content includes a **pointer (hash) to the previous commit**.
+    
+- As a result, Git builds a **chain of hashes**, where every new commit **validates the previous one**.
+    
+- If any part of history is altered (files, author, message), the hash chain breaks.
+    
+- This makes Git **tamper-evident** and helps **verify integrity**.
