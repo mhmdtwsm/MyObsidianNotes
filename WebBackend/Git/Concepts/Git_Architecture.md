@@ -403,9 +403,12 @@ So the hash of a commit is based on all of the above. That means:
 When you make a commit, Git creates a **commit object** like this:
 
 ```php
-tree <tree_hash> parent <parent_commit_hash>   
-# Omitted for the first commit author Mohamed 
-<email> <timestamp> committer Mohamed <email> <timestamp>  Initial commit message
+tree <tree_hash> 
+parent <parent_commit_hash> # Omitted for the first commit 
+author Mohamed <email> <timestamp>
+committer Mohamed <email> <timestamp>  
+
+Initial commit message
 ```
 
 Then Git calculates the SHA-1 hash of this entire text blob (plus a header like `commit 220` and a null byte), compresses it, and stores it.
