@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2f212086540bf20c",
+        "id": "5ef186568559183f",
         "type": "tabs",
         "children": [
           {
-            "id": "37f4526a48954956",
+            "id": "bcf72e885b7118cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,8 +165,11 @@
   },
   "active": "19bcfbf4784cdfcd",
   "lastOpenFiles": [
-    "Uncompleted/Git/README.md",
+    "Uncompleted/Git/Photos/Photos.md",
+    "Uncompleted/Git/Photos/revert.svg",
+    "Uncompleted/Git/Photos/revert.svg",
     "Uncompleted/Git/Commands/Basic_Commands.md",
+    "Uncompleted/Git/README.md",
     "Java_Script/Basics/Arrays.md",
     "Uncompleted/Git/Testing/Testing.md",
     "Uncompleted/Git/Concepts/File_Categories.md",
@@ -191,8 +194,6 @@
     "Git/Workflows/index.md",
     "Git/Tools/index.md",
     "Git/Testing/index.md",
-    "Git/Remotes/index.md",
-    "Git/Photos/index.md",
     "indexfilesys.sh",
     "Untitled.canvas",
     "Uncompleted/Git/Testing/git-branch-name-test/file",
@@ -209,8 +210,6 @@
     "Git/git/t/test-binary-2.png",
     "Git/git/t/test-binary-1.png",
     "Git/git/gitweb/static/git-logo.png",
-    "Git/git/gitweb/static/git-favicon.png",
-    "photos/Pasted image 20241205004117.png",
-    "Uncompleted/Git/Photos/DVCS.png"
+    "Git/git/gitweb/static/git-favicon.png"
   ]
 }

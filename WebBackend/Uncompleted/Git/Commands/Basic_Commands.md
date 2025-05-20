@@ -392,3 +392,53 @@ You can also see the actual patches made with the **-p** option and can view onl
 ```bash
 git log -p f60c
 ```
+
+
+# `revert` and `reset`
+
+### `revert`
+
+From time to time, you may realize that you have committed changes unwisely. Either you may have made changes you never should have, or you committed prematurely.
+
+`git revert` undoes the changes introduced by a specific commit **by creating a new commit** that **reverses** those changes.  
+It does **not delete** history or commits — it **adds** a new commit to "undo" a past one
+.
+![](../Photos/revert.svg)
+
+You can back out a particular commit with:
+
+```bash
+git revert B
+```
+
+
+# `reset`
+
+`git reset` **moves the HEAD and current branch pointer** to a specified commit.  
+It can **change or erase** commits and files depending on the mode used.
+
+### **Why Use `git reset`?**
+
+- To **undo local changes**.
+    
+- To **remove commits** from history.
+    
+- To **start over** from a previous point in development.
+
+Lets say this is the History:
+
+```math
+A → B → C → D → E (HEAD)
+```
+
+When you run :
+
+```bash
+git reset --hard C
+```
+
+Now your history becomes:
+
+```math
+A → B → C (HEAD)
+```
