@@ -347,3 +347,23 @@ git diff
 ```
 
 will show all differences between your staged working directories and what has been previously committed. After you do the commit, it will show nothing differing.
+
+### Identifiers and Tags 
+
+Every time you do a commit, git assigns a unique 160-bit 40-character hexadecimal hash value to it. While you can refer to those commits with these values, it is obviously unwieldy. For instance, taking an example from the Linux kernel source repository, we can see the history of commits with:
+
+```bash
+git log | grep "^commit" | head -10
+```
+
+If you want to refer to or revert to a certain commit, typing in such a long string is obviously a pain. You can instead create and use a tag. Thus, you could do:
+
+```bash
+git tag ver_10 08d869aa8683703c4a60fdc574dd0809f9b073cd
+```
+
+Now if you want to go to this commit you just need to enter this:
+
+```bash
+git checkout ver_10
+```
