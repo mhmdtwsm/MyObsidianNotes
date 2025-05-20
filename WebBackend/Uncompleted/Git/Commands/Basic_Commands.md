@@ -323,3 +323,27 @@ Shows the changes that are **staged** (with `git add`) but **not yet committed**
 ```bash
 git diff main..dev
 ```
+
+
+# `commit`
+
+The `git commit` command is used to **save your staged changes** (from `git add`) into the repository history.
+
+```bash
+git commit -m "Your commit message"
+```
+
+| Command                  | Description                                     |
+| ------------------------ | ----------------------------------------------- |
+| `git commit -m "msg"`    | Commit with a message                           |
+| `git commit -a -m "msg"` | Auto-stage tracked files, then commit           |
+| `git commit -s -m "msg"` | Add `Signed-off-by:` line (used in open source) |
+| `git commit --amend`     | Modify the last commit                          |
+
+and after doing a commit you can do:
+
+```bash
+git diff
+```
+
+will show all differences between your staged working directories and what has been previously committed. After you do the commit, it will show nothing differing.
