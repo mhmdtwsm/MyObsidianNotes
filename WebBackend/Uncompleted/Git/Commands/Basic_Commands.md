@@ -367,3 +367,28 @@ Now if you want to go to this commit you just need to enter this:
 ```bash
 git checkout ver_10
 ```
+
+# `log`
+
+It is easy to display the history of commits with git using the command **git log**.
+
+```bash
+git log
+```
+
+
+The commits are shown in reverse order of introduction. Even shorter, you can do:
+
+```bash
+git log --pretty=oneline
+
+# Example of an output: 
+4b4bf2c5aa95b6746f56f9dfce0e4ec6bddad407 This is the fourth commit
+```
+
+
+You can also see the actual patches made with the **-p** option and can view only part of the history by specifying a particular commit, as in:
+
+```bash
+git log -p f60c
+```
