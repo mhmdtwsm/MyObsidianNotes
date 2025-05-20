@@ -197,6 +197,8 @@ The Output:
 	    
 	- It helps you compare your local branch with what’s on GitHub.
 
+---
+
 
 # But wait... What is `HEAD`?
 
@@ -271,6 +273,7 @@ git rev-parse HEAD
 
 - This prints the commit hash `HEAD` currently points to.
 
+---
 
 # `rm`
 
@@ -492,3 +495,22 @@ git reset --hard <commit>   # Undo commit and delete changes
 | ------------ | --------------------------------------- | ------------------------- |
 | `git revert` | Undoes a commit by **adding a new one** | ✅ Yes                     |
 | `git reset`  | **Erases commits**, moves HEAD backward | ❌ No (rewrites history)   |
+
+
+# `blame`
+
+It is possible to assign blame for whom is responsible for a given set of lines in a file.
+
+### **`git blame`**
+
+- **Purpose:** Shows who last modified each line of a file, and when.
+    
+- It **annotates each line** in the file with the commit hash, author, and date of the last change.
+    
+- Useful for **tracking down who introduced a bug** or changed a particular line.
+
+
+```bash
+git blame file
+```
+
