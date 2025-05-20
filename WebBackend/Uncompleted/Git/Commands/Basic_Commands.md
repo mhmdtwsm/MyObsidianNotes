@@ -311,7 +311,6 @@ see the difference with the repository.
 
 ```bash
 git diff --cached
-
 ```
 
 (or `git diff --staged`)

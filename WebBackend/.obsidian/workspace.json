@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uncompleted/Git/Commands/Basic_Commands.md",
+                "file": "Uncompleted/Git/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basic_Commands"
+              "title": "README"
             }
           }
         ]
@@ -163,8 +163,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37f4526a48954956",
+  "active": "19bcfbf4784cdfcd",
   "lastOpenFiles": [
+    "Uncompleted/Git/Commands/Basic_Commands.md",
     "Java_Script/Basics/Arrays.md",
     "Uncompleted/Git/Testing/Testing.md",
     "Uncompleted/Git/Concepts/File_Categories.md",
@@ -172,7 +173,6 @@
     "Uncompleted/Git/Concepts/Git_Architecture.md",
     "Uncompleted/Git/Concepts/Concepts.md",
     "Uncompleted/Git/Concepts/Identifiers_and_Tags.md",
-    "Uncompleted/Git/Commands/Basic_Commands.md",
     "Uncompleted/Git/Remotes/Remotes.md",
     "Uncompleted/Git/Workflows/Workflows.md",
     "Git/Tools/Gerrit.md",
