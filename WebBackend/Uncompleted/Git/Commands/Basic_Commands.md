@@ -442,3 +442,53 @@ Now your history becomes:
 ```math
 A → B → C (HEAD)
 ```
+
+
+**Reset Modes:**
+
+|Command|What it Does|
+|---|---|
+|`--soft`|Moves HEAD only. Keeps **staged & working directory** as-is.|
+|`--mixed` (default)|Moves HEAD and resets the **staging area**. Keeps working directory.|
+|`--hard`|Resets everything: **HEAD**, **staging area**, and **working directory**.|****
+
+**Undo the last commit, keep changes staged:**
+```bash
+git reset --soft HEAD~1
+```
+
+
+**Undo the last commit, unstage changes:**
+```bash
+git reset --mixed HEAD~1
+```
+
+**Explain:**
+
+- Git forgets the commit.
+    
+- Your files still contain the changes you made.
+    
+- But those changes are now **unstaged**, like you just edited them but didn’t run `git add`.
+
+
+**Undo the last commit, delete all changes:**
+```bash
+git reset --hard HEAD~1
+```
+
+
+**Syntax Summary:**
+
+```bash
+git reset --soft <commit>   # Undo commit but keep everything
+git reset --mixed <commit>  # Undo commit and unstage changes
+git reset --hard <commit>   # Undo commit and delete changes
+```
+
+### `git reset` vs `git revert`
+
+| Command      | Action                                  | Safe for shared branches? |
+| ------------ | --------------------------------------- | ------------------------- |
+| `git revert` | Undoes a commit by **adding a new one** | ✅ Yes                     |
+| `git reset`  | **Erases commits**, moves HEAD backward | ❌ No (rewrites history)   |
