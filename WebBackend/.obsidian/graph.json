@@ -13,13 +13,6 @@
         "a": 1,
         "rgb": 15662848
       }
-    },
-    {
-      "query": "path:Git  ",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
     }
   ],
   "collapse-display": false,
@@ -33,5 +26,5 @@
   "linkStrength": 1,
   "linkDistance": 30,
   "scale": 0.5567641294607817,
-  "close": true
+  "close": false
 }

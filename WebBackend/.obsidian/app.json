@@ -9,5 +9,8 @@
   },
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "Uncompleted/Git/"
+  ]
 }

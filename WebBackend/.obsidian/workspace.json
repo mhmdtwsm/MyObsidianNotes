@@ -11,14 +11,10 @@
             "id": "37f4526a48954956",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Remotes/Remotes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Remotes"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -163,26 +159,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19bcfbf4784cdfcd",
+  "active": "37f4526a48954956",
   "lastOpenFiles": [
-    "Git/Workflows/Workflows.md",
-    "Git/Remotes/Remotes.md",
+    "Uncompleted/Git/Testing/Testing.md",
+    "Uncompleted/Git/Concepts/File_Categories.md",
+    "Uncompleted",
+    "Uncompleted/Git/Concepts/Git_Architecture.md",
+    "Uncompleted/Git/Concepts/Concepts.md",
+    "Uncompleted/Git/Concepts/Identifiers_and_Tags.md",
+    "Uncompleted/Git/Commands/Basic_Commands.md",
+    "Uncompleted/Git/Remotes/Remotes.md",
+    "Uncompleted/Git/Workflows/Workflows.md",
     "Git/Tools/Gerrit.md",
     "Git/Tools/Tools.md",
-    "Git/README.md",
-    "Git/Patches/Patches.md",
-    "Git/Concepts/Concepts.md",
-    "Git/Commands/Commands.md",
-    "Git/Branches/Branches.md",
-    "Git/Basics/Basics.md",
-    "Git/Concepts/Git_Architecture.md",
-    "Git/Concepts/File_Categories.md",
-    "Git/Patches/Creating_Patches.md",
-    "Git/Commands/Basic_Commands.md",
-    "Git/Branches/Rebasing.md",
-    "Git/Branches/Branching.md",
-    "Git/Basics/Sign_in_Policy.md",
-    "Git/Basics/Introduction.md",
+    "Uncompleted/Git/README.md",
+    "Uncompleted/Git/Patches/Patches.md",
+    "Uncompleted/Git/Commands/Commands.md",
+    "Uncompleted/Git/Branches/Branches.md",
+    "Uncompleted/Git/Basics/Basics.md",
+    "Uncompleted/Git/Patches/Creating_Patches.md",
+    "Uncompleted/Git/Branches/Rebasing.md",
+    "Uncompleted/Git/Branches/Branching.md",
+    "Uncompleted/Git/Basics/Sign_in_Policy.md",
+    "Uncompleted/Git/Basics/Introduction.md",
     "indexfilesys.sh~",
     "Git/Workflows/index.md",
     "Git/Tools/index.md",
@@ -190,18 +189,15 @@
     "Git/Remotes/index.md",
     "Git/Photos/index.md",
     "Git/Patches/index.md",
-    "Git/Concepts/index.md",
-    "Git/Basics/index.md",
     "indexfilesys.sh",
     "Untitled.canvas",
-    "Git/Testing/git-branch-name-test/file",
-    "Git/Testing/git-branch-name-test",
-    "Git/Testing/git-test/file",
-    "Git/Testing/git-test",
+    "Uncompleted/Git/Testing/git-branch-name-test/file",
+    "Uncompleted/Git/Testing/git-branch-name-test",
+    "Uncompleted/Git/Testing/git-test/file",
+    "Uncompleted/Git/Testing/git-test",
     "Git/Testing/git/t/unit-tests/clar/test/resources/test/file",
     "Git/Testing/git/t/t9602/cvsroot/module/sub2/subsubA/default,v",
     "Git/Testing/git/t/t9602/cvsroot/module/sub2/Attic/branch_B_MIXED_only,v",
-    "Git/Testing/git/t/t9602/cvsroot/module/sub1/subsubB/default,v",
     "Git/Testing/git/gitweb/static/git-logo.png",
     "Git/Testing/git/gitweb/static/git-favicon.png",
     "Git/Testing/git/t/test-binary-2.png",
@@ -211,6 +207,6 @@
     "Git/git/gitweb/static/git-logo.png",
     "Git/git/gitweb/static/git-favicon.png",
     "photos/Pasted image 20241205004117.png",
-    "Git/Photos/DVCS.png"
+    "Uncompleted/Git/Photos/DVCS.png"
   ]
 }
