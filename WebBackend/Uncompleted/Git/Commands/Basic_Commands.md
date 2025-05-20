@@ -270,3 +270,57 @@ git rev-parse HEAD
 ```
 
 - This prints the commit hash `HEAD` currently points to.
+
+
+# `rm`
+
+Removes a file from the working tree and the index. This can be pretty dangerous if you do not realize what you are doing. If you only want to remove the file from the working directory, and not the repository index, just use the normal **rm** command.
+
+While you remove files from the repository, you do not remove them from the history, as that would be dishonest. If you want to remove a file that has been staged but not committed, you have to add the **-****cache** option, as in:
+
+```bash
+git add myfile
+
+git rm myfile --cached
+```
+
+
+# **`mv`**
+
+Renames a file and stages the new filename in the repository. It is equivalent to renaming the working file, and then doing a **git rm** on the old file name and a **git add** on the new one; i.e. the following operations are equivalent:
+
+```bash
+git mv oldfile newfile
+
+# Equilvent:
+mv oldfile newfile ; git rm oldfile ; git add newfile
+```
+
+
+# **`ls-files`**
+
+Shows information about files in the index and working tree. By default, this command shows only files in the repository. If you want to show the untracked files, you can do:
+
+```bash
+git ls-files --others --exclude-standard
+```
+
+# **`diff`**
+
+see the difference with the repository.
+
+```bash
+git diff --cached
+
+```
+
+(or `git diff --staged`)
+
+Shows the changes that are **staged** (with `git add`) but **not yet committed**.
+
+
+**Compare a branch to your current branch**
+
+```bash
+git diff main..dev
+```

@@ -11,10 +11,14 @@
             "id": "37f4526a48954956",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Uncompleted/Git/Commands/Basic_Commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Basic_Commands"
             }
           }
         ]
@@ -161,6 +165,7 @@
   },
   "active": "37f4526a48954956",
   "lastOpenFiles": [
+    "Java_Script/Basics/Arrays.md",
     "Uncompleted/Git/Testing/Testing.md",
     "Uncompleted/Git/Concepts/File_Categories.md",
     "Uncompleted",
@@ -188,7 +193,6 @@
     "Git/Testing/index.md",
     "Git/Remotes/index.md",
     "Git/Photos/index.md",
-    "Git/Patches/index.md",
     "indexfilesys.sh",
     "Untitled.canvas",
     "Uncompleted/Git/Testing/git-branch-name-test/file",
