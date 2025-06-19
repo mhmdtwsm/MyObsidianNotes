@@ -500,7 +500,7 @@ git reset --hard <commit>   # Undo commit and delete changes
 # `blame`
 
 It is possible to assign blame for whom is responsible for a given set of lines in a file.
-
+ f
 ### **`git blame`**
 
 - **Purpose:** Shows who last modified each line of a file, and when.
