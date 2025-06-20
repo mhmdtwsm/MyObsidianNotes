@@ -1,6 +1,6 @@
 ***Shell Scripting is***  a way of executing some of the commands you want in a specific order with out needing you to write them and giving you the power to execute them automatically with just one prompt in the case you want .
 
-***Example***: if you want a script to go to your home directory and list the content in it you can write a script lie this for it.
+**Example**: if you want a script to go to your home directory and list the content in it you can write a script lie this for it.
 
 ```sh
 cd ~/
